@@ -1,0 +1,116 @@
+DIGEST 413fc54adb0a9efbaf580243726ea4d5
+FTutorial.Metalib.Metatheory
+R297:311 Coq.Arith.Arith <> <> lib
+R329:343 Coq.FSets.FSets <> <> lib
+R361:374 Coq.Lists.List <> <> lib
+R393:409 Tutorial.Metalib.AssocList <> <> lib
+R427:446 Tutorial.Metalib.CoqListFacts <> <> lib
+R464:481 Tutorial.Metalib.LibTactics <> <> lib
+R499:520 Tutorial.Metalib.MetatheoryAtom <> <> lib
+R794:810 Tutorial.Metalib.MetatheoryAtom AtomSetImpl Equal def
+not 778:778 <> ::set_scope:x_'[=]'_x
+R893:910 Tutorial.Metalib.MetatheoryAtom AtomSetImpl Subset def
+not 876:876 <> ::set_scope:x_'[<=]'_x
+R987:1003 Tutorial.Metalib.MetatheoryAtom AtomSetImpl empty defax
+not 976:976 <> ::set_scope:'{}'
+R1049:1069 Tutorial.Metalib.MetatheoryAtom AtomSetImpl singleton defax
+not 1031:1031 <> ::set_scope:'{{'_x_'}}'
+R1145:1158 Tutorial.Metalib.MetatheoryAtom AtomSetImpl In defax
+not 1128:1128 <> ::set_hs_scope:x_'`in`'_x
+R1229:1230 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1231:1244 Tutorial.Metalib.MetatheoryAtom AtomSetImpl In defax
+not 1209:1209 <> ::set_hs_scope:x_'`notin`'_x
+R1315:1331 Tutorial.Metalib.MetatheoryAtom AtomSetImpl union defax
+not 1295:1295 <> ::set_hs_scope:x_'`union`'_x
+syndef 1534:1536 <> add
+R1541:1555 Tutorial.Metalib.MetatheoryAtom AtomSetImpl add defax
+syndef 1567:1571 <> empty
+R1576:1592 Tutorial.Metalib.MetatheoryAtom AtomSetImpl empty defax
+syndef 1604:1609 <> remove
+R1614:1631 Tutorial.Metalib.MetatheoryAtom AtomSetImpl remove defax
+syndef 1643:1651 <> singleton
+R1656:1676 Tutorial.Metalib.MetatheoryAtom AtomSetImpl singleton defax
+syndef 1688:1692 <> union
+R1697:1713 Tutorial.Metalib.MetatheoryAtom AtomSetImpl union defax
+R2191:2204 Tutorial.Metalib.AssocList Make <> modtype
+R2206:2209 Tutorial.Metalib.MetatheoryAtom Atom <> modtype
+R2211:2221 Tutorial.Metalib.MetatheoryAtom AtomSetImpl <> modtype
+mod 2180:2186 <> EnvImpl
+R3224:3234 Tutorial.Metalib.Metatheory <> one def
+not 3212:3212 <> ::env_scope:'['_x_']'
+R4272:4275 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4262:4270 Tutorial.Metalib.Metatheory <> ::set_hs_scope:x_'`notin`'_x not
+R4272:4275 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4262:4270 Tutorial.Metalib.Metatheory <> ::set_hs_scope:x_'`notin`'_x not
+R4369:4372 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4359:4367 Tutorial.Metalib.Metatheory <> ::set_hs_scope:x_'`notin`'_x not
+R4369:4372 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4359:4367 Tutorial.Metalib.Metatheory <> ::set_hs_scope:x_'`notin`'_x not
+syndef 5124:5131 <> uniq_one
+R5136:5145 Tutorial.Metalib.Metatheory <> uniq_one_1 thm
+syndef 5157:5165 <> uniq_cons
+R5170:5180 Tutorial.Metalib.Metatheory <> uniq_cons_3 thm
+syndef 5192:5199 <> uniq_app
+R5204:5213 Tutorial.Metalib.Metatheory <> uniq_app_4 thm
+syndef 5225:5232 <> uniq_map
+R5237:5246 Tutorial.Metalib.Metatheory <> uniq_map_2 thm
+syndef 5259:5267 <> binds_one
+R5272:5282 Tutorial.Metalib.Metatheory <> binds_one_3 thm
+syndef 5294:5303 <> binds_cons
+R5308:5319 Tutorial.Metalib.Metatheory <> binds_cons_3 thm
+syndef 5331:5341 <> binds_app_l
+R5346:5356 Tutorial.Metalib.Metatheory <> binds_app_2 thm
+syndef 5368:5378 <> binds_app_r
+R5383:5393 Tutorial.Metalib.Metatheory <> binds_app_3 thm
+syndef 5405:5413 <> binds_map
+R5418:5428 Tutorial.Metalib.Metatheory <> binds_map_2 thm
+syndef 5441:5451 <> notin_empty
+R5456:5468 Tutorial.Metalib.MetatheoryAtom AtomSetNotin notin_empty_1 thm
+syndef 5480:5488 <> notin_add
+R5493:5503 Tutorial.Metalib.MetatheoryAtom AtomSetNotin notin_add_3 thm
+syndef 5515:5529 <> notin_singleton
+R5534:5550 Tutorial.Metalib.MetatheoryAtom AtomSetNotin notin_singleton_2 thm
+syndef 5562:5572 <> notin_union
+R5577:5589 Tutorial.Metalib.MetatheoryAtom AtomSetNotin notin_union_3 thm
+R6540:6552 Tutorial.Metalib.MetatheoryAtom AtomSetNotin notin_union_3 thm
+R6577:6587 Tutorial.Metalib.MetatheoryAtom AtomSetNotin notin_add_3 thm
+R6612:6628 Tutorial.Metalib.MetatheoryAtom AtomSetNotin notin_singleton_2 thm
+R6653:6665 Tutorial.Metalib.MetatheoryAtom AtomSetNotin notin_empty_1 thm
+R6715:6718 Coq.Init.Logic <> ::type_scope:x_'<>'_x_':>'_x not
+R6720:6723 Coq.Init.Logic <> ::type_scope:x_'<>'_x_':>'_x not
+R6779:6787 Tutorial.Metalib.Metatheory <> ::set_hs_scope:x_'`notin`'_x not
+R7450:7465 Tutorial.Metalib.CoqEqDec <> <> lib
+R7625:7630 Tutorial.Metalib.CoqEqDec <> eq_dec def
+not 7609:7609 <> ::coqeqdec_scope:x_'=='_x
+syndef 8002:8004 <> var
+R8009:8012 Tutorial.Metalib.MetatheoryAtom <> atom syndef
+syndef 8040:8043 <> vars
+R8048:8052 Tutorial.Metalib.MetatheoryAtom <> atoms syndef
+syndef 8080:8085 <> eq_var
+R8090:8095 Tutorial.Metalib.CoqEqDec <> eq_dec def
+R8142:8145 Tutorial.Metalib.CoqEqDec <> ::coqeqdec_scope:x_'=='_x not
+not 8123:8123 <> ::coqeqdec_scope:x_'==='_x
+R8255:8260 Tutorial.Metalib.Metatheory <> ::set_hs_scope:x_'`in`'_x not
+not 8238:8238 <> ::set_sl_scope:x_'\in'_x
+R8342:8350 Tutorial.Metalib.Metatheory <> ::set_hs_scope:x_'`notin`'_x not
+not 8322:8322 <> ::set_sl_scope:x_'\notin'_x
+R8428:8436 Tutorial.Metalib.Metatheory <> ::set_hs_scope:x_'`union`'_x not
+not 8412:8412 <> ::set_sl_scope:x_'\u'_x
+def 8891:8899 <> union_map
+binder 8902:8902 <> A:1
+R8913:8916 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8917:8920 Tutorial.Metalib.Metatheory <> vars syndef
+R8912:8912 Tutorial.Metalib.Metatheory <> A:1 var
+binder 8910:8910 <> f:2
+R8926:8929 Coq.Init.Datatypes <> list ind
+R8931:8931 Tutorial.Metalib.Metatheory <> A:1 var
+binder 8924:8924 <> l:3
+R8939:8953 Coq.Lists.List <> fold_right def
+R8981:8982 Tutorial.Metalib.Metatheory <> ::set_scope:'{}' not
+binder 8960:8960 <> t:4
+binder 8962:8964 <> acc:5
+R8972:8975 Tutorial.Metalib.Metatheory <> ::set_sl_scope:x_'\u'_x not
+R8969:8969 Tutorial.Metalib.Metatheory <> f:2 var
+R8971:8971 Tutorial.Metalib.Metatheory <> t:4 var
+R8976:8978 Tutorial.Metalib.Metatheory <> acc:5 var
+R8985:8985 Tutorial.Metalib.Metatheory <> l:3 var

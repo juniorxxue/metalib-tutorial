@@ -1,0 +1,92 @@
+DIGEST a5801f6385d8c945ea81b2d283013a4d
+FTutorial.Metalib.FSetExtra
+R297:311 Coq.FSets.FSets <> <> lib
+R330:353 Tutorial.Metalib.CoqFSetInterface <> <> lib
+R479:491 Coq.Structures.DecidableType DecidableType <> mod
+modtype 468:472 <> WSfun
+R506:527 Tutorial.Metalib.CoqFSetInterface WSfun <> mod
+R529:529 Tutorial.Metalib.FSetExtra X <> modtype
+def 598:605 WSfun disjoint
+binder 607:607 <> E:1
+binder 609:609 <> F:2
+R623:627 Tutorial.Metalib.CoqFSetInterface WSfun :::x_'[=]'_x not
+R614:618 Tutorial.Metalib.FSetExtra WSfun inter defax
+R622:622 Tutorial.Metalib.FSetExtra <> F:2 var
+R620:620 Tutorial.Metalib.FSetExtra <> E:1 var
+R628:632 Tutorial.Metalib.FSetExtra WSfun empty defax
+def 839:843 WSfun notin
+binder 845:845 <> x:3
+binder 847:847 <> L:4
+R852:853 Coq.Init.Logic <> ::type_scope:'~'_x not
+R854:855 Tutorial.Metalib.FSetExtra WSfun In defax
+R859:859 Tutorial.Metalib.FSetExtra <> L:4 var
+R857:857 Tutorial.Metalib.FSetExtra <> x:3 var
+def 1052:1061 WSfun fresh_list
+R1074:1074 Tutorial.Metalib.FSetExtra WSfun t defax
+binder 1070:1070 <> L:5
+R1082:1084 Coq.Init.Datatypes <> nat ind
+binder 1078:1078 <> n:6
+R1093:1096 Coq.Init.Datatypes <> list ind
+R1098:1100 Tutorial.Metalib.FSetExtra X t defax
+binder 1088:1089 <> xs:7
+R1139:1139 Tutorial.Metalib.FSetExtra <> n:6 var
+R1135:1136 Tutorial.Metalib.FSetExtra <> xs:7 var
+R1154:1156 Coq.Init.Datatypes <> nil constr
+R1159:1159 Coq.Init.Datatypes <> O constr
+R1172:1175 Coq.Init.Logic <> True ind
+R1185:1188 Coq.Init.Datatypes <> cons constr
+R1197:1197 Coq.Init.Datatypes <> S constr
+R1222:1225 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1213:1217 Tutorial.Metalib.FSetExtra WSfun notin def
+R1221:1221 Tutorial.Metalib.FSetExtra <> L:5 var
+R1226:1235 Tutorial.Metalib.FSetExtra <> fresh_list:8 def
+R1238:1242 Tutorial.Metalib.FSetExtra WSfun union defax
+R1247:1255 Tutorial.Metalib.FSetExtra WSfun singleton defax
+R1244:1244 Tutorial.Metalib.FSetExtra <> L:5 var
+R1292:1296 Coq.Init.Logic <> False ind
+R1312:1316 Tutorial.Metalib.FSetExtra WSfun <> modtype
+R1441:1453 Coq.Structures.DecidableType DecidableType <> mod
+R1459:1463 Tutorial.Metalib.FSetExtra WSfun <> mod
+R1465:1465 Tutorial.Metalib.FSetExtra X <> modtype
+mod 1431:1434 <> Make
+R1479:1495 Coq.FSets.FSetWeakList Make <> modtype
+R1497:1497 Tutorial.Metalib.FSetExtra X <> modtype
+def 1514:1521 Make disjoint
+binder 1523:1523 <> E:11
+binder 1525:1525 <> F:12
+R1530:1534 Tutorial.Metalib.FSetExtra Make Equal def
+R1548:1552 Tutorial.Metalib.FSetExtra Make empty def
+R1537:1541 Tutorial.Metalib.FSetExtra Make inter def
+R1545:1545 Tutorial.Metalib.FSetExtra <> F:12 var
+R1543:1543 Tutorial.Metalib.FSetExtra <> E:11 var
+def 1569:1573 Make notin
+binder 1575:1575 <> x:13
+binder 1577:1577 <> L:14
+R1582:1583 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1584:1585 Tutorial.Metalib.FSetExtra Make In def
+R1589:1589 Tutorial.Metalib.FSetExtra <> L:14 var
+R1587:1587 Tutorial.Metalib.FSetExtra <> x:13 var
+def 1604:1613 Make fresh_list
+R1626:1626 Tutorial.Metalib.FSetExtra Make t def
+binder 1622:1622 <> L:15
+R1634:1636 Coq.Init.Datatypes <> nat ind
+binder 1630:1630 <> n:16
+R1645:1648 Coq.Init.Datatypes <> list ind
+R1650:1652 Tutorial.Metalib.FSetExtra X t defax
+binder 1640:1641 <> xs:17
+R1691:1691 Tutorial.Metalib.FSetExtra <> n:16 var
+R1687:1688 Tutorial.Metalib.FSetExtra <> xs:17 var
+R1706:1708 Coq.Init.Datatypes <> nil constr
+R1711:1711 Coq.Init.Datatypes <> O constr
+R1724:1727 Coq.Init.Logic <> True ind
+R1737:1740 Coq.Init.Datatypes <> cons constr
+R1749:1749 Coq.Init.Datatypes <> S constr
+R1774:1777 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1765:1769 Tutorial.Metalib.FSetExtra Make notin def
+R1773:1773 Tutorial.Metalib.FSetExtra <> L:15 var
+R1778:1787 Tutorial.Metalib.FSetExtra <> fresh_list:18 def
+R1790:1794 Tutorial.Metalib.FSetExtra Make union def
+R1799:1807 Tutorial.Metalib.FSetExtra Make singleton def
+R1796:1796 Tutorial.Metalib.FSetExtra <> L:15 var
+R1844:1848 Coq.Init.Logic <> False ind
+R1864:1867 Tutorial.Metalib.FSetExtra Make <> mod

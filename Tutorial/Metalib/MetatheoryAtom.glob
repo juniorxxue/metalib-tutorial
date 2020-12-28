@@ -1,0 +1,260 @@
+DIGEST 5beb1055b132802e6a1875de5d593b4f
+FTutorial.Metalib.MetatheoryAtom
+R297:311 Coq.Arith.Arith <> <> lib
+R329:341 Coq.Arith.Max <> <> lib
+R359:378 Coq.Classes.EquivDec <> <> lib
+R396:409 Coq.Lists.List <> <> lib
+R427:451 Coq.Structures.Equalities <> <> lib
+R470:484 Coq.FSets.FSets <> <> lib
+R502:521 Tutorial.Metalib.CoqListFacts <> <> lib
+R539:555 Tutorial.Metalib.FSetExtra <> <> lib
+R573:593 Tutorial.Metalib.FSetWeakNotin <> <> lib
+R611:628 Tutorial.Metalib.LibTactics <> <> lib
+R647:651 Coq.omega.Omega <> <> lib
+R1014:1031 Coq.Structures.DecidableTypeEx UsualDecidableType <> mod
+modtype 1006:1009 <> ATOM
+ax 1047:1050 ATOM atom
+def 1072:1072 ATOM t
+R1077:1080 Tutorial.Metalib.MetatheoryAtom ATOM atom defax
+ax 1096:1101 ATOM eq_dec
+R1118:1121 Tutorial.Metalib.MetatheoryAtom ATOM atom defax
+binder 1112:1112 <> x:2
+binder 1114:1114 <> y:3
+R1124:1124 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1130:1134 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1141:1141 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1126:1128 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1125:1125 Tutorial.Metalib.MetatheoryAtom <> x:2 var
+R1129:1129 Tutorial.Metalib.MetatheoryAtom <> y:3 var
+R1136:1139 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1135:1135 Tutorial.Metalib.MetatheoryAtom <> x:2 var
+R1140:1140 Tutorial.Metalib.MetatheoryAtom <> y:3 var
+ax 1157:1175 ATOM atom_fresh_for_list
+R1196:1199 Coq.Init.Datatypes <> list ind
+R1201:1201 Tutorial.Metalib.MetatheoryAtom ATOM t def
+binder 1191:1192 <> xs:5
+R1205:1205 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1207:1209 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1214:1216 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1231:1231 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1210:1213 Tutorial.Metalib.MetatheoryAtom ATOM atom defax
+binder 1206:1206 <> x:6
+R1217:1218 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1219:1225 Coq.Lists.List <> In def
+R1229:1230 Tutorial.Metalib.MetatheoryAtom <> xs:5 var
+R1227:1227 Tutorial.Metalib.MetatheoryAtom <> x:6 var
+ax 1247:1251 ATOM fresh
+R1264:1267 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1268:1271 Tutorial.Metalib.MetatheoryAtom ATOM atom defax
+R1255:1258 Coq.Init.Datatypes <> list ind
+R1260:1263 Tutorial.Metalib.MetatheoryAtom ATOM atom defax
+ax 1287:1298 ATOM fresh_not_in
+binder 1309:1309 <> l:9
+R1312:1313 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1314:1315 Coq.Lists.List <> In def
+R1327:1327 Tutorial.Metalib.MetatheoryAtom <> l:9 var
+R1318:1322 Tutorial.Metalib.MetatheoryAtom ATOM fresh defax
+R1324:1324 Tutorial.Metalib.MetatheoryAtom <> l:9 var
+ax 1343:1348 ATOM nat_of
+R1356:1359 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1360:1362 Coq.Init.Datatypes <> nat ind
+R1352:1355 Tutorial.Metalib.MetatheoryAtom ATOM atom defax
+R1407:1416 Coq.Structures.Equalities HasUsualEq <> mod
+R1421:1429 Coq.Structures.Equalities UsualIsEq <> mod
+R1434:1446 Coq.Structures.Equalities UsualIsEqOrig <> mod
+R1454:1457 Tutorial.Metalib.MetatheoryAtom ATOM <> modtype
+R1567:1570 Tutorial.Metalib.MetatheoryAtom ATOM <> mod
+mod 1560:1563 <> Atom
+def 1606:1609 Atom atom
+R1614:1616 Coq.Init.Datatypes <> nat ind
+def 1632:1632 Atom t
+R1637:1640 Tutorial.Metalib.MetatheoryAtom Atom atom def
+def 1657:1662 Atom eq_dec
+R1667:1676 Coq.Arith.Peano_dec <> eq_nat_dec syndef
+prf 1688:1695 Atom max_lt_r
+binder 1706:1706 <> x:12
+binder 1708:1708 <> y:13
+binder 1710:1710 <> z:14
+R1723:1726 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1728:1731 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R1727:1727 Tutorial.Metalib.MetatheoryAtom <> x:12 var
+R1732:1734 Coq.Arith.Max <> max syndef
+R1738:1738 Tutorial.Metalib.MetatheoryAtom <> z:14 var
+R1736:1736 Tutorial.Metalib.MetatheoryAtom <> y:13 var
+R1718:1721 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R1717:1717 Tutorial.Metalib.MetatheoryAtom <> x:12 var
+R1722:1722 Tutorial.Metalib.MetatheoryAtom <> z:14 var
+prf 1884:1895 Atom nat_list_max
+R1912:1915 Coq.Init.Datatypes <> list ind
+R1917:1919 Coq.Init.Datatypes <> nat ind
+binder 1907:1908 <> xs:15
+R1927:1928 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1930:1932 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1936:1938 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1971:1972 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1933:1935 Coq.Init.Datatypes <> nat ind
+binder 1929:1929 <> n:16
+binder 1946:1946 <> x:17
+R1961:1964 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1966:1969 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R1965:1965 Tutorial.Metalib.MetatheoryAtom <> x:17 var
+R1970:1970 Tutorial.Metalib.MetatheoryAtom <> n:16 var
+R1949:1955 Coq.Lists.List <> In def
+R1959:1960 Tutorial.Metalib.MetatheoryAtom <> xs:15 var
+R1957:1957 Tutorial.Metalib.MetatheoryAtom <> x:17 var
+R2107:2109 Coq.Arith.Max <> max syndef
+R2107:2109 Coq.Arith.Max <> max syndef
+R2211:2218 Tutorial.Metalib.MetatheoryAtom Atom max_lt_r thm
+R2211:2218 Tutorial.Metalib.MetatheoryAtom Atom max_lt_r thm
+prf 2237:2255 Atom atom_fresh_for_list
+R2276:2279 Coq.Init.Datatypes <> list ind
+R2281:2283 Coq.Init.Datatypes <> nat ind
+binder 2271:2272 <> xs:18
+R2287:2288 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2290:2292 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2296:2298 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2313:2314 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2293:2295 Coq.Init.Datatypes <> nat ind
+binder 2289:2289 <> n:19
+R2299:2300 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2301:2307 Coq.Lists.List <> In def
+R2311:2312 Tutorial.Metalib.MetatheoryAtom <> xs:18 var
+R2309:2309 Tutorial.Metalib.MetatheoryAtom <> n:19 var
+R2351:2362 Tutorial.Metalib.MetatheoryAtom Atom nat_list_max thm
+R2351:2362 Tutorial.Metalib.MetatheoryAtom Atom nat_list_max thm
+R2390:2390 Coq.Init.Datatypes <> S constr
+R2390:2390 Coq.Init.Datatypes <> S constr
+R2417:2417 Coq.Init.Datatypes <> S constr
+R2417:2417 Coq.Init.Datatypes <> S constr
+def 2461:2465 Atom fresh
+R2472:2475 Coq.Init.Datatypes <> list ind
+R2477:2480 Tutorial.Metalib.MetatheoryAtom Atom atom def
+binder 2468:2468 <> l:20
+R2496:2514 Tutorial.Metalib.MetatheoryAtom Atom atom_fresh_for_list thm
+R2516:2516 Tutorial.Metalib.MetatheoryAtom <> l:20 var
+R2530:2534 Coq.Init.Specif <> exist constr
+prf 2566:2577 Atom fresh_not_in
+binder 2588:2588 <> l:21
+R2591:2592 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2593:2594 Coq.Lists.List <> In def
+R2606:2606 Tutorial.Metalib.MetatheoryAtom <> l:21 var
+R2597:2601 Tutorial.Metalib.MetatheoryAtom Atom fresh def
+R2603:2603 Tutorial.Metalib.MetatheoryAtom <> l:21 var
+R2638:2642 Tutorial.Metalib.MetatheoryAtom Atom fresh def
+R2658:2676 Tutorial.Metalib.MetatheoryAtom Atom atom_fresh_for_list thm
+def 2706:2711 Atom nat_of
+R2725:2728 Tutorial.Metalib.MetatheoryAtom Atom atom def
+binder 2721:2721 <> x:22
+R2734:2734 Tutorial.Metalib.MetatheoryAtom <> x:22 var
+R2748:2757 Coq.Structures.Equalities HasUsualEq <> mod
+R2762:2770 Coq.Structures.Equalities UsualIsEq <> mod
+R2775:2787 Coq.Structures.Equalities UsualIsEqOrig <> mod
+R2813:2816 Tutorial.Metalib.MetatheoryAtom Atom <> mod
+syndef 2940:2943 <> atom
+R2948:2956 Tutorial.Metalib.MetatheoryAtom <> atom defax
+syndef 2968:2972 <> fresh
+R2977:2986 Tutorial.Metalib.MetatheoryAtom <> fresh defax
+syndef 2998:3009 <> fresh_not_in
+R3014:3030 Tutorial.Metalib.MetatheoryAtom <> fresh_not_in defax
+syndef 3042:3060 <> atom_fresh_for_list
+R3065:3088 Tutorial.Metalib.MetatheoryAtom <> atom_fresh_for_list defax
+R3144:3150 Tutorial.Metalib.MetatheoryAtom <> eq def
+inst 3233:3242 <> EqDec_atom
+R3247:3251 Coq.Classes.EquivDec <> EqDec class
+R3261:3274 Coq.Classes.RelationClasses <> eq_equivalence inst
+R3258:3259 Coq.Init.Logic <> eq ind
+R3253:3256 Tutorial.Metalib.MetatheoryAtom <> atom syndef
+R3290:3300 Tutorial.Metalib.MetatheoryAtom <> eq_dec defax
+R3290:3300 Tutorial.Metalib.MetatheoryAtom <> eq_dec defax
+R3757:3771 Tutorial.Metalib.FSetExtra WSfun <> mod
+R3773:3776 Tutorial.Metalib.MetatheoryAtom Atom <> modtype
+R3783:3796 Tutorial.Metalib.FSetExtra Make <> modtype
+R3798:3801 Tutorial.Metalib.MetatheoryAtom Atom <> modtype
+mod 3743:3753 <> AtomSetImpl
+syndef 3814:3818 <> atoms
+R3825:3837 Tutorial.Metalib.MetatheoryAtom <> t defax
+R3987:4018 Coq.FSets.FSetDecide WDecide_fun <> modtype
+R4020:4023 Tutorial.Metalib.MetatheoryAtom Atom <> modtype
+R4025:4035 Tutorial.Metalib.MetatheoryAtom AtomSetImpl <> modtype
+mod 3970:3982 <> AtomSetDecide
+R4272:4294 Tutorial.Metalib.FSetWeakNotin Notin_fun <> modtype
+R4296:4299 Tutorial.Metalib.MetatheoryAtom Atom <> modtype
+R4301:4311 Tutorial.Metalib.MetatheoryAtom AtomSetImpl <> modtype
+mod 4256:4267 <> AtomSetNotin
+R4761:4780 Coq.FSets.FSetFacts WFacts_fun <> modtype
+R4782:4785 Tutorial.Metalib.MetatheoryAtom Atom <> modtype
+R4787:4797 Tutorial.Metalib.MetatheoryAtom AtomSetImpl <> modtype
+mod 4745:4756 <> AtomSetFacts
+R4828:4857 Coq.FSets.FSetProperties WProperties_fun <> modtype
+R4859:4862 Tutorial.Metalib.MetatheoryAtom Atom <> modtype
+R4864:4874 Tutorial.Metalib.MetatheoryAtom AtomSetImpl <> modtype
+mod 4807:4823 <> AtomSetProperties
+prf 5089:5098 <> atom_fresh
+R5113:5117 Tutorial.Metalib.MetatheoryAtom <> atoms syndef
+binder 5109:5109 <> L:23
+R5120:5121 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5123:5125 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5130:5132 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5141:5142 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5126:5129 Tutorial.Metalib.MetatheoryAtom <> atom syndef
+binder 5122:5122 <> x:24
+R5133:5134 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5135:5136 Tutorial.Metalib.MetatheoryAtom <> In defax
+R5140:5140 Tutorial.Metalib.MetatheoryAtom <> L:23 var
+R5138:5138 Tutorial.Metalib.MetatheoryAtom <> x:24 var
+R5174:5192 Tutorial.Metalib.MetatheoryAtom <> atom_fresh_for_list syndef
+R5195:5202 Tutorial.Metalib.MetatheoryAtom <> elements defax
+R5174:5192 Tutorial.Metalib.MetatheoryAtom <> atom_fresh_for_list syndef
+R5195:5202 Tutorial.Metalib.MetatheoryAtom <> elements defax
+R5270:5292 Tutorial.Metalib.CoqListFacts <> InA_iff_In thm
+R5270:5292 Tutorial.Metalib.CoqListFacts <> InA_iff_In thm
+R5270:5292 Tutorial.Metalib.CoqListFacts <> InA_iff_In thm
+R5306:5315 Tutorial.Metalib.MetatheoryAtom <> elements_1 defax
+R5306:5315 Tutorial.Metalib.MetatheoryAtom <> elements_1 defax
+R5773:5787 Coq.Lists.List <> fold_right def
+R5795:5799 Tutorial.Metalib.MetatheoryAtom <> empty defax
+R5789:5793 Tutorial.Metalib.MetatheoryAtom <> union defax
+R5839:5843 Tutorial.Metalib.MetatheoryAtom <> union defax
+R5848:5852 Tutorial.Metalib.MetatheoryAtom <> empty defax
+R5839:5843 Tutorial.Metalib.MetatheoryAtom <> union defax
+R5848:5852 Tutorial.Metalib.MetatheoryAtom <> empty defax
+R6136:6139 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6141:6144 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6146:6149 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6136:6139 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6141:6144 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6146:6149 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6182:6185 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6187:6190 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6182:6185 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6187:6190 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6221:6224 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6221:6224 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6433:6437 Tutorial.Metalib.MetatheoryAtom <> union defax
+R6799:6803 Tutorial.Metalib.MetatheoryAtom <> union defax
+R6799:6803 Tutorial.Metalib.MetatheoryAtom <> union defax
+R6859:6863 Tutorial.Metalib.MetatheoryAtom <> empty defax
+R6859:6863 Tutorial.Metalib.MetatheoryAtom <> empty defax
+R6919:6923 Tutorial.Metalib.MetatheoryAtom <> empty defax
+R6919:6923 Tutorial.Metalib.MetatheoryAtom <> empty defax
+R6962:6966 Tutorial.Metalib.MetatheoryAtom <> union defax
+R7662:7666 Tutorial.Metalib.MetatheoryAtom <> empty defax
+R7799:7808 Tutorial.Metalib.MetatheoryAtom <> atom_fresh thm
+R8216:8220 Tutorial.Metalib.MetatheoryAtom <> atoms syndef
+binder 8212:8212 <> x:25
+R8225:8225 Tutorial.Metalib.MetatheoryAtom <> x:25 var
+R8269:8272 Tutorial.Metalib.MetatheoryAtom <> atom syndef
+binder 8265:8265 <> x:26
+R8277:8285 Tutorial.Metalib.MetatheoryAtom <> singleton defax
+R8287:8287 Tutorial.Metalib.MetatheoryAtom <> x:26 var
+R8303:8307 Tutorial.Metalib.MetatheoryAtom <> union defax
+prf 8322:8343 <> example_pick_fresh_use
+R8363:8366 Tutorial.Metalib.MetatheoryAtom <> atom syndef
+binder 8355:8355 <> x:27
+binder 8357:8357 <> y:28
+binder 8359:8359 <> z:29
+R8380:8384 Tutorial.Metalib.MetatheoryAtom <> atoms syndef
+binder 8370:8371 <> L1:30
+binder 8373:8374 <> L2:31
+binder 8376:8377 <> L3:32
+R8388:8391 Coq.Init.Logic <> True ind

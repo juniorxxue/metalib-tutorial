@@ -1,0 +1,3039 @@
+DIGEST bfaf22d7c0b9b79d5a6d030906ae08de
+FTutorial.Metalib.AssocList
+R580:594 Coq.FSets.FSets <> <> lib
+R612:625 Coq.Lists.List <> <> lib
+R643:661 Coq.Logic.Decidable <> <> lib
+R679:696 Coq.Strings.String <> <> lib
+R715:720 Coq.Strings.String <> <> lib
+R739:759 Tutorial.Metalib.CoqFSetDecide <> <> lib
+R777:796 Tutorial.Metalib.CoqListFacts <> <> lib
+R814:831 Tutorial.Metalib.LibTactics <> <> lib
+R849:872 Tutorial.Metalib.CoqFSetInterface <> <> lib
+R2742:2764 Coq.Classes.Equivalence <> <> lib
+R2782:2801 Coq.Classes.EquivDec <> <> lib
+R2819:2834 Tutorial.Metalib.CoqEqDec <> <> lib
+R2858:2875 Coq.Structures.DecidableTypeEx UsualDecidableType <> mod
+R2890:2908 Coq.FSets.FSetInterface WSfun <> mod
+R2910:2910 Tutorial.Metalib.AssocList X <> modtype
+mod 2846:2849 <> Make
+inst 3014:3023 Make EqDec_of_X
+R3028:3032 Coq.Classes.EquivDec <> EqDec class
+R3041:3054 Coq.Classes.RelationClasses <> eq_equivalence inst
+R3038:3039 Coq.Init.Logic <> eq ind
+R3034:3036 Tutorial.Metalib.AssocList X t defax
+R3070:3077 Tutorial.Metalib.AssocList X eq_dec defax
+R3070:3077 Tutorial.Metalib.AssocList X eq_dec defax
+inst 3098:3110 Make EqDec_eq_of_X
+R3114:3121 Tutorial.Metalib.CoqEqDec <> EqDec_eq class
+R3123:3125 Tutorial.Metalib.AssocList X t defax
+R3142:3158 Tutorial.Metalib.CoqEqDec <> EqDec_eq_of_EqDec inst
+R3164:3173 Tutorial.Metalib.AssocList Make EqDec_of_X inst
+R3160:3162 Tutorial.Metalib.AssocList X t defax
+R3142:3158 Tutorial.Metalib.CoqEqDec <> EqDec_eq_of_EqDec inst
+R3164:3173 Tutorial.Metalib.AssocList Make EqDec_of_X inst
+R3160:3162 Tutorial.Metalib.AssocList X t defax
+R3249:3273 Tutorial.Metalib.CoqFSetDecide WDecide_fun <> modtype
+R3275:3275 Tutorial.Metalib.AssocList X <> modtype
+R3277:3282 Tutorial.Metalib.AssocList KeySet <> modtype
+mod 3244:3244 <> Make.D
+R3312:3341 Coq.FSets.FSetProperties WProperties_fun <> modtype
+R3343:3343 Tutorial.Metalib.AssocList X <> modtype
+R3345:3350 Tutorial.Metalib.AssocList KeySet <> modtype
+mod 3292:3307 <> Make.KeySetProperties
+R3375:3394 Coq.FSets.FSetFacts WFacts_fun <> modtype
+R3396:3396 Tutorial.Metalib.AssocList X <> modtype
+R3398:3403 Tutorial.Metalib.AssocList KeySet <> modtype
+mod 3360:3370 <> Make.KeySetFacts
+def 4082:4084 Make one
+binder 4087:4087 <> C:1
+R4105:4105 Tutorial.Metalib.AssocList <> C:1 var
+binder 4098:4101 <> item:2
+R4110:4113 Coq.Init.Datatypes <> list ind
+R4115:4115 Tutorial.Metalib.AssocList <> C:1 var
+R4120:4123 Coq.Init.Datatypes <> cons constr
+R4130:4132 Coq.Init.Datatypes <> nil constr
+R4125:4128 Tutorial.Metalib.AssocList <> item:2 var
+R4157:4159 Tutorial.Metalib.AssocList Make one def
+R4161:4161 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4163:4164 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4166:4166 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+not 4145:4145 Make ::list_scope:x_'~'_x
+R4208:4210 Coq.Init.Datatypes <> app def
+R4208:4210 Coq.Init.Datatypes <> app def
+def 4386:4388 Make dom
+binder 4393:4393 <> C:3
+R4408:4411 Coq.Init.Datatypes <> list ind
+R4417:4417 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4414:4416 Tutorial.Metalib.AssocList X t defax
+R4418:4418 Tutorial.Metalib.AssocList <> C:3 var
+binder 4404:4404 <> E:4
+R4426:4433 Tutorial.Metalib.AssocList KeySet t defax
+R4446:4446 Tutorial.Metalib.AssocList <> E:4 var
+R4459:4461 Coq.Init.Datatypes <> nil constr
+R4466:4470 Tutorial.Metalib.AssocList KeySet empty defax
+R4484:4487 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4478:4478 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4480:4481 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4483:4483 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4494:4496 Tutorial.Metalib.AssocList KeySet add defax
+R4501:4503 Tutorial.Metalib.AssocList <> dom:5 def
+def 4579:4581 Make get
+binder 4586:4586 <> C:7
+R4601:4603 Tutorial.Metalib.AssocList X t defax
+binder 4597:4597 <> x:8
+R4611:4614 Coq.Init.Datatypes <> list ind
+R4620:4620 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4617:4619 Tutorial.Metalib.AssocList X t defax
+R4621:4621 Tutorial.Metalib.AssocList <> C:7 var
+binder 4607:4607 <> E:9
+R4629:4634 Coq.Init.Datatypes <> option ind
+R4636:4636 Tutorial.Metalib.AssocList <> C:7 var
+R4649:4649 Tutorial.Metalib.AssocList <> E:9 var
+R4662:4664 Coq.Init.Datatypes <> nil constr
+R4669:4672 Coq.Init.Datatypes <> None constr
+R4686:4689 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4680:4680 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4682:4683 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4685:4685 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4700:4703 Tutorial.Metalib.CoqEqDec <> ::coqeqdec_scope:x_'=='_x not
+R4699:4699 Tutorial.Metalib.AssocList <> x:8 var
+R4724:4726 Tutorial.Metalib.AssocList <> get:10 def
+R4728:4728 Tutorial.Metalib.AssocList <> x:8 var
+R4712:4715 Coq.Init.Datatypes <> Some constr
+def 4876:4880 Make binds
+binder 4885:4885 <> A:12
+R4900:4902 Tutorial.Metalib.AssocList X t defax
+binder 4896:4896 <> x:13
+R4910:4910 Tutorial.Metalib.AssocList <> A:12 var
+binder 4906:4906 <> a:14
+R4918:4921 Coq.Init.Datatypes <> list ind
+R4927:4927 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4924:4926 Tutorial.Metalib.AssocList X t defax
+R4928:4928 Tutorial.Metalib.AssocList <> A:12 var
+binder 4914:4914 <> E:15
+R4946:4952 Coq.Lists.List <> In def
+R4961:4961 Tutorial.Metalib.AssocList <> E:15 var
+R4954:4954 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4956:4957 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4959:4959 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4955:4955 Tutorial.Metalib.AssocList <> x:13 var
+R4958:4958 Tutorial.Metalib.AssocList <> a:14 var
+def 5105:5108 Make maps
+binder 5113:5113 <> A:16
+R5128:5130 Tutorial.Metalib.AssocList X t defax
+binder 5124:5124 <> x:17
+R5138:5138 Tutorial.Metalib.AssocList <> A:16 var
+binder 5134:5134 <> a:18
+R5146:5149 Coq.Init.Datatypes <> list ind
+R5155:5155 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5152:5154 Tutorial.Metalib.AssocList X t defax
+R5156:5156 Tutorial.Metalib.AssocList <> A:16 var
+binder 5142:5142 <> E:19
+R5181:5183 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5174:5176 Tutorial.Metalib.AssocList Make get def
+R5180:5180 Tutorial.Metalib.AssocList <> E:19 var
+R5178:5178 Tutorial.Metalib.AssocList <> x:17 var
+R5184:5187 Coq.Init.Datatypes <> Some constr
+R5189:5189 Tutorial.Metalib.AssocList <> a:18 var
+def 5316:5323 Make disjoint
+binder 5328:5328 <> A:20
+binder 5330:5330 <> B:21
+R5345:5348 Coq.Init.Datatypes <> list ind
+R5354:5354 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5351:5353 Tutorial.Metalib.AssocList X t defax
+R5355:5355 Tutorial.Metalib.AssocList <> A:20 var
+binder 5341:5341 <> E:22
+R5364:5367 Coq.Init.Datatypes <> list ind
+R5373:5373 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5370:5372 Tutorial.Metalib.AssocList X t defax
+R5374:5374 Tutorial.Metalib.AssocList <> B:21 var
+binder 5360:5360 <> F:23
+R5413:5418 Coq.FSets.FSetInterface WSfun :::x_'[<=]'_x not
+R5392:5396 Tutorial.Metalib.AssocList KeySet inter defax
+R5407:5409 Tutorial.Metalib.AssocList Make dom def
+R5411:5411 Tutorial.Metalib.AssocList <> F:23 var
+R5399:5401 Tutorial.Metalib.AssocList Make dom def
+R5403:5403 Tutorial.Metalib.AssocList <> E:22 var
+R5419:5423 Tutorial.Metalib.AssocList KeySet empty defax
+def 5521:5523 Make map
+binder 5528:5528 <> A:24
+binder 5530:5530 <> B:25
+R5546:5549 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5550:5550 Tutorial.Metalib.AssocList <> B:25 var
+R5545:5545 Tutorial.Metalib.AssocList <> A:24 var
+binder 5541:5541 <> f:26
+R5558:5561 Coq.Init.Datatypes <> list ind
+R5567:5567 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5564:5566 Tutorial.Metalib.AssocList X t defax
+R5568:5568 Tutorial.Metalib.AssocList <> A:24 var
+binder 5554:5554 <> E:27
+R5576:5579 Coq.Init.Datatypes <> list ind
+R5585:5585 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5582:5584 Tutorial.Metalib.AssocList X t defax
+R5586:5586 Tutorial.Metalib.AssocList <> B:25 var
+R5594:5601 Coq.Lists.List <> map def
+R5650:5650 Tutorial.Metalib.AssocList <> E:27 var
+binder 5608:5608 <> b:28
+R5619:5619 Tutorial.Metalib.AssocList <> b:28 var
+R5626:5626 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5628:5629 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5631:5631 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5636:5636 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5638:5639 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5643:5643 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5640:5640 Tutorial.Metalib.AssocList <> f:26 var
+ind 5854:5857 Make uniq
+constr 5900:5907 Make uniq_nil
+constr 5930:5938 Make uniq_push
+binder 5860:5860 <> A:30
+R5884:5887 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5872:5875 Coq.Init.Datatypes <> list ind
+R5881:5881 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R5878:5880 Tutorial.Metalib.AssocList X t defax
+R5917:5920 Tutorial.Metalib.AssocList <> uniq:31 ind
+R5922:5924 Coq.Init.Datatypes <> nil constr
+binder 5949:5949 <> x:33
+binder 5951:5951 <> a:34
+binder 5953:5953 <> E:35
+R5968:5977 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5992:6001 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6002:6005 Tutorial.Metalib.AssocList <> uniq:31 ind
+R6013:6016 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6009:6011 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R6008:6008 Tutorial.Metalib.AssocList <> x:33 var
+R6012:6012 Tutorial.Metalib.AssocList <> a:34 var
+R6017:6017 Tutorial.Metalib.AssocList <> E:35 var
+R5978:5979 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5980:5981 Tutorial.Metalib.AssocList KeySet In defax
+R5986:5988 Tutorial.Metalib.AssocList Make dom def
+R5990:5990 Tutorial.Metalib.AssocList <> E:35 var
+R5983:5983 Tutorial.Metalib.AssocList <> x:33 var
+R5962:5965 Tutorial.Metalib.AssocList <> uniq:31 ind
+R5967:5967 Tutorial.Metalib.AssocList <> E:35 var
+sec 6467:6480 Make ListProperties
+var 6495:6495 Make.ListProperties X
+var 6517:6517 Make.ListProperties x
+var 6519:6519 Make.ListProperties y
+R6523:6523 Tutorial.Metalib.AssocList <> Make.ListProperties.X var
+var 6538:6538 Make.ListProperties l
+var 6540:6541 Make.ListProperties l1
+var 6543:6544 Make.ListProperties l2
+var 6546:6547 Make.ListProperties l3
+R6551:6554 Coq.Init.Datatypes <> list ind
+R6556:6556 Tutorial.Metalib.AssocList <> Make.ListProperties.X var
+prf 6568:6579 Make cons_app_one
+R6595:6597 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6587:6590 Coq.Init.Datatypes <> cons constr
+R6594:6594 Tutorial.Metalib.AssocList <> Make.ListProperties.l var
+R6592:6592 Tutorial.Metalib.AssocList <> Make.ListProperties.x var
+R6603:6606 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6598:6600 Tutorial.Metalib.AssocList Make one def
+R6602:6602 Tutorial.Metalib.AssocList <> Make.ListProperties.x var
+R6607:6607 Tutorial.Metalib.AssocList <> Make.ListProperties.l var
+prf 6653:6666 Make cons_app_assoc
+R6691:6693 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6674:6674 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6684:6688 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6675:6678 Coq.Init.Datatypes <> cons constr
+R6682:6683 Tutorial.Metalib.AssocList <> Make.ListProperties.l1 var
+R6680:6680 Tutorial.Metalib.AssocList <> Make.ListProperties.x var
+R6689:6690 Tutorial.Metalib.AssocList <> Make.ListProperties.l2 var
+R6694:6697 Coq.Init.Datatypes <> cons constr
+R6704:6707 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6702:6703 Tutorial.Metalib.AssocList <> Make.ListProperties.l1 var
+R6708:6709 Tutorial.Metalib.AssocList <> Make.ListProperties.l2 var
+R6699:6699 Tutorial.Metalib.AssocList <> Make.ListProperties.x var
+prf 6756:6764 Make app_assoc
+R6788:6790 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6772:6772 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6781:6785 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6775:6778 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6773:6774 Tutorial.Metalib.AssocList <> Make.ListProperties.l1 var
+R6779:6780 Tutorial.Metalib.AssocList <> Make.ListProperties.l2 var
+R6786:6787 Tutorial.Metalib.AssocList <> Make.ListProperties.l3 var
+R6793:6797 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6806:6806 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6791:6792 Tutorial.Metalib.AssocList <> Make.ListProperties.l1 var
+R6800:6803 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6798:6799 Tutorial.Metalib.AssocList <> Make.ListProperties.l2 var
+R6804:6805 Tutorial.Metalib.AssocList <> Make.ListProperties.l3 var
+prf 6860:6868 Make app_nil_1
+R6884:6886 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6879:6882 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6876:6878 Coq.Init.Datatypes <> nil constr
+R6883:6883 Tutorial.Metalib.AssocList <> Make.ListProperties.l var
+R6887:6887 Tutorial.Metalib.AssocList <> Make.ListProperties.l var
+prf 6933:6941 Make app_nil_2
+R6957:6959 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6950:6953 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R6949:6949 Tutorial.Metalib.AssocList <> Make.ListProperties.l var
+R6954:6956 Coq.Init.Datatypes <> nil constr
+R6960:6960 Tutorial.Metalib.AssocList <> Make.ListProperties.l var
+prf 7014:7023 Make in_nil_iff
+R7044:7048 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7031:7037 Coq.Lists.List <> In def
+R7041:7043 Coq.Init.Datatypes <> nil constr
+R7039:7039 Tutorial.Metalib.AssocList <> Make.ListProperties.x var
+R7049:7053 Coq.Init.Logic <> False ind
+prf 7106:7115 Make in_one_iff
+R7140:7144 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7123:7129 Coq.Lists.List <> In def
+R7134:7136 Tutorial.Metalib.AssocList Make one def
+R7138:7138 Tutorial.Metalib.AssocList <> Make.ListProperties.y var
+R7131:7131 Tutorial.Metalib.AssocList <> Make.ListProperties.x var
+R7146:7148 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7145:7145 Tutorial.Metalib.AssocList <> Make.ListProperties.x var
+R7149:7149 Tutorial.Metalib.AssocList <> Make.ListProperties.y var
+prf 7267:7276 Make in_app_iff
+R7304:7308 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7284:7290 Coq.Lists.List <> In def
+R7297:7300 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R7295:7296 Tutorial.Metalib.AssocList <> Make.ListProperties.l1 var
+R7301:7302 Tutorial.Metalib.AssocList <> Make.ListProperties.l2 var
+R7292:7292 Tutorial.Metalib.AssocList <> Make.ListProperties.x var
+R7321:7324 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7309:7315 Coq.Lists.List <> In def
+R7319:7320 Tutorial.Metalib.AssocList <> Make.ListProperties.l1 var
+R7317:7317 Tutorial.Metalib.AssocList <> Make.ListProperties.x var
+R7325:7331 Coq.Lists.List <> In def
+R7335:7336 Tutorial.Metalib.AssocList <> Make.ListProperties.l2 var
+R7333:7333 Tutorial.Metalib.AssocList <> Make.ListProperties.x var
+R7373:7386 Coq.Lists.List <> in_or_app thm
+R7389:7402 Coq.Lists.List <> in_app_or thm
+R7373:7386 Coq.Lists.List <> in_or_app thm
+R7373:7386 Coq.Lists.List <> in_or_app thm
+R7389:7402 Coq.Lists.List <> in_app_or thm
+R7389:7402 Coq.Lists.List <> in_app_or thm
+R7415:7428 Tutorial.Metalib.AssocList Make.ListProperties <> sec
+sec 7741:7750 Make Properties
+var 7765:7765 Make.Properties A
+var 7767:7767 Make.Properties B
+var 7769:7771 Make.Properties key
+var 7793:7793 Make.Properties f
+R7804:7807 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7808:7808 Tutorial.Metalib.AssocList <> Make.Properties.B var
+R7803:7803 Tutorial.Metalib.AssocList <> Make.Properties.A var
+var 7823:7823 Make.Properties x
+R7833:7835 Tutorial.Metalib.AssocList X t defax
+var 7850:7850 Make.Properties b
+R7860:7860 Tutorial.Metalib.AssocList <> Make.Properties.A var
+var 7875:7875 Make.Properties E
+var 7877:7877 Make.Properties F
+var 7879:7879 Make.Properties G
+R7885:7888 Coq.Init.Datatypes <> list ind
+R7894:7894 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7891:7893 Tutorial.Metalib.AssocList X t defax
+R7895:7895 Tutorial.Metalib.AssocList <> Make.Properties.A var
+prf 7908:7914 Make map_nil
+R7942:7944 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7922:7924 Tutorial.Metalib.AssocList Make map def
+R7930:7932 Coq.Init.Datatypes <> nil constr
+R7938:7938 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7935:7937 Tutorial.Metalib.AssocList X t defax
+R7939:7939 Tutorial.Metalib.AssocList <> Make.Properties.A var
+R7926:7926 Tutorial.Metalib.AssocList <> Make.Properties.f var
+R7945:7947 Coq.Init.Datatypes <> nil constr
+prf 7993:7999 Make map_one
+R8020:8023 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8031:8031 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8007:8009 Tutorial.Metalib.AssocList Make map def
+R8015:8017 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R8014:8014 Tutorial.Metalib.AssocList <> Make.Properties.x var
+R8018:8018 Tutorial.Metalib.AssocList <> Make.Properties.b var
+R8011:8011 Tutorial.Metalib.AssocList <> Make.Properties.f var
+R8025:8027 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R8024:8024 Tutorial.Metalib.AssocList <> Make.Properties.x var
+R8028:8028 Tutorial.Metalib.AssocList <> Make.Properties.f var
+R8030:8030 Tutorial.Metalib.AssocList <> Make.Properties.b var
+prf 8077:8084 Make map_cons
+R8111:8113 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8092:8094 Tutorial.Metalib.AssocList Make map def
+R8105:8108 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8099:8099 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8101:8102 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8104:8104 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8100:8100 Tutorial.Metalib.AssocList <> Make.Properties.x var
+R8103:8103 Tutorial.Metalib.AssocList <> Make.Properties.b var
+R8109:8109 Tutorial.Metalib.AssocList <> Make.Properties.E var
+R8096:8096 Tutorial.Metalib.AssocList <> Make.Properties.f var
+R8121:8124 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8115:8117 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R8114:8114 Tutorial.Metalib.AssocList <> Make.Properties.x var
+R8118:8118 Tutorial.Metalib.AssocList <> Make.Properties.f var
+R8120:8120 Tutorial.Metalib.AssocList <> Make.Properties.b var
+R8125:8127 Tutorial.Metalib.AssocList Make map def
+R8131:8131 Tutorial.Metalib.AssocList <> Make.Properties.E var
+R8129:8129 Tutorial.Metalib.AssocList <> Make.Properties.f var
+prf 8177:8183 Make map_app
+R8205:8207 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8191:8193 Tutorial.Metalib.AssocList Make map def
+R8199:8202 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8198:8198 Tutorial.Metalib.AssocList <> Make.Properties.E var
+R8203:8203 Tutorial.Metalib.AssocList <> Make.Properties.F var
+R8195:8195 Tutorial.Metalib.AssocList <> Make.Properties.f var
+R8215:8218 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8208:8210 Tutorial.Metalib.AssocList Make map def
+R8214:8214 Tutorial.Metalib.AssocList <> Make.Properties.E var
+R8212:8212 Tutorial.Metalib.AssocList <> Make.Properties.f var
+R8219:8221 Tutorial.Metalib.AssocList Make map def
+R8225:8225 Tutorial.Metalib.AssocList <> Make.Properties.F var
+R8223:8223 Tutorial.Metalib.AssocList <> Make.Properties.f var
+R8251:8253 Tutorial.Metalib.AssocList Make map def
+R8264:8275 Coq.Lists.List <> map_app thm
+R8264:8275 Coq.Lists.List <> map_app thm
+R8264:8275 Coq.Lists.List <> map_app thm
+prf 8305:8311 Make dom_nil
+R8337:8339 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8319:8321 Tutorial.Metalib.AssocList Make dom def
+R8325:8327 Coq.Init.Datatypes <> nil constr
+R8333:8333 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R8330:8332 Tutorial.Metalib.AssocList X t defax
+R8334:8334 Tutorial.Metalib.AssocList <> Make.Properties.A var
+R8340:8344 Tutorial.Metalib.AssocList KeySet empty defax
+prf 8390:8396 Make dom_one
+R8415:8419 Coq.FSets.FSetInterface WSfun :::x_'[=]'_x not
+R8404:8406 Tutorial.Metalib.AssocList Make dom def
+R8410:8412 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R8409:8409 Tutorial.Metalib.AssocList <> Make.Properties.x var
+R8413:8413 Tutorial.Metalib.AssocList <> Make.Properties.b var
+R8420:8428 Tutorial.Metalib.AssocList KeySet singleton defax
+R8430:8430 Tutorial.Metalib.AssocList <> Make.Properties.x var
+prf 8487:8494 Make dom_cons
+R8519:8523 Coq.FSets.FSetInterface WSfun :::x_'[=]'_x not
+R8502:8504 Tutorial.Metalib.AssocList Make dom def
+R8513:8516 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R8507:8507 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8509:8510 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8512:8512 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8508:8508 Tutorial.Metalib.AssocList <> Make.Properties.x var
+R8511:8511 Tutorial.Metalib.AssocList <> Make.Properties.b var
+R8517:8517 Tutorial.Metalib.AssocList <> Make.Properties.E var
+R8524:8528 Tutorial.Metalib.AssocList KeySet union defax
+R8545:8547 Tutorial.Metalib.AssocList Make dom def
+R8549:8549 Tutorial.Metalib.AssocList <> Make.Properties.E var
+R8531:8539 Tutorial.Metalib.AssocList KeySet singleton defax
+R8541:8541 Tutorial.Metalib.AssocList <> Make.Properties.x var
+prf 8607:8613 Make dom_app
+R8633:8637 Coq.FSets.FSetInterface WSfun :::x_'[=]'_x not
+R8621:8623 Tutorial.Metalib.AssocList Make dom def
+R8627:8630 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R8626:8626 Tutorial.Metalib.AssocList <> Make.Properties.E var
+R8631:8631 Tutorial.Metalib.AssocList <> Make.Properties.F var
+R8638:8642 Tutorial.Metalib.AssocList KeySet union defax
+R8653:8655 Tutorial.Metalib.AssocList Make dom def
+R8657:8657 Tutorial.Metalib.AssocList <> Make.Properties.F var
+R8645:8647 Tutorial.Metalib.AssocList Make dom def
+R8649:8649 Tutorial.Metalib.AssocList <> Make.Properties.E var
+R8695:8695 Tutorial.Metalib.AssocList <> Make.Properties.E var
+prf 8743:8749 Make dom_map
+R8770:8774 Coq.FSets.FSetInterface WSfun :::x_'[=]'_x not
+R8757:8759 Tutorial.Metalib.AssocList Make dom def
+R8762:8764 Tutorial.Metalib.AssocList Make map def
+R8768:8768 Tutorial.Metalib.AssocList <> Make.Properties.E var
+R8766:8766 Tutorial.Metalib.AssocList <> Make.Properties.f var
+R8775:8777 Tutorial.Metalib.AssocList Make dom def
+R8779:8779 Tutorial.Metalib.AssocList <> Make.Properties.E var
+R8816:8816 Tutorial.Metalib.AssocList <> Make.Properties.E var
+R8860:8869 Tutorial.Metalib.AssocList Make.Properties <> sec
+R9025:9036 Tutorial.Metalib.AssocList Make cons_app_one thm
+R9038:9051 Tutorial.Metalib.AssocList Make cons_app_assoc thm
+R9084:9092 Tutorial.Metalib.AssocList Make app_assoc thm
+R9094:9102 Tutorial.Metalib.AssocList Make app_nil_1 thm
+R9104:9112 Tutorial.Metalib.AssocList Make app_nil_2 thm
+R9143:9152 Tutorial.Metalib.AssocList Make in_nil_iff thm
+R9154:9163 Tutorial.Metalib.AssocList Make in_one_iff thm
+R9165:9174 Tutorial.Metalib.AssocList Make in_app_iff thm
+R9206:9212 Tutorial.Metalib.AssocList Make map_nil thm
+R9214:9220 Tutorial.Metalib.AssocList Make map_one thm
+R9222:9229 Tutorial.Metalib.AssocList Make map_cons thm
+R9231:9237 Tutorial.Metalib.AssocList Make map_app thm
+R9272:9278 Tutorial.Metalib.AssocList Make dom_nil thm
+R9280:9286 Tutorial.Metalib.AssocList Make dom_one thm
+R9288:9295 Tutorial.Metalib.AssocList Make dom_cons thm
+R9297:9303 Tutorial.Metalib.AssocList Make dom_app thm
+R9305:9311 Tutorial.Metalib.AssocList Make dom_map thm
+prf 11293:11301 Make alist_ind
+binder 11313:11313 <> A:52
+R11342:11345 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11328:11331 Coq.Init.Datatypes <> list ind
+R11337:11339 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R11334:11336 Tutorial.Metalib.AssocList X t defax
+R11340:11340 Tutorial.Metalib.AssocList <> A:52 var
+binder 11324:11324 <> P:53
+R11355:11355 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11361:11367 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11368:11368 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11407:11414 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11430:11430 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 11422:11423 <> xs:54
+R11426:11426 Tutorial.Metalib.AssocList <> P:53 var
+R11428:11429 Tutorial.Metalib.AssocList <> xs:54 var
+binder 11376:11376 <> x:55
+binder 11378:11378 <> a:56
+binder 11380:11381 <> xs:57
+R11388:11391 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11392:11392 Tutorial.Metalib.AssocList <> P:53 var
+R11400:11403 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R11396:11398 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R11395:11395 Tutorial.Metalib.AssocList <> x:55 var
+R11399:11399 Tutorial.Metalib.AssocList <> a:56 var
+R11404:11405 Tutorial.Metalib.AssocList <> xs:57 var
+R11384:11384 Tutorial.Metalib.AssocList <> P:53 var
+R11386:11387 Tutorial.Metalib.AssocList <> xs:57 var
+R11356:11356 Tutorial.Metalib.AssocList <> P:53 var
+R11358:11360 Coq.Init.Datatypes <> nil constr
+R11500:11503 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R11496:11498 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R11500:11503 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R11496:11498 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R11675:11678 Coq.Init.Datatypes <> list ind
+R11685:11687 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R11675:11678 Coq.Init.Datatypes <> list ind
+R11685:11687 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R11714:11722 Tutorial.Metalib.AssocList Make alist_ind thm
+R11912:11915 Coq.Init.Datatypes <> list ind
+R11922:11924 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R11912:11915 Coq.Init.Datatypes <> list ind
+R11922:11924 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R11956:11964 Tutorial.Metalib.AssocList Make alist_ind thm
+sec 12103:12110 Make Disjoint
+prf 12153:12166 Make disjoint_sym_1
+binder 12181:12181 <> A:58
+binder 12183:12183 <> B:59
+R12190:12193 Coq.Init.Datatypes <> list ind
+R12199:12199 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R12196:12198 Tutorial.Metalib.AssocList X t defax
+R12200:12200 Tutorial.Metalib.AssocList <> A:58 var
+binder 12186:12186 <> E:60
+R12209:12212 Coq.Init.Datatypes <> list ind
+R12218:12218 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R12215:12217 Tutorial.Metalib.AssocList X t defax
+R12219:12219 Tutorial.Metalib.AssocList <> B:59 var
+binder 12205:12205 <> F:61
+R12240:12247 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12248:12255 Tutorial.Metalib.AssocList Make disjoint def
+R12259:12259 Tutorial.Metalib.AssocList <> E:60 var
+R12257:12257 Tutorial.Metalib.AssocList <> F:61 var
+R12228:12235 Tutorial.Metalib.AssocList Make disjoint def
+R12239:12239 Tutorial.Metalib.AssocList <> F:61 var
+R12237:12237 Tutorial.Metalib.AssocList <> E:60 var
+R12278:12285 Tutorial.Metalib.AssocList Make disjoint def
+prf 12311:12322 Make disjoint_sym
+binder 12337:12337 <> A:62
+binder 12339:12339 <> B:63
+R12346:12349 Coq.Init.Datatypes <> list ind
+R12355:12355 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R12352:12354 Tutorial.Metalib.AssocList X t defax
+R12356:12356 Tutorial.Metalib.AssocList <> A:62 var
+binder 12342:12342 <> E:64
+R12365:12368 Coq.Init.Datatypes <> list ind
+R12374:12374 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R12371:12373 Tutorial.Metalib.AssocList X t defax
+R12375:12375 Tutorial.Metalib.AssocList <> B:63 var
+binder 12361:12361 <> F:65
+R12396:12400 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R12384:12391 Tutorial.Metalib.AssocList Make disjoint def
+R12395:12395 Tutorial.Metalib.AssocList <> F:65 var
+R12393:12393 Tutorial.Metalib.AssocList <> E:64 var
+R12401:12408 Tutorial.Metalib.AssocList Make disjoint def
+R12412:12412 Tutorial.Metalib.AssocList <> E:64 var
+R12410:12410 Tutorial.Metalib.AssocList <> F:65 var
+R12445:12458 Tutorial.Metalib.AssocList Make disjoint_sym_1 thm
+R12445:12458 Tutorial.Metalib.AssocList Make disjoint_sym_1 thm
+R12445:12458 Tutorial.Metalib.AssocList Make disjoint_sym_1 thm
+prf 12475:12488 Make disjoint_nil_1
+binder 12503:12503 <> A:66
+binder 12505:12505 <> B:67
+R12512:12515 Coq.Init.Datatypes <> list ind
+R12521:12521 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R12518:12520 Tutorial.Metalib.AssocList X t defax
+R12522:12522 Tutorial.Metalib.AssocList <> B:67 var
+binder 12508:12508 <> E:68
+R12531:12538 Tutorial.Metalib.AssocList Make disjoint def
+R12555:12555 Tutorial.Metalib.AssocList <> E:68 var
+R12542:12544 Coq.Init.Datatypes <> nil constr
+R12550:12550 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R12547:12549 Tutorial.Metalib.AssocList X t defax
+R12551:12551 Tutorial.Metalib.AssocList <> A:66 var
+R12574:12581 Tutorial.Metalib.AssocList Make disjoint def
+prf 12607:12620 Make disjoint_one_1
+binder 12635:12635 <> A:69
+binder 12637:12637 <> B:70
+R12644:12646 Tutorial.Metalib.AssocList X t defax
+binder 12640:12640 <> x:71
+R12654:12654 Tutorial.Metalib.AssocList <> A:69 var
+binder 12650:12650 <> a:72
+R12662:12665 Coq.Init.Datatypes <> list ind
+R12671:12671 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R12668:12670 Tutorial.Metalib.AssocList X t defax
+R12672:12672 Tutorial.Metalib.AssocList <> B:70 var
+binder 12658:12658 <> F:73
+R12699:12706 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12707:12708 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12709:12710 Tutorial.Metalib.AssocList KeySet In defax
+R12715:12717 Tutorial.Metalib.AssocList Make dom def
+R12719:12719 Tutorial.Metalib.AssocList <> F:73 var
+R12712:12712 Tutorial.Metalib.AssocList <> x:71 var
+R12681:12688 Tutorial.Metalib.AssocList Make disjoint def
+R12698:12698 Tutorial.Metalib.AssocList <> F:73 var
+R12692:12694 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R12691:12691 Tutorial.Metalib.AssocList <> x:71 var
+R12695:12695 Tutorial.Metalib.AssocList <> a:72 var
+R12739:12746 Tutorial.Metalib.AssocList Make disjoint def
+prf 12779:12792 Make disjoint_one_2
+binder 12807:12807 <> A:74
+binder 12809:12809 <> B:75
+R12816:12818 Tutorial.Metalib.AssocList X t defax
+binder 12812:12812 <> x:76
+R12826:12826 Tutorial.Metalib.AssocList <> A:74 var
+binder 12822:12822 <> a:77
+R12834:12837 Coq.Init.Datatypes <> list ind
+R12843:12843 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R12840:12842 Tutorial.Metalib.AssocList X t defax
+R12844:12844 Tutorial.Metalib.AssocList <> B:75 var
+binder 12830:12830 <> F:78
+R12867:12874 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12875:12882 Tutorial.Metalib.AssocList Make disjoint def
+R12892:12892 Tutorial.Metalib.AssocList <> F:78 var
+R12886:12888 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R12885:12885 Tutorial.Metalib.AssocList <> x:76 var
+R12889:12889 Tutorial.Metalib.AssocList <> a:77 var
+R12853:12854 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12855:12856 Tutorial.Metalib.AssocList KeySet In defax
+R12861:12863 Tutorial.Metalib.AssocList Make dom def
+R12865:12865 Tutorial.Metalib.AssocList <> F:78 var
+R12858:12858 Tutorial.Metalib.AssocList <> x:76 var
+R12911:12918 Tutorial.Metalib.AssocList Make disjoint def
+prf 12951:12964 Make disjoint_one_l
+binder 12979:12979 <> A:79
+binder 12981:12981 <> B:80
+R12988:12990 Tutorial.Metalib.AssocList X t defax
+binder 12984:12984 <> x:81
+R12998:12998 Tutorial.Metalib.AssocList <> A:79 var
+binder 12994:12994 <> a:82
+R13006:13009 Coq.Init.Datatypes <> list ind
+R13015:13015 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R13012:13014 Tutorial.Metalib.AssocList X t defax
+R13016:13016 Tutorial.Metalib.AssocList <> B:80 var
+binder 13002:13002 <> E:83
+R13043:13047 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R13025:13032 Tutorial.Metalib.AssocList Make disjoint def
+R13042:13042 Tutorial.Metalib.AssocList <> E:83 var
+R13036:13038 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R13035:13035 Tutorial.Metalib.AssocList <> x:81 var
+R13039:13039 Tutorial.Metalib.AssocList <> a:82 var
+R13048:13049 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13050:13051 Tutorial.Metalib.AssocList KeySet In defax
+R13056:13058 Tutorial.Metalib.AssocList Make dom def
+R13060:13060 Tutorial.Metalib.AssocList <> E:83 var
+R13053:13053 Tutorial.Metalib.AssocList <> x:81 var
+R13080:13087 Tutorial.Metalib.AssocList Make disjoint def
+prf 13127:13140 Make disjoint_one_r
+binder 13155:13155 <> A:84
+binder 13157:13157 <> B:85
+R13164:13166 Tutorial.Metalib.AssocList X t defax
+binder 13160:13160 <> x:86
+R13174:13174 Tutorial.Metalib.AssocList <> A:84 var
+binder 13170:13170 <> a:87
+R13182:13185 Coq.Init.Datatypes <> list ind
+R13191:13191 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R13188:13190 Tutorial.Metalib.AssocList X t defax
+R13192:13192 Tutorial.Metalib.AssocList <> B:85 var
+binder 13178:13178 <> E:88
+R13219:13223 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R13201:13208 Tutorial.Metalib.AssocList Make disjoint def
+R13214:13216 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R13213:13213 Tutorial.Metalib.AssocList <> x:86 var
+R13217:13217 Tutorial.Metalib.AssocList <> a:87 var
+R13210:13210 Tutorial.Metalib.AssocList <> E:88 var
+R13224:13225 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13226:13227 Tutorial.Metalib.AssocList KeySet In defax
+R13232:13234 Tutorial.Metalib.AssocList Make dom def
+R13236:13236 Tutorial.Metalib.AssocList <> E:88 var
+R13229:13229 Tutorial.Metalib.AssocList <> x:86 var
+R13265:13276 Tutorial.Metalib.AssocList Make disjoint_sym thm
+R13265:13276 Tutorial.Metalib.AssocList Make disjoint_sym thm
+R13265:13276 Tutorial.Metalib.AssocList Make disjoint_sym thm
+R13285:13298 Tutorial.Metalib.AssocList Make disjoint_one_l thm
+R13285:13298 Tutorial.Metalib.AssocList Make disjoint_one_l thm
+prf 13315:13329 Make disjoint_cons_1
+binder 13344:13344 <> A:89
+binder 13346:13346 <> B:90
+binder 13348:13348 <> x:91
+binder 13350:13350 <> a:92
+R13357:13360 Coq.Init.Datatypes <> list ind
+R13366:13366 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R13363:13365 Tutorial.Metalib.AssocList X t defax
+R13367:13367 Tutorial.Metalib.AssocList <> A:89 var
+binder 13353:13353 <> E:93
+R13376:13379 Coq.Init.Datatypes <> list ind
+R13385:13385 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R13382:13384 Tutorial.Metalib.AssocList X t defax
+R13386:13386 Tutorial.Metalib.AssocList <> B:90 var
+binder 13372:13372 <> F:94
+R13419:13426 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13427:13428 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13429:13430 Tutorial.Metalib.AssocList KeySet In defax
+R13435:13437 Tutorial.Metalib.AssocList Make dom def
+R13439:13439 Tutorial.Metalib.AssocList <> F:94 var
+R13432:13432 Tutorial.Metalib.AssocList <> x:91 var
+R13395:13402 Tutorial.Metalib.AssocList Make disjoint def
+R13418:13418 Tutorial.Metalib.AssocList <> F:94 var
+R13411:13414 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13405:13405 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13407:13408 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13410:13410 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13406:13406 Tutorial.Metalib.AssocList <> x:91 var
+R13409:13409 Tutorial.Metalib.AssocList <> a:92 var
+R13415:13415 Tutorial.Metalib.AssocList <> E:93 var
+R13459:13466 Tutorial.Metalib.AssocList Make disjoint def
+prf 13499:13513 Make disjoint_cons_2
+binder 13528:13528 <> A:95
+binder 13530:13530 <> B:96
+binder 13532:13532 <> x:97
+binder 13534:13534 <> a:98
+R13541:13544 Coq.Init.Datatypes <> list ind
+R13550:13550 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R13547:13549 Tutorial.Metalib.AssocList X t defax
+R13551:13551 Tutorial.Metalib.AssocList <> A:95 var
+binder 13537:13537 <> E:99
+R13560:13563 Coq.Init.Datatypes <> list ind
+R13569:13569 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R13566:13568 Tutorial.Metalib.AssocList X t defax
+R13570:13570 Tutorial.Metalib.AssocList <> B:96 var
+binder 13556:13556 <> F:100
+R13603:13610 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13611:13618 Tutorial.Metalib.AssocList Make disjoint def
+R13622:13622 Tutorial.Metalib.AssocList <> F:100 var
+R13620:13620 Tutorial.Metalib.AssocList <> E:99 var
+R13579:13586 Tutorial.Metalib.AssocList Make disjoint def
+R13602:13602 Tutorial.Metalib.AssocList <> F:100 var
+R13595:13598 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13589:13589 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13591:13592 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13594:13594 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13590:13590 Tutorial.Metalib.AssocList <> x:97 var
+R13593:13593 Tutorial.Metalib.AssocList <> a:98 var
+R13599:13599 Tutorial.Metalib.AssocList <> E:99 var
+R13641:13648 Tutorial.Metalib.AssocList Make disjoint def
+prf 13681:13695 Make disjoint_cons_3
+binder 13710:13710 <> A:101
+binder 13712:13712 <> B:102
+binder 13714:13714 <> x:103
+binder 13716:13716 <> a:104
+R13723:13726 Coq.Init.Datatypes <> list ind
+R13732:13732 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R13729:13731 Tutorial.Metalib.AssocList X t defax
+R13733:13733 Tutorial.Metalib.AssocList <> A:101 var
+binder 13719:13719 <> E:105
+R13742:13745 Coq.Init.Datatypes <> list ind
+R13751:13751 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R13748:13750 Tutorial.Metalib.AssocList X t defax
+R13752:13752 Tutorial.Metalib.AssocList <> B:102 var
+binder 13738:13738 <> F:106
+R13773:13780 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13795:13802 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13803:13810 Tutorial.Metalib.AssocList Make disjoint def
+R13826:13826 Tutorial.Metalib.AssocList <> F:106 var
+R13819:13822 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13813:13813 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13815:13816 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13818:13818 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13814:13814 Tutorial.Metalib.AssocList <> x:103 var
+R13817:13817 Tutorial.Metalib.AssocList <> a:104 var
+R13823:13823 Tutorial.Metalib.AssocList <> E:105 var
+R13781:13782 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13783:13784 Tutorial.Metalib.AssocList KeySet In defax
+R13789:13791 Tutorial.Metalib.AssocList Make dom def
+R13793:13793 Tutorial.Metalib.AssocList <> F:106 var
+R13786:13786 Tutorial.Metalib.AssocList <> x:103 var
+R13761:13768 Tutorial.Metalib.AssocList Make disjoint def
+R13772:13772 Tutorial.Metalib.AssocList <> F:106 var
+R13770:13770 Tutorial.Metalib.AssocList <> E:105 var
+R13845:13852 Tutorial.Metalib.AssocList Make disjoint def
+prf 13885:13899 Make disjoint_cons_l
+binder 13914:13914 <> A:107
+binder 13916:13916 <> B:108
+binder 13918:13918 <> x:109
+binder 13920:13920 <> a:110
+R13927:13930 Coq.Init.Datatypes <> list ind
+R13936:13936 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R13933:13935 Tutorial.Metalib.AssocList X t defax
+R13937:13937 Tutorial.Metalib.AssocList <> A:107 var
+binder 13923:13923 <> E:111
+R13946:13949 Coq.Init.Datatypes <> list ind
+R13955:13955 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R13952:13954 Tutorial.Metalib.AssocList X t defax
+R13956:13956 Tutorial.Metalib.AssocList <> B:108 var
+binder 13942:13942 <> F:112
+R13989:13993 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R13965:13972 Tutorial.Metalib.AssocList Make disjoint def
+R13988:13988 Tutorial.Metalib.AssocList <> F:112 var
+R13981:13984 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13975:13975 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13977:13978 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13980:13980 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13976:13976 Tutorial.Metalib.AssocList <> x:109 var
+R13979:13979 Tutorial.Metalib.AssocList <> a:110 var
+R13985:13985 Tutorial.Metalib.AssocList <> E:111 var
+R14008:14011 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13994:13995 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13996:13997 Tutorial.Metalib.AssocList KeySet In defax
+R14002:14004 Tutorial.Metalib.AssocList Make dom def
+R14006:14006 Tutorial.Metalib.AssocList <> F:112 var
+R13999:13999 Tutorial.Metalib.AssocList <> x:109 var
+R14012:14019 Tutorial.Metalib.AssocList Make disjoint def
+R14023:14023 Tutorial.Metalib.AssocList <> F:112 var
+R14021:14021 Tutorial.Metalib.AssocList <> E:111 var
+R14062:14076 Tutorial.Metalib.AssocList Make disjoint_cons_1 thm
+R14079:14093 Tutorial.Metalib.AssocList Make disjoint_cons_2 thm
+R14062:14076 Tutorial.Metalib.AssocList Make disjoint_cons_1 thm
+R14079:14093 Tutorial.Metalib.AssocList Make disjoint_cons_2 thm
+R14125:14139 Tutorial.Metalib.AssocList Make disjoint_cons_3 thm
+R14125:14139 Tutorial.Metalib.AssocList Make disjoint_cons_3 thm
+prf 14158:14172 Make disjoint_cons_r
+binder 14187:14187 <> A:113
+binder 14189:14189 <> B:114
+binder 14191:14191 <> x:115
+binder 14193:14193 <> a:116
+R14200:14203 Coq.Init.Datatypes <> list ind
+R14209:14209 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R14206:14208 Tutorial.Metalib.AssocList X t defax
+R14210:14210 Tutorial.Metalib.AssocList <> A:113 var
+binder 14196:14196 <> E:117
+R14219:14222 Coq.Init.Datatypes <> list ind
+R14228:14228 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R14225:14227 Tutorial.Metalib.AssocList X t defax
+R14229:14229 Tutorial.Metalib.AssocList <> B:114 var
+binder 14215:14215 <> F:118
+R14262:14266 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14238:14245 Tutorial.Metalib.AssocList Make disjoint def
+R14256:14259 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14250:14250 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14252:14253 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14255:14255 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14251:14251 Tutorial.Metalib.AssocList <> x:115 var
+R14254:14254 Tutorial.Metalib.AssocList <> a:116 var
+R14260:14260 Tutorial.Metalib.AssocList <> E:117 var
+R14247:14247 Tutorial.Metalib.AssocList <> F:118 var
+R14281:14284 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14267:14268 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14269:14270 Tutorial.Metalib.AssocList KeySet In defax
+R14275:14277 Tutorial.Metalib.AssocList Make dom def
+R14279:14279 Tutorial.Metalib.AssocList <> F:118 var
+R14272:14272 Tutorial.Metalib.AssocList <> x:115 var
+R14285:14292 Tutorial.Metalib.AssocList Make disjoint def
+R14296:14296 Tutorial.Metalib.AssocList <> F:118 var
+R14294:14294 Tutorial.Metalib.AssocList <> E:117 var
+R14324:14335 Tutorial.Metalib.AssocList Make disjoint_sym thm
+R14324:14335 Tutorial.Metalib.AssocList Make disjoint_sym thm
+R14324:14335 Tutorial.Metalib.AssocList Make disjoint_sym thm
+R14344:14358 Tutorial.Metalib.AssocList Make disjoint_cons_l thm
+R14344:14358 Tutorial.Metalib.AssocList Make disjoint_cons_l thm
+prf 14375:14388 Make disjoint_app_1
+binder 14403:14403 <> A:119
+binder 14405:14405 <> B:120
+R14414:14417 Coq.Init.Datatypes <> list ind
+R14423:14423 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R14420:14422 Tutorial.Metalib.AssocList X t defax
+R14424:14424 Tutorial.Metalib.AssocList <> A:119 var
+binder 14408:14408 <> E:121
+binder 14410:14410 <> F:122
+R14433:14436 Coq.Init.Datatypes <> list ind
+R14442:14442 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R14439:14441 Tutorial.Metalib.AssocList X t defax
+R14443:14443 Tutorial.Metalib.AssocList <> B:120 var
+binder 14429:14429 <> G:123
+R14471:14478 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14479:14486 Tutorial.Metalib.AssocList Make disjoint def
+R14490:14490 Tutorial.Metalib.AssocList <> G:123 var
+R14488:14488 Tutorial.Metalib.AssocList <> E:121 var
+R14452:14459 Tutorial.Metalib.AssocList Make disjoint def
+R14470:14470 Tutorial.Metalib.AssocList <> G:123 var
+R14463:14466 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R14462:14462 Tutorial.Metalib.AssocList <> E:121 var
+R14467:14467 Tutorial.Metalib.AssocList <> F:122 var
+R14509:14516 Tutorial.Metalib.AssocList Make disjoint def
+R14535:14541 Tutorial.Metalib.AssocList Make dom_app thm
+R14535:14541 Tutorial.Metalib.AssocList Make dom_app thm
+R14535:14541 Tutorial.Metalib.AssocList Make dom_app thm
+prf 14572:14585 Make disjoint_app_2
+binder 14600:14600 <> A:124
+binder 14602:14602 <> B:125
+R14611:14614 Coq.Init.Datatypes <> list ind
+R14620:14620 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R14617:14619 Tutorial.Metalib.AssocList X t defax
+R14621:14621 Tutorial.Metalib.AssocList <> A:124 var
+binder 14605:14605 <> E:126
+binder 14607:14607 <> F:127
+R14630:14633 Coq.Init.Datatypes <> list ind
+R14639:14639 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R14636:14638 Tutorial.Metalib.AssocList X t defax
+R14640:14640 Tutorial.Metalib.AssocList <> B:125 var
+binder 14626:14626 <> G:128
+R14668:14675 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14676:14683 Tutorial.Metalib.AssocList Make disjoint def
+R14687:14687 Tutorial.Metalib.AssocList <> G:128 var
+R14685:14685 Tutorial.Metalib.AssocList <> F:127 var
+R14649:14656 Tutorial.Metalib.AssocList Make disjoint def
+R14667:14667 Tutorial.Metalib.AssocList <> G:128 var
+R14660:14663 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R14659:14659 Tutorial.Metalib.AssocList <> E:126 var
+R14664:14664 Tutorial.Metalib.AssocList <> F:127 var
+R14706:14713 Tutorial.Metalib.AssocList Make disjoint def
+R14732:14738 Tutorial.Metalib.AssocList Make dom_app thm
+R14732:14738 Tutorial.Metalib.AssocList Make dom_app thm
+R14732:14738 Tutorial.Metalib.AssocList Make dom_app thm
+prf 14769:14782 Make disjoint_app_3
+binder 14797:14797 <> A:129
+binder 14799:14799 <> B:130
+R14808:14811 Coq.Init.Datatypes <> list ind
+R14817:14817 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R14814:14816 Tutorial.Metalib.AssocList X t defax
+R14818:14818 Tutorial.Metalib.AssocList <> A:129 var
+binder 14802:14802 <> E:131
+binder 14804:14804 <> F:132
+R14827:14830 Coq.Init.Datatypes <> list ind
+R14836:14836 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R14833:14835 Tutorial.Metalib.AssocList X t defax
+R14837:14837 Tutorial.Metalib.AssocList <> B:130 var
+binder 14823:14823 <> G:133
+R14858:14865 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14878:14885 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14886:14893 Tutorial.Metalib.AssocList Make disjoint def
+R14904:14904 Tutorial.Metalib.AssocList <> G:133 var
+R14897:14900 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R14896:14896 Tutorial.Metalib.AssocList <> E:131 var
+R14901:14901 Tutorial.Metalib.AssocList <> F:132 var
+R14866:14873 Tutorial.Metalib.AssocList Make disjoint def
+R14877:14877 Tutorial.Metalib.AssocList <> G:133 var
+R14875:14875 Tutorial.Metalib.AssocList <> F:132 var
+R14846:14853 Tutorial.Metalib.AssocList Make disjoint def
+R14857:14857 Tutorial.Metalib.AssocList <> G:133 var
+R14855:14855 Tutorial.Metalib.AssocList <> E:131 var
+R14923:14930 Tutorial.Metalib.AssocList Make disjoint def
+R14949:14955 Tutorial.Metalib.AssocList Make dom_app thm
+R14949:14955 Tutorial.Metalib.AssocList Make dom_app thm
+R14949:14955 Tutorial.Metalib.AssocList Make dom_app thm
+prf 14986:14999 Make disjoint_app_l
+binder 15014:15014 <> A:134
+binder 15016:15016 <> B:135
+R15025:15028 Coq.Init.Datatypes <> list ind
+R15034:15034 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R15031:15033 Tutorial.Metalib.AssocList X t defax
+R15035:15035 Tutorial.Metalib.AssocList <> A:134 var
+binder 15019:15019 <> E:136
+binder 15021:15021 <> F:137
+R15044:15047 Coq.Init.Datatypes <> list ind
+R15053:15053 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R15050:15052 Tutorial.Metalib.AssocList X t defax
+R15054:15054 Tutorial.Metalib.AssocList <> B:135 var
+binder 15040:15040 <> G:138
+R15082:15086 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R15063:15070 Tutorial.Metalib.AssocList Make disjoint def
+R15081:15081 Tutorial.Metalib.AssocList <> G:138 var
+R15074:15077 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R15073:15073 Tutorial.Metalib.AssocList <> E:136 var
+R15078:15078 Tutorial.Metalib.AssocList <> F:137 var
+R15099:15102 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15087:15094 Tutorial.Metalib.AssocList Make disjoint def
+R15098:15098 Tutorial.Metalib.AssocList <> G:138 var
+R15096:15096 Tutorial.Metalib.AssocList <> E:136 var
+R15103:15110 Tutorial.Metalib.AssocList Make disjoint def
+R15114:15114 Tutorial.Metalib.AssocList <> G:138 var
+R15112:15112 Tutorial.Metalib.AssocList <> F:137 var
+R15160:15173 Tutorial.Metalib.AssocList Make disjoint_app_1 thm
+R15176:15189 Tutorial.Metalib.AssocList Make disjoint_app_2 thm
+R15192:15205 Tutorial.Metalib.AssocList Make disjoint_app_3 thm
+R15160:15173 Tutorial.Metalib.AssocList Make disjoint_app_1 thm
+R15176:15189 Tutorial.Metalib.AssocList Make disjoint_app_2 thm
+R15192:15205 Tutorial.Metalib.AssocList Make disjoint_app_3 thm
+R15160:15173 Tutorial.Metalib.AssocList Make disjoint_app_1 thm
+R15176:15189 Tutorial.Metalib.AssocList Make disjoint_app_2 thm
+R15192:15205 Tutorial.Metalib.AssocList Make disjoint_app_3 thm
+R15160:15173 Tutorial.Metalib.AssocList Make disjoint_app_1 thm
+R15176:15189 Tutorial.Metalib.AssocList Make disjoint_app_2 thm
+R15192:15205 Tutorial.Metalib.AssocList Make disjoint_app_3 thm
+prf 15224:15237 Make disjoint_app_r
+binder 15252:15252 <> A:139
+binder 15254:15254 <> B:140
+R15263:15266 Coq.Init.Datatypes <> list ind
+R15272:15272 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R15269:15271 Tutorial.Metalib.AssocList X t defax
+R15273:15273 Tutorial.Metalib.AssocList <> A:139 var
+binder 15257:15257 <> E:141
+binder 15259:15259 <> F:142
+R15282:15285 Coq.Init.Datatypes <> list ind
+R15291:15291 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R15288:15290 Tutorial.Metalib.AssocList X t defax
+R15292:15292 Tutorial.Metalib.AssocList <> B:140 var
+binder 15278:15278 <> G:143
+R15320:15324 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R15301:15308 Tutorial.Metalib.AssocList Make disjoint def
+R15314:15317 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R15313:15313 Tutorial.Metalib.AssocList <> E:141 var
+R15318:15318 Tutorial.Metalib.AssocList <> F:142 var
+R15310:15310 Tutorial.Metalib.AssocList <> G:143 var
+R15337:15340 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15325:15332 Tutorial.Metalib.AssocList Make disjoint def
+R15336:15336 Tutorial.Metalib.AssocList <> G:143 var
+R15334:15334 Tutorial.Metalib.AssocList <> E:141 var
+R15341:15348 Tutorial.Metalib.AssocList Make disjoint def
+R15352:15352 Tutorial.Metalib.AssocList <> G:143 var
+R15350:15350 Tutorial.Metalib.AssocList <> F:142 var
+R15380:15391 Tutorial.Metalib.AssocList Make disjoint_sym thm
+R15380:15391 Tutorial.Metalib.AssocList Make disjoint_sym thm
+R15380:15391 Tutorial.Metalib.AssocList Make disjoint_sym thm
+R15400:15413 Tutorial.Metalib.AssocList Make disjoint_app_l thm
+R15400:15413 Tutorial.Metalib.AssocList Make disjoint_app_l thm
+prf 15430:15443 Make disjoint_map_1
+binder 15458:15458 <> A:144
+binder 15460:15460 <> B:145
+binder 15462:15462 <> C:146
+R15469:15472 Coq.Init.Datatypes <> list ind
+R15478:15478 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R15475:15477 Tutorial.Metalib.AssocList X t defax
+R15479:15479 Tutorial.Metalib.AssocList <> A:144 var
+binder 15465:15465 <> E:147
+R15488:15491 Coq.Init.Datatypes <> list ind
+R15497:15497 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R15494:15496 Tutorial.Metalib.AssocList X t defax
+R15498:15498 Tutorial.Metalib.AssocList <> B:145 var
+binder 15484:15484 <> F:148
+R15506:15507 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15508:15508 Tutorial.Metalib.AssocList <> C:146 var
+R15505:15505 Tutorial.Metalib.AssocList <> A:144 var
+binder 15503:15503 <> f:149
+R15536:15543 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15544:15551 Tutorial.Metalib.AssocList Make disjoint def
+R15555:15555 Tutorial.Metalib.AssocList <> F:148 var
+R15553:15553 Tutorial.Metalib.AssocList <> E:147 var
+R15516:15523 Tutorial.Metalib.AssocList Make disjoint def
+R15535:15535 Tutorial.Metalib.AssocList <> F:148 var
+R15526:15528 Tutorial.Metalib.AssocList Make map def
+R15532:15532 Tutorial.Metalib.AssocList <> E:147 var
+R15530:15530 Tutorial.Metalib.AssocList <> f:149 var
+R15574:15581 Tutorial.Metalib.AssocList Make disjoint def
+R15600:15606 Tutorial.Metalib.AssocList Make dom_map thm
+R15600:15606 Tutorial.Metalib.AssocList Make dom_map thm
+R15600:15606 Tutorial.Metalib.AssocList Make dom_map thm
+prf 15637:15650 Make disjoint_map_2
+binder 15665:15665 <> A:150
+binder 15667:15667 <> B:151
+binder 15669:15669 <> C:152
+R15676:15679 Coq.Init.Datatypes <> list ind
+R15685:15685 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R15682:15684 Tutorial.Metalib.AssocList X t defax
+R15686:15686 Tutorial.Metalib.AssocList <> A:150 var
+binder 15672:15672 <> E:153
+R15695:15698 Coq.Init.Datatypes <> list ind
+R15704:15704 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R15701:15703 Tutorial.Metalib.AssocList X t defax
+R15705:15705 Tutorial.Metalib.AssocList <> B:151 var
+binder 15691:15691 <> F:154
+R15713:15714 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15715:15715 Tutorial.Metalib.AssocList <> C:152 var
+R15712:15712 Tutorial.Metalib.AssocList <> A:150 var
+binder 15710:15710 <> f:155
+R15735:15742 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15743:15750 Tutorial.Metalib.AssocList Make disjoint def
+R15762:15762 Tutorial.Metalib.AssocList <> F:154 var
+R15753:15755 Tutorial.Metalib.AssocList Make map def
+R15759:15759 Tutorial.Metalib.AssocList <> E:153 var
+R15757:15757 Tutorial.Metalib.AssocList <> f:155 var
+R15723:15730 Tutorial.Metalib.AssocList Make disjoint def
+R15734:15734 Tutorial.Metalib.AssocList <> F:154 var
+R15732:15732 Tutorial.Metalib.AssocList <> E:153 var
+R15781:15788 Tutorial.Metalib.AssocList Make disjoint def
+R15807:15813 Tutorial.Metalib.AssocList Make dom_map thm
+R15807:15813 Tutorial.Metalib.AssocList Make dom_map thm
+R15807:15813 Tutorial.Metalib.AssocList Make dom_map thm
+prf 15844:15857 Make disjoint_map_l
+binder 15872:15872 <> A:156
+binder 15874:15874 <> B:157
+binder 15876:15876 <> C:158
+R15883:15886 Coq.Init.Datatypes <> list ind
+R15892:15892 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R15889:15891 Tutorial.Metalib.AssocList X t defax
+R15893:15893 Tutorial.Metalib.AssocList <> A:156 var
+binder 15879:15879 <> E:159
+R15902:15905 Coq.Init.Datatypes <> list ind
+R15911:15911 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R15908:15910 Tutorial.Metalib.AssocList X t defax
+R15912:15912 Tutorial.Metalib.AssocList <> B:157 var
+binder 15898:15898 <> F:160
+R15920:15921 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15922:15922 Tutorial.Metalib.AssocList <> C:158 var
+R15919:15919 Tutorial.Metalib.AssocList <> A:156 var
+binder 15917:15917 <> f:161
+R15950:15954 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R15930:15937 Tutorial.Metalib.AssocList Make disjoint def
+R15949:15949 Tutorial.Metalib.AssocList <> F:160 var
+R15940:15942 Tutorial.Metalib.AssocList Make map def
+R15946:15946 Tutorial.Metalib.AssocList <> E:159 var
+R15944:15944 Tutorial.Metalib.AssocList <> f:161 var
+R15955:15962 Tutorial.Metalib.AssocList Make disjoint def
+R15966:15966 Tutorial.Metalib.AssocList <> F:160 var
+R15964:15964 Tutorial.Metalib.AssocList <> E:159 var
+R16000:16013 Tutorial.Metalib.AssocList Make disjoint_map_1 thm
+R16016:16029 Tutorial.Metalib.AssocList Make disjoint_map_2 thm
+R16000:16013 Tutorial.Metalib.AssocList Make disjoint_map_1 thm
+R16016:16029 Tutorial.Metalib.AssocList Make disjoint_map_2 thm
+R16000:16013 Tutorial.Metalib.AssocList Make disjoint_map_1 thm
+R16016:16029 Tutorial.Metalib.AssocList Make disjoint_map_2 thm
+prf 16046:16059 Make disjoint_map_r
+binder 16074:16074 <> A:162
+binder 16076:16076 <> B:163
+binder 16078:16078 <> C:164
+R16085:16088 Coq.Init.Datatypes <> list ind
+R16094:16094 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R16091:16093 Tutorial.Metalib.AssocList X t defax
+R16095:16095 Tutorial.Metalib.AssocList <> A:162 var
+binder 16081:16081 <> E:165
+R16104:16107 Coq.Init.Datatypes <> list ind
+R16113:16113 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R16110:16112 Tutorial.Metalib.AssocList X t defax
+R16114:16114 Tutorial.Metalib.AssocList <> B:163 var
+binder 16100:16100 <> F:166
+R16122:16123 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16124:16124 Tutorial.Metalib.AssocList <> C:164 var
+R16121:16121 Tutorial.Metalib.AssocList <> A:162 var
+binder 16119:16119 <> f:167
+R16152:16156 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R16132:16139 Tutorial.Metalib.AssocList Make disjoint def
+R16144:16146 Tutorial.Metalib.AssocList Make map def
+R16150:16150 Tutorial.Metalib.AssocList <> E:165 var
+R16148:16148 Tutorial.Metalib.AssocList <> f:167 var
+R16141:16141 Tutorial.Metalib.AssocList <> F:166 var
+R16157:16164 Tutorial.Metalib.AssocList Make disjoint def
+R16168:16168 Tutorial.Metalib.AssocList <> F:166 var
+R16166:16166 Tutorial.Metalib.AssocList <> E:165 var
+R16196:16207 Tutorial.Metalib.AssocList Make disjoint_sym thm
+R16196:16207 Tutorial.Metalib.AssocList Make disjoint_sym thm
+R16196:16207 Tutorial.Metalib.AssocList Make disjoint_sym thm
+R16216:16229 Tutorial.Metalib.AssocList Make disjoint_map_l thm
+R16216:16229 Tutorial.Metalib.AssocList Make disjoint_map_l thm
+R16242:16249 Tutorial.Metalib.AssocList Make.Disjoint <> sec
+sec 16375:16388 Make UniqProperties
+var 16403:16403 Make.UniqProperties A
+var 16405:16405 Make.UniqProperties B
+var 16429:16429 Make.UniqProperties f
+R16438:16441 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16442:16442 Tutorial.Metalib.AssocList <> Make.UniqProperties.B var
+R16437:16437 Tutorial.Metalib.AssocList <> Make.UniqProperties.A var
+var 16457:16457 Make.UniqProperties x
+R16465:16467 Tutorial.Metalib.AssocList X t defax
+var 16482:16482 Make.UniqProperties a
+var 16484:16484 Make.UniqProperties b
+R16490:16490 Tutorial.Metalib.AssocList <> Make.UniqProperties.A var
+var 16505:16505 Make.UniqProperties E
+var 16507:16507 Make.UniqProperties F
+var 16509:16509 Make.UniqProperties G
+R16513:16516 Coq.Init.Datatypes <> list ind
+R16522:16522 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R16519:16521 Tutorial.Metalib.AssocList X t defax
+R16523:16523 Tutorial.Metalib.AssocList <> Make.UniqProperties.A var
+prf 16536:16545 Make uniq_one_1
+R16553:16556 Tutorial.Metalib.AssocList Make uniq ind
+R16560:16562 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R16559:16559 Tutorial.Metalib.AssocList <> Make.UniqProperties.x var
+R16563:16563 Tutorial.Metalib.AssocList <> Make.UniqProperties.b var
+R16602:16602 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16608:16612 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16604:16606 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R16603:16603 Tutorial.Metalib.AssocList <> Make.UniqProperties.x var
+R16607:16607 Tutorial.Metalib.AssocList <> Make.UniqProperties.b var
+R16613:16615 Coq.Init.Datatypes <> nil constr
+R16602:16602 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16608:16612 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R16604:16606 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R16603:16603 Tutorial.Metalib.AssocList <> Make.UniqProperties.x var
+R16607:16607 Tutorial.Metalib.AssocList <> Make.UniqProperties.b var
+R16613:16615 Coq.Init.Datatypes <> nil constr
+R16629:16637 Tutorial.Metalib.AssocList Make uniq_push constr
+R16629:16637 Tutorial.Metalib.AssocList Make uniq_push constr
+R16646:16653 Tutorial.Metalib.AssocList Make uniq_nil constr
+R16646:16653 Tutorial.Metalib.AssocList Make uniq_nil constr
+R16662:16668 Tutorial.Metalib.AssocList KeySet empty_1 defax
+R16662:16668 Tutorial.Metalib.AssocList KeySet empty_1 defax
+prf 16687:16697 Make uniq_cons_1
+R16723:16730 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16731:16734 Tutorial.Metalib.AssocList Make uniq ind
+R16736:16736 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+R16705:16708 Tutorial.Metalib.AssocList Make uniq ind
+R16717:16720 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16711:16711 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16713:16714 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16716:16716 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16712:16712 Tutorial.Metalib.AssocList <> Make.UniqProperties.x var
+R16715:16715 Tutorial.Metalib.AssocList <> Make.UniqProperties.a var
+R16721:16721 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+prf 16791:16801 Make uniq_cons_2
+R16827:16834 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16835:16836 Coq.Init.Logic <> ::type_scope:'~'_x not
+R16837:16838 Tutorial.Metalib.AssocList KeySet In defax
+R16843:16845 Tutorial.Metalib.AssocList Make dom def
+R16847:16847 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+R16840:16840 Tutorial.Metalib.AssocList <> Make.UniqProperties.x var
+R16809:16812 Tutorial.Metalib.AssocList Make uniq ind
+R16821:16824 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16815:16815 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16817:16818 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16820:16820 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16816:16816 Tutorial.Metalib.AssocList <> Make.UniqProperties.x var
+R16819:16819 Tutorial.Metalib.AssocList <> Make.UniqProperties.a var
+R16825:16825 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+prf 16903:16913 Make uniq_cons_3
+R16927:16934 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16949:16956 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16957:16960 Tutorial.Metalib.AssocList Make uniq ind
+R16969:16972 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R16963:16963 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16965:16966 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16968:16968 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16964:16964 Tutorial.Metalib.AssocList <> Make.UniqProperties.x var
+R16967:16967 Tutorial.Metalib.AssocList <> Make.UniqProperties.a var
+R16973:16973 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+R16935:16936 Coq.Init.Logic <> ::type_scope:'~'_x not
+R16937:16938 Tutorial.Metalib.AssocList KeySet In defax
+R16943:16945 Tutorial.Metalib.AssocList Make dom def
+R16947:16947 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+R16940:16940 Tutorial.Metalib.AssocList <> Make.UniqProperties.x var
+R16921:16924 Tutorial.Metalib.AssocList Make uniq ind
+R16926:16926 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+R17013:17016 Tutorial.Metalib.AssocList Make uniq ind
+R17024:17027 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R17020:17022 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R17019:17019 Tutorial.Metalib.AssocList <> Make.UniqProperties.x var
+R17023:17023 Tutorial.Metalib.AssocList <> Make.UniqProperties.a var
+R17028:17028 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+R17013:17016 Tutorial.Metalib.AssocList Make uniq ind
+R17024:17027 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R17020:17022 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R17019:17019 Tutorial.Metalib.AssocList <> Make.UniqProperties.x var
+R17023:17023 Tutorial.Metalib.AssocList <> Make.UniqProperties.a var
+R17028:17028 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+R17039:17047 Tutorial.Metalib.AssocList Make uniq_push constr
+R17039:17047 Tutorial.Metalib.AssocList Make uniq_push constr
+prf 17075:17087 Make uniq_cons_iff
+R17113:17117 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R17095:17098 Tutorial.Metalib.AssocList Make uniq ind
+R17107:17110 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R17101:17101 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17103:17104 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17106:17106 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17102:17102 Tutorial.Metalib.AssocList <> Make.UniqProperties.x var
+R17105:17105 Tutorial.Metalib.AssocList <> Make.UniqProperties.a var
+R17111:17111 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+R17124:17127 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R17118:17121 Tutorial.Metalib.AssocList Make uniq ind
+R17123:17123 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+R17128:17129 Coq.Init.Logic <> ::type_scope:'~'_x not
+R17130:17131 Tutorial.Metalib.AssocList KeySet In defax
+R17136:17138 Tutorial.Metalib.AssocList Make dom def
+R17140:17140 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+R17133:17133 Tutorial.Metalib.AssocList <> Make.UniqProperties.x var
+R17187:17197 Tutorial.Metalib.AssocList Make uniq_cons_1 thm
+R17200:17210 Tutorial.Metalib.AssocList Make uniq_cons_2 thm
+R17187:17197 Tutorial.Metalib.AssocList Make uniq_cons_1 thm
+R17200:17210 Tutorial.Metalib.AssocList Make uniq_cons_2 thm
+R17242:17252 Tutorial.Metalib.AssocList Make uniq_cons_3 thm
+R17242:17252 Tutorial.Metalib.AssocList Make uniq_cons_3 thm
+prf 17271:17280 Make uniq_app_1
+R17301:17304 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17305:17308 Tutorial.Metalib.AssocList Make uniq ind
+R17310:17310 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+R17288:17291 Tutorial.Metalib.AssocList Make uniq ind
+R17295:17298 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R17294:17294 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+R17299:17299 Tutorial.Metalib.AssocList <> Make.UniqProperties.F var
+R17374:17381 Tutorial.Metalib.AssocList Make uniq_nil constr
+R17374:17381 Tutorial.Metalib.AssocList Make uniq_nil constr
+R17418:17424 Tutorial.Metalib.AssocList Make dom_app thm
+R17418:17424 Tutorial.Metalib.AssocList Make dom_app thm
+R17418:17424 Tutorial.Metalib.AssocList Make dom_app thm
+R17438:17446 Tutorial.Metalib.AssocList Make uniq_push constr
+R17438:17446 Tutorial.Metalib.AssocList Make uniq_push constr
+prf 17496:17505 Make uniq_app_2
+R17526:17529 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17530:17533 Tutorial.Metalib.AssocList Make uniq ind
+R17535:17535 Tutorial.Metalib.AssocList <> Make.UniqProperties.F var
+R17513:17516 Tutorial.Metalib.AssocList Make uniq ind
+R17520:17523 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R17519:17519 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+R17524:17524 Tutorial.Metalib.AssocList <> Make.UniqProperties.F var
+prf 17647:17656 Make uniq_app_3
+R17677:17680 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17681:17688 Tutorial.Metalib.AssocList Make disjoint def
+R17692:17692 Tutorial.Metalib.AssocList <> Make.UniqProperties.F var
+R17690:17690 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+R17664:17667 Tutorial.Metalib.AssocList Make uniq ind
+R17671:17674 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R17670:17670 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+R17675:17675 Tutorial.Metalib.AssocList <> Make.UniqProperties.F var
+R17732:17739 Tutorial.Metalib.AssocList Make disjoint def
+prf 17896:17905 Make uniq_app_4
+R17919:17926 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17933:17940 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17953:17960 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17961:17964 Tutorial.Metalib.AssocList Make uniq ind
+R17968:17971 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R17967:17967 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+R17972:17972 Tutorial.Metalib.AssocList <> Make.UniqProperties.F var
+R17941:17948 Tutorial.Metalib.AssocList Make disjoint def
+R17952:17952 Tutorial.Metalib.AssocList <> Make.UniqProperties.F var
+R17950:17950 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+R17927:17930 Tutorial.Metalib.AssocList Make uniq ind
+R17932:17932 Tutorial.Metalib.AssocList <> Make.UniqProperties.F var
+R17913:17916 Tutorial.Metalib.AssocList Make uniq ind
+R17918:17918 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+R18097:18105 Tutorial.Metalib.AssocList Make app_assoc thm
+R18097:18105 Tutorial.Metalib.AssocList Make app_assoc thm
+R18097:18105 Tutorial.Metalib.AssocList Make app_assoc thm
+R18114:18122 Tutorial.Metalib.AssocList Make uniq_push constr
+R18114:18122 Tutorial.Metalib.AssocList Make uniq_push constr
+R18141:18154 Tutorial.Metalib.AssocList Make disjoint_app_l thm
+R18157:18170 Tutorial.Metalib.AssocList Make disjoint_one_l thm
+R18141:18154 Tutorial.Metalib.AssocList Make disjoint_app_l thm
+R18141:18154 Tutorial.Metalib.AssocList Make disjoint_app_l thm
+R18157:18170 Tutorial.Metalib.AssocList Make disjoint_one_l thm
+R18157:18170 Tutorial.Metalib.AssocList Make disjoint_one_l thm
+R18205:18218 Tutorial.Metalib.AssocList Make disjoint_app_l thm
+R18221:18234 Tutorial.Metalib.AssocList Make disjoint_one_l thm
+R18237:18243 Tutorial.Metalib.AssocList Make dom_app thm
+R18205:18218 Tutorial.Metalib.AssocList Make disjoint_app_l thm
+R18205:18218 Tutorial.Metalib.AssocList Make disjoint_app_l thm
+R18221:18234 Tutorial.Metalib.AssocList Make disjoint_one_l thm
+R18221:18234 Tutorial.Metalib.AssocList Make disjoint_one_l thm
+R18237:18243 Tutorial.Metalib.AssocList Make dom_app thm
+R18237:18243 Tutorial.Metalib.AssocList Make dom_app thm
+prf 18276:18287 Make uniq_app_iff
+R18308:18312 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R18295:18298 Tutorial.Metalib.AssocList Make uniq ind
+R18302:18305 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R18301:18301 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+R18306:18306 Tutorial.Metalib.AssocList <> Make.UniqProperties.F var
+R18319:18322 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R18313:18316 Tutorial.Metalib.AssocList Make uniq ind
+R18318:18318 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+R18329:18332 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R18323:18326 Tutorial.Metalib.AssocList Make uniq ind
+R18328:18328 Tutorial.Metalib.AssocList <> Make.UniqProperties.F var
+R18333:18340 Tutorial.Metalib.AssocList Make disjoint def
+R18344:18344 Tutorial.Metalib.AssocList <> Make.UniqProperties.F var
+R18342:18342 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+R18394:18403 Tutorial.Metalib.AssocList Make uniq_app_1 thm
+R18406:18415 Tutorial.Metalib.AssocList Make uniq_app_2 thm
+R18418:18427 Tutorial.Metalib.AssocList Make uniq_app_3 thm
+R18430:18439 Tutorial.Metalib.AssocList Make uniq_app_4 thm
+R18394:18403 Tutorial.Metalib.AssocList Make uniq_app_1 thm
+R18406:18415 Tutorial.Metalib.AssocList Make uniq_app_2 thm
+R18418:18427 Tutorial.Metalib.AssocList Make uniq_app_3 thm
+R18430:18439 Tutorial.Metalib.AssocList Make uniq_app_4 thm
+R18394:18403 Tutorial.Metalib.AssocList Make uniq_app_1 thm
+R18406:18415 Tutorial.Metalib.AssocList Make uniq_app_2 thm
+R18418:18427 Tutorial.Metalib.AssocList Make uniq_app_3 thm
+R18430:18439 Tutorial.Metalib.AssocList Make uniq_app_4 thm
+R18394:18403 Tutorial.Metalib.AssocList Make uniq_app_1 thm
+R18406:18415 Tutorial.Metalib.AssocList Make uniq_app_2 thm
+R18418:18427 Tutorial.Metalib.AssocList Make uniq_app_3 thm
+R18430:18439 Tutorial.Metalib.AssocList Make uniq_app_4 thm
+R18394:18403 Tutorial.Metalib.AssocList Make uniq_app_1 thm
+R18406:18415 Tutorial.Metalib.AssocList Make uniq_app_2 thm
+R18418:18427 Tutorial.Metalib.AssocList Make uniq_app_3 thm
+R18430:18439 Tutorial.Metalib.AssocList Make uniq_app_4 thm
+prf 18458:18467 Make uniq_map_1
+R18489:18496 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18497:18500 Tutorial.Metalib.AssocList Make uniq ind
+R18502:18502 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+R18475:18478 Tutorial.Metalib.AssocList Make uniq ind
+R18481:18483 Tutorial.Metalib.AssocList Make map def
+R18487:18487 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+R18485:18485 Tutorial.Metalib.AssocList <> Make.UniqProperties.f var
+R18584:18591 Tutorial.Metalib.AssocList Make uniq_nil constr
+R18584:18591 Tutorial.Metalib.AssocList Make uniq_nil constr
+R18628:18634 Tutorial.Metalib.AssocList Make dom_map thm
+R18628:18634 Tutorial.Metalib.AssocList Make dom_map thm
+R18628:18634 Tutorial.Metalib.AssocList Make dom_map thm
+R18648:18656 Tutorial.Metalib.AssocList Make uniq_push constr
+R18648:18656 Tutorial.Metalib.AssocList Make uniq_push constr
+prf 18681:18690 Make uniq_map_2
+R18704:18711 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18712:18715 Tutorial.Metalib.AssocList Make uniq ind
+R18718:18720 Tutorial.Metalib.AssocList Make map def
+R18724:18724 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+R18722:18722 Tutorial.Metalib.AssocList <> Make.UniqProperties.f var
+R18698:18701 Tutorial.Metalib.AssocList Make uniq ind
+R18703:18703 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+R18807:18814 Tutorial.Metalib.AssocList Make uniq_nil constr
+R18807:18814 Tutorial.Metalib.AssocList Make uniq_nil constr
+R18862:18870 Tutorial.Metalib.AssocList Make uniq_push constr
+R18862:18870 Tutorial.Metalib.AssocList Make uniq_push constr
+R18903:18909 Tutorial.Metalib.AssocList Make dom_map thm
+R18903:18909 Tutorial.Metalib.AssocList Make dom_map thm
+R18903:18909 Tutorial.Metalib.AssocList Make dom_map thm
+prf 18937:18948 Make uniq_map_iff
+R18970:18974 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R18956:18959 Tutorial.Metalib.AssocList Make uniq ind
+R18962:18964 Tutorial.Metalib.AssocList Make map def
+R18968:18968 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+R18966:18966 Tutorial.Metalib.AssocList <> Make.UniqProperties.f var
+R18975:18978 Tutorial.Metalib.AssocList Make uniq ind
+R18980:18980 Tutorial.Metalib.AssocList <> Make.UniqProperties.E var
+R19020:19029 Tutorial.Metalib.AssocList Make uniq_map_1 thm
+R19032:19041 Tutorial.Metalib.AssocList Make uniq_map_2 thm
+R19020:19029 Tutorial.Metalib.AssocList Make uniq_map_1 thm
+R19032:19041 Tutorial.Metalib.AssocList Make uniq_map_2 thm
+R19020:19029 Tutorial.Metalib.AssocList Make uniq_map_1 thm
+R19032:19041 Tutorial.Metalib.AssocList Make uniq_map_2 thm
+R19056:19069 Tutorial.Metalib.AssocList Make.UniqProperties <> sec
+sec 19196:19210 Make BindsProperties
+var 19225:19225 Make.BindsProperties A
+var 19227:19227 Make.BindsProperties B
+var 19251:19251 Make.BindsProperties f
+R19260:19263 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19264:19264 Tutorial.Metalib.AssocList <> Make.BindsProperties.B var
+R19259:19259 Tutorial.Metalib.AssocList <> Make.BindsProperties.A var
+var 19279:19279 Make.BindsProperties x
+var 19281:19281 Make.BindsProperties y
+R19287:19289 Tutorial.Metalib.AssocList X t defax
+var 19304:19304 Make.BindsProperties a
+var 19306:19306 Make.BindsProperties b
+R19312:19312 Tutorial.Metalib.AssocList <> Make.BindsProperties.A var
+var 19327:19328 Make.BindsProperties b0
+R19335:19335 Tutorial.Metalib.AssocList <> Make.BindsProperties.B var
+var 19350:19350 Make.BindsProperties E
+var 19352:19352 Make.BindsProperties F
+var 19354:19354 Make.BindsProperties G
+R19358:19361 Coq.Init.Datatypes <> list ind
+R19367:19367 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R19364:19366 Tutorial.Metalib.AssocList X t defax
+R19368:19368 Tutorial.Metalib.AssocList <> Make.BindsProperties.A var
+prf 19381:19393 Make binds_nil_iff
+R19414:19418 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R19401:19405 Tutorial.Metalib.AssocList Make binds def
+R19411:19413 Coq.Init.Datatypes <> nil constr
+R19409:19409 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R19407:19407 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R19419:19423 Coq.Init.Logic <> False ind
+prf 19487:19497 Make binds_one_1
+R19522:19529 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19531:19533 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19530:19530 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R19534:19534 Tutorial.Metalib.AssocList <> Make.BindsProperties.y var
+R19505:19509 Tutorial.Metalib.AssocList Make binds def
+R19517:19519 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R19516:19516 Tutorial.Metalib.AssocList <> Make.BindsProperties.y var
+R19520:19520 Tutorial.Metalib.AssocList <> Make.BindsProperties.b var
+R19513:19513 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R19511:19511 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+prf 19664:19674 Make binds_one_2
+R19699:19706 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19708:19710 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19707:19707 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R19711:19711 Tutorial.Metalib.AssocList <> Make.BindsProperties.b var
+R19682:19686 Tutorial.Metalib.AssocList Make binds def
+R19694:19696 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R19693:19693 Tutorial.Metalib.AssocList <> Make.BindsProperties.y var
+R19697:19697 Tutorial.Metalib.AssocList <> Make.BindsProperties.b var
+R19690:19690 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R19688:19688 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+prf 19841:19851 Make binds_one_3
+R19864:19871 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19877:19884 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19885:19889 Tutorial.Metalib.AssocList Make binds def
+R19897:19899 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R19896:19896 Tutorial.Metalib.AssocList <> Make.BindsProperties.y var
+R19900:19900 Tutorial.Metalib.AssocList <> Make.BindsProperties.b var
+R19893:19893 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R19891:19891 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R19873:19875 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19872:19872 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R19876:19876 Tutorial.Metalib.AssocList <> Make.BindsProperties.b var
+R19860:19862 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19859:19859 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R19863:19863 Tutorial.Metalib.AssocList <> Make.BindsProperties.y var
+R19927:19931 Tutorial.Metalib.AssocList Make binds def
+prf 19981:19993 Make binds_one_iff
+R20018:20022 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R20001:20005 Tutorial.Metalib.AssocList Make binds def
+R20013:20015 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R20012:20012 Tutorial.Metalib.AssocList <> Make.BindsProperties.y var
+R20016:20016 Tutorial.Metalib.AssocList <> Make.BindsProperties.b var
+R20009:20009 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R20007:20007 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R20028:20031 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R20024:20026 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20023:20023 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R20027:20027 Tutorial.Metalib.AssocList <> Make.BindsProperties.y var
+R20033:20035 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20032:20032 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R20036:20036 Tutorial.Metalib.AssocList <> Make.BindsProperties.b var
+R20080:20090 Tutorial.Metalib.AssocList Make binds_one_1 thm
+R20093:20103 Tutorial.Metalib.AssocList Make binds_one_2 thm
+R20106:20116 Tutorial.Metalib.AssocList Make binds_one_3 thm
+R20080:20090 Tutorial.Metalib.AssocList Make binds_one_1 thm
+R20093:20103 Tutorial.Metalib.AssocList Make binds_one_2 thm
+R20106:20116 Tutorial.Metalib.AssocList Make binds_one_3 thm
+R20080:20090 Tutorial.Metalib.AssocList Make binds_one_1 thm
+R20093:20103 Tutorial.Metalib.AssocList Make binds_one_2 thm
+R20106:20116 Tutorial.Metalib.AssocList Make binds_one_3 thm
+R20080:20090 Tutorial.Metalib.AssocList Make binds_one_1 thm
+R20093:20103 Tutorial.Metalib.AssocList Make binds_one_2 thm
+R20106:20116 Tutorial.Metalib.AssocList Make binds_one_3 thm
+prf 20135:20146 Make binds_cons_1
+R20177:20184 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20185:20185 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R20200:20204 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R20191:20194 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R20187:20189 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20186:20186 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R20190:20190 Tutorial.Metalib.AssocList <> Make.BindsProperties.y var
+R20196:20198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20195:20195 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R20199:20199 Tutorial.Metalib.AssocList <> Make.BindsProperties.b var
+R20205:20209 Tutorial.Metalib.AssocList Make binds def
+R20215:20215 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R20213:20213 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R20211:20211 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R20154:20158 Tutorial.Metalib.AssocList Make binds def
+R20171:20174 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20165:20165 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20167:20168 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20170:20170 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20166:20166 Tutorial.Metalib.AssocList <> Make.BindsProperties.y var
+R20169:20169 Tutorial.Metalib.AssocList <> Make.BindsProperties.b var
+R20175:20175 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R20162:20162 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R20160:20160 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+prf 20295:20306 Make binds_cons_2
+R20319:20326 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20332:20339 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20340:20344 Tutorial.Metalib.AssocList Make binds def
+R20357:20360 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20351:20351 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20353:20354 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20356:20356 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20352:20352 Tutorial.Metalib.AssocList <> Make.BindsProperties.y var
+R20355:20355 Tutorial.Metalib.AssocList <> Make.BindsProperties.b var
+R20361:20361 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R20348:20348 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R20346:20346 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R20328:20330 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20327:20327 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R20331:20331 Tutorial.Metalib.AssocList <> Make.BindsProperties.b var
+R20315:20317 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20314:20314 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R20318:20318 Tutorial.Metalib.AssocList <> Make.BindsProperties.y var
+R20388:20392 Tutorial.Metalib.AssocList Make binds def
+prf 20437:20448 Make binds_cons_3
+R20467:20474 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20475:20479 Tutorial.Metalib.AssocList Make binds def
+R20492:20495 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20486:20486 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20488:20489 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20491:20491 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20487:20487 Tutorial.Metalib.AssocList <> Make.BindsProperties.y var
+R20490:20490 Tutorial.Metalib.AssocList <> Make.BindsProperties.b var
+R20496:20496 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R20483:20483 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R20481:20481 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R20456:20460 Tutorial.Metalib.AssocList Make binds def
+R20466:20466 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R20464:20464 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R20462:20462 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R20523:20527 Tutorial.Metalib.AssocList Make binds def
+prf 20567:20580 Make binds_cons_iff
+R20611:20615 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R20588:20592 Tutorial.Metalib.AssocList Make binds def
+R20605:20608 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R20599:20599 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20601:20602 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20604:20604 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20600:20600 Tutorial.Metalib.AssocList <> Make.BindsProperties.y var
+R20603:20603 Tutorial.Metalib.AssocList <> Make.BindsProperties.b var
+R20609:20609 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R20596:20596 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R20594:20594 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R20616:20616 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R20631:20635 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R20622:20625 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R20618:20620 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20617:20617 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R20621:20621 Tutorial.Metalib.AssocList <> Make.BindsProperties.y var
+R20627:20629 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20626:20626 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R20630:20630 Tutorial.Metalib.AssocList <> Make.BindsProperties.b var
+R20636:20640 Tutorial.Metalib.AssocList Make binds def
+R20646:20646 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R20644:20644 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R20642:20642 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R20690:20701 Tutorial.Metalib.AssocList Make binds_cons_1 thm
+R20704:20715 Tutorial.Metalib.AssocList Make binds_cons_2 thm
+R20718:20729 Tutorial.Metalib.AssocList Make binds_cons_3 thm
+R20690:20701 Tutorial.Metalib.AssocList Make binds_cons_1 thm
+R20704:20715 Tutorial.Metalib.AssocList Make binds_cons_2 thm
+R20718:20729 Tutorial.Metalib.AssocList Make binds_cons_3 thm
+R20690:20701 Tutorial.Metalib.AssocList Make binds_cons_1 thm
+R20704:20715 Tutorial.Metalib.AssocList Make binds_cons_2 thm
+R20718:20729 Tutorial.Metalib.AssocList Make binds_cons_3 thm
+R20690:20701 Tutorial.Metalib.AssocList Make binds_cons_1 thm
+R20704:20715 Tutorial.Metalib.AssocList Make binds_cons_2 thm
+R20718:20729 Tutorial.Metalib.AssocList Make binds_cons_3 thm
+R20690:20701 Tutorial.Metalib.AssocList Make binds_cons_1 thm
+R20704:20715 Tutorial.Metalib.AssocList Make binds_cons_2 thm
+R20718:20729 Tutorial.Metalib.AssocList Make binds_cons_3 thm
+R20690:20701 Tutorial.Metalib.AssocList Make binds_cons_1 thm
+R20704:20715 Tutorial.Metalib.AssocList Make binds_cons_2 thm
+R20718:20729 Tutorial.Metalib.AssocList Make binds_cons_3 thm
+R20690:20701 Tutorial.Metalib.AssocList Make binds_cons_1 thm
+R20704:20715 Tutorial.Metalib.AssocList Make binds_cons_2 thm
+R20718:20729 Tutorial.Metalib.AssocList Make binds_cons_3 thm
+R20690:20701 Tutorial.Metalib.AssocList Make binds_cons_1 thm
+R20704:20715 Tutorial.Metalib.AssocList Make binds_cons_2 thm
+R20718:20729 Tutorial.Metalib.AssocList Make binds_cons_3 thm
+R20690:20701 Tutorial.Metalib.AssocList Make binds_cons_1 thm
+R20704:20715 Tutorial.Metalib.AssocList Make binds_cons_2 thm
+R20718:20729 Tutorial.Metalib.AssocList Make binds_cons_3 thm
+R20690:20701 Tutorial.Metalib.AssocList Make binds_cons_1 thm
+R20704:20715 Tutorial.Metalib.AssocList Make binds_cons_2 thm
+R20718:20729 Tutorial.Metalib.AssocList Make binds_cons_3 thm
+prf 20748:20758 Make binds_app_1
+R20784:20791 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20803:20806 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R20792:20796 Tutorial.Metalib.AssocList Make binds def
+R20802:20802 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R20800:20800 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R20798:20798 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R20807:20811 Tutorial.Metalib.AssocList Make binds def
+R20817:20817 Tutorial.Metalib.AssocList <> Make.BindsProperties.F var
+R20815:20815 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R20813:20813 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R20766:20770 Tutorial.Metalib.AssocList Make binds def
+R20778:20781 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R20777:20777 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R20782:20782 Tutorial.Metalib.AssocList <> Make.BindsProperties.F var
+R20774:20774 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R20772:20772 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R20843:20847 Tutorial.Metalib.AssocList Make binds def
+R20858:20867 Tutorial.Metalib.AssocList Make in_app_iff thm
+R20858:20867 Tutorial.Metalib.AssocList Make in_app_iff thm
+R20858:20867 Tutorial.Metalib.AssocList Make in_app_iff thm
+prf 20890:20900 Make binds_app_2
+R20919:20926 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20927:20931 Tutorial.Metalib.AssocList Make binds def
+R20939:20942 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R20938:20938 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R20943:20943 Tutorial.Metalib.AssocList <> Make.BindsProperties.F var
+R20935:20935 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R20933:20933 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R20908:20912 Tutorial.Metalib.AssocList Make binds def
+R20918:20918 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R20916:20916 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R20914:20914 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R20970:20974 Tutorial.Metalib.AssocList Make binds def
+R20985:20994 Tutorial.Metalib.AssocList Make in_app_iff thm
+R20985:20994 Tutorial.Metalib.AssocList Make in_app_iff thm
+R20985:20994 Tutorial.Metalib.AssocList Make in_app_iff thm
+prf 21017:21027 Make binds_app_3
+R21046:21053 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21054:21058 Tutorial.Metalib.AssocList Make binds def
+R21066:21069 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R21065:21065 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R21070:21070 Tutorial.Metalib.AssocList <> Make.BindsProperties.F var
+R21062:21062 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R21060:21060 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R21035:21039 Tutorial.Metalib.AssocList Make binds def
+R21045:21045 Tutorial.Metalib.AssocList <> Make.BindsProperties.F var
+R21043:21043 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R21041:21041 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R21097:21101 Tutorial.Metalib.AssocList Make binds def
+R21112:21121 Tutorial.Metalib.AssocList Make in_app_iff thm
+R21112:21121 Tutorial.Metalib.AssocList Make in_app_iff thm
+R21112:21121 Tutorial.Metalib.AssocList Make in_app_iff thm
+prf 21144:21156 Make binds_app_iff
+R21182:21186 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R21164:21168 Tutorial.Metalib.AssocList Make binds def
+R21176:21179 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R21175:21175 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R21180:21180 Tutorial.Metalib.AssocList <> Make.BindsProperties.F var
+R21172:21172 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R21170:21170 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R21198:21201 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R21187:21191 Tutorial.Metalib.AssocList Make binds def
+R21197:21197 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R21195:21195 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R21193:21193 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R21202:21206 Tutorial.Metalib.AssocList Make binds def
+R21212:21212 Tutorial.Metalib.AssocList <> Make.BindsProperties.F var
+R21210:21210 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R21208:21208 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R21238:21242 Tutorial.Metalib.AssocList Make binds def
+R21253:21262 Tutorial.Metalib.AssocList Make in_app_iff thm
+R21253:21262 Tutorial.Metalib.AssocList Make in_app_iff thm
+R21253:21262 Tutorial.Metalib.AssocList Make in_app_iff thm
+prf 21292:21302 Make binds_map_1
+R21310:21310 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21341:21349 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21373:21380 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21381:21385 Tutorial.Metalib.AssocList Make binds def
+R21391:21391 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R21389:21389 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R21387:21387 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R21350:21354 Tutorial.Metalib.AssocList Make binds def
+R21365:21367 Tutorial.Metalib.AssocList Make map def
+R21371:21371 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R21369:21369 Tutorial.Metalib.AssocList <> Make.BindsProperties.f var
+R21359:21359 Tutorial.Metalib.AssocList <> Make.BindsProperties.f var
+R21361:21361 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R21356:21356 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+binder 21318:21318 <> a:188
+binder 21320:21320 <> b:189
+R21332:21335 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21337:21339 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21336:21336 Tutorial.Metalib.AssocList <> a:188 var
+R21340:21340 Tutorial.Metalib.AssocList <> b:189 var
+R21326:21328 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21323:21323 Tutorial.Metalib.AssocList <> Make.BindsProperties.f var
+R21325:21325 Tutorial.Metalib.AssocList <> a:188 var
+R21329:21329 Tutorial.Metalib.AssocList <> Make.BindsProperties.f var
+R21331:21331 Tutorial.Metalib.AssocList <> b:189 var
+R21475:21479 Tutorial.Metalib.AssocList Make binds def
+prf 21597:21607 Make binds_map_2
+R21626:21633 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21634:21638 Tutorial.Metalib.AssocList Make binds def
+R21649:21651 Tutorial.Metalib.AssocList Make map def
+R21655:21655 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R21653:21653 Tutorial.Metalib.AssocList <> Make.BindsProperties.f var
+R21643:21643 Tutorial.Metalib.AssocList <> Make.BindsProperties.f var
+R21645:21645 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R21640:21640 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R21615:21619 Tutorial.Metalib.AssocList Make binds def
+R21625:21625 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R21623:21623 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R21621:21621 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R21730:21734 Tutorial.Metalib.AssocList Make binds def
+prf 21828:21838 Make binds_map_3
+R21866:21873 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21874:21880 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R21882:21883 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 21881:21881 <> a:190
+R21892:21895 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R21887:21889 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21884:21884 Tutorial.Metalib.AssocList <> Make.BindsProperties.f var
+R21886:21886 Tutorial.Metalib.AssocList <> a:190 var
+R21890:21891 Tutorial.Metalib.AssocList <> Make.BindsProperties.b0 var
+R21896:21900 Tutorial.Metalib.AssocList Make binds def
+R21906:21906 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R21904:21904 Tutorial.Metalib.AssocList <> a:190 var
+R21902:21902 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R21846:21850 Tutorial.Metalib.AssocList Make binds def
+R21858:21860 Tutorial.Metalib.AssocList Make map def
+R21864:21864 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R21862:21862 Tutorial.Metalib.AssocList <> Make.BindsProperties.f var
+R21854:21855 Tutorial.Metalib.AssocList <> Make.BindsProperties.b0 var
+R21852:21852 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R21973:21977 Tutorial.Metalib.AssocList Make binds def
+prf 22139:22161 Make binds_dom_contradiction
+R22177:22180 Coq.Init.Datatypes <> list ind
+R22186:22186 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R22183:22185 Tutorial.Metalib.AssocList X t defax
+R22187:22187 Tutorial.Metalib.AssocList <> Make.BindsProperties.A var
+binder 22173:22173 <> E:191
+R22207:22214 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22229:22236 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22237:22241 Coq.Init.Logic <> False ind
+R22215:22216 Coq.Init.Logic <> ::type_scope:'~'_x not
+R22217:22218 Tutorial.Metalib.AssocList KeySet In defax
+R22223:22225 Tutorial.Metalib.AssocList Make dom def
+R22227:22227 Tutorial.Metalib.AssocList <> E:191 var
+R22220:22220 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R22196:22200 Tutorial.Metalib.AssocList Make binds def
+R22206:22206 Tutorial.Metalib.AssocList <> E:191 var
+R22204:22204 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R22202:22202 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R22354:22358 Tutorial.Metalib.AssocList Make binds def
+prf 22482:22497 Make binds_app_uniq_1
+R22518:22525 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22544:22551 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22552:22552 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R22582:22587 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R22617:22617 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R22564:22567 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R22553:22557 Tutorial.Metalib.AssocList Make binds def
+R22563:22563 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R22561:22561 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R22559:22559 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R22568:22569 Coq.Init.Logic <> ::type_scope:'~'_x not
+R22570:22571 Tutorial.Metalib.AssocList KeySet In defax
+R22576:22578 Tutorial.Metalib.AssocList Make dom def
+R22580:22580 Tutorial.Metalib.AssocList <> Make.BindsProperties.F var
+R22573:22573 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R22599:22602 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R22588:22592 Tutorial.Metalib.AssocList Make binds def
+R22598:22598 Tutorial.Metalib.AssocList <> Make.BindsProperties.F var
+R22596:22596 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R22594:22594 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R22603:22604 Coq.Init.Logic <> ::type_scope:'~'_x not
+R22605:22606 Tutorial.Metalib.AssocList KeySet In defax
+R22611:22613 Tutorial.Metalib.AssocList Make dom def
+R22615:22615 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R22608:22608 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R22526:22530 Tutorial.Metalib.AssocList Make binds def
+R22538:22541 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R22537:22537 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R22542:22542 Tutorial.Metalib.AssocList <> Make.BindsProperties.F var
+R22534:22534 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R22532:22532 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R22505:22508 Tutorial.Metalib.AssocList Make uniq ind
+R22512:22515 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R22511:22511 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R22516:22516 Tutorial.Metalib.AssocList <> Make.BindsProperties.F var
+R22666:22677 Tutorial.Metalib.AssocList Make uniq_app_iff thm
+R22666:22677 Tutorial.Metalib.AssocList Make uniq_app_iff thm
+R22666:22677 Tutorial.Metalib.AssocList Make uniq_app_iff thm
+R22693:22700 Tutorial.Metalib.AssocList Make disjoint def
+R22721:22733 Tutorial.Metalib.AssocList Make binds_app_iff thm
+R22721:22733 Tutorial.Metalib.AssocList Make binds_app_iff thm
+R22721:22733 Tutorial.Metalib.AssocList Make binds_app_iff thm
+R22768:22771 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R22754:22755 Coq.Init.Logic <> ::type_scope:'~'_x not
+R22756:22757 Tutorial.Metalib.AssocList KeySet In defax
+R22762:22764 Tutorial.Metalib.AssocList Make dom def
+R22766:22766 Tutorial.Metalib.AssocList <> Make.BindsProperties.F var
+R22759:22759 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R22772:22773 Coq.Init.Logic <> ::type_scope:'~'_x not
+R22774:22775 Tutorial.Metalib.AssocList KeySet In defax
+R22780:22782 Tutorial.Metalib.AssocList Make dom def
+R22784:22784 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R22777:22777 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R22768:22771 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R22754:22755 Coq.Init.Logic <> ::type_scope:'~'_x not
+R22756:22757 Tutorial.Metalib.AssocList KeySet In defax
+R22762:22764 Tutorial.Metalib.AssocList Make dom def
+R22766:22766 Tutorial.Metalib.AssocList <> Make.BindsProperties.F var
+R22759:22759 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R22772:22773 Coq.Init.Logic <> ::type_scope:'~'_x not
+R22774:22775 Tutorial.Metalib.AssocList KeySet In defax
+R22780:22782 Tutorial.Metalib.AssocList Make dom def
+R22784:22784 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R22777:22777 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R22826:22848 Tutorial.Metalib.AssocList Make binds_dom_contradiction thm
+R22826:22848 Tutorial.Metalib.AssocList Make binds_dom_contradiction thm
+R22826:22848 Tutorial.Metalib.AssocList Make binds_dom_contradiction thm
+R22826:22848 Tutorial.Metalib.AssocList Make binds_dom_contradiction thm
+R22826:22848 Tutorial.Metalib.AssocList Make binds_dom_contradiction thm
+R22826:22848 Tutorial.Metalib.AssocList Make binds_dom_contradiction thm
+R22826:22848 Tutorial.Metalib.AssocList Make binds_dom_contradiction thm
+R22826:22848 Tutorial.Metalib.AssocList Make binds_dom_contradiction thm
+R22826:22848 Tutorial.Metalib.AssocList Make binds_dom_contradiction thm
+prf 22867:22884 Make binds_app_uniq_iff
+R22905:22913 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23015:23015 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22932:22942 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R22914:22918 Tutorial.Metalib.AssocList Make binds def
+R22926:22929 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R22925:22925 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R22930:22930 Tutorial.Metalib.AssocList <> Make.BindsProperties.F var
+R22922:22922 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R22920:22920 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R22943:22943 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R22973:22984 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R23014:23014 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R22955:22958 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R22944:22948 Tutorial.Metalib.AssocList Make binds def
+R22954:22954 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R22952:22952 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R22950:22950 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R22959:22960 Coq.Init.Logic <> ::type_scope:'~'_x not
+R22961:22962 Tutorial.Metalib.AssocList KeySet In defax
+R22967:22969 Tutorial.Metalib.AssocList Make dom def
+R22971:22971 Tutorial.Metalib.AssocList <> Make.BindsProperties.F var
+R22964:22964 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R22996:22999 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R22985:22989 Tutorial.Metalib.AssocList Make binds def
+R22995:22995 Tutorial.Metalib.AssocList <> Make.BindsProperties.F var
+R22993:22993 Tutorial.Metalib.AssocList <> Make.BindsProperties.a var
+R22991:22991 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R23000:23001 Coq.Init.Logic <> ::type_scope:'~'_x not
+R23002:23003 Tutorial.Metalib.AssocList KeySet In defax
+R23008:23010 Tutorial.Metalib.AssocList Make dom def
+R23012:23012 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R23005:23005 Tutorial.Metalib.AssocList <> Make.BindsProperties.x var
+R22892:22895 Tutorial.Metalib.AssocList Make uniq ind
+R22899:22902 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R22898:22898 Tutorial.Metalib.AssocList <> Make.BindsProperties.E var
+R22903:22903 Tutorial.Metalib.AssocList <> Make.BindsProperties.F var
+R23059:23074 Tutorial.Metalib.AssocList Make binds_app_uniq_1 thm
+R23077:23087 Tutorial.Metalib.AssocList Make binds_app_2 thm
+R23090:23100 Tutorial.Metalib.AssocList Make binds_app_3 thm
+R23059:23074 Tutorial.Metalib.AssocList Make binds_app_uniq_1 thm
+R23077:23087 Tutorial.Metalib.AssocList Make binds_app_2 thm
+R23090:23100 Tutorial.Metalib.AssocList Make binds_app_3 thm
+R23059:23074 Tutorial.Metalib.AssocList Make binds_app_uniq_1 thm
+R23077:23087 Tutorial.Metalib.AssocList Make binds_app_2 thm
+R23090:23100 Tutorial.Metalib.AssocList Make binds_app_3 thm
+R23059:23074 Tutorial.Metalib.AssocList Make binds_app_uniq_1 thm
+R23077:23087 Tutorial.Metalib.AssocList Make binds_app_2 thm
+R23090:23100 Tutorial.Metalib.AssocList Make binds_app_3 thm
+R23059:23074 Tutorial.Metalib.AssocList Make binds_app_uniq_1 thm
+R23077:23087 Tutorial.Metalib.AssocList Make binds_app_2 thm
+R23090:23100 Tutorial.Metalib.AssocList Make binds_app_3 thm
+R23059:23074 Tutorial.Metalib.AssocList Make binds_app_uniq_1 thm
+R23077:23087 Tutorial.Metalib.AssocList Make binds_app_2 thm
+R23090:23100 Tutorial.Metalib.AssocList Make binds_app_3 thm
+R23059:23074 Tutorial.Metalib.AssocList Make binds_app_uniq_1 thm
+R23077:23087 Tutorial.Metalib.AssocList Make binds_app_2 thm
+R23090:23100 Tutorial.Metalib.AssocList Make binds_app_3 thm
+R23059:23074 Tutorial.Metalib.AssocList Make binds_app_uniq_1 thm
+R23077:23087 Tutorial.Metalib.AssocList Make binds_app_2 thm
+R23090:23100 Tutorial.Metalib.AssocList Make binds_app_3 thm
+R23059:23074 Tutorial.Metalib.AssocList Make binds_app_uniq_1 thm
+R23077:23087 Tutorial.Metalib.AssocList Make binds_app_2 thm
+R23090:23100 Tutorial.Metalib.AssocList Make binds_app_3 thm
+R23059:23074 Tutorial.Metalib.AssocList Make binds_app_uniq_1 thm
+R23077:23087 Tutorial.Metalib.AssocList Make binds_app_2 thm
+R23090:23100 Tutorial.Metalib.AssocList Make binds_app_3 thm
+R23059:23074 Tutorial.Metalib.AssocList Make binds_app_uniq_1 thm
+R23077:23087 Tutorial.Metalib.AssocList Make binds_app_2 thm
+R23090:23100 Tutorial.Metalib.AssocList Make binds_app_3 thm
+R23059:23074 Tutorial.Metalib.AssocList Make binds_app_uniq_1 thm
+R23077:23087 Tutorial.Metalib.AssocList Make binds_app_2 thm
+R23090:23100 Tutorial.Metalib.AssocList Make binds_app_3 thm
+R23115:23129 Tutorial.Metalib.AssocList Make.BindsProperties <> sec
+sec 23141:23156 Make BindsProperties2
+var 23171:23171 Make.BindsProperties2 A
+var 23173:23173 Make.BindsProperties2 B
+var 23197:23197 Make.BindsProperties2 f
+R23206:23209 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23210:23210 Tutorial.Metalib.AssocList <> Make.BindsProperties2.B var
+R23205:23205 Tutorial.Metalib.AssocList <> Make.BindsProperties2.A var
+var 23225:23225 Make.BindsProperties2 x
+var 23227:23227 Make.BindsProperties2 y
+R23233:23235 Tutorial.Metalib.AssocList X t defax
+var 23250:23250 Make.BindsProperties2 a
+var 23252:23252 Make.BindsProperties2 b
+R23258:23258 Tutorial.Metalib.AssocList <> Make.BindsProperties2.A var
+var 23273:23273 Make.BindsProperties2 E
+var 23275:23275 Make.BindsProperties2 F
+var 23277:23277 Make.BindsProperties2 G
+R23281:23284 Coq.Init.Datatypes <> list ind
+R23290:23290 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R23287:23289 Tutorial.Metalib.AssocList X t defax
+R23291:23291 Tutorial.Metalib.AssocList <> Make.BindsProperties2.A var
+prf 23304:23320 Make binds_cons_uniq_1
+R23346:23353 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23377:23384 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23385:23385 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R23418:23423 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R23445:23445 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R23391:23394 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23387:23389 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23386:23386 Tutorial.Metalib.AssocList <> Make.BindsProperties2.x var
+R23390:23390 Tutorial.Metalib.AssocList <> Make.BindsProperties2.y var
+R23400:23403 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23396:23398 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23395:23395 Tutorial.Metalib.AssocList <> Make.BindsProperties2.a var
+R23399:23399 Tutorial.Metalib.AssocList <> Make.BindsProperties2.b var
+R23404:23405 Coq.Init.Logic <> ::type_scope:'~'_x not
+R23406:23407 Tutorial.Metalib.AssocList KeySet In defax
+R23412:23414 Tutorial.Metalib.AssocList Make dom def
+R23416:23416 Tutorial.Metalib.AssocList <> Make.BindsProperties2.E var
+R23409:23409 Tutorial.Metalib.AssocList <> Make.BindsProperties2.x var
+R23435:23438 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23424:23428 Tutorial.Metalib.AssocList Make binds def
+R23434:23434 Tutorial.Metalib.AssocList <> Make.BindsProperties2.E var
+R23432:23432 Tutorial.Metalib.AssocList <> Make.BindsProperties2.a var
+R23430:23430 Tutorial.Metalib.AssocList <> Make.BindsProperties2.x var
+R23440:23443 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R23439:23439 Tutorial.Metalib.AssocList <> Make.BindsProperties2.x var
+R23444:23444 Tutorial.Metalib.AssocList <> Make.BindsProperties2.y var
+R23354:23358 Tutorial.Metalib.AssocList Make binds def
+R23371:23374 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23365:23365 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23367:23368 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23370:23370 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23366:23366 Tutorial.Metalib.AssocList <> Make.BindsProperties2.y var
+R23369:23369 Tutorial.Metalib.AssocList <> Make.BindsProperties2.b var
+R23375:23375 Tutorial.Metalib.AssocList <> Make.BindsProperties2.E var
+R23362:23362 Tutorial.Metalib.AssocList <> Make.BindsProperties2.a var
+R23360:23360 Tutorial.Metalib.AssocList <> Make.BindsProperties2.x var
+R23328:23331 Tutorial.Metalib.AssocList Make uniq ind
+R23340:23343 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23334:23334 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23336:23337 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23339:23339 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23335:23335 Tutorial.Metalib.AssocList <> Make.BindsProperties2.y var
+R23338:23338 Tutorial.Metalib.AssocList <> Make.BindsProperties2.b var
+R23344:23344 Tutorial.Metalib.AssocList <> Make.BindsProperties2.E var
+R23500:23503 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23494:23494 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23496:23497 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23499:23499 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23495:23495 Tutorial.Metalib.AssocList <> Make.BindsProperties2.y var
+R23498:23498 Tutorial.Metalib.AssocList <> Make.BindsProperties2.b var
+R23504:23504 Tutorial.Metalib.AssocList <> Make.BindsProperties2.E var
+R23518:23521 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R23514:23516 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R23513:23513 Tutorial.Metalib.AssocList <> Make.BindsProperties2.y var
+R23517:23517 Tutorial.Metalib.AssocList <> Make.BindsProperties2.b var
+R23522:23522 Tutorial.Metalib.AssocList <> Make.BindsProperties2.E var
+R23500:23503 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23494:23494 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23496:23497 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23499:23499 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23495:23495 Tutorial.Metalib.AssocList <> Make.BindsProperties2.y var
+R23498:23498 Tutorial.Metalib.AssocList <> Make.BindsProperties2.b var
+R23504:23504 Tutorial.Metalib.AssocList <> Make.BindsProperties2.E var
+R23518:23521 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R23514:23516 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R23513:23513 Tutorial.Metalib.AssocList <> Make.BindsProperties2.y var
+R23517:23517 Tutorial.Metalib.AssocList <> Make.BindsProperties2.b var
+R23522:23522 Tutorial.Metalib.AssocList <> Make.BindsProperties2.E var
+R23550:23553 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23544:23544 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23546:23547 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23549:23549 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23545:23545 Tutorial.Metalib.AssocList <> Make.BindsProperties2.y var
+R23548:23548 Tutorial.Metalib.AssocList <> Make.BindsProperties2.b var
+R23554:23554 Tutorial.Metalib.AssocList <> Make.BindsProperties2.E var
+R23568:23571 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R23564:23566 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R23563:23563 Tutorial.Metalib.AssocList <> Make.BindsProperties2.y var
+R23567:23567 Tutorial.Metalib.AssocList <> Make.BindsProperties2.b var
+R23572:23572 Tutorial.Metalib.AssocList <> Make.BindsProperties2.E var
+R23550:23553 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23544:23544 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23546:23547 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23549:23549 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23545:23545 Tutorial.Metalib.AssocList <> Make.BindsProperties2.y var
+R23548:23548 Tutorial.Metalib.AssocList <> Make.BindsProperties2.b var
+R23554:23554 Tutorial.Metalib.AssocList <> Make.BindsProperties2.E var
+R23568:23571 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R23564:23566 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R23563:23563 Tutorial.Metalib.AssocList <> Make.BindsProperties2.y var
+R23567:23567 Tutorial.Metalib.AssocList <> Make.BindsProperties2.b var
+R23572:23572 Tutorial.Metalib.AssocList <> Make.BindsProperties2.E var
+R23593:23608 Tutorial.Metalib.AssocList Make binds_app_uniq_1 thm
+R23593:23608 Tutorial.Metalib.AssocList Make binds_app_uniq_1 thm
+R23686:23690 Tutorial.Metalib.AssocList Make binds def
+prf 23869:23887 Make binds_cons_uniq_iff
+R23913:23921 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24023:24023 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23945:23955 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R23922:23926 Tutorial.Metalib.AssocList Make binds def
+R23939:23942 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23933:23933 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23935:23936 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23938:23938 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23934:23934 Tutorial.Metalib.AssocList <> Make.BindsProperties2.y var
+R23937:23937 Tutorial.Metalib.AssocList <> Make.BindsProperties2.b var
+R23943:23943 Tutorial.Metalib.AssocList <> Make.BindsProperties2.E var
+R23930:23930 Tutorial.Metalib.AssocList <> Make.BindsProperties2.a var
+R23928:23928 Tutorial.Metalib.AssocList <> Make.BindsProperties2.x var
+R23956:23956 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R23989:24000 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R24022:24022 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R23962:23965 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23958:23960 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23957:23957 Tutorial.Metalib.AssocList <> Make.BindsProperties2.x var
+R23961:23961 Tutorial.Metalib.AssocList <> Make.BindsProperties2.y var
+R23971:23974 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23967:23969 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23966:23966 Tutorial.Metalib.AssocList <> Make.BindsProperties2.a var
+R23970:23970 Tutorial.Metalib.AssocList <> Make.BindsProperties2.b var
+R23975:23976 Coq.Init.Logic <> ::type_scope:'~'_x not
+R23977:23978 Tutorial.Metalib.AssocList KeySet In defax
+R23983:23985 Tutorial.Metalib.AssocList Make dom def
+R23987:23987 Tutorial.Metalib.AssocList <> Make.BindsProperties2.E var
+R23980:23980 Tutorial.Metalib.AssocList <> Make.BindsProperties2.x var
+R24012:24015 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R24001:24005 Tutorial.Metalib.AssocList Make binds def
+R24011:24011 Tutorial.Metalib.AssocList <> Make.BindsProperties2.E var
+R24009:24009 Tutorial.Metalib.AssocList <> Make.BindsProperties2.a var
+R24007:24007 Tutorial.Metalib.AssocList <> Make.BindsProperties2.x var
+R24017:24020 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R24016:24016 Tutorial.Metalib.AssocList <> Make.BindsProperties2.x var
+R24021:24021 Tutorial.Metalib.AssocList <> Make.BindsProperties2.y var
+R23895:23898 Tutorial.Metalib.AssocList Make uniq ind
+R23907:23910 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R23901:23901 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23903:23904 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23906:23906 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23902:23902 Tutorial.Metalib.AssocList <> Make.BindsProperties2.y var
+R23905:23905 Tutorial.Metalib.AssocList <> Make.BindsProperties2.b var
+R23911:23911 Tutorial.Metalib.AssocList <> Make.BindsProperties2.E var
+R24067:24083 Tutorial.Metalib.AssocList Make binds_cons_uniq_1 thm
+R24086:24097 Tutorial.Metalib.AssocList Make binds_cons_2 thm
+R24100:24111 Tutorial.Metalib.AssocList Make binds_cons_3 thm
+R24067:24083 Tutorial.Metalib.AssocList Make binds_cons_uniq_1 thm
+R24086:24097 Tutorial.Metalib.AssocList Make binds_cons_2 thm
+R24100:24111 Tutorial.Metalib.AssocList Make binds_cons_3 thm
+R24067:24083 Tutorial.Metalib.AssocList Make binds_cons_uniq_1 thm
+R24086:24097 Tutorial.Metalib.AssocList Make binds_cons_2 thm
+R24100:24111 Tutorial.Metalib.AssocList Make binds_cons_3 thm
+R24067:24083 Tutorial.Metalib.AssocList Make binds_cons_uniq_1 thm
+R24086:24097 Tutorial.Metalib.AssocList Make binds_cons_2 thm
+R24100:24111 Tutorial.Metalib.AssocList Make binds_cons_3 thm
+R24067:24083 Tutorial.Metalib.AssocList Make binds_cons_uniq_1 thm
+R24086:24097 Tutorial.Metalib.AssocList Make binds_cons_2 thm
+R24100:24111 Tutorial.Metalib.AssocList Make binds_cons_3 thm
+R24067:24083 Tutorial.Metalib.AssocList Make binds_cons_uniq_1 thm
+R24086:24097 Tutorial.Metalib.AssocList Make binds_cons_2 thm
+R24100:24111 Tutorial.Metalib.AssocList Make binds_cons_3 thm
+R24067:24083 Tutorial.Metalib.AssocList Make binds_cons_uniq_1 thm
+R24086:24097 Tutorial.Metalib.AssocList Make binds_cons_2 thm
+R24100:24111 Tutorial.Metalib.AssocList Make binds_cons_3 thm
+R24067:24083 Tutorial.Metalib.AssocList Make binds_cons_uniq_1 thm
+R24086:24097 Tutorial.Metalib.AssocList Make binds_cons_2 thm
+R24100:24111 Tutorial.Metalib.AssocList Make binds_cons_3 thm
+R24067:24083 Tutorial.Metalib.AssocList Make binds_cons_uniq_1 thm
+R24086:24097 Tutorial.Metalib.AssocList Make binds_cons_2 thm
+R24100:24111 Tutorial.Metalib.AssocList Make binds_cons_3 thm
+R24067:24083 Tutorial.Metalib.AssocList Make binds_cons_uniq_1 thm
+R24086:24097 Tutorial.Metalib.AssocList Make binds_cons_2 thm
+R24100:24111 Tutorial.Metalib.AssocList Make binds_cons_3 thm
+R24067:24083 Tutorial.Metalib.AssocList Make binds_cons_uniq_1 thm
+R24086:24097 Tutorial.Metalib.AssocList Make binds_cons_2 thm
+R24100:24111 Tutorial.Metalib.AssocList Make binds_cons_3 thm
+R24067:24083 Tutorial.Metalib.AssocList Make binds_cons_uniq_1 thm
+R24086:24097 Tutorial.Metalib.AssocList Make binds_cons_2 thm
+R24100:24111 Tutorial.Metalib.AssocList Make binds_cons_3 thm
+R24067:24083 Tutorial.Metalib.AssocList Make binds_cons_uniq_1 thm
+R24086:24097 Tutorial.Metalib.AssocList Make binds_cons_2 thm
+R24100:24111 Tutorial.Metalib.AssocList Make binds_cons_3 thm
+R24067:24083 Tutorial.Metalib.AssocList Make binds_cons_uniq_1 thm
+R24086:24097 Tutorial.Metalib.AssocList Make binds_cons_2 thm
+R24100:24111 Tutorial.Metalib.AssocList Make binds_cons_3 thm
+R24126:24141 Tutorial.Metalib.AssocList Make.BindsProperties2 <> sec
+R24256:24264 Tutorial.Metalib.AssocList Make app_assoc thm
+R24267:24275 Tutorial.Metalib.AssocList Make app_nil_2 thm
+R24278:24284 Tutorial.Metalib.AssocList Make map_app thm
+R24287:24293 Tutorial.Metalib.AssocList Make dom_one thm
+R24296:24303 Tutorial.Metalib.AssocList Make dom_cons thm
+R24306:24312 Tutorial.Metalib.AssocList Make dom_app thm
+R24315:24321 Tutorial.Metalib.AssocList Make dom_map thm
+R24348:24361 Tutorial.Metalib.AssocList Make disjoint_sym_1 thm
+R24364:24377 Tutorial.Metalib.AssocList Make disjoint_nil_1 thm
+R24380:24393 Tutorial.Metalib.AssocList Make disjoint_one_2 thm
+R24396:24410 Tutorial.Metalib.AssocList Make disjoint_cons_3 thm
+R24415:24428 Tutorial.Metalib.AssocList Make disjoint_app_3 thm
+R24431:24444 Tutorial.Metalib.AssocList Make disjoint_map_2 thm
+R24447:24454 Tutorial.Metalib.AssocList Make uniq_nil constr
+R24457:24465 Tutorial.Metalib.AssocList Make uniq_push constr
+R24468:24477 Tutorial.Metalib.AssocList Make uniq_one_1 thm
+R24482:24492 Tutorial.Metalib.AssocList Make uniq_cons_3 thm
+R24495:24504 Tutorial.Metalib.AssocList Make uniq_app_4 thm
+R24507:24516 Tutorial.Metalib.AssocList Make uniq_map_2 thm
+R24543:24553 Tutorial.Metalib.AssocList Make binds_one_3 thm
+R24556:24567 Tutorial.Metalib.AssocList Make binds_cons_2 thm
+R24570:24581 Tutorial.Metalib.AssocList Make binds_cons_3 thm
+R24584:24594 Tutorial.Metalib.AssocList Make binds_app_2 thm
+R24597:24607 Tutorial.Metalib.AssocList Make binds_app_3 thm
+R24612:24622 Tutorial.Metalib.AssocList Make binds_map_2 thm
+sec 24851:24872 Make AssortedListProperties
+var 24887:24887 Make.AssortedListProperties X
+var 24909:24909 Make.AssortedListProperties x
+R24913:24913 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.X var
+var 24928:24929 Make.AssortedListProperties xs
+var 24931:24932 Make.AssortedListProperties ys
+var 24934:24935 Make.AssortedListProperties zs
+R24939:24942 Coq.Init.Datatypes <> list ind
+R24944:24944 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.X var
+prf 24956:24965 Make one_eq_app
+R24995:25002 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25003:25003 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R25044:25053 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R25078:25078 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R25004:25010 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R25013:25014 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 25011:25012 <> qs:207
+R25027:25030 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R25017:25019 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25015:25016 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.ys var
+R25021:25024 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25020:25020 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.x var
+R25025:25026 Tutorial.Metalib.AssocList <> qs:207 var
+R25033:25035 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25031:25032 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.xs var
+R25038:25041 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R25036:25037 Tutorial.Metalib.AssocList <> qs:207 var
+R25042:25043 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.zs var
+R25062:25065 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R25056:25058 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25054:25055 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.ys var
+R25059:25061 Coq.Init.Datatypes <> nil constr
+R25068:25070 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25066:25067 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.zs var
+R25072:25075 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25071:25071 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.x var
+R25076:25077 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.xs var
+R24984:24986 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24978:24981 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R24973:24975 Tutorial.Metalib.AssocList Make one def
+R24977:24977 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.x var
+R24982:24983 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.xs var
+R24989:24992 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R24987:24988 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.ys var
+R24993:24994 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.zs var
+R25108:25131 Tutorial.Metalib.CoqListFacts <> cons_eq_app thm
+R25108:25131 Tutorial.Metalib.CoqListFacts <> cons_eq_app thm
+prf 25148:25157 Make app_eq_one
+R25187:25194 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25195:25195 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R25236:25245 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R25270:25270 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R25196:25202 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R25205:25206 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 25203:25204 <> qs:208
+R25219:25222 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R25209:25211 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25207:25208 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.ys var
+R25213:25216 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25212:25212 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.x var
+R25217:25218 Tutorial.Metalib.AssocList <> qs:208 var
+R25225:25227 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25223:25224 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.xs var
+R25230:25233 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R25228:25229 Tutorial.Metalib.AssocList <> qs:208 var
+R25234:25235 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.zs var
+R25254:25257 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R25248:25250 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25246:25247 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.ys var
+R25251:25253 Coq.Init.Datatypes <> nil constr
+R25260:25262 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25258:25259 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.zs var
+R25264:25267 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25263:25263 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.x var
+R25268:25269 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.xs var
+R25173:25175 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25167:25170 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R25165:25166 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.ys var
+R25171:25172 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.zs var
+R25181:25184 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R25176:25178 Tutorial.Metalib.AssocList Make one def
+R25180:25180 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.x var
+R25185:25186 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.xs var
+R25300:25323 Tutorial.Metalib.CoqListFacts <> app_eq_cons thm
+R25300:25323 Tutorial.Metalib.CoqListFacts <> app_eq_cons thm
+prf 25340:25354 Make nil_neq_one_mid
+R25365:25368 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R25362:25364 Coq.Init.Datatypes <> nil constr
+R25371:25374 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R25369:25370 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.xs var
+R25380:25383 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R25375:25377 Tutorial.Metalib.AssocList Make one def
+R25379:25379 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.x var
+R25384:25385 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.ys var
+R25414:25415 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.xs var
+prf 25468:25482 Make one_mid_neq_nil
+R25507:25510 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R25492:25495 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R25490:25491 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.xs var
+R25501:25504 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R25496:25498 Tutorial.Metalib.AssocList Make one def
+R25500:25500 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.x var
+R25505:25506 Tutorial.Metalib.AssocList <> Make.AssortedListProperties.ys var
+R25511:25513 Coq.Init.Datatypes <> nil constr
+R25568:25582 Tutorial.Metalib.AssocList Make nil_neq_one_mid thm
+R25568:25582 Tutorial.Metalib.AssocList Make nil_neq_one_mid thm
+R25595:25616 Tutorial.Metalib.AssocList Make.AssortedListProperties <> sec
+R25873:25876 Tutorial.Metalib.AssocList Make uniq ind
+R25878:25880 Coq.Init.Datatypes <> nil constr
+R25873:25876 Tutorial.Metalib.AssocList Make uniq ind
+R25878:25880 Coq.Init.Datatypes <> nil constr
+R25935:25938 Tutorial.Metalib.AssocList Make uniq ind
+R25943:25945 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R25935:25938 Tutorial.Metalib.AssocList Make uniq ind
+R25943:25945 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R26003:26006 Tutorial.Metalib.AssocList Make uniq ind
+R26017:26020 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R26009:26009 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26012:26013 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26016:26016 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26003:26006 Tutorial.Metalib.AssocList Make uniq ind
+R26017:26020 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R26009:26009 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26012:26013 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26016:26016 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26220:26223 Tutorial.Metalib.AssocList Make uniq ind
+R26228:26231 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R26220:26223 Tutorial.Metalib.AssocList Make uniq ind
+R26228:26231 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R26485:26488 Tutorial.Metalib.AssocList Make uniq ind
+R26491:26493 Tutorial.Metalib.AssocList Make map def
+R26485:26488 Tutorial.Metalib.AssocList Make uniq ind
+R26491:26493 Tutorial.Metalib.AssocList Make map def
+R26569:26576 Tutorial.Metalib.AssocList Make disjoint def
+R26578:26580 Coq.Init.Datatypes <> nil constr
+R26569:26576 Tutorial.Metalib.AssocList Make disjoint def
+R26578:26580 Coq.Init.Datatypes <> nil constr
+R26638:26645 Tutorial.Metalib.AssocList Make disjoint def
+R26650:26652 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R26638:26645 Tutorial.Metalib.AssocList Make disjoint def
+R26650:26652 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R26769:26776 Tutorial.Metalib.AssocList Make disjoint def
+R26787:26790 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R26779:26779 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26782:26783 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26786:26786 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26769:26776 Tutorial.Metalib.AssocList Make disjoint def
+R26787:26790 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R26779:26779 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26782:26783 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R26786:26786 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27001:27008 Tutorial.Metalib.AssocList Make disjoint def
+R27013:27016 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R27001:27008 Tutorial.Metalib.AssocList Make disjoint def
+R27013:27016 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R27187:27194 Tutorial.Metalib.AssocList Make disjoint def
+R27197:27199 Tutorial.Metalib.AssocList Make map def
+R27187:27194 Tutorial.Metalib.AssocList Make disjoint def
+R27197:27199 Tutorial.Metalib.AssocList Make map def
+R27282:27289 Tutorial.Metalib.AssocList Make disjoint def
+R27294:27296 Coq.Init.Datatypes <> nil constr
+R27282:27289 Tutorial.Metalib.AssocList Make disjoint def
+R27294:27296 Coq.Init.Datatypes <> nil constr
+R27351:27358 Tutorial.Metalib.AssocList Make disjoint def
+R27366:27368 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R27351:27358 Tutorial.Metalib.AssocList Make disjoint def
+R27366:27368 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R27444:27451 Tutorial.Metalib.AssocList Make disjoint def
+R27465:27468 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R27457:27457 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27460:27461 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27464:27464 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27444:27451 Tutorial.Metalib.AssocList Make disjoint def
+R27465:27468 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R27457:27457 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27460:27461 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27464:27464 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27544:27551 Tutorial.Metalib.AssocList Make disjoint def
+R27559:27562 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R27544:27551 Tutorial.Metalib.AssocList Make disjoint def
+R27559:27562 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R27638:27645 Tutorial.Metalib.AssocList Make disjoint def
+R27651:27653 Tutorial.Metalib.AssocList Make map def
+R27638:27645 Tutorial.Metalib.AssocList Make disjoint def
+R27651:27653 Tutorial.Metalib.AssocList Make map def
+R27682:27695 Tutorial.Metalib.AssocList Make disjoint_sym_1 thm
+R27587:27600 Tutorial.Metalib.AssocList Make disjoint_sym_1 thm
+R27493:27506 Tutorial.Metalib.AssocList Make disjoint_sym_1 thm
+R27393:27406 Tutorial.Metalib.AssocList Make disjoint_sym_1 thm
+R27231:27244 Tutorial.Metalib.AssocList Make disjoint_map_1 thm
+R27103:27116 Tutorial.Metalib.AssocList Make disjoint_app_1 thm
+R27136:27149 Tutorial.Metalib.AssocList Make disjoint_app_2 thm
+R26877:26891 Tutorial.Metalib.AssocList Make disjoint_cons_1 thm
+R26911:26925 Tutorial.Metalib.AssocList Make disjoint_cons_2 thm
+R26680:26693 Tutorial.Metalib.AssocList Make disjoint_one_1 thm
+R26522:26531 Tutorial.Metalib.AssocList Make uniq_map_1 thm
+R26378:26387 Tutorial.Metalib.AssocList Make uniq_app_1 thm
+R26407:26416 Tutorial.Metalib.AssocList Make uniq_app_2 thm
+R26437:26446 Tutorial.Metalib.AssocList Make uniq_app_3 thm
+R26104:26114 Tutorial.Metalib.AssocList Make uniq_cons_1 thm
+R26134:26144 Tutorial.Metalib.AssocList Make uniq_cons_2 thm
+R27994:28002 Tutorial.Metalib.AssocList Make uniq_push constr
+R28027:28037 Tutorial.Metalib.AssocList Make uniq_cons_3 thm
+R28062:28071 Tutorial.Metalib.AssocList Make uniq_app_4 thm
+R28096:28105 Tutorial.Metalib.AssocList Make uniq_one_1 thm
+R28130:28137 Tutorial.Metalib.AssocList Make uniq_nil constr
+R28172:28179 Tutorial.Metalib.AssocList Make disjoint def
+sec 28379:28389 Make UniqDerived
+var 28404:28404 Make.UniqDerived A
+var 28430:28430 Make.UniqDerived x
+var 28432:28432 Make.UniqDerived y
+R28438:28440 Tutorial.Metalib.AssocList X t defax
+var 28455:28455 Make.UniqDerived a
+var 28457:28457 Make.UniqDerived b
+R28463:28463 Tutorial.Metalib.AssocList <> Make.UniqDerived.A var
+var 28478:28478 Make.UniqDerived E
+var 28480:28480 Make.UniqDerived F
+var 28482:28482 Make.UniqDerived G
+R28486:28489 Coq.Init.Datatypes <> list ind
+R28495:28495 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R28492:28494 Tutorial.Metalib.AssocList X t defax
+R28496:28496 Tutorial.Metalib.AssocList <> Make.UniqDerived.A var
+prf 28509:28523 Make uniq_insert_mid
+R28544:28551 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28566:28573 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28588:28595 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28596:28599 Tutorial.Metalib.AssocList Make uniq ind
+R28603:28606 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R28602:28602 Tutorial.Metalib.AssocList <> Make.UniqDerived.G var
+R28607:28607 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R28613:28617 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R28609:28611 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R28608:28608 Tutorial.Metalib.AssocList <> Make.UniqDerived.x var
+R28612:28612 Tutorial.Metalib.AssocList <> Make.UniqDerived.a var
+R28618:28618 Tutorial.Metalib.AssocList <> Make.UniqDerived.E var
+R28574:28575 Coq.Init.Logic <> ::type_scope:'~'_x not
+R28576:28577 Tutorial.Metalib.AssocList KeySet In defax
+R28582:28584 Tutorial.Metalib.AssocList Make dom def
+R28586:28586 Tutorial.Metalib.AssocList <> Make.UniqDerived.E var
+R28579:28579 Tutorial.Metalib.AssocList <> Make.UniqDerived.x var
+R28552:28553 Coq.Init.Logic <> ::type_scope:'~'_x not
+R28554:28555 Tutorial.Metalib.AssocList KeySet In defax
+R28560:28562 Tutorial.Metalib.AssocList Make dom def
+R28564:28564 Tutorial.Metalib.AssocList <> Make.UniqDerived.G var
+R28557:28557 Tutorial.Metalib.AssocList <> Make.UniqDerived.x var
+R28531:28534 Tutorial.Metalib.AssocList Make uniq ind
+R28538:28541 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R28537:28537 Tutorial.Metalib.AssocList <> Make.UniqDerived.G var
+R28542:28542 Tutorial.Metalib.AssocList <> Make.UniqDerived.E var
+prf 28664:28678 Make uniq_remove_mid
+R28704:28711 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28712:28715 Tutorial.Metalib.AssocList Make uniq ind
+R28719:28722 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R28718:28718 Tutorial.Metalib.AssocList <> Make.UniqDerived.E var
+R28723:28723 Tutorial.Metalib.AssocList <> Make.UniqDerived.G var
+R28686:28689 Tutorial.Metalib.AssocList Make uniq ind
+R28693:28696 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R28692:28692 Tutorial.Metalib.AssocList <> Make.UniqDerived.E var
+R28698:28701 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R28697:28697 Tutorial.Metalib.AssocList <> Make.UniqDerived.F var
+R28702:28702 Tutorial.Metalib.AssocList <> Make.UniqDerived.G var
+prf 28769:28782 Make uniq_reorder_1
+R28803:28810 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28811:28814 Tutorial.Metalib.AssocList Make uniq ind
+R28818:28821 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R28817:28817 Tutorial.Metalib.AssocList <> Make.UniqDerived.F var
+R28822:28822 Tutorial.Metalib.AssocList <> Make.UniqDerived.E var
+R28790:28793 Tutorial.Metalib.AssocList Make uniq ind
+R28797:28800 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R28796:28796 Tutorial.Metalib.AssocList <> Make.UniqDerived.E var
+R28801:28801 Tutorial.Metalib.AssocList <> Make.UniqDerived.F var
+prf 28868:28881 Make uniq_reorder_2
+R28907:28914 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28915:28918 Tutorial.Metalib.AssocList Make uniq ind
+R28922:28925 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R28921:28921 Tutorial.Metalib.AssocList <> Make.UniqDerived.F var
+R28927:28930 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R28926:28926 Tutorial.Metalib.AssocList <> Make.UniqDerived.E var
+R28931:28931 Tutorial.Metalib.AssocList <> Make.UniqDerived.G var
+R28889:28892 Tutorial.Metalib.AssocList Make uniq ind
+R28896:28899 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R28895:28895 Tutorial.Metalib.AssocList <> Make.UniqDerived.E var
+R28901:28904 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R28900:28900 Tutorial.Metalib.AssocList <> Make.UniqDerived.F var
+R28905:28905 Tutorial.Metalib.AssocList <> Make.UniqDerived.G var
+prf 28977:28990 Make uniq_map_app_l
+R29007:29010 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29011:29011 Tutorial.Metalib.AssocList <> Make.UniqDerived.A var
+R29006:29006 Tutorial.Metalib.AssocList <> Make.UniqDerived.A var
+binder 29002:29002 <> f:217
+R29032:29039 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29040:29043 Tutorial.Metalib.AssocList Make uniq ind
+R29053:29056 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R29046:29048 Tutorial.Metalib.AssocList Make map def
+R29052:29052 Tutorial.Metalib.AssocList <> Make.UniqDerived.F var
+R29050:29050 Tutorial.Metalib.AssocList <> f:217 var
+R29057:29057 Tutorial.Metalib.AssocList <> Make.UniqDerived.E var
+R29019:29022 Tutorial.Metalib.AssocList Make uniq ind
+R29026:29029 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R29025:29025 Tutorial.Metalib.AssocList <> Make.UniqDerived.F var
+R29030:29030 Tutorial.Metalib.AssocList <> Make.UniqDerived.E var
+prf 29103:29116 Make fresh_mid_tail
+R29148:29155 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29156:29157 Coq.Init.Logic <> ::type_scope:'~'_x not
+R29158:29159 Tutorial.Metalib.AssocList KeySet In defax
+R29164:29166 Tutorial.Metalib.AssocList Make dom def
+R29168:29168 Tutorial.Metalib.AssocList <> Make.UniqDerived.E var
+R29161:29161 Tutorial.Metalib.AssocList <> Make.UniqDerived.x var
+R29124:29127 Tutorial.Metalib.AssocList Make uniq ind
+R29131:29134 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R29130:29130 Tutorial.Metalib.AssocList <> Make.UniqDerived.F var
+R29135:29135 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R29141:29145 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R29137:29139 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R29136:29136 Tutorial.Metalib.AssocList <> Make.UniqDerived.x var
+R29140:29140 Tutorial.Metalib.AssocList <> Make.UniqDerived.a var
+R29146:29146 Tutorial.Metalib.AssocList <> Make.UniqDerived.E var
+prf 29214:29227 Make fresh_mid_head
+R29259:29266 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29267:29268 Coq.Init.Logic <> ::type_scope:'~'_x not
+R29269:29270 Tutorial.Metalib.AssocList KeySet In defax
+R29275:29277 Tutorial.Metalib.AssocList Make dom def
+R29279:29279 Tutorial.Metalib.AssocList <> Make.UniqDerived.F var
+R29272:29272 Tutorial.Metalib.AssocList <> Make.UniqDerived.x var
+R29235:29238 Tutorial.Metalib.AssocList Make uniq ind
+R29242:29245 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R29241:29241 Tutorial.Metalib.AssocList <> Make.UniqDerived.F var
+R29246:29246 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R29252:29256 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R29248:29250 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R29247:29247 Tutorial.Metalib.AssocList <> Make.UniqDerived.x var
+R29251:29251 Tutorial.Metalib.AssocList <> Make.UniqDerived.a var
+R29257:29257 Tutorial.Metalib.AssocList <> Make.UniqDerived.E var
+R29321:29331 Tutorial.Metalib.AssocList Make.UniqDerived <> sec
+R30096:30100 Tutorial.Metalib.AssocList Make binds def
+R30108:30110 Coq.Init.Datatypes <> nil constr
+R30096:30100 Tutorial.Metalib.AssocList Make binds def
+R30108:30110 Coq.Init.Datatypes <> nil constr
+R30139:30143 Tutorial.Metalib.AssocList Make binds def
+R30154:30156 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R30139:30143 Tutorial.Metalib.AssocList Make binds def
+R30154:30156 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R30444:30448 Tutorial.Metalib.AssocList Make binds def
+R30465:30468 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R30457:30457 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R30460:30461 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R30464:30464 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R30444:30448 Tutorial.Metalib.AssocList Make binds def
+R30465:30468 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R30457:30457 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R30460:30461 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R30464:30464 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R30553:30557 Tutorial.Metalib.AssocList Make binds def
+R30568:30571 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R30553:30557 Tutorial.Metalib.AssocList Make binds def
+R30568:30571 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R30626:30636 Tutorial.Metalib.AssocList Make binds_app_1 thm
+R30490:30494 Tutorial.Metalib.AssocList Make binds def
+R30506:30509 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R30502:30504 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R30305:30315 Tutorial.Metalib.AssocList Make binds_one_1 thm
+R30336:30346 Tutorial.Metalib.AssocList Make binds_one_2 thm
+R30794:30798 Tutorial.Metalib.AssocList Make binds def
+R30806:30808 Coq.Init.Datatypes <> nil constr
+R30794:30798 Tutorial.Metalib.AssocList Make binds def
+R30806:30808 Coq.Init.Datatypes <> nil constr
+R30837:30841 Tutorial.Metalib.AssocList Make binds def
+R30852:30854 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R30837:30841 Tutorial.Metalib.AssocList Make binds def
+R30852:30854 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R31142:31146 Tutorial.Metalib.AssocList Make binds def
+R31163:31166 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R31155:31155 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R31158:31159 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R31162:31162 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R31142:31146 Tutorial.Metalib.AssocList Make binds def
+R31163:31166 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R31155:31155 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R31158:31159 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R31162:31162 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R31256:31260 Tutorial.Metalib.AssocList Make binds def
+R31271:31274 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R31256:31260 Tutorial.Metalib.AssocList Make binds def
+R31271:31274 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R31345:31348 Tutorial.Metalib.AssocList Make uniq ind
+R31352:31355 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R31438:31441 Tutorial.Metalib.AssocList Make uniq ind
+R31438:31441 Tutorial.Metalib.AssocList Make uniq ind
+R31520:31535 Tutorial.Metalib.AssocList Make binds_app_uniq_1 thm
+R31188:31192 Tutorial.Metalib.AssocList Make binds def
+R31204:31207 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R31200:31202 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R31003:31013 Tutorial.Metalib.AssocList Make binds_one_1 thm
+R31034:31044 Tutorial.Metalib.AssocList Make binds_one_2 thm
+R31880:31881 Coq.Init.Logic <> ::type_scope:'~'_x not
+R31882:31883 Tutorial.Metalib.AssocList KeySet In defax
+R31880:31881 Coq.Init.Logic <> ::type_scope:'~'_x not
+R31882:31883 Tutorial.Metalib.AssocList KeySet In defax
+sec 32532:32543 Make BindsDerived
+var 32558:32558 Make.BindsDerived A
+var 32560:32560 Make.BindsDerived B
+var 32584:32584 Make.BindsDerived f
+R32593:32596 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32597:32597 Tutorial.Metalib.AssocList <> Make.BindsDerived.B var
+R32592:32592 Tutorial.Metalib.AssocList <> Make.BindsDerived.A var
+var 32612:32612 Make.BindsDerived x
+var 32614:32614 Make.BindsDerived y
+R32620:32622 Tutorial.Metalib.AssocList X t defax
+var 32637:32637 Make.BindsDerived a
+var 32639:32639 Make.BindsDerived b
+R32645:32645 Tutorial.Metalib.AssocList <> Make.BindsDerived.A var
+var 32660:32660 Make.BindsDerived E
+var 32662:32662 Make.BindsDerived F
+var 32664:32664 Make.BindsDerived G
+R32668:32671 Coq.Init.Datatypes <> list ind
+R32677:32677 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R32674:32676 Tutorial.Metalib.AssocList X t defax
+R32678:32678 Tutorial.Metalib.AssocList <> Make.BindsDerived.A var
+prf 32691:32699 Make binds_dec
+R32707:32707 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32742:32750 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32751:32751 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R32763:32767 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R32781:32781 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R32752:32756 Tutorial.Metalib.AssocList Make binds def
+R32762:32762 Tutorial.Metalib.AssocList <> Make.BindsDerived.E var
+R32760:32760 Tutorial.Metalib.AssocList <> Make.BindsDerived.a var
+R32758:32758 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+R32768:32769 Coq.Init.Logic <> ::type_scope:'~'_x not
+R32770:32774 Tutorial.Metalib.AssocList Make binds def
+R32780:32780 Tutorial.Metalib.AssocList <> Make.BindsDerived.E var
+R32778:32778 Tutorial.Metalib.AssocList <> Make.BindsDerived.a var
+R32776:32776 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+R32721:32721 Tutorial.Metalib.AssocList <> Make.BindsDerived.A var
+binder 32715:32715 <> a:228
+binder 32717:32717 <> b:229
+R32724:32724 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R32730:32734 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R32741:32741 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R32726:32728 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32725:32725 Tutorial.Metalib.AssocList <> a:228 var
+R32729:32729 Tutorial.Metalib.AssocList <> b:229 var
+R32736:32739 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R32735:32735 Tutorial.Metalib.AssocList <> a:228 var
+R32740:32740 Tutorial.Metalib.AssocList <> b:229 var
+R32819:32823 Tutorial.Metalib.AssocList Make binds def
+R32832:32842 Coq.Lists.List <> In_dec syndef
+R32832:32842 Coq.Lists.List <> In_dec syndef
+R32876:32883 Tutorial.Metalib.AssocList X eq_dec defax
+R32876:32883 Tutorial.Metalib.AssocList X eq_dec defax
+prf 32906:32917 Make binds_lookup
+R32946:32949 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R32973:32973 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R32925:32925 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R32927:32929 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R32931:32933 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R32945:32945 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R32930:32930 Tutorial.Metalib.AssocList <> Make.BindsDerived.A var
+binder 32926:32926 <> a:230
+R32934:32938 Tutorial.Metalib.AssocList Make binds def
+R32944:32944 Tutorial.Metalib.AssocList <> Make.BindsDerived.E var
+R32942:32942 Tutorial.Metalib.AssocList <> a:230 var
+R32940:32940 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+binder 32957:32957 <> a:231
+R32960:32961 Coq.Init.Logic <> ::type_scope:'~'_x not
+R32962:32966 Tutorial.Metalib.AssocList Make binds def
+R32972:32972 Tutorial.Metalib.AssocList <> Make.BindsDerived.E var
+R32970:32970 Tutorial.Metalib.AssocList <> a:231 var
+R32968:32968 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+R33090:33097 Tutorial.Metalib.AssocList X eq_dec defax
+R33099:33099 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+R33090:33097 Tutorial.Metalib.AssocList X eq_dec defax
+R33099:33099 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+R33126:33130 Tutorial.Metalib.AssocList Make binds def
+R33165:33168 Tutorial.Metalib.AssocList X eq def
+prf 33211:33226 Make binds_lookup_dec
+R33234:33242 Coq.Logic.Decidable <> decidable def
+R33245:33251 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R33253:33254 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 33252:33252 <> a:232
+R33255:33259 Tutorial.Metalib.AssocList Make binds def
+R33265:33265 Tutorial.Metalib.AssocList <> Make.BindsDerived.E var
+R33263:33263 Tutorial.Metalib.AssocList <> a:232 var
+R33261:33261 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+R33325:33333 Coq.Logic.Decidable <> decidable def
+R33349:33360 Tutorial.Metalib.AssocList Make binds_lookup thm
+prf 33427:33438 Make binds_weaken
+R33464:33471 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33472:33476 Tutorial.Metalib.AssocList Make binds def
+R33484:33487 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R33483:33483 Tutorial.Metalib.AssocList <> Make.BindsDerived.E var
+R33489:33492 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R33488:33488 Tutorial.Metalib.AssocList <> Make.BindsDerived.F var
+R33493:33493 Tutorial.Metalib.AssocList <> Make.BindsDerived.G var
+R33480:33480 Tutorial.Metalib.AssocList <> Make.BindsDerived.a var
+R33478:33478 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+R33446:33450 Tutorial.Metalib.AssocList Make binds def
+R33458:33461 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R33457:33457 Tutorial.Metalib.AssocList <> Make.BindsDerived.E var
+R33462:33462 Tutorial.Metalib.AssocList <> Make.BindsDerived.G var
+R33454:33454 Tutorial.Metalib.AssocList <> Make.BindsDerived.a var
+R33452:33452 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+prf 33554:33565 Make binds_mid_eq
+R33602:33609 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33634:33641 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33643:33645 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33642:33642 Tutorial.Metalib.AssocList <> Make.BindsDerived.a var
+R33646:33646 Tutorial.Metalib.AssocList <> Make.BindsDerived.b var
+R33610:33613 Tutorial.Metalib.AssocList Make uniq ind
+R33617:33620 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R33616:33616 Tutorial.Metalib.AssocList <> Make.BindsDerived.F var
+R33621:33621 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R33627:33631 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R33623:33625 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R33622:33622 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+R33626:33626 Tutorial.Metalib.AssocList <> Make.BindsDerived.b var
+R33632:33632 Tutorial.Metalib.AssocList <> Make.BindsDerived.E var
+R33573:33577 Tutorial.Metalib.AssocList Make binds def
+R33585:33588 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R33584:33584 Tutorial.Metalib.AssocList <> Make.BindsDerived.F var
+R33589:33589 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R33595:33599 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R33591:33593 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R33590:33590 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+R33594:33594 Tutorial.Metalib.AssocList <> Make.BindsDerived.b var
+R33600:33600 Tutorial.Metalib.AssocList <> Make.BindsDerived.E var
+R33581:33581 Tutorial.Metalib.AssocList <> Make.BindsDerived.a var
+R33579:33579 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+prf 33713:33728 Make binds_remove_mid
+R33765:33772 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33779:33786 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33787:33791 Tutorial.Metalib.AssocList Make binds def
+R33799:33802 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R33798:33798 Tutorial.Metalib.AssocList <> Make.BindsDerived.F var
+R33803:33803 Tutorial.Metalib.AssocList <> Make.BindsDerived.G var
+R33795:33795 Tutorial.Metalib.AssocList <> Make.BindsDerived.a var
+R33793:33793 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+R33774:33777 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R33773:33773 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+R33778:33778 Tutorial.Metalib.AssocList <> Make.BindsDerived.y var
+R33736:33740 Tutorial.Metalib.AssocList Make binds def
+R33748:33751 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R33747:33747 Tutorial.Metalib.AssocList <> Make.BindsDerived.F var
+R33752:33752 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R33758:33762 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R33754:33756 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R33753:33753 Tutorial.Metalib.AssocList <> Make.BindsDerived.y var
+R33757:33757 Tutorial.Metalib.AssocList <> Make.BindsDerived.b var
+R33763:33763 Tutorial.Metalib.AssocList <> Make.BindsDerived.G var
+R33744:33744 Tutorial.Metalib.AssocList <> Make.BindsDerived.a var
+R33742:33742 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+prf 33864:33871 Make binds_In
+binder 33882:33882 <> x:233
+binder 33884:33884 <> a:234
+R33891:33894 Coq.Init.Datatypes <> list ind
+R33900:33900 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R33897:33899 Tutorial.Metalib.AssocList X t defax
+R33901:33901 Tutorial.Metalib.AssocList <> Make.BindsDerived.A var
+binder 33887:33887 <> E:235
+R33921:33928 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33929:33930 Tutorial.Metalib.AssocList KeySet In defax
+R33935:33937 Tutorial.Metalib.AssocList Make dom def
+R33939:33939 Tutorial.Metalib.AssocList <> E:235 var
+R33932:33932 Tutorial.Metalib.AssocList <> x:233 var
+R33910:33914 Tutorial.Metalib.AssocList Make binds def
+R33920:33920 Tutorial.Metalib.AssocList <> E:235 var
+R33918:33918 Tutorial.Metalib.AssocList <> a:234 var
+R33916:33916 Tutorial.Metalib.AssocList <> x:233 var
+prf 34104:34115 Make binds_In_inv
+binder 34126:34126 <> x:236
+R34133:34136 Coq.Init.Datatypes <> list ind
+R34142:34142 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R34139:34141 Tutorial.Metalib.AssocList X t defax
+R34143:34143 Tutorial.Metalib.AssocList <> Make.BindsDerived.A var
+binder 34129:34129 <> E:237
+R34164:34171 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34172:34178 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R34180:34181 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 34179:34179 <> a:238
+R34182:34186 Tutorial.Metalib.AssocList Make binds def
+R34192:34192 Tutorial.Metalib.AssocList <> E:237 var
+R34190:34190 Tutorial.Metalib.AssocList <> a:238 var
+R34188:34188 Tutorial.Metalib.AssocList <> x:236 var
+R34152:34153 Tutorial.Metalib.AssocList KeySet In defax
+R34158:34160 Tutorial.Metalib.AssocList Make dom def
+R34162:34162 Tutorial.Metalib.AssocList <> E:237 var
+R34155:34155 Tutorial.Metalib.AssocList <> x:236 var
+R34325:34331 Tutorial.Metalib.AssocList KeySet union_1 defax
+R34325:34331 Tutorial.Metalib.AssocList KeySet union_1 defax
+R34377:34377 Tutorial.Metalib.AssocList <> Make.BindsDerived.b var
+R34377:34377 Tutorial.Metalib.AssocList <> Make.BindsDerived.b var
+R34386:34396 Tutorial.Metalib.AssocList KeySet singleton_1 defax
+R34386:34396 Tutorial.Metalib.AssocList KeySet singleton_1 defax
+prf 34468:34479 Make binds_unique
+R34498:34505 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34517:34524 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34531:34538 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34540:34542 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34539:34539 Tutorial.Metalib.AssocList <> Make.BindsDerived.a var
+R34543:34543 Tutorial.Metalib.AssocList <> Make.BindsDerived.b var
+R34525:34528 Tutorial.Metalib.AssocList Make uniq ind
+R34530:34530 Tutorial.Metalib.AssocList <> Make.BindsDerived.E var
+R34506:34510 Tutorial.Metalib.AssocList Make binds def
+R34516:34516 Tutorial.Metalib.AssocList <> Make.BindsDerived.E var
+R34514:34514 Tutorial.Metalib.AssocList <> Make.BindsDerived.b var
+R34512:34512 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+R34487:34491 Tutorial.Metalib.AssocList Make binds def
+R34497:34497 Tutorial.Metalib.AssocList <> Make.BindsDerived.E var
+R34495:34495 Tutorial.Metalib.AssocList <> Make.BindsDerived.a var
+R34493:34493 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+R34631:34635 Tutorial.Metalib.AssocList Make binds def
+R34765:34766 Tutorial.Metalib.AssocList KeySet In defax
+R34771:34773 Tutorial.Metalib.AssocList Make dom def
+R34775:34775 Tutorial.Metalib.AssocList <> Make.BindsDerived.F var
+R34768:34768 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+R34765:34766 Tutorial.Metalib.AssocList KeySet In defax
+R34771:34773 Tutorial.Metalib.AssocList Make dom def
+R34775:34775 Tutorial.Metalib.AssocList <> Make.BindsDerived.F var
+R34768:34768 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+R34787:34794 Tutorial.Metalib.AssocList Make binds_In thm
+R34787:34794 Tutorial.Metalib.AssocList Make binds_In thm
+R34907:34908 Tutorial.Metalib.AssocList KeySet In defax
+R34913:34915 Tutorial.Metalib.AssocList Make dom def
+R34917:34917 Tutorial.Metalib.AssocList <> Make.BindsDerived.F var
+R34910:34910 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+R34907:34908 Tutorial.Metalib.AssocList KeySet In defax
+R34913:34915 Tutorial.Metalib.AssocList Make dom def
+R34917:34917 Tutorial.Metalib.AssocList <> Make.BindsDerived.F var
+R34910:34910 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+R34929:34936 Tutorial.Metalib.AssocList Make binds_In thm
+R34929:34936 Tutorial.Metalib.AssocList Make binds_In thm
+R35049:35053 Tutorial.Metalib.AssocList Make binds def
+prf 35125:35135 Make fresh_app_l
+R35156:35163 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35175:35182 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35183:35184 Coq.Init.Logic <> ::type_scope:'~'_x not
+R35185:35186 Tutorial.Metalib.AssocList KeySet In defax
+R35191:35193 Tutorial.Metalib.AssocList Make dom def
+R35195:35195 Tutorial.Metalib.AssocList <> Make.BindsDerived.F var
+R35188:35188 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+R35164:35168 Tutorial.Metalib.AssocList Make binds def
+R35174:35174 Tutorial.Metalib.AssocList <> Make.BindsDerived.E var
+R35172:35172 Tutorial.Metalib.AssocList <> Make.BindsDerived.a var
+R35170:35170 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+R35143:35146 Tutorial.Metalib.AssocList Make uniq ind
+R35150:35153 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R35149:35149 Tutorial.Metalib.AssocList <> Make.BindsDerived.F var
+R35154:35154 Tutorial.Metalib.AssocList <> Make.BindsDerived.E var
+R35239:35240 Tutorial.Metalib.AssocList KeySet In defax
+R35245:35247 Tutorial.Metalib.AssocList Make dom def
+R35249:35249 Tutorial.Metalib.AssocList <> Make.BindsDerived.E var
+R35242:35242 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+R35268:35275 Tutorial.Metalib.AssocList Make binds_In thm
+R35239:35240 Tutorial.Metalib.AssocList KeySet In defax
+R35245:35247 Tutorial.Metalib.AssocList Make dom def
+R35249:35249 Tutorial.Metalib.AssocList <> Make.BindsDerived.E var
+R35242:35242 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+R35268:35275 Tutorial.Metalib.AssocList Make binds_In thm
+prf 35310:35320 Make fresh_app_r
+R35341:35348 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35360:35367 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35368:35369 Coq.Init.Logic <> ::type_scope:'~'_x not
+R35370:35371 Tutorial.Metalib.AssocList KeySet In defax
+R35376:35378 Tutorial.Metalib.AssocList Make dom def
+R35380:35380 Tutorial.Metalib.AssocList <> Make.BindsDerived.E var
+R35373:35373 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+R35349:35353 Tutorial.Metalib.AssocList Make binds def
+R35359:35359 Tutorial.Metalib.AssocList <> Make.BindsDerived.F var
+R35357:35357 Tutorial.Metalib.AssocList <> Make.BindsDerived.a var
+R35355:35355 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+R35328:35331 Tutorial.Metalib.AssocList Make uniq ind
+R35335:35338 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R35334:35334 Tutorial.Metalib.AssocList <> Make.BindsDerived.F var
+R35339:35339 Tutorial.Metalib.AssocList <> Make.BindsDerived.E var
+R35424:35425 Tutorial.Metalib.AssocList KeySet In defax
+R35430:35432 Tutorial.Metalib.AssocList Make dom def
+R35434:35434 Tutorial.Metalib.AssocList <> Make.BindsDerived.F var
+R35427:35427 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+R35453:35460 Tutorial.Metalib.AssocList Make binds_In thm
+R35424:35425 Tutorial.Metalib.AssocList KeySet In defax
+R35430:35432 Tutorial.Metalib.AssocList Make dom def
+R35434:35434 Tutorial.Metalib.AssocList <> Make.BindsDerived.F var
+R35427:35427 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+R35453:35460 Tutorial.Metalib.AssocList Make binds_In thm
+prf 35596:35606 Make binds_split
+R35621:35624 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35625:35631 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R35637:35638 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 35632:35633 <> G1:239
+binder 35635:35636 <> G2:240
+R35640:35642 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35639:35639 Tutorial.Metalib.AssocList <> Make.BindsDerived.G var
+R35645:35648 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R35643:35644 Tutorial.Metalib.AssocList <> G2:240 var
+R35659:35662 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R35649:35651 Tutorial.Metalib.AssocList Make one def
+R35653:35653 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35655:35656 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35658:35658 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35654:35654 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+R35657:35657 Tutorial.Metalib.AssocList <> Make.BindsDerived.a var
+R35663:35664 Tutorial.Metalib.AssocList <> G1:239 var
+R35610:35614 Tutorial.Metalib.AssocList Make binds def
+R35620:35620 Tutorial.Metalib.AssocList <> Make.BindsDerived.G var
+R35618:35618 Tutorial.Metalib.AssocList <> Make.BindsDerived.a var
+R35616:35616 Tutorial.Metalib.AssocList <> Make.BindsDerived.x var
+R35707:35707 Tutorial.Metalib.AssocList <> Make.BindsDerived.G var
+R35770:35781 Tutorial.Metalib.AssocList Make binds_cons_1 thm
+R35770:35781 Tutorial.Metalib.AssocList Make binds_cons_1 thm
+R35857:35859 Coq.Init.Datatypes <> nil constr
+R35857:35859 Coq.Init.Datatypes <> nil constr
+R35904:35904 Tutorial.Metalib.AssocList <> Make.BindsDerived.E var
+R35904:35904 Tutorial.Metalib.AssocList <> Make.BindsDerived.E var
+R35966:35966 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R35972:35976 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R35968:35970 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R35967:35967 Tutorial.Metalib.AssocList <> Make.BindsDerived.y var
+R35971:35971 Tutorial.Metalib.AssocList <> Make.BindsDerived.b var
+R35966:35966 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R35972:35976 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R35968:35970 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R35967:35967 Tutorial.Metalib.AssocList <> Make.BindsDerived.y var
+R35971:35971 Tutorial.Metalib.AssocList <> Make.BindsDerived.b var
+R36025:36036 Tutorial.Metalib.AssocList Make.BindsDerived <> sec
+R36149:36163 Tutorial.Metalib.AssocList Make nil_neq_one_mid thm
+R36166:36180 Tutorial.Metalib.AssocList Make one_mid_neq_nil thm
+R36205:36219 Tutorial.Metalib.AssocList Make uniq_insert_mid thm
+R36222:36235 Tutorial.Metalib.AssocList Make uniq_map_app_l thm
+R36262:36276 Tutorial.Metalib.AssocList Make uniq_remove_mid thm
+R36301:36312 Tutorial.Metalib.AssocList Make binds_weaken thm
+R36339:36354 Tutorial.Metalib.AssocList Make binds_remove_mid thm
+R36357:36364 Tutorial.Metalib.AssocList Make binds_In thm
+sec 36447:36453 Make UniqMid
+var 36468:36468 Make.UniqMid A
+var 36470:36470 Make.UniqMid B
+var 36494:36494 Make.UniqMid f
+R36503:36506 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36507:36507 Tutorial.Metalib.AssocList <> Make.UniqMid.B var
+R36502:36502 Tutorial.Metalib.AssocList <> Make.UniqMid.A var
+var 36522:36522 Make.UniqMid x
+var 36524:36524 Make.UniqMid y
+R36530:36532 Tutorial.Metalib.AssocList X t defax
+var 36547:36547 Make.UniqMid a
+R36555:36555 Tutorial.Metalib.AssocList <> Make.UniqMid.A var
+var 36570:36570 Make.UniqMid E
+var 36572:36572 Make.UniqMid F
+R36578:36581 Coq.Init.Datatypes <> list ind
+R36587:36587 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R36584:36586 Tutorial.Metalib.AssocList X t defax
+R36588:36588 Tutorial.Metalib.AssocList <> Make.UniqMid.A var
+prf 36713:36720 Make uniq_mid
+binder 36731:36731 <> b:249
+binder 36733:36734 <> E':250
+binder 36736:36737 <> F':251
+R36768:36776 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36816:36823 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36830:36833 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R36825:36827 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36824:36824 Tutorial.Metalib.AssocList <> Make.UniqMid.E var
+R36828:36829 Tutorial.Metalib.AssocList <> E':250 var
+R36839:36842 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R36835:36837 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36834:36834 Tutorial.Metalib.AssocList <> Make.UniqMid.a var
+R36838:36838 Tutorial.Metalib.AssocList <> b:249 var
+R36844:36846 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36843:36843 Tutorial.Metalib.AssocList <> Make.UniqMid.F var
+R36847:36848 Tutorial.Metalib.AssocList <> F':251 var
+R36777:36777 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36793:36797 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36815:36815 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36779:36782 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R36778:36778 Tutorial.Metalib.AssocList <> Make.UniqMid.E var
+R36788:36791 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R36784:36786 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R36783:36783 Tutorial.Metalib.AssocList <> Make.UniqMid.x var
+R36787:36787 Tutorial.Metalib.AssocList <> Make.UniqMid.a var
+R36792:36792 Tutorial.Metalib.AssocList <> Make.UniqMid.F var
+R36800:36803 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R36798:36799 Tutorial.Metalib.AssocList <> E':250 var
+R36809:36812 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R36805:36807 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R36804:36804 Tutorial.Metalib.AssocList <> Make.UniqMid.x var
+R36808:36808 Tutorial.Metalib.AssocList <> b:249 var
+R36813:36814 Tutorial.Metalib.AssocList <> F':251 var
+R36744:36747 Tutorial.Metalib.AssocList Make uniq ind
+R36751:36754 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R36750:36750 Tutorial.Metalib.AssocList <> Make.UniqMid.E var
+R36755:36755 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R36761:36765 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R36757:36759 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R36756:36756 Tutorial.Metalib.AssocList <> Make.UniqMid.x var
+R36760:36760 Tutorial.Metalib.AssocList <> Make.UniqMid.a var
+R36766:36766 Tutorial.Metalib.AssocList <> Make.UniqMid.F var
+R36877:36877 Tutorial.Metalib.AssocList <> Make.UniqMid.F var
+R36879:36879 Tutorial.Metalib.AssocList <> Make.UniqMid.a var
+R36877:36877 Tutorial.Metalib.AssocList <> Make.UniqMid.F var
+R36879:36879 Tutorial.Metalib.AssocList <> Make.UniqMid.a var
+R36904:36904 Tutorial.Metalib.AssocList <> Make.UniqMid.E var
+R37034:37034 Tutorial.Metalib.AssocList <> Make.UniqMid.a var
+R37104:37106 Coq.Init.Logic <> not def
+R37110:37112 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37109:37109 Tutorial.Metalib.AssocList <> Make.UniqMid.y var
+R37113:37113 Tutorial.Metalib.AssocList <> Make.UniqMid.x var
+R37104:37106 Coq.Init.Logic <> not def
+R37110:37112 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37109:37109 Tutorial.Metalib.AssocList <> Make.UniqMid.y var
+R37113:37113 Tutorial.Metalib.AssocList <> Make.UniqMid.x var
+R37278:37278 Tutorial.Metalib.AssocList <> Make.UniqMid.F var
+R37278:37278 Tutorial.Metalib.AssocList <> Make.UniqMid.F var
+prf 37484:37496 Make uniq_align_eq
+binder 37507:37508 <> E':252
+binder 37510:37511 <> F':253
+R37540:37547 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37574:37581 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37582:37582 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R37645:37654 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R37717:37717 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R37583:37589 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R37595:37596 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 37590:37591 <> E1:254
+binder 37593:37594 <> E2:255
+R37619:37622 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R37599:37601 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37597:37598 Tutorial.Metalib.AssocList <> E':252 var
+R37604:37607 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R37602:37603 Tutorial.Metalib.AssocList <> E1:254 var
+R37613:37616 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R37609:37611 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R37608:37608 Tutorial.Metalib.AssocList <> Make.UniqMid.x var
+R37612:37612 Tutorial.Metalib.AssocList <> Make.UniqMid.a var
+R37617:37618 Tutorial.Metalib.AssocList <> E2:255 var
+R37629:37632 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R37624:37626 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37623:37623 Tutorial.Metalib.AssocList <> Make.UniqMid.E var
+R37627:37628 Tutorial.Metalib.AssocList <> E1:254 var
+R37634:37636 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37633:37633 Tutorial.Metalib.AssocList <> Make.UniqMid.F var
+R37639:37642 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R37637:37638 Tutorial.Metalib.AssocList <> E2:255 var
+R37643:37644 Tutorial.Metalib.AssocList <> F':253 var
+R37655:37661 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R37667:37668 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 37662:37663 <> F1:256
+binder 37665:37666 <> F2:257
+R37691:37694 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R37671:37673 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37669:37670 Tutorial.Metalib.AssocList <> F':253 var
+R37676:37679 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R37674:37675 Tutorial.Metalib.AssocList <> F1:256 var
+R37685:37688 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R37681:37683 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R37680:37680 Tutorial.Metalib.AssocList <> Make.UniqMid.x var
+R37684:37684 Tutorial.Metalib.AssocList <> Make.UniqMid.a var
+R37689:37690 Tutorial.Metalib.AssocList <> F2:257 var
+R37707:37710 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R37696:37698 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37695:37695 Tutorial.Metalib.AssocList <> Make.UniqMid.E var
+R37701:37704 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R37699:37700 Tutorial.Metalib.AssocList <> E':252 var
+R37705:37706 Tutorial.Metalib.AssocList <> F1:256 var
+R37712:37714 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37711:37711 Tutorial.Metalib.AssocList <> Make.UniqMid.F var
+R37715:37716 Tutorial.Metalib.AssocList <> F2:257 var
+R37563:37565 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37549:37552 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R37548:37548 Tutorial.Metalib.AssocList <> Make.UniqMid.E var
+R37558:37561 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R37554:37556 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R37553:37553 Tutorial.Metalib.AssocList <> Make.UniqMid.x var
+R37557:37557 Tutorial.Metalib.AssocList <> Make.UniqMid.a var
+R37562:37562 Tutorial.Metalib.AssocList <> Make.UniqMid.F var
+R37568:37571 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R37566:37567 Tutorial.Metalib.AssocList <> E':252 var
+R37572:37573 Tutorial.Metalib.AssocList <> F':253 var
+R37518:37521 Tutorial.Metalib.AssocList Make uniq ind
+R37525:37528 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R37524:37524 Tutorial.Metalib.AssocList <> Make.UniqMid.E var
+R37534:37537 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R37530:37532 Tutorial.Metalib.AssocList Make ::list_scope:x_'~'_x not
+R37529:37529 Tutorial.Metalib.AssocList <> Make.UniqMid.x var
+R37533:37533 Tutorial.Metalib.AssocList <> Make.UniqMid.a var
+R37538:37538 Tutorial.Metalib.AssocList <> Make.UniqMid.F var
+R37784:37788 Tutorial.Metalib.AssocList Make binds def
+R37797:37800 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R37792:37792 Tutorial.Metalib.AssocList <> Make.UniqMid.a var
+R37790:37790 Tutorial.Metalib.AssocList <> Make.UniqMid.x var
+R37784:37788 Tutorial.Metalib.AssocList Make binds def
+R37797:37800 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R37792:37792 Tutorial.Metalib.AssocList <> Make.UniqMid.a var
+R37790:37790 Tutorial.Metalib.AssocList <> Make.UniqMid.x var
+R37848:37860 Tutorial.Metalib.AssocList Make binds_app_iff thm
+R37848:37860 Tutorial.Metalib.AssocList Make binds_app_iff thm
+R37848:37860 Tutorial.Metalib.AssocList Make binds_app_iff thm
+R37929:37939 Tutorial.Metalib.AssocList Make binds_split thm
+R37929:37939 Tutorial.Metalib.AssocList Make binds_split thm
+R38069:38076 Tutorial.Metalib.AssocList Make uniq_mid thm
+R38069:38076 Tutorial.Metalib.AssocList Make uniq_mid thm
+R38136:38146 Tutorial.Metalib.AssocList Make binds_split thm
+R38136:38146 Tutorial.Metalib.AssocList Make binds_split thm
+R38252:38260 Tutorial.Metalib.AssocList Make app_assoc thm
+R38252:38260 Tutorial.Metalib.AssocList Make app_assoc thm
+R38252:38260 Tutorial.Metalib.AssocList Make app_assoc thm
+R38293:38300 Tutorial.Metalib.AssocList Make uniq_mid thm
+R38293:38300 Tutorial.Metalib.AssocList Make uniq_mid thm
+R38349:38355 Tutorial.Metalib.AssocList Make.UniqMid <> sec
+R38364:38367 Tutorial.Metalib.AssocList Make <> mod

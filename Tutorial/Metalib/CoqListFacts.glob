@@ -1,0 +1,647 @@
+DIGEST 5aa74ce7f1b45ff8f85a76a2b9735221
+FTutorial.Metalib.CoqListFacts
+R308:321 Coq.Lists.List <> <> lib
+R339:358 Coq.Lists.SetoidList <> <> lib
+R377:400 Tutorial.Metalib.CoqUniquenessTac <> <> lib
+prf 537:547 <> cons_eq_app
+binder 559:559 <> A:1
+R574:574 Tutorial.Metalib.CoqListFacts <> A:1 var
+binder 570:570 <> z:2
+R589:592 Coq.Init.Datatypes <> list ind
+R594:594 Tutorial.Metalib.CoqListFacts <> A:1 var
+binder 578:579 <> xs:3
+binder 581:582 <> ys:4
+binder 584:585 <> zs:5
+R618:623 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R624:624 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R665:672 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R697:697 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R625:631 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R634:635 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 632:633 <> qs:6
+R648:651 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R638:640 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R636:637 Tutorial.Metalib.CoqListFacts <> xs:3 var
+R642:645 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R641:641 Tutorial.Metalib.CoqListFacts <> z:2 var
+R646:647 Tutorial.Metalib.CoqListFacts <> qs:6 var
+R654:656 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R652:653 Tutorial.Metalib.CoqListFacts <> zs:5 var
+R659:662 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R657:658 Tutorial.Metalib.CoqListFacts <> qs:6 var
+R663:664 Tutorial.Metalib.CoqListFacts <> ys:4 var
+R681:684 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R675:677 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R673:674 Tutorial.Metalib.CoqListFacts <> xs:3 var
+R678:680 Coq.Init.Datatypes <> nil constr
+R687:689 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R685:686 Tutorial.Metalib.CoqListFacts <> ys:4 var
+R691:694 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R690:690 Tutorial.Metalib.CoqListFacts <> z:2 var
+R695:696 Tutorial.Metalib.CoqListFacts <> zs:5 var
+R607:609 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R601:604 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R600:600 Tutorial.Metalib.CoqListFacts <> z:2 var
+R605:606 Tutorial.Metalib.CoqListFacts <> zs:5 var
+R612:615 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R610:611 Tutorial.Metalib.CoqListFacts <> xs:3 var
+R616:617 Tutorial.Metalib.CoqListFacts <> ys:4 var
+prf 809:819 <> app_eq_cons
+binder 831:831 <> A:7
+R846:846 Tutorial.Metalib.CoqListFacts <> A:7 var
+binder 842:842 <> z:8
+R861:864 Coq.Init.Datatypes <> list ind
+R866:866 Tutorial.Metalib.CoqListFacts <> A:7 var
+binder 850:851 <> xs:9
+binder 853:854 <> ys:10
+binder 856:857 <> zs:11
+R890:895 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R896:896 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R937:944 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R969:969 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R897:903 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R906:907 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 904:905 <> qs:12
+R920:923 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R910:912 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R908:909 Tutorial.Metalib.CoqListFacts <> xs:9 var
+R914:917 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R913:913 Tutorial.Metalib.CoqListFacts <> z:8 var
+R918:919 Tutorial.Metalib.CoqListFacts <> qs:12 var
+R926:928 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R924:925 Tutorial.Metalib.CoqListFacts <> zs:11 var
+R931:934 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R929:930 Tutorial.Metalib.CoqListFacts <> qs:12 var
+R935:936 Tutorial.Metalib.CoqListFacts <> ys:10 var
+R953:956 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R947:949 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R945:946 Tutorial.Metalib.CoqListFacts <> xs:9 var
+R950:952 Coq.Init.Datatypes <> nil constr
+R959:961 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R957:958 Tutorial.Metalib.CoqListFacts <> ys:10 var
+R963:966 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R962:962 Tutorial.Metalib.CoqListFacts <> z:8 var
+R967:968 Tutorial.Metalib.CoqListFacts <> zs:11 var
+R880:882 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R874:877 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R872:873 Tutorial.Metalib.CoqListFacts <> xs:9 var
+R878:879 Tutorial.Metalib.CoqListFacts <> ys:10 var
+R884:887 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R883:883 Tutorial.Metalib.CoqListFacts <> z:8 var
+R888:889 Tutorial.Metalib.CoqListFacts <> zs:11 var
+R990:1000 Tutorial.Metalib.CoqListFacts <> cons_eq_app thm
+R990:1000 Tutorial.Metalib.CoqListFacts <> cons_eq_app thm
+prf 1015:1024 <> nil_eq_app
+binder 1036:1036 <> A:13
+R1055:1058 Coq.Init.Datatypes <> list ind
+R1060:1060 Tutorial.Metalib.CoqListFacts <> A:13 var
+binder 1047:1048 <> xs:14
+binder 1050:1051 <> ys:15
+R1080:1085 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1094:1097 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1088:1090 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1086:1087 Tutorial.Metalib.CoqListFacts <> xs:14 var
+R1091:1093 Coq.Init.Datatypes <> nil constr
+R1100:1102 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1098:1099 Tutorial.Metalib.CoqListFacts <> ys:15 var
+R1103:1105 Coq.Init.Datatypes <> nil constr
+R1069:1071 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1066:1068 Coq.Init.Datatypes <> nil constr
+R1074:1077 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1072:1073 Tutorial.Metalib.CoqListFacts <> xs:14 var
+R1078:1079 Tutorial.Metalib.CoqListFacts <> ys:15 var
+R1126:1140 Coq.Lists.List <> app_eq_nil thm
+R1126:1140 Coq.Lists.List <> app_eq_nil thm
+prf 1155:1170 <> app_cons_not_nil
+binder 1182:1182 <> A:16
+R1197:1197 Tutorial.Metalib.CoqListFacts <> A:16 var
+binder 1193:1193 <> y:17
+R1209:1212 Coq.Init.Datatypes <> list ind
+R1214:1214 Tutorial.Metalib.CoqListFacts <> A:16 var
+binder 1201:1202 <> xs:18
+binder 1204:1205 <> ys:19
+R1233:1236 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1222:1225 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1220:1221 Tutorial.Metalib.CoqListFacts <> xs:18 var
+R1227:1230 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1226:1226 Tutorial.Metalib.CoqListFacts <> y:17 var
+R1231:1232 Tutorial.Metalib.CoqListFacts <> ys:19 var
+R1237:1239 Coq.Init.Datatypes <> nil constr
+R1300:1320 Coq.Lists.List <> app_cons_not_nil thm
+R1300:1320 Coq.Lists.List <> app_cons_not_nil thm
+prf 1439:1444 <> In_map
+binder 1456:1456 <> A:20
+binder 1458:1458 <> B:21
+R1474:1477 Coq.Init.Datatypes <> list ind
+R1479:1479 Tutorial.Metalib.CoqListFacts <> A:20 var
+binder 1469:1470 <> xs:22
+R1487:1487 Tutorial.Metalib.CoqListFacts <> A:20 var
+binder 1483:1483 <> x:23
+R1496:1499 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1500:1500 Tutorial.Metalib.CoqListFacts <> B:21 var
+R1495:1495 Tutorial.Metalib.CoqListFacts <> A:20 var
+binder 1491:1491 <> f:24
+R1513:1518 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1519:1520 Coq.Lists.List <> In def
+R1529:1531 Coq.Lists.List <> map def
+R1535:1536 Tutorial.Metalib.CoqListFacts <> xs:22 var
+R1533:1533 Tutorial.Metalib.CoqListFacts <> f:24 var
+R1523:1523 Tutorial.Metalib.CoqListFacts <> f:24 var
+R1525:1525 Tutorial.Metalib.CoqListFacts <> x:23 var
+R1506:1507 Coq.Lists.List <> In def
+R1511:1512 Tutorial.Metalib.CoqListFacts <> xs:22 var
+R1509:1509 Tutorial.Metalib.CoqListFacts <> x:23 var
+prf 1748:1758 <> not_In_cons
+binder 1770:1770 <> A:25
+R1786:1789 Coq.Init.Datatypes <> list ind
+R1791:1791 Tutorial.Metalib.CoqListFacts <> A:25 var
+binder 1781:1782 <> ys:26
+R1801:1801 Tutorial.Metalib.CoqListFacts <> A:25 var
+binder 1795:1795 <> x:27
+binder 1797:1797 <> y:28
+R1813:1818 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1828:1833 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1834:1835 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1836:1837 Coq.Lists.List <> In def
+R1843:1846 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1842:1842 Tutorial.Metalib.CoqListFacts <> y:28 var
+R1847:1848 Tutorial.Metalib.CoqListFacts <> ys:26 var
+R1839:1839 Tutorial.Metalib.CoqListFacts <> x:27 var
+R1819:1820 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1821:1822 Coq.Lists.List <> In def
+R1826:1827 Tutorial.Metalib.CoqListFacts <> ys:26 var
+R1824:1824 Tutorial.Metalib.CoqListFacts <> x:27 var
+R1808:1811 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1807:1807 Tutorial.Metalib.CoqListFacts <> x:27 var
+R1812:1812 Tutorial.Metalib.CoqListFacts <> y:28 var
+R1866:1868 Coq.Init.Logic <> not def
+prf 1902:1911 <> not_In_app
+binder 1923:1923 <> A:29
+R1942:1945 Coq.Init.Datatypes <> list ind
+R1947:1947 Tutorial.Metalib.CoqListFacts <> A:29 var
+binder 1934:1935 <> xs:30
+binder 1937:1938 <> ys:31
+R1955:1955 Tutorial.Metalib.CoqListFacts <> A:29 var
+binder 1951:1951 <> x:32
+R1970:1975 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1985:1990 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1991:1992 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1993:1994 Coq.Lists.List <> In def
+R2001:2004 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1999:2000 Tutorial.Metalib.CoqListFacts <> xs:30 var
+R2005:2006 Tutorial.Metalib.CoqListFacts <> ys:31 var
+R1996:1996 Tutorial.Metalib.CoqListFacts <> x:32 var
+R1976:1977 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1978:1979 Coq.Lists.List <> In def
+R1983:1984 Tutorial.Metalib.CoqListFacts <> ys:31 var
+R1981:1981 Tutorial.Metalib.CoqListFacts <> x:32 var
+R1961:1962 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1963:1964 Coq.Lists.List <> In def
+R1968:1969 Tutorial.Metalib.CoqListFacts <> xs:30 var
+R1966:1966 Tutorial.Metalib.CoqListFacts <> x:32 var
+R2047:2055 Coq.Lists.List <> in_app_or thm
+R2047:2055 Coq.Lists.List <> in_app_or thm
+prf 2086:2101 <> elim_not_In_cons
+binder 2113:2113 <> A:33
+R2128:2128 Tutorial.Metalib.CoqListFacts <> A:33 var
+binder 2124:2124 <> y:34
+R2137:2140 Coq.Init.Datatypes <> list ind
+R2142:2142 Tutorial.Metalib.CoqListFacts <> A:33 var
+binder 2132:2133 <> ys:35
+R2150:2150 Tutorial.Metalib.CoqListFacts <> A:33 var
+binder 2146:2146 <> x:36
+R2172:2177 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2184:2187 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2179:2182 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2178:2178 Tutorial.Metalib.CoqListFacts <> x:36 var
+R2183:2183 Tutorial.Metalib.CoqListFacts <> y:34 var
+R2188:2189 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2190:2191 Coq.Lists.List <> In def
+R2195:2196 Tutorial.Metalib.CoqListFacts <> ys:35 var
+R2193:2193 Tutorial.Metalib.CoqListFacts <> x:36 var
+R2156:2157 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2158:2159 Coq.Lists.List <> In def
+R2165:2168 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2164:2164 Tutorial.Metalib.CoqListFacts <> y:34 var
+R2169:2170 Tutorial.Metalib.CoqListFacts <> ys:35 var
+R2161:2161 Tutorial.Metalib.CoqListFacts <> x:36 var
+prf 2236:2250 <> elim_not_In_app
+binder 2262:2262 <> A:37
+R2281:2284 Coq.Init.Datatypes <> list ind
+R2286:2286 Tutorial.Metalib.CoqListFacts <> A:37 var
+binder 2273:2274 <> xs:38
+binder 2276:2277 <> ys:39
+R2294:2294 Tutorial.Metalib.CoqListFacts <> A:37 var
+binder 2290:2290 <> x:40
+R2317:2322 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2332:2335 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2323:2324 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2325:2326 Coq.Lists.List <> In def
+R2330:2331 Tutorial.Metalib.CoqListFacts <> xs:38 var
+R2328:2328 Tutorial.Metalib.CoqListFacts <> x:40 var
+R2336:2337 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2338:2339 Coq.Lists.List <> In def
+R2343:2344 Tutorial.Metalib.CoqListFacts <> ys:39 var
+R2341:2341 Tutorial.Metalib.CoqListFacts <> x:40 var
+R2300:2301 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2302:2303 Coq.Lists.List <> In def
+R2310:2313 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R2308:2309 Tutorial.Metalib.CoqListFacts <> xs:38 var
+R2314:2315 Tutorial.Metalib.CoqListFacts <> ys:39 var
+R2305:2305 Tutorial.Metalib.CoqListFacts <> x:40 var
+R2372:2380 Coq.Lists.List <> in_or_app thm
+R2372:2380 Coq.Lists.List <> in_or_app thm
+R2372:2380 Coq.Lists.List <> in_or_app thm
+prf 2498:2505 <> incl_nil
+binder 2517:2517 <> A:41
+R2533:2536 Coq.Init.Datatypes <> list ind
+R2538:2538 Tutorial.Metalib.CoqListFacts <> A:41 var
+binder 2528:2529 <> xs:42
+R2544:2547 Coq.Lists.List <> incl def
+R2553:2554 Tutorial.Metalib.CoqListFacts <> xs:42 var
+R2549:2551 Coq.Init.Datatypes <> nil constr
+R2571:2574 Coq.Lists.List <> incl def
+prf 2602:2608 <> In_incl
+binder 2620:2620 <> A:43
+R2635:2635 Tutorial.Metalib.CoqListFacts <> A:43 var
+binder 2631:2631 <> x:44
+R2647:2650 Coq.Init.Datatypes <> list ind
+R2652:2652 Tutorial.Metalib.CoqListFacts <> A:43 var
+binder 2639:2640 <> ys:45
+binder 2642:2643 <> zs:46
+R2665:2670 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2681:2686 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2687:2688 Coq.Lists.List <> In def
+R2692:2693 Tutorial.Metalib.CoqListFacts <> zs:46 var
+R2690:2690 Tutorial.Metalib.CoqListFacts <> x:44 var
+R2671:2674 Coq.Lists.List <> incl def
+R2679:2680 Tutorial.Metalib.CoqListFacts <> zs:46 var
+R2676:2677 Tutorial.Metalib.CoqListFacts <> ys:45 var
+R2658:2659 Coq.Lists.List <> In def
+R2663:2664 Tutorial.Metalib.CoqListFacts <> ys:45 var
+R2661:2661 Tutorial.Metalib.CoqListFacts <> x:44 var
+R2710:2713 Coq.Lists.List <> incl def
+prf 2734:2747 <> elim_incl_cons
+binder 2759:2759 <> A:47
+R2774:2774 Tutorial.Metalib.CoqListFacts <> A:47 var
+binder 2770:2770 <> x:48
+R2786:2789 Coq.Init.Datatypes <> list ind
+R2791:2791 Tutorial.Metalib.CoqListFacts <> A:47 var
+binder 2778:2779 <> xs:49
+binder 2781:2782 <> zs:50
+R2814:2819 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2827:2830 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2820:2821 Coq.Lists.List <> In def
+R2825:2826 Tutorial.Metalib.CoqListFacts <> zs:50 var
+R2823:2823 Tutorial.Metalib.CoqListFacts <> x:48 var
+R2831:2834 Coq.Lists.List <> incl def
+R2839:2840 Tutorial.Metalib.CoqListFacts <> zs:50 var
+R2836:2837 Tutorial.Metalib.CoqListFacts <> xs:49 var
+R2797:2800 Coq.Lists.List <> incl def
+R2812:2813 Tutorial.Metalib.CoqListFacts <> zs:50 var
+R2804:2807 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2803:2803 Tutorial.Metalib.CoqListFacts <> x:48 var
+R2808:2809 Tutorial.Metalib.CoqListFacts <> xs:49 var
+R2857:2860 Coq.Lists.List <> incl def
+prf 2896:2908 <> elim_incl_app
+binder 2920:2920 <> A:51
+R2942:2945 Coq.Init.Datatypes <> list ind
+R2947:2947 Tutorial.Metalib.CoqListFacts <> A:51 var
+binder 2931:2932 <> xs:52
+binder 2934:2935 <> ys:53
+binder 2937:2938 <> zs:54
+R2971:2976 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2987:2990 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2977:2980 Coq.Lists.List <> incl def
+R2985:2986 Tutorial.Metalib.CoqListFacts <> zs:54 var
+R2982:2983 Tutorial.Metalib.CoqListFacts <> xs:52 var
+R2991:2994 Coq.Lists.List <> incl def
+R2999:3000 Tutorial.Metalib.CoqListFacts <> zs:54 var
+R2996:2997 Tutorial.Metalib.CoqListFacts <> ys:53 var
+R2953:2956 Coq.Lists.List <> incl def
+R2969:2970 Tutorial.Metalib.CoqListFacts <> zs:54 var
+R2961:2964 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R2959:2960 Tutorial.Metalib.CoqListFacts <> xs:52 var
+R2965:2966 Tutorial.Metalib.CoqListFacts <> ys:53 var
+R3017:3020 Coq.Lists.List <> incl def
+prf 3304:3309 <> InA_In
+binder 3321:3321 <> A:55
+R3336:3336 Tutorial.Metalib.CoqListFacts <> A:55 var
+binder 3332:3332 <> x:56
+R3345:3348 Coq.Init.Datatypes <> list ind
+R3350:3350 Tutorial.Metalib.CoqListFacts <> A:55 var
+binder 3340:3341 <> xs:57
+R3372:3375 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3376:3377 Coq.Lists.List <> In def
+R3381:3382 Tutorial.Metalib.CoqListFacts <> xs:57 var
+R3379:3379 Tutorial.Metalib.CoqListFacts <> x:56 var
+R3356:3358 Coq.Lists.SetoidList <> InA ind
+R3370:3371 Tutorial.Metalib.CoqListFacts <> xs:57 var
+R3368:3368 Tutorial.Metalib.CoqListFacts <> x:56 var
+R3362:3363 Coq.Init.Logic <> eq ind
+prf 3489:3498 <> InA_iff_In
+binder 3510:3510 <> A:58
+R3525:3525 Tutorial.Metalib.CoqListFacts <> A:58 var
+binder 3521:3521 <> x:59
+R3534:3537 Coq.Init.Datatypes <> list ind
+R3539:3539 Tutorial.Metalib.CoqListFacts <> A:58 var
+binder 3529:3530 <> xs:60
+R3561:3565 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3545:3547 Coq.Lists.SetoidList <> InA ind
+R3559:3560 Tutorial.Metalib.CoqListFacts <> xs:60 var
+R3557:3557 Tutorial.Metalib.CoqListFacts <> x:59 var
+R3551:3552 Coq.Init.Logic <> eq ind
+R3566:3567 Coq.Lists.List <> In def
+R3571:3572 Tutorial.Metalib.CoqListFacts <> xs:60 var
+R3569:3569 Tutorial.Metalib.CoqListFacts <> x:59 var
+R3602:3607 Tutorial.Metalib.CoqListFacts <> InA_In thm
+R3602:3607 Tutorial.Metalib.CoqListFacts <> InA_In thm
+R3602:3607 Tutorial.Metalib.CoqListFacts <> InA_In thm
+R3618:3634 Coq.Lists.SetoidList <> In_InA thm
+R3618:3634 Coq.Lists.SetoidList <> In_InA thm
+R3643:3656 Coq.Classes.RelationClasses <> eq_equivalence inst
+R3643:3656 Coq.Classes.RelationClasses <> eq_equivalence inst
+sec 3734:3749 <> DecidableSorting
+var 3764:3764 DecidableSorting A
+var 3785:3787 DecidableSorting leA
+R3791:3798 Coq.Relations.Relation_Definitions <> relation def
+R3800:3800 Tutorial.Metalib.CoqListFacts <> DecidableSorting.A var
+var 3816:3822 DecidableSorting leA_dec
+binder 3833:3833 <> x:63
+binder 3835:3835 <> y:64
+R3838:3838 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3846:3850 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3860:3860 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3839:3841 Tutorial.Metalib.CoqListFacts <> DecidableSorting.leA var
+R3845:3845 Tutorial.Metalib.CoqListFacts <> y:64 var
+R3843:3843 Tutorial.Metalib.CoqListFacts <> x:63 var
+R3851:3852 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3853:3855 Tutorial.Metalib.CoqListFacts <> DecidableSorting.leA var
+R3859:3859 Tutorial.Metalib.CoqListFacts <> y:64 var
+R3857:3857 Tutorial.Metalib.CoqListFacts <> x:63 var
+prf 3874:3884 <> lelistA_dec
+binder 3895:3895 <> a:66
+binder 3897:3898 <> xs:67
+R3905:3905 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3922:3926 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3945:3945 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3906:3912 Coq.Sorting.Sorted <> lelistA syndef
+R3920:3921 Tutorial.Metalib.CoqListFacts <> xs:67 var
+R3918:3918 Tutorial.Metalib.CoqListFacts <> a:66 var
+R3914:3916 Tutorial.Metalib.CoqListFacts <> DecidableSorting.leA var
+R3927:3928 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3929:3935 Coq.Sorting.Sorted <> lelistA syndef
+R3943:3944 Tutorial.Metalib.CoqListFacts <> xs:67 var
+R3941:3941 Tutorial.Metalib.CoqListFacts <> a:66 var
+R3937:3939 Tutorial.Metalib.CoqListFacts <> DecidableSorting.leA var
+R4014:4020 Tutorial.Metalib.CoqListFacts <> DecidableSorting.leA_dec var
+R4014:4020 Tutorial.Metalib.CoqListFacts <> DecidableSorting.leA_dec var
+prf 4088:4095 <> sort_dec
+binder 4106:4107 <> xs:68
+R4114:4114 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4126:4130 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4144:4144 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R4115:4118 Coq.Sorting.Sorted <> sort syndef
+R4124:4125 Tutorial.Metalib.CoqListFacts <> xs:68 var
+R4120:4122 Tutorial.Metalib.CoqListFacts <> DecidableSorting.leA var
+R4131:4132 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4133:4136 Coq.Sorting.Sorted <> sort syndef
+R4142:4143 Tutorial.Metalib.CoqListFacts <> xs:68 var
+R4138:4140 Tutorial.Metalib.CoqListFacts <> DecidableSorting.leA var
+R4225:4235 Tutorial.Metalib.CoqListFacts <> lelistA_dec thm
+R4225:4235 Tutorial.Metalib.CoqListFacts <> lelistA_dec thm
+R4336:4351 Tutorial.Metalib.CoqListFacts DecidableSorting <> sec
+sec 4435:4452 <> SortedListEquality
+var 4467:4467 SortedListEquality A
+var 4488:4490 SortedListEquality ltA
+R4494:4501 Coq.Relations.Relation_Definitions <> relation def
+R4503:4503 Tutorial.Metalib.CoqListFacts <> SortedListEquality.A var
+var 4519:4527 SortedListEquality ltA_trans
+binder 4538:4538 <> x:71
+binder 4540:4540 <> y:72
+binder 4542:4542 <> z:73
+R4552:4555 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4563:4566 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4567:4569 Tutorial.Metalib.CoqListFacts <> SortedListEquality.ltA var
+R4573:4573 Tutorial.Metalib.CoqListFacts <> z:73 var
+R4571:4571 Tutorial.Metalib.CoqListFacts <> x:71 var
+R4556:4558 Tutorial.Metalib.CoqListFacts <> SortedListEquality.ltA var
+R4562:4562 Tutorial.Metalib.CoqListFacts <> z:73 var
+R4560:4560 Tutorial.Metalib.CoqListFacts <> y:72 var
+R4545:4547 Tutorial.Metalib.CoqListFacts <> SortedListEquality.ltA var
+R4551:4551 Tutorial.Metalib.CoqListFacts <> y:72 var
+R4549:4549 Tutorial.Metalib.CoqListFacts <> x:71 var
+var 4589:4599 SortedListEquality ltA_not_eqA
+binder 4610:4610 <> x:75
+binder 4612:4612 <> y:76
+R4622:4625 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4627:4630 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4626:4626 Tutorial.Metalib.CoqListFacts <> x:75 var
+R4631:4631 Tutorial.Metalib.CoqListFacts <> y:76 var
+R4615:4617 Tutorial.Metalib.CoqListFacts <> SortedListEquality.ltA var
+R4621:4621 Tutorial.Metalib.CoqListFacts <> y:76 var
+R4619:4619 Tutorial.Metalib.CoqListFacts <> x:75 var
+var 4647:4653 SortedListEquality ltA_eqA
+binder 4664:4664 <> x:78
+binder 4666:4666 <> y:79
+binder 4668:4668 <> z:80
+R4678:4681 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4687:4690 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4691:4693 Tutorial.Metalib.CoqListFacts <> SortedListEquality.ltA var
+R4697:4697 Tutorial.Metalib.CoqListFacts <> z:80 var
+R4695:4695 Tutorial.Metalib.CoqListFacts <> x:78 var
+R4683:4685 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4682:4682 Tutorial.Metalib.CoqListFacts <> y:79 var
+R4686:4686 Tutorial.Metalib.CoqListFacts <> z:80 var
+R4671:4673 Tutorial.Metalib.CoqListFacts <> SortedListEquality.ltA var
+R4677:4677 Tutorial.Metalib.CoqListFacts <> y:79 var
+R4675:4675 Tutorial.Metalib.CoqListFacts <> x:78 var
+var 4713:4719 SortedListEquality eqA_ltA
+binder 4730:4730 <> x:82
+binder 4732:4732 <> y:83
+binder 4734:4734 <> z:84
+R4742:4745 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4753:4756 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4757:4759 Tutorial.Metalib.CoqListFacts <> SortedListEquality.ltA var
+R4763:4763 Tutorial.Metalib.CoqListFacts <> z:84 var
+R4761:4761 Tutorial.Metalib.CoqListFacts <> x:82 var
+R4746:4748 Tutorial.Metalib.CoqListFacts <> SortedListEquality.ltA var
+R4752:4752 Tutorial.Metalib.CoqListFacts <> z:84 var
+R4750:4750 Tutorial.Metalib.CoqListFacts <> y:83 var
+R4738:4740 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4737:4737 Tutorial.Metalib.CoqListFacts <> x:82 var
+R4741:4741 Tutorial.Metalib.CoqListFacts <> y:83 var
+syndef 4853:4855 <> Inf
+R4861:4867 Coq.Sorting.Sorted <> lelistA syndef
+R4869:4871 Tutorial.Metalib.CoqListFacts <> SortedListEquality.ltA var
+syndef 4886:4889 <> Sort
+R4895:4898 Coq.Sorting.Sorted <> sort syndef
+R4900:4902 Tutorial.Metalib.CoqListFacts <> SortedListEquality.ltA var
+prf 4915:4923 <> eqlist_eq
+R4943:4946 Coq.Init.Datatypes <> list ind
+R4948:4948 Tutorial.Metalib.CoqListFacts <> SortedListEquality.A var
+binder 4935:4936 <> xs:86
+binder 4938:4939 <> ys:87
+R4977:4984 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4987:4989 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4985:4986 Tutorial.Metalib.CoqListFacts <> xs:86 var
+R4990:4991 Tutorial.Metalib.CoqListFacts <> ys:87 var
+R4956:4962 Coq.Lists.SetoidList <> eqlistA ind
+R4975:4976 Tutorial.Metalib.CoqListFacts <> ys:87 var
+R4972:4973 Tutorial.Metalib.CoqListFacts <> xs:86 var
+R4966:4967 Coq.Init.Logic <> eq ind
+prf 5072:5082 <> Sort_InA_eq
+binder 5093:5094 <> xs:88
+binder 5096:5097 <> ys:89
+R5111:5118 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5126:5133 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5134:5134 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5182:5190 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5193:5195 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5191:5192 Tutorial.Metalib.CoqListFacts <> xs:88 var
+R5196:5197 Tutorial.Metalib.CoqListFacts <> ys:89 var
+binder 5142:5142 <> a:90
+R5161:5165 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5145:5147 Coq.Lists.SetoidList <> InA ind
+R5159:5160 Tutorial.Metalib.CoqListFacts <> xs:88 var
+R5157:5157 Tutorial.Metalib.CoqListFacts <> a:90 var
+R5151:5152 Coq.Init.Logic <> eq ind
+R5166:5168 Coq.Lists.SetoidList <> InA ind
+R5180:5181 Tutorial.Metalib.CoqListFacts <> ys:89 var
+R5178:5178 Tutorial.Metalib.CoqListFacts <> a:90 var
+R5172:5173 Coq.Init.Logic <> eq ind
+R5119:5122 Tutorial.Metalib.CoqListFacts <> Sort syndef
+R5124:5125 Tutorial.Metalib.CoqListFacts <> ys:89 var
+R5104:5107 Tutorial.Metalib.CoqListFacts <> Sort syndef
+R5109:5110 Tutorial.Metalib.CoqListFacts <> xs:88 var
+R5242:5248 Coq.Lists.SetoidList <> eqlistA ind
+R5252:5253 Coq.Init.Logic <> eq ind
+R5242:5248 Coq.Lists.SetoidList <> eqlistA ind
+R5252:5253 Coq.Init.Logic <> eq ind
+R5281:5289 Tutorial.Metalib.CoqListFacts <> eqlist_eq thm
+R5281:5289 Tutorial.Metalib.CoqListFacts <> eqlist_eq thm
+R5351:5353 Tutorial.Metalib.CoqListFacts <> SortedListEquality.ltA var
+R5302:5336 Coq.Lists.SetoidList <> SortA_equivlistA_eqlistA thm
+R5351:5353 Tutorial.Metalib.CoqListFacts <> SortedListEquality.ltA var
+R5302:5336 Coq.Lists.SetoidList <> SortA_equivlistA_eqlistA thm
+R5376:5389 Coq.Classes.RelationClasses <> eq_equivalence inst
+R5376:5389 Coq.Classes.RelationClasses <> eq_equivalence inst
+prf 5454:5463 <> Sort_In_eq
+binder 5474:5475 <> xs:91
+binder 5477:5478 <> ys:92
+R5492:5499 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5507:5514 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5515:5515 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5545:5553 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5556:5558 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5554:5555 Tutorial.Metalib.CoqListFacts <> xs:91 var
+R5559:5560 Tutorial.Metalib.CoqListFacts <> ys:92 var
+binder 5523:5523 <> a:93
+R5533:5537 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R5526:5527 Coq.Lists.List <> In def
+R5531:5532 Tutorial.Metalib.CoqListFacts <> xs:91 var
+R5529:5529 Tutorial.Metalib.CoqListFacts <> a:93 var
+R5538:5539 Coq.Lists.List <> In def
+R5543:5544 Tutorial.Metalib.CoqListFacts <> ys:92 var
+R5541:5541 Tutorial.Metalib.CoqListFacts <> a:93 var
+R5500:5503 Tutorial.Metalib.CoqListFacts <> Sort syndef
+R5505:5506 Tutorial.Metalib.CoqListFacts <> ys:92 var
+R5485:5488 Tutorial.Metalib.CoqListFacts <> Sort syndef
+R5490:5491 Tutorial.Metalib.CoqListFacts <> xs:91 var
+R5587:5592 Coq.Lists.SetoidList <> In_InA thm
+R5595:5600 Tutorial.Metalib.CoqListFacts <> InA_In thm
+R5635:5645 Tutorial.Metalib.CoqListFacts <> Sort_InA_eq thm
+R5635:5645 Tutorial.Metalib.CoqListFacts <> Sort_InA_eq thm
+R5709:5714 Coq.Lists.SetoidList <> In_InA thm
+R5709:5714 Coq.Lists.SetoidList <> In_InA thm
+R5709:5714 Coq.Lists.SetoidList <> In_InA thm
+R5742:5759 Tutorial.Metalib.CoqListFacts SortedListEquality <> sec
+sec 6046:6076 <> Uniqueness_Of_SetoidList_Proofs
+var 6091:6091 Uniqueness_Of_SetoidList_Proofs A
+var 6112:6112 Uniqueness_Of_SetoidList_Proofs R
+R6117:6120 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6122:6125 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6121:6121 Tutorial.Metalib.CoqListFacts <> Uniqueness_Of_SetoidList_Proofs.A var
+R6116:6116 Tutorial.Metalib.CoqListFacts <> Uniqueness_Of_SetoidList_Proofs.A var
+var 6146:6153 Uniqueness_Of_SetoidList_Proofs R_unique
+R6171:6171 Tutorial.Metalib.CoqListFacts <> Uniqueness_Of_SetoidList_Proofs.A var
+binder 6165:6165 <> x:96
+binder 6167:6167 <> y:97
+R6181:6181 Tutorial.Metalib.CoqListFacts <> Uniqueness_Of_SetoidList_Proofs.R var
+R6185:6185 Tutorial.Metalib.CoqListFacts <> y:97 var
+R6183:6183 Tutorial.Metalib.CoqListFacts <> x:96 var
+binder 6175:6175 <> p:98
+binder 6177:6177 <> q:99
+R6190:6192 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6189:6189 Tutorial.Metalib.CoqListFacts <> p:98 var
+R6193:6193 Tutorial.Metalib.CoqListFacts <> q:99 var
+var 6209:6219 Uniqueness_Of_SetoidList_Proofs list_eq_dec
+R6239:6242 Coq.Init.Datatypes <> list ind
+R6244:6244 Tutorial.Metalib.CoqListFacts <> Uniqueness_Of_SetoidList_Proofs.A var
+binder 6231:6232 <> xs:101
+binder 6234:6235 <> ys:102
+R6248:6248 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6256:6260 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6269:6269 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R6251:6253 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6249:6250 Tutorial.Metalib.CoqListFacts <> xs:101 var
+R6254:6255 Tutorial.Metalib.CoqListFacts <> ys:102 var
+R6263:6266 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R6261:6262 Tutorial.Metalib.CoqListFacts <> xs:101 var
+R6267:6268 Tutorial.Metalib.CoqListFacts <> ys:102 var
+def 6282:6293 <> lelistA_ind'
+R6312:6318 Coq.Sorting.Sorted <> HdRel ind
+def 6340:6348 <> sort_ind'
+R6370:6373 Coq.Sorting.Sorted <> Sorted ind
+def 6395:6406 <> eqlistA_ind'
+R6425:6431 Coq.Lists.SetoidList <> eqlistA ind
+prf 6455:6468 <> lelistA_unique
+R6488:6488 Tutorial.Metalib.CoqListFacts <> Uniqueness_Of_SetoidList_Proofs.A var
+binder 6484:6484 <> x:104
+R6497:6500 Coq.Init.Datatypes <> list ind
+R6502:6502 Tutorial.Metalib.CoqListFacts <> Uniqueness_Of_SetoidList_Proofs.A var
+binder 6492:6493 <> xs:105
+R6512:6518 Coq.Sorting.Sorted <> lelistA syndef
+R6524:6525 Tutorial.Metalib.CoqListFacts <> xs:105 var
+R6522:6522 Tutorial.Metalib.CoqListFacts <> x:104 var
+R6520:6520 Tutorial.Metalib.CoqListFacts <> Uniqueness_Of_SetoidList_Proofs.R var
+binder 6506:6506 <> p:106
+binder 6508:6508 <> q:107
+R6530:6532 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6529:6529 Tutorial.Metalib.CoqListFacts <> p:106 var
+R6533:6533 Tutorial.Metalib.CoqListFacts <> q:107 var
+R6563:6574 Tutorial.Metalib.CoqListFacts <> lelistA_ind' scheme
+R6563:6574 Tutorial.Metalib.CoqListFacts <> lelistA_ind' scheme
+prf 6607:6617 <> sort_unique
+R6638:6641 Coq.Init.Datatypes <> list ind
+R6643:6643 Tutorial.Metalib.CoqListFacts <> Uniqueness_Of_SetoidList_Proofs.A var
+binder 6633:6634 <> xs:108
+R6653:6656 Coq.Sorting.Sorted <> sort syndef
+R6660:6661 Tutorial.Metalib.CoqListFacts <> xs:108 var
+R6658:6658 Tutorial.Metalib.CoqListFacts <> Uniqueness_Of_SetoidList_Proofs.R var
+binder 6647:6647 <> p:109
+binder 6649:6649 <> q:110
+R6666:6668 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6665:6665 Tutorial.Metalib.CoqListFacts <> p:109 var
+R6669:6669 Tutorial.Metalib.CoqListFacts <> q:110 var
+R6699:6707 Tutorial.Metalib.CoqListFacts <> sort_ind' scheme
+R6699:6707 Tutorial.Metalib.CoqListFacts <> sort_ind' scheme
+R6730:6743 Tutorial.Metalib.CoqListFacts <> lelistA_unique thm
+R6730:6743 Tutorial.Metalib.CoqListFacts <> lelistA_unique thm
+prf 6762:6775 <> eqlistA_unique
+R6799:6802 Coq.Init.Datatypes <> list ind
+R6804:6804 Tutorial.Metalib.CoqListFacts <> Uniqueness_Of_SetoidList_Proofs.A var
+binder 6791:6792 <> xs:111
+binder 6794:6795 <> ys:112
+R6814:6820 Coq.Lists.SetoidList <> eqlistA ind
+R6827:6828 Tutorial.Metalib.CoqListFacts <> ys:112 var
+R6824:6825 Tutorial.Metalib.CoqListFacts <> xs:111 var
+R6822:6822 Tutorial.Metalib.CoqListFacts <> Uniqueness_Of_SetoidList_Proofs.R var
+binder 6808:6808 <> p:113
+binder 6810:6810 <> q:114
+R6833:6835 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6832:6832 Tutorial.Metalib.CoqListFacts <> p:113 var
+R6836:6836 Tutorial.Metalib.CoqListFacts <> q:114 var
+R6866:6877 Tutorial.Metalib.CoqListFacts <> eqlistA_ind' scheme
+R6866:6877 Tutorial.Metalib.CoqListFacts <> eqlistA_ind' scheme
+R6904:6934 Tutorial.Metalib.CoqListFacts Uniqueness_Of_SetoidList_Proofs <> sec

@@ -1,0 +1,1628 @@
+DIGEST a9a872a00315b839993ac91dbd0e0bde
+FTutorial.Metalib.CoqFSetInterface
+R1621:1624 Coq.Bool.Bool <> <> lib
+R1626:1636 Coq.Structures.OrderedType <> <> lib
+R1638:1650 Coq.Structures.DecidableType <> <> lib
+R1997:2009 Coq.Structures.DecidableType DecidableType <> mod
+modtype 1986:1990 <> WSfun
+def 2027:2029 WSfun elt
+R2034:2036 Tutorial.Metalib.CoqFSetInterface E t defax
+ax 2052:2052 WSfun t
+ax 2136:2137 WSfun In
+R2144:2147 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2149:2152 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2148:2148 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+R2141:2143 Tutorial.Metalib.CoqFSetInterface E t defax
+def 2172:2176 WSfun Equal
+binder 2178:2178 <> s:3
+binder 2180:2181 <> s':4
+R2197:2199 Tutorial.Metalib.CoqFSetInterface E t defax
+binder 2193:2193 <> a:5
+R2208:2212 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2202:2203 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R2207:2207 Tutorial.Metalib.CoqFSetInterface <> s:3 var
+R2205:2205 Tutorial.Metalib.CoqFSetInterface <> a:5 var
+R2213:2214 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R2218:2219 Tutorial.Metalib.CoqFSetInterface <> s':4 var
+R2216:2216 Tutorial.Metalib.CoqFSetInterface <> a:5 var
+def 2235:2240 WSfun Subset
+binder 2242:2242 <> s:6
+binder 2244:2245 <> s':7
+R2261:2263 Tutorial.Metalib.CoqFSetInterface E t defax
+binder 2257:2257 <> a:8
+R2272:2275 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2276:2277 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R2281:2282 Tutorial.Metalib.CoqFSetInterface <> s':7 var
+R2279:2279 Tutorial.Metalib.CoqFSetInterface <> a:8 var
+R2266:2267 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R2271:2271 Tutorial.Metalib.CoqFSetInterface <> s:6 var
+R2269:2269 Tutorial.Metalib.CoqFSetInterface <> a:8 var
+def 2298:2302 WSfun Empty
+binder 2304:2304 <> s:9
+R2320:2322 Tutorial.Metalib.CoqFSetInterface E t defax
+binder 2316:2316 <> a:10
+R2325:2326 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2327:2328 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R2332:2332 Tutorial.Metalib.CoqFSetInterface <> s:9 var
+R2330:2330 Tutorial.Metalib.CoqFSetInterface <> a:10 var
+def 2348:2354 WSfun For_all
+R2364:2367 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2361:2363 Tutorial.Metalib.CoqFSetInterface E t defax
+binder 2357:2357 <> P:11
+binder 2374:2374 <> s:12
+binder 2386:2386 <> x:13
+R2395:2398 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2399:2399 Tutorial.Metalib.CoqFSetInterface <> P:11 var
+R2401:2401 Tutorial.Metalib.CoqFSetInterface <> x:13 var
+R2389:2390 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R2394:2394 Tutorial.Metalib.CoqFSetInterface <> s:12 var
+R2392:2392 Tutorial.Metalib.CoqFSetInterface <> x:13 var
+def 2417:2422 WSfun Exists
+R2432:2435 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2429:2431 Tutorial.Metalib.CoqFSetInterface E t defax
+binder 2425:2425 <> P:14
+binder 2442:2442 <> s:15
+R2447:2453 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2455:2456 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 2454:2454 <> x:16
+R2463:2466 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2457:2458 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R2462:2462 Tutorial.Metalib.CoqFSetInterface <> s:15 var
+R2460:2460 Tutorial.Metalib.CoqFSetInterface <> x:16 var
+R2467:2467 Tutorial.Metalib.CoqFSetInterface <> P:14 var
+R2469:2469 Tutorial.Metalib.CoqFSetInterface <> x:16 var
+R2500:2504 Tutorial.Metalib.CoqFSetInterface WSfun Equal def
+not 2484:2484 WSfun :::x_'[=]'_x
+R2572:2577 Tutorial.Metalib.CoqFSetInterface WSfun Subset def
+not 2555:2555 WSfun :::x_'[<=]'_x
+ax 2630:2634 WSfun empty
+R2638:2638 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+ax 2678:2685 WSfun is_empty
+R2690:2693 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2694:2697 Coq.Init.Datatypes <> bool ind
+R2689:2689 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+ax 2758:2760 WSfun mem
+R2767:2770 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2772:2775 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2776:2779 Coq.Init.Datatypes <> bool ind
+R2771:2771 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+R2764:2766 Tutorial.Metalib.CoqFSetInterface E t defax
+ax 2856:2858 WSfun add
+R2865:2868 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2870:2873 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2874:2874 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+R2869:2869 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+R2862:2864 Tutorial.Metalib.CoqFSetInterface E t defax
+ax 3021:3029 WSfun singleton
+R3036:3039 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3040:3040 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+R3033:3035 Tutorial.Metalib.CoqFSetInterface E t defax
+ax 3128:3133 WSfun remove
+R3140:3143 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3145:3148 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3149:3149 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+R3144:3144 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+R3137:3139 Tutorial.Metalib.CoqFSetInterface E t defax
+ax 3297:3301 WSfun union
+R3306:3309 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3311:3314 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3315:3315 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+R3310:3310 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+R3305:3305 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+ax 3351:3355 WSfun inter
+R3360:3363 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3365:3368 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3369:3369 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+R3364:3364 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+R3359:3359 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+ax 3412:3415 WSfun diff
+R3420:3423 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3425:3428 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3429:3429 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+R3424:3424 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+R3419:3419 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+def 3471:3472 WSfun eq
+R3477:3480 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3482:3485 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3481:3481 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+R3476:3476 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+R3494:3498 Tutorial.Metalib.CoqFSetInterface WSfun Equal def
+ax 3514:3519 WSfun eq_dec
+binder 3530:3530 <> s:26
+binder 3532:3533 <> s':27
+R3536:3537 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3545:3551 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3561:3562 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3538:3539 Tutorial.Metalib.CoqFSetInterface WSfun eq def
+R3543:3544 Tutorial.Metalib.CoqFSetInterface <> s':27 var
+R3541:3541 Tutorial.Metalib.CoqFSetInterface <> s:26 var
+R3552:3553 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3554:3555 Tutorial.Metalib.CoqFSetInterface WSfun eq def
+R3559:3560 Tutorial.Metalib.CoqFSetInterface <> s':27 var
+R3557:3557 Tutorial.Metalib.CoqFSetInterface <> s:26 var
+ax 3578:3582 WSfun equal
+R3587:3590 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3592:3595 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3596:3599 Coq.Init.Datatypes <> bool ind
+R3591:3591 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+R3586:3586 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+ax 3721:3726 WSfun subset
+R3731:3734 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3736:3739 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3740:3743 Coq.Init.Datatypes <> bool ind
+R3735:3735 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+R3730:3730 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+ax 3841:3844 WSfun fold
+binder 3855:3855 <> A:31
+R3865:3865 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3879:3883 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3885:3888 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3890:3893 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3894:3894 Tutorial.Metalib.CoqFSetInterface <> A:31 var
+R3889:3889 Tutorial.Metalib.CoqFSetInterface <> A:31 var
+R3884:3884 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+R3869:3872 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3874:3877 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3878:3878 Tutorial.Metalib.CoqFSetInterface <> A:31 var
+R3873:3873 Tutorial.Metalib.CoqFSetInterface <> A:31 var
+R3866:3868 Tutorial.Metalib.CoqFSetInterface E t defax
+ax 4095:4101 WSfun for_all
+R4105:4105 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4117:4121 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4123:4126 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4127:4130 Coq.Init.Datatypes <> bool ind
+R4122:4122 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+R4109:4112 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4113:4116 Coq.Init.Datatypes <> bool ind
+R4106:4108 Tutorial.Metalib.CoqFSetInterface E t defax
+ax 4232:4238 WSfun exists_
+R4242:4242 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4254:4258 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4260:4263 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4264:4267 Coq.Init.Datatypes <> bool ind
+R4259:4259 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+R4246:4249 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4250:4253 Coq.Init.Datatypes <> bool ind
+R4243:4245 Tutorial.Metalib.CoqFSetInterface E t defax
+ax 4378:4383 WSfun filter
+R4387:4387 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4399:4403 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4405:4408 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4409:4409 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+R4404:4404 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+R4391:4394 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4395:4398 Coq.Init.Datatypes <> bool ind
+R4388:4390 Tutorial.Metalib.CoqFSetInterface E t defax
+ax 4516:4524 WSfun partition
+R4528:4528 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4540:4544 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4546:4549 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4551:4553 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4550:4550 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+R4554:4554 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+R4545:4545 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+R4532:4535 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4536:4539 Coq.Init.Datatypes <> bool ind
+R4529:4531 Tutorial.Metalib.CoqFSetInterface E t defax
+ax 4789:4796 WSfun cardinal
+R4801:4804 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4805:4807 Coq.Init.Datatypes <> nat ind
+R4800:4800 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+ax 4872:4879 WSfun elements
+R4884:4887 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4888:4891 Coq.Init.Datatypes <> list ind
+R4893:4895 Tutorial.Metalib.CoqFSetInterface E t defax
+R4883:4883 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+ax 4984:4989 WSfun choose
+R4994:4997 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4998:5003 Coq.Init.Datatypes <> option ind
+R5005:5007 Tutorial.Metalib.CoqFSetInterface E t defax
+R4993:4993 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+sec 5186:5189 WSfun Spec
+var 5204:5204 WSfun.Spec s
+var 5206:5207 WSfun.Spec s'
+var 5209:5211 WSfun.Spec s''
+R5214:5214 Tutorial.Metalib.CoqFSetInterface WSfun t defax
+var 5228:5228 WSfun.Spec x
+var 5230:5230 WSfun.Spec y
+R5234:5236 Tutorial.Metalib.CoqFSetInterface E t defax
+ax 5283:5286 WSfun In_1
+R5298:5301 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5308:5311 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5312:5313 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R5317:5317 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R5315:5315 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.y var
+R5302:5303 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R5307:5307 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R5305:5305 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R5290:5293 Tutorial.Metalib.CoqFSetInterface E eq defax
+R5297:5297 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.y var
+R5295:5295 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+ax 5364:5370 WSfun eq_refl
+R5374:5375 Tutorial.Metalib.CoqFSetInterface WSfun eq def
+R5379:5379 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R5377:5377 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+ax 5394:5399 WSfun eq_sym
+R5410:5413 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5414:5415 Tutorial.Metalib.CoqFSetInterface WSfun eq def
+R5420:5420 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R5417:5418 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s' var
+R5403:5404 Tutorial.Metalib.CoqFSetInterface WSfun eq def
+R5408:5409 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s' var
+R5406:5406 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+ax 5435:5442 WSfun eq_trans
+R5453:5456 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5466:5469 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5470:5471 Tutorial.Metalib.CoqFSetInterface WSfun eq def
+R5475:5477 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s'' var
+R5473:5473 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R5457:5458 Tutorial.Metalib.CoqFSetInterface WSfun eq def
+R5463:5465 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s'' var
+R5460:5461 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s' var
+R5446:5447 Tutorial.Metalib.CoqFSetInterface WSfun eq def
+R5451:5452 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s' var
+R5449:5449 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+ax 5525:5529 WSfun mem_1
+R5539:5542 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5550:5552 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5543:5545 Tutorial.Metalib.CoqFSetInterface WSfun mem defax
+R5549:5549 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R5547:5547 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R5553:5556 Coq.Init.Datatypes <> true constr
+R5533:5534 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R5538:5538 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R5536:5536 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+ax 5571:5575 WSfun mem_2
+R5593:5596 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5597:5598 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R5602:5602 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R5600:5600 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R5586:5588 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5579:5581 Tutorial.Metalib.CoqFSetInterface WSfun mem defax
+R5585:5585 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R5583:5583 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R5589:5592 Coq.Init.Datatypes <> true constr
+ax 5652:5658 WSfun equal_1
+R5672:5675 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5686:5688 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5676:5680 Tutorial.Metalib.CoqFSetInterface WSfun equal defax
+R5684:5685 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s' var
+R5682:5682 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R5689:5692 Coq.Init.Datatypes <> true constr
+R5662:5666 Tutorial.Metalib.CoqFSetInterface WSfun Equal def
+R5670:5671 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s' var
+R5668:5668 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+ax 5707:5713 WSfun equal_2
+R5734:5737 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5738:5742 Tutorial.Metalib.CoqFSetInterface WSfun Equal def
+R5746:5747 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s' var
+R5744:5744 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R5727:5729 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5717:5721 Tutorial.Metalib.CoqFSetInterface WSfun equal defax
+R5725:5726 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s' var
+R5723:5723 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R5730:5733 Coq.Init.Datatypes <> true constr
+ax 5798:5805 WSfun subset_1
+R5820:5823 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5835:5837 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5824:5829 Tutorial.Metalib.CoqFSetInterface WSfun subset defax
+R5833:5834 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s' var
+R5831:5831 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R5838:5841 Coq.Init.Datatypes <> true constr
+R5809:5814 Tutorial.Metalib.CoqFSetInterface WSfun Subset def
+R5818:5819 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s' var
+R5816:5816 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+ax 5856:5863 WSfun subset_2
+R5885:5888 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5889:5894 Tutorial.Metalib.CoqFSetInterface WSfun Subset def
+R5898:5899 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s' var
+R5896:5896 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R5878:5880 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5867:5872 Tutorial.Metalib.CoqFSetInterface WSfun subset defax
+R5876:5877 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s' var
+R5874:5874 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R5881:5884 Coq.Init.Datatypes <> true constr
+ax 5949:5955 WSfun empty_1
+R5959:5963 Tutorial.Metalib.CoqFSetInterface WSfun Empty def
+R5965:5969 Tutorial.Metalib.CoqFSetInterface WSfun empty defax
+ax 6022:6031 WSfun is_empty_1
+R6042:6045 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6056:6058 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6046:6053 Tutorial.Metalib.CoqFSetInterface WSfun is_empty defax
+R6055:6055 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R6059:6062 Coq.Init.Datatypes <> true constr
+R6035:6039 Tutorial.Metalib.CoqFSetInterface WSfun Empty def
+R6041:6041 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+ax 6077:6086 WSfun is_empty_2
+R6107:6110 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6111:6115 Tutorial.Metalib.CoqFSetInterface WSfun Empty def
+R6117:6117 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R6100:6102 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6090:6097 Tutorial.Metalib.CoqFSetInterface WSfun is_empty defax
+R6099:6099 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R6103:6106 Coq.Init.Datatypes <> true constr
+ax 6165:6169 WSfun add_1
+R6181:6184 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6185:6186 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R6191:6193 Tutorial.Metalib.CoqFSetInterface WSfun add defax
+R6197:6197 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R6195:6195 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R6188:6188 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.y var
+R6173:6176 Tutorial.Metalib.CoqFSetInterface E eq defax
+R6180:6180 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.y var
+R6178:6178 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+ax 6213:6217 WSfun add_2
+R6227:6230 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6231:6232 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R6237:6239 Tutorial.Metalib.CoqFSetInterface WSfun add defax
+R6243:6243 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R6241:6241 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R6234:6234 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.y var
+R6221:6222 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R6226:6226 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R6224:6224 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.y var
+ax 6259:6263 WSfun add_3
+R6277:6280 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6295:6298 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6299:6300 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R6304:6304 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R6302:6302 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.y var
+R6281:6282 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R6287:6289 Tutorial.Metalib.CoqFSetInterface WSfun add defax
+R6293:6293 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R6291:6291 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R6284:6284 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.y var
+R6267:6268 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6269:6272 Tutorial.Metalib.CoqFSetInterface E eq defax
+R6276:6276 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.y var
+R6274:6274 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+ax 6355:6362 WSfun remove_1
+R6374:6377 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6378:6379 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6380:6381 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R6386:6391 Tutorial.Metalib.CoqFSetInterface WSfun remove defax
+R6395:6395 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R6393:6393 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R6383:6383 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.y var
+R6366:6369 Tutorial.Metalib.CoqFSetInterface E eq defax
+R6373:6373 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.y var
+R6371:6371 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+ax 6411:6418 WSfun remove_2
+R6432:6435 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6442:6445 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6446:6447 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R6452:6457 Tutorial.Metalib.CoqFSetInterface WSfun remove defax
+R6461:6461 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R6459:6459 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R6449:6449 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.y var
+R6436:6437 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R6441:6441 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R6439:6439 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.y var
+R6422:6423 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6424:6427 Tutorial.Metalib.CoqFSetInterface E eq defax
+R6431:6431 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.y var
+R6429:6429 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+ax 6477:6484 WSfun remove_3
+R6505:6508 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6509:6510 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R6514:6514 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R6512:6512 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.y var
+R6488:6489 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R6494:6499 Tutorial.Metalib.CoqFSetInterface WSfun remove defax
+R6503:6503 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R6501:6501 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R6491:6491 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.y var
+ax 6568:6578 WSfun singleton_1
+R6600:6603 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6604:6607 Tutorial.Metalib.CoqFSetInterface E eq defax
+R6611:6611 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.y var
+R6609:6609 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R6582:6583 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R6588:6596 Tutorial.Metalib.CoqFSetInterface WSfun singleton defax
+R6598:6598 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R6585:6585 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.y var
+ax 6626:6636 WSfun singleton_2
+R6648:6651 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6652:6653 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R6658:6666 Tutorial.Metalib.CoqFSetInterface WSfun singleton defax
+R6668:6668 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R6655:6655 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.y var
+R6640:6643 Tutorial.Metalib.CoqFSetInterface E eq defax
+R6647:6647 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.y var
+R6645:6645 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+ax 6719:6725 WSfun union_1
+R6746:6749 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6756:6759 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6750:6751 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R6755:6755 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R6753:6753 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R6760:6761 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R6765:6766 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s' var
+R6763:6763 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R6729:6730 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R6735:6739 Tutorial.Metalib.CoqFSetInterface WSfun union defax
+R6743:6744 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s' var
+R6741:6741 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R6732:6732 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+ax 6781:6787 WSfun union_2
+R6797:6800 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6801:6802 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R6807:6811 Tutorial.Metalib.CoqFSetInterface WSfun union defax
+R6815:6816 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s' var
+R6813:6813 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R6804:6804 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R6791:6792 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R6796:6796 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R6794:6794 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+ax 6832:6838 WSfun union_3
+R6849:6852 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6853:6854 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R6859:6863 Tutorial.Metalib.CoqFSetInterface WSfun union defax
+R6867:6868 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s' var
+R6865:6865 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R6856:6856 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R6842:6843 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R6847:6848 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s' var
+R6845:6845 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+ax 6919:6925 WSfun inter_1
+R6946:6949 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6950:6951 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R6955:6955 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R6953:6953 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R6929:6930 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R6935:6939 Tutorial.Metalib.CoqFSetInterface WSfun inter defax
+R6943:6944 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s' var
+R6941:6941 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R6932:6932 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+ax 6970:6976 WSfun inter_2
+R6997:7000 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7001:7002 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R7006:7007 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s' var
+R7004:7004 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R6980:6981 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R6986:6990 Tutorial.Metalib.CoqFSetInterface WSfun inter defax
+R6994:6995 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s' var
+R6992:6992 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R6983:6983 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+ax 7022:7028 WSfun inter_3
+R7038:7041 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7049:7052 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7053:7054 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R7059:7063 Tutorial.Metalib.CoqFSetInterface WSfun inter defax
+R7067:7068 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s' var
+R7065:7065 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R7056:7056 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R7042:7043 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R7047:7048 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s' var
+R7045:7045 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R7032:7033 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R7037:7037 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R7035:7035 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+ax 7118:7123 WSfun diff_1
+R7143:7146 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7147:7148 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R7152:7152 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R7150:7150 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R7127:7128 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R7133:7136 Tutorial.Metalib.CoqFSetInterface WSfun diff defax
+R7140:7141 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s' var
+R7138:7138 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R7130:7130 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+ax 7167:7172 WSfun diff_2
+R7192:7195 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7196:7197 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7198:7199 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R7203:7204 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s' var
+R7201:7201 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R7176:7177 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R7182:7185 Tutorial.Metalib.CoqFSetInterface WSfun diff defax
+R7189:7190 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s' var
+R7187:7187 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R7179:7179 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+ax 7219:7224 WSfun diff_3
+R7234:7237 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7247:7250 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7251:7252 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R7257:7260 Tutorial.Metalib.CoqFSetInterface WSfun diff defax
+R7264:7265 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s' var
+R7262:7262 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R7254:7254 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R7238:7239 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7240:7241 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R7245:7246 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s' var
+R7243:7243 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R7228:7229 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R7233:7233 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R7231:7231 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+ax 7315:7320 WSfun fold_1
+binder 7332:7332 <> A:75
+R7347:7347 Tutorial.Metalib.CoqFSetInterface <> A:75 var
+binder 7343:7343 <> i:76
+R7358:7361 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7363:7366 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7367:7367 Tutorial.Metalib.CoqFSetInterface <> A:75 var
+R7362:7362 Tutorial.Metalib.CoqFSetInterface <> A:75 var
+R7355:7357 Tutorial.Metalib.CoqFSetInterface E t defax
+binder 7351:7351 <> f:77
+R7387:7389 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7377:7380 Tutorial.Metalib.CoqFSetInterface WSfun fold defax
+R7386:7386 Tutorial.Metalib.CoqFSetInterface <> i:76 var
+R7384:7384 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R7382:7382 Tutorial.Metalib.CoqFSetInterface <> f:77 var
+R7390:7398 Coq.Lists.List <> fold_left def
+R7432:7432 Tutorial.Metalib.CoqFSetInterface <> i:76 var
+R7420:7427 Tutorial.Metalib.CoqFSetInterface WSfun elements defax
+R7429:7429 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+binder 7405:7405 <> a:78
+binder 7407:7407 <> e:79
+R7412:7412 Tutorial.Metalib.CoqFSetInterface <> f:77 var
+R7416:7416 Tutorial.Metalib.CoqFSetInterface <> a:78 var
+R7414:7414 Tutorial.Metalib.CoqFSetInterface <> e:79 var
+ax 7485:7494 WSfun cardinal_1
+R7508:7510 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7498:7505 Tutorial.Metalib.CoqFSetInterface WSfun cardinal defax
+R7507:7507 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R7511:7516 Coq.Init.Datatypes <> length def
+R7519:7526 Tutorial.Metalib.CoqFSetInterface WSfun elements defax
+R7528:7528 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+sec 7543:7548 WSfun.Spec Filter
+var 7563:7563 WSfun.Spec.Filter f
+R7570:7573 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7574:7577 Coq.Init.Datatypes <> bool ind
+R7567:7569 Tutorial.Metalib.CoqFSetInterface E t defax
+ax 7628:7635 WSfun filter_1
+R7657:7660 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7678:7681 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7682:7683 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R7687:7687 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R7685:7685 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R7661:7662 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R7667:7672 Tutorial.Metalib.CoqFSetInterface WSfun filter defax
+R7676:7676 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R7674:7674 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.Filter.f var
+R7664:7664 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R7639:7649 Coq.Lists.SetoidList <> compat_bool def
+R7656:7656 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.Filter.f var
+R7651:7654 Tutorial.Metalib.CoqFSetInterface E eq defax
+ax 7702:7709 WSfun filter_2
+R7731:7734 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7752:7755 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7759:7761 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7756:7756 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.Filter.f var
+R7758:7758 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R7762:7765 Coq.Init.Datatypes <> true constr
+R7735:7736 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R7741:7746 Tutorial.Metalib.CoqFSetInterface WSfun filter defax
+R7750:7750 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R7748:7748 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.Filter.f var
+R7738:7738 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R7713:7723 Coq.Lists.SetoidList <> compat_bool def
+R7730:7730 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.Filter.f var
+R7725:7728 Tutorial.Metalib.CoqFSetInterface E eq defax
+ax 7780:7787 WSfun filter_3
+R7815:7818 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7825:7828 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7839:7842 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7843:7844 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R7849:7854 Tutorial.Metalib.CoqFSetInterface WSfun filter defax
+R7858:7858 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R7856:7856 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.Filter.f var
+R7846:7846 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R7832:7834 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7829:7829 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.Filter.f var
+R7831:7831 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R7835:7838 Coq.Init.Datatypes <> true constr
+R7819:7820 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R7824:7824 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R7822:7822 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R7797:7807 Coq.Lists.SetoidList <> compat_bool def
+R7814:7814 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.Filter.f var
+R7809:7812 Tutorial.Metalib.CoqFSetInterface E eq defax
+ax 7911:7919 WSfun for_all_1
+R7947:7956 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7988:7991 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8003:8005 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7992:7998 Tutorial.Metalib.CoqFSetInterface WSfun for_all defax
+R8002:8002 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R8000:8000 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.Filter.f var
+R8006:8009 Coq.Init.Datatypes <> true constr
+R7957:7963 Tutorial.Metalib.CoqFSetInterface WSfun For_all def
+R7987:7987 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+binder 7970:7970 <> x:86
+R7978:7980 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7975:7975 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.Filter.f var
+R7977:7977 Tutorial.Metalib.CoqFSetInterface <> x:86 var
+R7981:7984 Coq.Init.Datatypes <> true constr
+R7929:7939 Coq.Lists.SetoidList <> compat_bool def
+R7946:7946 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.Filter.f var
+R7941:7944 Tutorial.Metalib.CoqFSetInterface E eq defax
+ax 8024:8032 WSfun for_all_2
+R8060:8069 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8088:8091 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8092:8098 Tutorial.Metalib.CoqFSetInterface WSfun For_all def
+R8122:8122 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+binder 8105:8105 <> x:88
+R8113:8115 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8110:8110 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.Filter.f var
+R8112:8112 Tutorial.Metalib.CoqFSetInterface <> x:88 var
+R8116:8119 Coq.Init.Datatypes <> true constr
+R8081:8083 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8070:8076 Tutorial.Metalib.CoqFSetInterface WSfun for_all defax
+R8080:8080 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R8078:8078 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.Filter.f var
+R8084:8087 Coq.Init.Datatypes <> true constr
+R8042:8052 Coq.Lists.SetoidList <> compat_bool def
+R8059:8059 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.Filter.f var
+R8054:8057 Tutorial.Metalib.CoqFSetInterface E eq defax
+ax 8173:8180 WSfun exists_1
+R8208:8217 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8248:8251 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8263:8265 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8252:8258 Tutorial.Metalib.CoqFSetInterface WSfun exists_ defax
+R8262:8262 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R8260:8260 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.Filter.f var
+R8266:8269 Coq.Init.Datatypes <> true constr
+R8218:8223 Tutorial.Metalib.CoqFSetInterface WSfun Exists def
+R8247:8247 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+binder 8230:8230 <> x:90
+R8238:8240 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8235:8235 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.Filter.f var
+R8237:8237 Tutorial.Metalib.CoqFSetInterface <> x:90 var
+R8241:8244 Coq.Init.Datatypes <> true constr
+R8190:8200 Coq.Lists.SetoidList <> compat_bool def
+R8207:8207 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.Filter.f var
+R8202:8205 Tutorial.Metalib.CoqFSetInterface E eq defax
+ax 8284:8291 WSfun exists_2
+R8319:8328 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8347:8350 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8351:8356 Tutorial.Metalib.CoqFSetInterface WSfun Exists def
+R8380:8380 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+binder 8363:8363 <> x:92
+R8371:8373 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8368:8368 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.Filter.f var
+R8370:8370 Tutorial.Metalib.CoqFSetInterface <> x:92 var
+R8374:8377 Coq.Init.Datatypes <> true constr
+R8340:8342 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8329:8335 Tutorial.Metalib.CoqFSetInterface WSfun exists_ defax
+R8339:8339 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R8337:8337 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.Filter.f var
+R8343:8346 Coq.Init.Datatypes <> true constr
+R8301:8311 Coq.Lists.SetoidList <> compat_bool def
+R8318:8318 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.Filter.f var
+R8313:8316 Tutorial.Metalib.CoqFSetInterface E eq defax
+ax 8434:8444 WSfun partition_1
+R8472:8475 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8476:8480 Tutorial.Metalib.CoqFSetInterface WSfun Equal def
+R8505:8510 Tutorial.Metalib.CoqFSetInterface WSfun filter defax
+R8514:8514 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R8512:8512 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.Filter.f var
+R8483:8485 Coq.Init.Datatypes <> fst def
+R8488:8496 Tutorial.Metalib.CoqFSetInterface WSfun partition defax
+R8500:8500 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R8498:8498 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.Filter.f var
+R8454:8464 Coq.Lists.SetoidList <> compat_bool def
+R8471:8471 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.Filter.f var
+R8466:8469 Tutorial.Metalib.CoqFSetInterface E eq defax
+ax 8530:8540 WSfun partition_2
+R8568:8577 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8578:8582 Tutorial.Metalib.CoqFSetInterface WSfun Equal def
+R8607:8612 Tutorial.Metalib.CoqFSetInterface WSfun filter defax
+R8636:8636 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+binder 8619:8619 <> x:95
+R8624:8627 Coq.Init.Datatypes <> negb def
+R8630:8630 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.Filter.f var
+R8632:8632 Tutorial.Metalib.CoqFSetInterface <> x:95 var
+R8585:8587 Coq.Init.Datatypes <> snd def
+R8590:8598 Tutorial.Metalib.CoqFSetInterface WSfun partition defax
+R8602:8602 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R8600:8600 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.Filter.f var
+R8550:8560 Coq.Lists.SetoidList <> compat_bool def
+R8567:8567 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.Filter.f var
+R8562:8565 Tutorial.Metalib.CoqFSetInterface E eq defax
+R8647:8652 Tutorial.Metalib.CoqFSetInterface WSfun.Spec.Filter <> sec
+ax 8705:8714 WSfun elements_1
+R8724:8727 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8728:8730 Coq.Lists.SetoidList <> InA ind
+R8740:8747 Tutorial.Metalib.CoqFSetInterface WSfun elements defax
+R8749:8749 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R8737:8737 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R8732:8735 Tutorial.Metalib.CoqFSetInterface E eq defax
+R8718:8719 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R8723:8723 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R8721:8721 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+ax 8765:8774 WSfun elements_2
+R8801:8804 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8805:8806 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R8810:8810 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R8808:8808 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R8778:8780 Coq.Lists.SetoidList <> InA ind
+R8790:8797 Tutorial.Metalib.CoqFSetInterface WSfun elements defax
+R8799:8799 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R8787:8787 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R8782:8785 Tutorial.Metalib.CoqFSetInterface E eq defax
+ax 8925:8935 WSfun elements_3w
+R8939:8944 Coq.Lists.SetoidList <> NoDupA ind
+R8952:8959 Tutorial.Metalib.CoqFSetInterface WSfun elements defax
+R8961:8961 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R8946:8949 Tutorial.Metalib.CoqFSetInterface E eq defax
+ax 9013:9020 WSfun choose_1
+R9041:9044 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9045:9046 Tutorial.Metalib.CoqFSetInterface WSfun In defax
+R9050:9050 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R9048:9048 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+R9032:9034 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9024:9029 Tutorial.Metalib.CoqFSetInterface WSfun choose defax
+R9031:9031 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R9035:9038 Coq.Init.Datatypes <> Some constr
+R9040:9040 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.x var
+ax 9065:9072 WSfun choose_2
+R9091:9094 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9095:9099 Tutorial.Metalib.CoqFSetInterface WSfun Empty def
+R9101:9101 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R9084:9086 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9076:9081 Tutorial.Metalib.CoqFSetInterface WSfun choose defax
+R9083:9083 Tutorial.Metalib.CoqFSetInterface <> WSfun.Spec.s var
+R9087:9090 Coq.Init.Datatypes <> None constr
+R9111:9114 Tutorial.Metalib.CoqFSetInterface WSfun.Spec <> sec
+R9568:9572 Tutorial.Metalib.CoqFSetInterface WSfun <> modtype
+modtype 9761:9762 <> WS
+R9786:9798 Coq.Structures.DecidableType DecidableType <> mod
+mod 9782:9782 <> WS.E
+R9811:9815 Tutorial.Metalib.CoqFSetInterface WSfun <> mod
+R9817:9817 Tutorial.Metalib.CoqFSetInterface WS.E <> modtype
+R9824:9825 Tutorial.Metalib.CoqFSetInterface WS <> modtype
+R10045:10055 Coq.Structures.OrderedType OrderedType <> mod
+modtype 10035:10038 <> Sfun
+R10069:10073 Tutorial.Metalib.CoqFSetInterface WSfun <> mod
+R10075:10075 Tutorial.Metalib.CoqFSetInterface E <> modtype
+ax 10091:10092 Sfun lt
+R10097:10100 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10102:10105 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10101:10101 Tutorial.Metalib.CoqFSetInterface Sfun t defax
+R10096:10096 Tutorial.Metalib.CoqFSetInterface Sfun t defax
+ax 10124:10130 Sfun compare
+R10148:10148 Tutorial.Metalib.CoqFSetInterface Sfun t defax
+binder 10141:10141 <> s:103
+binder 10143:10144 <> s':104
+R10151:10157 Coq.Structures.OrderedType <> Compare ind
+R10167:10168 Tutorial.Metalib.CoqFSetInterface <> s':104 var
+R10165:10165 Tutorial.Metalib.CoqFSetInterface <> s:103 var
+R10162:10163 Tutorial.Metalib.CoqFSetInterface Sfun eq def
+R10159:10160 Tutorial.Metalib.CoqFSetInterface Sfun lt defax
+ax 10285:10291 Sfun min_elt
+R10296:10299 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10300:10305 Coq.Init.Datatypes <> option ind
+R10307:10309 Tutorial.Metalib.CoqFSetInterface E t defax
+R10295:10295 Tutorial.Metalib.CoqFSetInterface Sfun t defax
+ax 10458:10464 Sfun max_elt
+R10469:10472 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10473:10478 Coq.Init.Datatypes <> option ind
+R10480:10482 Tutorial.Metalib.CoqFSetInterface E t defax
+R10468:10468 Tutorial.Metalib.CoqFSetInterface Sfun t defax
+sec 10576:10579 Sfun Spec
+var 10594:10594 Sfun.Spec s
+var 10596:10597 Sfun.Spec s'
+var 10599:10601 Sfun.Spec s''
+R10605:10605 Tutorial.Metalib.CoqFSetInterface Sfun t defax
+var 10619:10619 Sfun.Spec x
+var 10621:10621 Sfun.Spec y
+R10625:10627 Tutorial.Metalib.CoqFSetInterface E t defax
+ax 10674:10681 Sfun lt_trans
+R10692:10695 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10705:10708 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10709:10710 Tutorial.Metalib.CoqFSetInterface Sfun lt defax
+R10714:10716 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.s'' var
+R10712:10712 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.s var
+R10696:10697 Tutorial.Metalib.CoqFSetInterface Sfun lt defax
+R10702:10704 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.s'' var
+R10699:10700 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.s' var
+R10685:10686 Tutorial.Metalib.CoqFSetInterface Sfun lt defax
+R10690:10691 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.s' var
+R10688:10688 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.s var
+ax 10731:10739 Sfun lt_not_eq
+R10750:10753 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10754:10755 Coq.Init.Logic <> ::type_scope:'~'_x not
+R10756:10757 Tutorial.Metalib.CoqFSetInterface Sfun eq def
+R10761:10762 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.s' var
+R10759:10759 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.s var
+R10743:10744 Tutorial.Metalib.CoqFSetInterface Sfun lt defax
+R10748:10749 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.s' var
+R10746:10746 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.s var
+ax 10826:10835 Sfun elements_3
+R10839:10842 Coq.Sorting.Sorted <> sort syndef
+R10850:10857 Tutorial.Metalib.CoqFSetInterface Sfun elements defax
+R10859:10859 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.s var
+R10844:10847 Tutorial.Metalib.CoqFSetInterface E lt defax
+ax 11121:11129 Sfun min_elt_1
+R11151:11154 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11155:11156 Tutorial.Metalib.CoqFSetInterface Sfun In defax
+R11160:11160 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.s var
+R11158:11158 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.x var
+R11142:11144 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11133:11139 Tutorial.Metalib.CoqFSetInterface Sfun min_elt defax
+R11141:11141 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.s var
+R11145:11148 Coq.Init.Datatypes <> Some constr
+R11150:11150 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.x var
+ax 11175:11183 Sfun min_elt_2
+R11205:11208 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11215:11218 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11219:11220 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11221:11224 Tutorial.Metalib.CoqFSetInterface E lt defax
+R11228:11228 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.x var
+R11226:11226 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.y var
+R11209:11210 Tutorial.Metalib.CoqFSetInterface Sfun In defax
+R11214:11214 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.s var
+R11212:11212 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.y var
+R11196:11198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11187:11193 Tutorial.Metalib.CoqFSetInterface Sfun min_elt defax
+R11195:11195 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.s var
+R11199:11202 Coq.Init.Datatypes <> Some constr
+R11204:11204 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.x var
+ax 11243:11251 Sfun min_elt_3
+R11271:11274 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11275:11279 Tutorial.Metalib.CoqFSetInterface Sfun Empty def
+R11281:11281 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.s var
+R11264:11266 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11255:11261 Tutorial.Metalib.CoqFSetInterface Sfun min_elt defax
+R11263:11263 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.s var
+R11267:11270 Coq.Init.Datatypes <> None constr
+ax 11333:11341 Sfun max_elt_1
+R11363:11366 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11367:11368 Tutorial.Metalib.CoqFSetInterface Sfun In defax
+R11372:11372 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.s var
+R11370:11370 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.x var
+R11354:11356 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11345:11351 Tutorial.Metalib.CoqFSetInterface Sfun max_elt defax
+R11353:11353 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.s var
+R11357:11360 Coq.Init.Datatypes <> Some constr
+R11362:11362 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.x var
+ax 11387:11395 Sfun max_elt_2
+R11417:11420 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11427:11430 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11431:11432 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11433:11436 Tutorial.Metalib.CoqFSetInterface E lt defax
+R11440:11440 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.y var
+R11438:11438 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.x var
+R11421:11422 Tutorial.Metalib.CoqFSetInterface Sfun In defax
+R11426:11426 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.s var
+R11424:11424 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.y var
+R11408:11410 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11399:11405 Tutorial.Metalib.CoqFSetInterface Sfun max_elt defax
+R11407:11407 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.s var
+R11411:11414 Coq.Init.Datatypes <> Some constr
+R11416:11416 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.x var
+ax 11455:11463 Sfun max_elt_3
+R11483:11486 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11487:11491 Tutorial.Metalib.CoqFSetInterface Sfun Empty def
+R11493:11493 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.s var
+R11476:11478 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11467:11473 Tutorial.Metalib.CoqFSetInterface Sfun max_elt defax
+R11475:11475 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.s var
+R11479:11482 Coq.Init.Datatypes <> None constr
+ax 11555:11562 Sfun choose_3
+R11583:11586 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11605:11612 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11623:11626 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11627:11630 Tutorial.Metalib.CoqFSetInterface E eq defax
+R11634:11634 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.y var
+R11632:11632 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.x var
+R11613:11617 Tutorial.Metalib.CoqFSetInterface Sfun Equal def
+R11621:11622 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.s' var
+R11619:11619 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.s var
+R11596:11598 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11587:11592 Tutorial.Metalib.CoqFSetInterface Sfun choose defax
+R11594:11595 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.s' var
+R11599:11602 Coq.Init.Datatypes <> Some constr
+R11604:11604 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.y var
+R11574:11576 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11566:11571 Tutorial.Metalib.CoqFSetInterface Sfun choose defax
+R11573:11573 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.s var
+R11577:11580 Coq.Init.Datatypes <> Some constr
+R11582:11582 Tutorial.Metalib.CoqFSetInterface <> Sfun.Spec.x var
+R11644:11647 Tutorial.Metalib.CoqFSetInterface Sfun.Spec <> sec
+R11777:11780 Tutorial.Metalib.CoqFSetInterface Sfun <> modtype
+modtype 11985:11985 <> S
+R12009:12019 Coq.Structures.OrderedType OrderedType <> mod
+mod 12005:12005 <> S.E
+R12032:12035 Tutorial.Metalib.CoqFSetInterface Sfun <> mod
+R12037:12037 Tutorial.Metalib.CoqFSetInterface S.E <> modtype
+R12044:12044 Tutorial.Metalib.CoqFSetInterface S <> modtype
+modtype 12441:12444 <> Sdep
+R12469:12479 Coq.Structures.OrderedType OrderedType <> mod
+mod 12465:12465 <> Sdep.E
+def 12495:12497 Sdep elt
+R12502:12504 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+ax 12520:12520 Sdep t
+ax 12543:12544 Sdep In
+R12551:12554 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12556:12559 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12555:12555 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+R12548:12550 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+def 12579:12583 Sdep Equal
+binder 12585:12585 <> s:125
+binder 12587:12588 <> s':126
+R12604:12606 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 12600:12600 <> a:127
+R12615:12619 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R12609:12610 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R12614:12614 Tutorial.Metalib.CoqFSetInterface <> s:125 var
+R12612:12612 Tutorial.Metalib.CoqFSetInterface <> a:127 var
+R12620:12621 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R12625:12626 Tutorial.Metalib.CoqFSetInterface <> s':126 var
+R12623:12623 Tutorial.Metalib.CoqFSetInterface <> a:127 var
+def 12642:12647 Sdep Subset
+binder 12649:12649 <> s:128
+binder 12651:12652 <> s':129
+R12668:12670 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 12664:12664 <> a:130
+R12679:12682 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12683:12684 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R12688:12689 Tutorial.Metalib.CoqFSetInterface <> s':129 var
+R12686:12686 Tutorial.Metalib.CoqFSetInterface <> a:130 var
+R12673:12674 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R12678:12678 Tutorial.Metalib.CoqFSetInterface <> s:128 var
+R12676:12676 Tutorial.Metalib.CoqFSetInterface <> a:130 var
+def 12705:12707 Sdep Add
+binder 12709:12709 <> x:131
+binder 12711:12711 <> s:132
+binder 12713:12714 <> s':133
+binder 12726:12726 <> y:134
+R12736:12740 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R12729:12730 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R12734:12735 Tutorial.Metalib.CoqFSetInterface <> s':133 var
+R12732:12732 Tutorial.Metalib.CoqFSetInterface <> y:134 var
+R12749:12752 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R12741:12744 Tutorial.Metalib.CoqFSetInterface Sdep eq defax
+R12748:12748 Tutorial.Metalib.CoqFSetInterface <> y:134 var
+R12746:12746 Tutorial.Metalib.CoqFSetInterface <> x:131 var
+R12753:12754 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R12758:12758 Tutorial.Metalib.CoqFSetInterface <> s:132 var
+R12756:12756 Tutorial.Metalib.CoqFSetInterface <> y:134 var
+def 12774:12778 Sdep Empty
+binder 12780:12780 <> s:135
+R12796:12798 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 12792:12792 <> a:136
+R12801:12802 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12803:12804 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R12808:12808 Tutorial.Metalib.CoqFSetInterface <> s:135 var
+R12806:12806 Tutorial.Metalib.CoqFSetInterface <> a:136 var
+def 12824:12830 Sdep For_all
+R12840:12843 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12837:12839 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 12833:12833 <> P:137
+binder 12850:12850 <> s:138
+binder 12862:12862 <> x:139
+R12871:12874 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12875:12875 Tutorial.Metalib.CoqFSetInterface <> P:137 var
+R12877:12877 Tutorial.Metalib.CoqFSetInterface <> x:139 var
+R12865:12866 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R12870:12870 Tutorial.Metalib.CoqFSetInterface <> s:138 var
+R12868:12868 Tutorial.Metalib.CoqFSetInterface <> x:139 var
+def 12893:12898 Sdep Exists
+R12908:12911 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12905:12907 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 12901:12901 <> P:140
+binder 12918:12918 <> s:141
+R12923:12929 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12931:12932 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 12930:12930 <> x:142
+R12939:12942 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12933:12934 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R12938:12938 Tutorial.Metalib.CoqFSetInterface <> s:141 var
+R12936:12936 Tutorial.Metalib.CoqFSetInterface <> x:142 var
+R12943:12943 Tutorial.Metalib.CoqFSetInterface <> P:140 var
+R12945:12945 Tutorial.Metalib.CoqFSetInterface <> x:142 var
+R12974:12978 Tutorial.Metalib.CoqFSetInterface Sdep Equal def
+not 12960:12960 Sdep :::x_'[=]'_x
+def 13032:13033 Sdep eq
+R13038:13041 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13043:13046 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13042:13042 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+R13037:13037 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+R13055:13059 Tutorial.Metalib.CoqFSetInterface Sdep Equal def
+ax 13074:13075 Sdep lt
+R13080:13083 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13085:13088 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13084:13084 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+R13079:13079 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+ax 13107:13113 Sdep compare
+R13131:13131 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 13124:13124 <> s:144
+binder 13126:13127 <> s':145
+R13134:13140 Coq.Structures.OrderedType <> Compare ind
+R13150:13151 Tutorial.Metalib.CoqFSetInterface <> s':145 var
+R13148:13148 Tutorial.Metalib.CoqFSetInterface <> s:144 var
+R13145:13146 Tutorial.Metalib.CoqFSetInterface Sdep eq def
+R13142:13143 Tutorial.Metalib.CoqFSetInterface Sdep lt defax
+ax 13167:13173 Sdep eq_refl
+R13188:13188 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 13184:13184 <> s:147
+R13191:13192 Tutorial.Metalib.CoqFSetInterface Sdep eq def
+R13196:13196 Tutorial.Metalib.CoqFSetInterface <> s:147 var
+R13194:13194 Tutorial.Metalib.CoqFSetInterface <> s:147 var
+ax 13211:13216 Sdep eq_sym
+R13234:13234 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 13227:13227 <> s:149
+binder 13229:13230 <> s':150
+R13244:13247 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13248:13249 Tutorial.Metalib.CoqFSetInterface Sdep eq def
+R13254:13254 Tutorial.Metalib.CoqFSetInterface <> s:149 var
+R13251:13252 Tutorial.Metalib.CoqFSetInterface <> s':150 var
+R13237:13238 Tutorial.Metalib.CoqFSetInterface Sdep eq def
+R13242:13243 Tutorial.Metalib.CoqFSetInterface <> s':150 var
+R13240:13240 Tutorial.Metalib.CoqFSetInterface <> s:149 var
+ax 13269:13276 Sdep eq_trans
+R13298:13298 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 13287:13287 <> s:152
+binder 13289:13290 <> s':153
+binder 13292:13294 <> s'':154
+R13308:13311 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13321:13324 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13325:13326 Tutorial.Metalib.CoqFSetInterface Sdep eq def
+R13330:13332 Tutorial.Metalib.CoqFSetInterface <> s'':154 var
+R13328:13328 Tutorial.Metalib.CoqFSetInterface <> s:152 var
+R13312:13313 Tutorial.Metalib.CoqFSetInterface Sdep eq def
+R13318:13320 Tutorial.Metalib.CoqFSetInterface <> s'':154 var
+R13315:13316 Tutorial.Metalib.CoqFSetInterface <> s':153 var
+R13301:13302 Tutorial.Metalib.CoqFSetInterface Sdep eq def
+R13306:13307 Tutorial.Metalib.CoqFSetInterface <> s':153 var
+R13304:13304 Tutorial.Metalib.CoqFSetInterface <> s:152 var
+ax 13347:13354 Sdep lt_trans
+R13376:13376 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 13365:13365 <> s:156
+binder 13367:13368 <> s':157
+binder 13370:13372 <> s'':158
+R13386:13389 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13399:13402 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13403:13404 Tutorial.Metalib.CoqFSetInterface Sdep lt defax
+R13408:13410 Tutorial.Metalib.CoqFSetInterface <> s'':158 var
+R13406:13406 Tutorial.Metalib.CoqFSetInterface <> s:156 var
+R13390:13391 Tutorial.Metalib.CoqFSetInterface Sdep lt defax
+R13396:13398 Tutorial.Metalib.CoqFSetInterface <> s'':158 var
+R13393:13394 Tutorial.Metalib.CoqFSetInterface <> s':157 var
+R13379:13380 Tutorial.Metalib.CoqFSetInterface Sdep lt defax
+R13384:13385 Tutorial.Metalib.CoqFSetInterface <> s':157 var
+R13382:13382 Tutorial.Metalib.CoqFSetInterface <> s:156 var
+ax 13425:13433 Sdep lt_not_eq
+R13451:13451 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 13444:13444 <> s:160
+binder 13446:13447 <> s':161
+R13461:13464 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13465:13466 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13467:13468 Tutorial.Metalib.CoqFSetInterface Sdep eq def
+R13472:13473 Tutorial.Metalib.CoqFSetInterface <> s':161 var
+R13470:13470 Tutorial.Metalib.CoqFSetInterface <> s:160 var
+R13454:13455 Tutorial.Metalib.CoqFSetInterface Sdep lt defax
+R13459:13460 Tutorial.Metalib.CoqFSetInterface <> s':161 var
+R13457:13457 Tutorial.Metalib.CoqFSetInterface <> s:160 var
+ax 13489:13493 Sdep eq_In
+R13509:13509 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 13505:13505 <> s:163
+R13519:13521 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 13513:13513 <> x:164
+binder 13515:13515 <> y:165
+R13533:13536 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13543:13546 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13547:13548 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R13552:13552 Tutorial.Metalib.CoqFSetInterface <> s:163 var
+R13550:13550 Tutorial.Metalib.CoqFSetInterface <> y:165 var
+R13537:13538 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R13542:13542 Tutorial.Metalib.CoqFSetInterface <> s:163 var
+R13540:13540 Tutorial.Metalib.CoqFSetInterface <> x:164 var
+R13525:13528 Tutorial.Metalib.CoqFSetInterface Sdep eq defax
+R13532:13532 Tutorial.Metalib.CoqFSetInterface <> y:165 var
+R13530:13530 Tutorial.Metalib.CoqFSetInterface <> x:164 var
+ax 13568:13572 Sdep empty
+R13576:13576 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13578:13580 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13582:13584 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13592:13592 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13581:13581 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 13577:13577 <> s:167
+R13585:13589 Tutorial.Metalib.CoqFSetInterface Sdep Empty def
+R13591:13591 Tutorial.Metalib.CoqFSetInterface <> s:167 var
+ax 13608:13615 Sdep is_empty
+R13630:13630 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 13626:13626 <> s:169
+R13633:13633 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13641:13645 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13655:13655 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13634:13638 Tutorial.Metalib.CoqFSetInterface Sdep Empty def
+R13640:13640 Tutorial.Metalib.CoqFSetInterface <> s:169 var
+R13646:13647 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13648:13652 Tutorial.Metalib.CoqFSetInterface Sdep Empty def
+R13654:13654 Tutorial.Metalib.CoqFSetInterface <> s:169 var
+ax 13671:13673 Sdep mem
+R13689:13691 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 13685:13685 <> x:171
+R13699:13699 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 13695:13695 <> s:172
+R13703:13703 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13710:13714 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13723:13723 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R13704:13705 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R13709:13709 Tutorial.Metalib.CoqFSetInterface <> s:172 var
+R13707:13707 Tutorial.Metalib.CoqFSetInterface <> x:171 var
+R13715:13716 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13717:13718 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R13722:13722 Tutorial.Metalib.CoqFSetInterface <> s:172 var
+R13720:13720 Tutorial.Metalib.CoqFSetInterface <> x:171 var
+ax 13739:13741 Sdep add
+R13757:13759 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 13753:13753 <> x:174
+R13767:13767 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 13763:13763 <> s:175
+R13771:13771 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13774:13776 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13778:13780 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13791:13791 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13777:13777 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 13772:13773 <> s':176
+R13781:13783 Tutorial.Metalib.CoqFSetInterface Sdep Add def
+R13789:13790 Tutorial.Metalib.CoqFSetInterface <> s':176 var
+R13787:13787 Tutorial.Metalib.CoqFSetInterface <> s:175 var
+R13785:13785 Tutorial.Metalib.CoqFSetInterface <> x:174 var
+ax 13811:13819 Sdep singleton
+R13834:13836 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 13830:13830 <> x:178
+R13839:13839 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13841:13843 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13845:13847 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13883:13883 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13844:13844 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 13840:13840 <> s:179
+R13859:13861 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 13855:13855 <> y:180
+R13870:13874 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R13864:13865 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R13869:13869 Tutorial.Metalib.CoqFSetInterface <> s:179 var
+R13867:13867 Tutorial.Metalib.CoqFSetInterface <> y:180 var
+R13875:13878 Tutorial.Metalib.CoqFSetInterface Sdep eq defax
+R13882:13882 Tutorial.Metalib.CoqFSetInterface <> y:180 var
+R13880:13880 Tutorial.Metalib.CoqFSetInterface <> x:178 var
+ax 13903:13908 Sdep remove
+R13930:13932 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 13926:13926 <> x:182
+R13940:13940 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 13936:13936 <> s:183
+R13950:13950 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13953:13955 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13957:13959 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14008:14008 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R13956:13956 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 13951:13952 <> s':184
+R13971:13973 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 13967:13967 <> y:185
+R13983:13987 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R13976:13977 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R13981:13982 Tutorial.Metalib.CoqFSetInterface <> s':184 var
+R13979:13979 Tutorial.Metalib.CoqFSetInterface <> y:185 var
+R13998:14001 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13988:13989 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13990:13993 Tutorial.Metalib.CoqFSetInterface Sdep eq defax
+R13997:13997 Tutorial.Metalib.CoqFSetInterface <> y:185 var
+R13995:13995 Tutorial.Metalib.CoqFSetInterface <> x:182 var
+R14002:14003 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R14007:14007 Tutorial.Metalib.CoqFSetInterface <> s:183 var
+R14005:14005 Tutorial.Metalib.CoqFSetInterface <> y:185 var
+ax 14028:14032 Sdep union
+R14056:14056 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 14049:14049 <> s:187
+binder 14051:14052 <> s':188
+R14065:14065 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14069:14071 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14073:14075 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14122:14122 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14072:14072 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 14066:14068 <> s'':189
+R14087:14089 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 14083:14083 <> x:190
+R14100:14104 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14092:14093 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R14097:14099 Tutorial.Metalib.CoqFSetInterface <> s'':189 var
+R14095:14095 Tutorial.Metalib.CoqFSetInterface <> x:190 var
+R14111:14114 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R14105:14106 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R14110:14110 Tutorial.Metalib.CoqFSetInterface <> s:187 var
+R14108:14108 Tutorial.Metalib.CoqFSetInterface <> x:190 var
+R14115:14116 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R14120:14121 Tutorial.Metalib.CoqFSetInterface <> s':188 var
+R14118:14118 Tutorial.Metalib.CoqFSetInterface <> x:190 var
+ax 14142:14146 Sdep inter
+R14170:14170 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 14163:14163 <> s:192
+binder 14165:14166 <> s':193
+R14179:14179 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14183:14185 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14187:14189 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14236:14236 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14186:14186 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 14180:14182 <> s'':194
+R14201:14203 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 14197:14197 <> x:195
+R14214:14218 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14206:14207 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R14211:14213 Tutorial.Metalib.CoqFSetInterface <> s'':194 var
+R14209:14209 Tutorial.Metalib.CoqFSetInterface <> x:195 var
+R14225:14228 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14219:14220 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R14224:14224 Tutorial.Metalib.CoqFSetInterface <> s:192 var
+R14222:14222 Tutorial.Metalib.CoqFSetInterface <> x:195 var
+R14229:14230 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R14234:14235 Tutorial.Metalib.CoqFSetInterface <> s':193 var
+R14232:14232 Tutorial.Metalib.CoqFSetInterface <> x:195 var
+ax 14256:14259 Sdep diff
+R14283:14283 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 14276:14276 <> s:197
+binder 14278:14279 <> s':198
+R14292:14292 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14296:14298 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14300:14302 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14351:14351 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14299:14299 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 14293:14295 <> s'':199
+R14314:14316 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 14310:14310 <> x:200
+R14327:14331 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14319:14320 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R14324:14326 Tutorial.Metalib.CoqFSetInterface <> s'':199 var
+R14322:14322 Tutorial.Metalib.CoqFSetInterface <> x:200 var
+R14338:14341 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14332:14333 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R14337:14337 Tutorial.Metalib.CoqFSetInterface <> s:197 var
+R14335:14335 Tutorial.Metalib.CoqFSetInterface <> x:200 var
+R14342:14343 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14344:14345 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R14349:14350 Tutorial.Metalib.CoqFSetInterface <> s':198 var
+R14347:14347 Tutorial.Metalib.CoqFSetInterface <> x:200 var
+ax 14367:14371 Sdep equal
+R14389:14389 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 14382:14382 <> s:202
+binder 14384:14385 <> s':203
+R14392:14392 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14399:14403 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14412:14412 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14394:14396 Tutorial.Metalib.CoqFSetInterface Sdep :::x_'[=]'_x not
+R14393:14393 Tutorial.Metalib.CoqFSetInterface <> s:202 var
+R14397:14398 Tutorial.Metalib.CoqFSetInterface <> s':203 var
+R14404:14405 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14407:14409 Tutorial.Metalib.CoqFSetInterface Sdep :::x_'[=]'_x not
+R14406:14406 Tutorial.Metalib.CoqFSetInterface <> s:202 var
+R14410:14411 Tutorial.Metalib.CoqFSetInterface <> s':203 var
+ax 14428:14433 Sdep subset
+R14451:14451 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 14444:14444 <> s:205
+binder 14446:14447 <> s':206
+R14454:14454 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14466:14470 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14484:14484 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14455:14460 Tutorial.Metalib.CoqFSetInterface Sdep Subset def
+R14464:14465 Tutorial.Metalib.CoqFSetInterface <> s':206 var
+R14462:14462 Tutorial.Metalib.CoqFSetInterface <> s:205 var
+R14471:14472 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14473:14478 Tutorial.Metalib.CoqFSetInterface Sdep Subset def
+R14482:14483 Tutorial.Metalib.CoqFSetInterface <> s':206 var
+R14480:14480 Tutorial.Metalib.CoqFSetInterface <> s:205 var
+ax 14504:14509 Sdep filter
+R14534:14537 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14531:14533 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 14527:14527 <> P:208
+R14563:14565 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 14559:14559 <> x:209
+R14568:14568 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14572:14576 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14582:14582 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14569:14569 Tutorial.Metalib.CoqFSetInterface <> P:208 var
+R14571:14571 Tutorial.Metalib.CoqFSetInterface <> x:209 var
+R14577:14578 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14579:14579 Tutorial.Metalib.CoqFSetInterface <> P:208 var
+R14581:14581 Tutorial.Metalib.CoqFSetInterface <> x:209 var
+binder 14545:14548 <> Pdec:210
+R14598:14598 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 14594:14594 <> s:211
+R14608:14608 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14611:14613 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14615:14617 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14678:14678 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14614:14614 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 14609:14610 <> s':212
+R14633:14636 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14648:14650 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 14644:14644 <> x:213
+R14660:14664 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14653:14654 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R14658:14659 Tutorial.Metalib.CoqFSetInterface <> s':212 var
+R14656:14656 Tutorial.Metalib.CoqFSetInterface <> x:213 var
+R14671:14674 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14665:14666 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R14670:14670 Tutorial.Metalib.CoqFSetInterface <> s:211 var
+R14668:14668 Tutorial.Metalib.CoqFSetInterface <> x:213 var
+R14675:14675 Tutorial.Metalib.CoqFSetInterface <> P:208 var
+R14677:14677 Tutorial.Metalib.CoqFSetInterface <> x:213 var
+R14618:14625 Coq.Lists.SetoidList <> compat_P def
+R14632:14632 Tutorial.Metalib.CoqFSetInterface <> P:208 var
+R14627:14630 Tutorial.Metalib.CoqFSetInterface Sdep eq defax
+ax 14698:14704 Sdep for_all
+R14729:14732 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14726:14728 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 14722:14722 <> P:215
+R14758:14760 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 14754:14754 <> x:216
+R14763:14763 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14767:14771 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14777:14777 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14764:14764 Tutorial.Metalib.CoqFSetInterface <> P:215 var
+R14766:14766 Tutorial.Metalib.CoqFSetInterface <> x:216 var
+R14772:14773 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14774:14774 Tutorial.Metalib.CoqFSetInterface <> P:215 var
+R14776:14776 Tutorial.Metalib.CoqFSetInterface <> x:216 var
+binder 14740:14743 <> Pdec:217
+R14793:14793 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 14789:14789 <> s:218
+R14803:14803 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14834:14838 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14871:14871 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14819:14822 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14823:14829 Tutorial.Metalib.CoqFSetInterface Sdep For_all def
+R14833:14833 Tutorial.Metalib.CoqFSetInterface <> s:218 var
+R14831:14831 Tutorial.Metalib.CoqFSetInterface <> P:215 var
+R14804:14811 Coq.Lists.SetoidList <> compat_P def
+R14818:14818 Tutorial.Metalib.CoqFSetInterface <> P:215 var
+R14813:14816 Tutorial.Metalib.CoqFSetInterface Sdep eq defax
+R14854:14857 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14858:14859 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14860:14866 Tutorial.Metalib.CoqFSetInterface Sdep For_all def
+R14870:14870 Tutorial.Metalib.CoqFSetInterface <> s:218 var
+R14868:14868 Tutorial.Metalib.CoqFSetInterface <> P:215 var
+R14839:14846 Coq.Lists.SetoidList <> compat_P def
+R14853:14853 Tutorial.Metalib.CoqFSetInterface <> P:215 var
+R14848:14851 Tutorial.Metalib.CoqFSetInterface Sdep eq defax
+ax 14891:14897 Sdep exists_
+R14922:14925 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14919:14921 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 14915:14915 <> P:220
+R14951:14953 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 14947:14947 <> x:221
+R14956:14956 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14960:14964 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14970:14970 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R14957:14957 Tutorial.Metalib.CoqFSetInterface <> P:220 var
+R14959:14959 Tutorial.Metalib.CoqFSetInterface <> x:221 var
+R14965:14966 Coq.Init.Logic <> ::type_scope:'~'_x not
+R14967:14967 Tutorial.Metalib.CoqFSetInterface <> P:220 var
+R14969:14969 Tutorial.Metalib.CoqFSetInterface <> x:221 var
+binder 14933:14936 <> Pdec:222
+R14986:14986 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 14982:14982 <> s:223
+R14996:14996 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R15026:15030 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R15062:15062 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R15012:15015 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15016:15021 Tutorial.Metalib.CoqFSetInterface Sdep Exists def
+R15025:15025 Tutorial.Metalib.CoqFSetInterface <> s:223 var
+R15023:15023 Tutorial.Metalib.CoqFSetInterface <> P:220 var
+R14997:15004 Coq.Lists.SetoidList <> compat_P def
+R15011:15011 Tutorial.Metalib.CoqFSetInterface <> P:220 var
+R15006:15009 Tutorial.Metalib.CoqFSetInterface Sdep eq defax
+R15046:15049 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15050:15051 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15052:15057 Tutorial.Metalib.CoqFSetInterface Sdep Exists def
+R15061:15061 Tutorial.Metalib.CoqFSetInterface <> s:223 var
+R15059:15059 Tutorial.Metalib.CoqFSetInterface <> P:220 var
+R15031:15038 Coq.Lists.SetoidList <> compat_P def
+R15045:15045 Tutorial.Metalib.CoqFSetInterface <> P:220 var
+R15040:15043 Tutorial.Metalib.CoqFSetInterface Sdep eq defax
+ax 15082:15090 Sdep partition
+R15115:15118 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15112:15114 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 15108:15108 <> P:225
+R15144:15146 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 15140:15140 <> x:226
+R15149:15149 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R15153:15157 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R15163:15163 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R15150:15150 Tutorial.Metalib.CoqFSetInterface <> P:225 var
+R15152:15152 Tutorial.Metalib.CoqFSetInterface <> x:226 var
+R15158:15159 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15160:15160 Tutorial.Metalib.CoqFSetInterface <> P:225 var
+R15162:15162 Tutorial.Metalib.CoqFSetInterface <> x:226 var
+binder 15126:15129 <> Pdec:227
+R15179:15179 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 15175:15175 <> s:228
+R15189:15189 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15199:15201 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15207:15215 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15382:15382 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15203:15205 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R15202:15202 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+R15206:15206 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 15190:15198 <> partition:229
+R15232:15240 Tutorial.Metalib.CoqFSetInterface <> partition:229 var
+binder 15221:15222 <> s1:230
+binder 15225:15226 <> s2:231
+R15266:15275 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15288:15297 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15276:15282 Tutorial.Metalib.CoqFSetInterface Sdep For_all def
+R15286:15287 Tutorial.Metalib.CoqFSetInterface <> s1:230 var
+R15284:15284 Tutorial.Metalib.CoqFSetInterface <> P:225 var
+R15325:15335 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15381:15381 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15298:15304 Tutorial.Metalib.CoqFSetInterface Sdep For_all def
+R15323:15324 Tutorial.Metalib.CoqFSetInterface <> s2:231 var
+binder 15311:15311 <> x:232
+R15316:15317 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15318:15318 Tutorial.Metalib.CoqFSetInterface <> P:225 var
+R15320:15320 Tutorial.Metalib.CoqFSetInterface <> x:232 var
+R15347:15349 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 15343:15343 <> x:233
+R15358:15362 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R15352:15353 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R15357:15357 Tutorial.Metalib.CoqFSetInterface <> s:228 var
+R15355:15355 Tutorial.Metalib.CoqFSetInterface <> x:233 var
+R15370:15373 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R15363:15364 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R15368:15369 Tutorial.Metalib.CoqFSetInterface <> s1:230 var
+R15366:15366 Tutorial.Metalib.CoqFSetInterface <> x:233 var
+R15374:15375 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R15379:15380 Tutorial.Metalib.CoqFSetInterface <> s2:231 var
+R15377:15377 Tutorial.Metalib.CoqFSetInterface <> x:233 var
+R15251:15258 Coq.Lists.SetoidList <> compat_P def
+R15265:15265 Tutorial.Metalib.CoqFSetInterface <> P:225 var
+R15260:15263 Tutorial.Metalib.CoqFSetInterface Sdep eq defax
+ax 15402:15409 Sdep elements
+R15430:15430 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 15426:15426 <> s:235
+R15439:15439 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15441:15443 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15452:15460 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15517:15517 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15444:15447 Coq.Init.Datatypes <> list ind
+R15449:15451 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 15440:15440 <> l:236
+R15472:15476 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15516:15516 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15461:15464 Coq.Sorting.Sorted <> sort syndef
+R15471:15471 Tutorial.Metalib.CoqFSetInterface <> l:236 var
+R15466:15469 Tutorial.Metalib.CoqFSetInterface Sdep lt defax
+R15488:15490 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 15484:15484 <> x:237
+R15499:15503 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R15493:15494 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R15498:15498 Tutorial.Metalib.CoqFSetInterface <> s:235 var
+R15496:15496 Tutorial.Metalib.CoqFSetInterface <> x:237 var
+R15504:15506 Coq.Lists.SetoidList <> InA ind
+R15515:15515 Tutorial.Metalib.CoqFSetInterface <> l:236 var
+R15513:15513 Tutorial.Metalib.CoqFSetInterface <> x:237 var
+R15508:15511 Tutorial.Metalib.CoqFSetInterface Sdep eq defax
+ax 15537:15540 Sdep fold
+binder 15558:15558 <> A:239
+R15576:15579 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15581:15584 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15585:15585 Tutorial.Metalib.CoqFSetInterface <> A:239 var
+R15580:15580 Tutorial.Metalib.CoqFSetInterface <> A:239 var
+R15573:15575 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 15569:15569 <> f:240
+R15593:15593 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 15589:15589 <> s:241
+R15601:15601 Tutorial.Metalib.CoqFSetInterface <> A:239 var
+binder 15597:15597 <> i:242
+R15611:15611 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15613:15615 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15617:15619 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15701:15701 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15616:15616 Tutorial.Metalib.CoqFSetInterface <> A:239 var
+binder 15612:15612 <> r:243
+R15633:15640 Tutorial.Metalib.CoqFSetInterface Sdep elements defax
+R15642:15642 Tutorial.Metalib.CoqFSetInterface <> s:241 var
+binder 15625:15625 <> l:244
+R15666:15668 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15665:15665 Tutorial.Metalib.CoqFSetInterface <> r:243 var
+R15669:15677 Coq.Lists.List <> fold_left def
+R15700:15700 Tutorial.Metalib.CoqFSetInterface <> i:242 var
+R15698:15698 Tutorial.Metalib.CoqFSetInterface <> l:244 var
+binder 15684:15684 <> a:245
+binder 15686:15686 <> e:246
+R15691:15691 Tutorial.Metalib.CoqFSetInterface <> f:240 var
+R15695:15695 Tutorial.Metalib.CoqFSetInterface <> a:245 var
+R15693:15693 Tutorial.Metalib.CoqFSetInterface <> e:246 var
+ax 15721:15728 Sdep cardinal
+R15749:15749 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 15745:15745 <> s:248
+R15758:15758 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15760:15762 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15766:15768 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15808:15809 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15763:15765 Coq.Init.Datatypes <> nat ind
+binder 15759:15759 <> r:249
+R15782:15789 Tutorial.Metalib.CoqFSetInterface Sdep elements defax
+R15791:15791 Tutorial.Metalib.CoqFSetInterface <> s:248 var
+binder 15774:15774 <> l:250
+R15797:15799 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15796:15796 Tutorial.Metalib.CoqFSetInterface <> r:249 var
+R15800:15805 Coq.Init.Datatypes <> length def
+R15807:15807 Tutorial.Metalib.CoqFSetInterface <> l:250 var
+ax 15829:15835 Sdep min_elt
+R15856:15856 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 15852:15852 <> s:252
+R15918:15921 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R15929:15929 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R15865:15865 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15867:15869 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15873:15875 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15917:15917 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15870:15872 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 15866:15866 <> x:253
+R15882:15885 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15876:15877 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R15881:15881 Tutorial.Metalib.CoqFSetInterface <> s:252 var
+R15879:15879 Tutorial.Metalib.CoqFSetInterface <> x:253 var
+R15886:15892 Tutorial.Metalib.CoqFSetInterface Sdep For_all def
+R15916:15916 Tutorial.Metalib.CoqFSetInterface <> s:252 var
+binder 15899:15899 <> y:254
+R15904:15905 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15906:15909 Tutorial.Metalib.CoqFSetInterface Sdep lt defax
+R15913:15913 Tutorial.Metalib.CoqFSetInterface <> x:253 var
+R15911:15911 Tutorial.Metalib.CoqFSetInterface <> y:254 var
+R15922:15926 Tutorial.Metalib.CoqFSetInterface Sdep Empty def
+R15928:15928 Tutorial.Metalib.CoqFSetInterface <> s:252 var
+ax 15949:15955 Sdep max_elt
+R15976:15976 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 15972:15972 <> s:256
+R16038:16041 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R16049:16049 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R15985:15985 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15987:15989 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15993:15995 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R16037:16037 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15990:15992 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 15986:15986 <> x:257
+R16002:16005 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15996:15997 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R16001:16001 Tutorial.Metalib.CoqFSetInterface <> s:256 var
+R15999:15999 Tutorial.Metalib.CoqFSetInterface <> x:257 var
+R16006:16012 Tutorial.Metalib.CoqFSetInterface Sdep For_all def
+R16036:16036 Tutorial.Metalib.CoqFSetInterface <> s:256 var
+binder 16019:16019 <> y:258
+R16024:16025 Coq.Init.Logic <> ::type_scope:'~'_x not
+R16026:16029 Tutorial.Metalib.CoqFSetInterface Sdep lt defax
+R16033:16033 Tutorial.Metalib.CoqFSetInterface <> y:258 var
+R16031:16031 Tutorial.Metalib.CoqFSetInterface <> x:257 var
+R16042:16046 Tutorial.Metalib.CoqFSetInterface Sdep Empty def
+R16048:16048 Tutorial.Metalib.CoqFSetInterface <> s:256 var
+ax 16065:16070 Sdep choose
+R16085:16085 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 16081:16081 <> s:260
+R16106:16109 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R16117:16117 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R16088:16088 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R16090:16092 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R16096:16098 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R16105:16105 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R16093:16095 Tutorial.Metalib.CoqFSetInterface Sdep t defax
+binder 16089:16089 <> x:261
+R16099:16100 Tutorial.Metalib.CoqFSetInterface Sdep In defax
+R16104:16104 Tutorial.Metalib.CoqFSetInterface <> s:260 var
+R16102:16102 Tutorial.Metalib.CoqFSetInterface <> x:261 var
+R16110:16114 Tutorial.Metalib.CoqFSetInterface Sdep Empty def
+R16116:16116 Tutorial.Metalib.CoqFSetInterface <> s:260 var
+ax 16266:16277 Sdep choose_equal
+binder 16288:16288 <> s:263
+binder 16290:16291 <> s':264
+R16304:16312 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16329:16334 Tutorial.Metalib.CoqFSetInterface Sdep choose defax
+R16336:16337 Tutorial.Metalib.CoqFSetInterface <> s':264 var
+R16319:16324 Tutorial.Metalib.CoqFSetInterface Sdep choose defax
+R16326:16326 Tutorial.Metalib.CoqFSetInterface <> s:263 var
+R16353:16358 Coq.Init.Specif <> inleft constr
+R16361:16365 Coq.Init.Specif <> exist constr
+R16375:16380 Coq.Init.Specif <> inleft constr
+R16383:16387 Coq.Init.Specif <> exist constr
+R16400:16403 Tutorial.Metalib.CoqFSetInterface Sdep eq defax
+R16419:16425 Coq.Init.Specif <> inright constr
+R16430:16436 Coq.Init.Specif <> inright constr
+R16444:16447 Coq.Init.Logic <> True ind
+R16467:16471 Coq.Init.Logic <> False ind
+R16294:16298 Tutorial.Metalib.CoqFSetInterface Sdep Equal def
+R16302:16303 Tutorial.Metalib.CoqFSetInterface <> s':264 var
+R16300:16300 Tutorial.Metalib.CoqFSetInterface <> s:263 var
+R16488:16491 Tutorial.Metalib.CoqFSetInterface Sdep <> modtype

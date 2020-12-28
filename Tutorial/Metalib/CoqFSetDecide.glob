@@ -1,0 +1,1521 @@
+DIGEST bb347b21cfc20dc4f5def085bb1186c2
+FTutorial.Metalib.CoqFSetDecide
+R1291:1299 Coq.Logic.Decidable <> <> lib
+R1301:1315 Coq.Structures.DecidableTypeEx <> <> lib
+R1317:1325 Coq.FSets.FSetFacts <> <> lib
+R1327:1332 Coq.Setoids.Setoid <> <> lib
+R1426:1438 Coq.Structures.DecidableType DecidableType <> mod
+R1452:1456 Coq.FSets.FSetInterface WSfun <> mod
+R1458:1458 Tutorial.Metalib.CoqFSetDecide E <> modtype
+mod 1409:1419 <> WDecide_fun
+R1476:1495 Coq.FSets.FSetFacts WFacts_fun <> modtype
+R1497:1497 Tutorial.Metalib.CoqFSetDecide E <> modtype
+R1499:1499 Tutorial.Metalib.CoqFSetDecide M <> modtype
+mod 1470:1470 <> WDecide_fun.F
+mod 3787:3802 <> WDecide_fun.FSetLogicalFacts
+R4267:4270 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4271:4275 Coq.Init.Logic <> False ind
+R4267:4270 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4271:4275 Coq.Init.Logic <> False ind
+R4336:4339 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4340:4344 Coq.Init.Logic <> False ind
+R4336:4339 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4340:4344 Coq.Init.Logic <> False ind
+R4366:4367 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4302:4303 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5149:5162 Coq.Logic.Decidable <> or_not_l_iff_2 thm
+R5102:5115 Coq.Logic.Decidable <> or_not_l_iff_1 thm
+R5275:5288 Coq.Logic.Decidable <> or_not_r_iff_2 thm
+R5228:5241 Coq.Logic.Decidable <> or_not_r_iff_1 thm
+R5411:5424 Coq.Logic.Decidable <> or_not_l_iff_2 thm
+R5359:5372 Coq.Logic.Decidable <> or_not_l_iff_1 thm
+R5552:5565 Coq.Logic.Decidable <> or_not_r_iff_2 thm
+R5500:5513 Coq.Logic.Decidable <> or_not_r_iff_1 thm
+R5699:5701 Coq.Init.Logic <> not def
+R5704:5706 Coq.Init.Logic <> iff def
+R5774:5777 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5778:5782 Coq.Init.Logic <> False ind
+R5770:5773 Coq.Init.Logic <> True ind
+R5774:5777 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5778:5782 Coq.Init.Logic <> False ind
+R5770:5773 Coq.Init.Logic <> True ind
+R5836:5839 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5840:5844 Coq.Init.Logic <> False ind
+R5831:5835 Coq.Init.Logic <> False ind
+R5836:5839 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5840:5844 Coq.Init.Logic <> False ind
+R5831:5835 Coq.Init.Logic <> False ind
+R5894:5894 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5906:5910 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5911:5915 Coq.Init.Logic <> False ind
+R5897:5900 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5901:5905 Coq.Init.Logic <> False ind
+R5894:5894 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5906:5910 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5911:5915 Coq.Init.Logic <> False ind
+R5897:5900 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5901:5905 Coq.Init.Logic <> False ind
+R5974:5974 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5986:5991 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6003:6003 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5994:5997 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5998:6002 Coq.Init.Logic <> False ind
+R5977:5980 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5981:5985 Coq.Init.Logic <> False ind
+R5974:5974 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5986:5991 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6003:6003 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5994:5997 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5998:6002 Coq.Init.Logic <> False ind
+R5977:5980 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5981:5985 Coq.Init.Logic <> False ind
+R6079:6079 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6091:6095 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6082:6085 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6086:6090 Coq.Init.Logic <> False ind
+R6079:6079 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6091:6095 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6082:6085 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6086:6090 Coq.Init.Logic <> False ind
+R6148:6152 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6164:6164 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6155:6158 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6159:6163 Coq.Init.Logic <> False ind
+R6148:6152 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6164:6164 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6155:6158 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6159:6163 Coq.Init.Logic <> False ind
+R6213:6213 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6225:6229 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6216:6219 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6220:6224 Coq.Init.Logic <> False ind
+R6213:6213 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6225:6229 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6216:6219 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6220:6224 Coq.Init.Logic <> False ind
+R6298:6301 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6302:6306 Coq.Init.Logic <> False ind
+R6292:6295 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6298:6301 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6302:6306 Coq.Init.Logic <> False ind
+R6292:6295 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R6367:6370 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6371:6375 Coq.Init.Logic <> False ind
+R6361:6364 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6367:6370 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6371:6375 Coq.Init.Logic <> False ind
+R6361:6364 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6429:6429 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6438:6442 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6443:6447 Coq.Init.Logic <> False ind
+R6432:6435 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6429:6429 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6438:6442 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6443:6447 Coq.Init.Logic <> False ind
+R6432:6435 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6462:6472 Coq.Logic.Decidable <> not_imp_iff thm
+R6390:6400 Coq.Logic.Decidable <> not_and_iff thm
+R6321:6330 Coq.Logic.Decidable <> not_or_iff thm
+R6246:6254 Coq.Logic.Decidable <> imp_not_l thm
+R6030:6043 Coq.Logic.Decidable <> contrapositive thm
+R5930:5940 Coq.Logic.Decidable <> not_not_iff thm
+R5858:5870 Coq.Logic.Decidable <> not_false_iff thm
+R5796:5807 Coq.Logic.Decidable <> not_true_iff thm
+R6717:6719 Coq.Init.Logic <> not def
+R6722:6724 Coq.Init.Logic <> iff def
+R6800:6803 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6804:6808 Coq.Init.Logic <> False ind
+R6796:6799 Coq.Init.Logic <> True ind
+R6800:6803 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6804:6808 Coq.Init.Logic <> False ind
+R6796:6799 Coq.Init.Logic <> True ind
+R6872:6875 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6876:6880 Coq.Init.Logic <> False ind
+R6867:6871 Coq.Init.Logic <> False ind
+R6872:6875 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6876:6880 Coq.Init.Logic <> False ind
+R6867:6871 Coq.Init.Logic <> False ind
+R6940:6940 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6952:6956 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6957:6961 Coq.Init.Logic <> False ind
+R6943:6946 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6947:6951 Coq.Init.Logic <> False ind
+R6940:6940 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6952:6956 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6957:6961 Coq.Init.Logic <> False ind
+R6943:6946 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6947:6951 Coq.Init.Logic <> False ind
+R7040:7040 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7052:7057 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7069:7069 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7060:7063 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7064:7068 Coq.Init.Logic <> False ind
+R7043:7046 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7047:7051 Coq.Init.Logic <> False ind
+R7040:7040 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7052:7057 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7069:7069 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7060:7063 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7064:7068 Coq.Init.Logic <> False ind
+R7043:7046 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7047:7051 Coq.Init.Logic <> False ind
+R7153:7153 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7165:7169 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7156:7159 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7160:7164 Coq.Init.Logic <> False ind
+R7153:7153 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7165:7169 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7156:7159 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7160:7164 Coq.Init.Logic <> False ind
+R7232:7236 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7248:7248 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7239:7242 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7243:7247 Coq.Init.Logic <> False ind
+R7232:7236 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7248:7248 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7239:7242 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7243:7247 Coq.Init.Logic <> False ind
+R7307:7307 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7319:7323 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7310:7313 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7314:7318 Coq.Init.Logic <> False ind
+R7307:7307 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7319:7323 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7310:7313 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7314:7318 Coq.Init.Logic <> False ind
+R7412:7415 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7416:7420 Coq.Init.Logic <> False ind
+R7406:7409 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7412:7415 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7416:7420 Coq.Init.Logic <> False ind
+R7406:7409 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7491:7494 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7495:7499 Coq.Init.Logic <> False ind
+R7485:7488 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7491:7494 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7495:7499 Coq.Init.Logic <> False ind
+R7485:7488 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7563:7563 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7572:7576 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7577:7581 Coq.Init.Logic <> False ind
+R7566:7569 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7563:7563 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7572:7576 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7577:7581 Coq.Init.Logic <> False ind
+R7566:7569 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7611:7621 Coq.Logic.Decidable <> not_imp_iff thm
+R7519:7529 Coq.Logic.Decidable <> not_and_iff thm
+R7440:7449 Coq.Logic.Decidable <> not_or_iff thm
+R7355:7363 Coq.Logic.Decidable <> imp_not_l thm
+R7099:7112 Coq.Logic.Decidable <> contrapositive thm
+R6991:7001 Coq.Logic.Decidable <> not_not_iff thm
+R6899:6911 Coq.Logic.Decidable <> not_false_iff thm
+R6827:6838 Coq.Logic.Decidable <> not_true_iff thm
+prf 8019:8027 WDecide_fun.FSetLogicalFacts test_push
+binder 8038:8038 <> P:1
+binder 8040:8040 <> Q:2
+binder 8042:8042 <> R:3
+R8069:8078 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8090:8099 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8100:8100 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8107:8117 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8118:8118 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8126:8136 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8137:8137 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8143:8153 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8154:8154 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8172:8182 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8183:8183 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8199:8209 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8210:8210 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8226:8236 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8237:8237 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8253:8263 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8264:8264 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8280:8290 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8291:8291 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8300:8310 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8311:8311 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8336:8346 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8347:8347 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8358:8368 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8369:8369 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8380:8390 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8391:8394 Coq.Init.Logic <> True ind
+R8370:8372 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8379:8379 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8374:8377 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8378:8378 Tutorial.Metalib.CoqFSetDecide <> R:3 var
+R8373:8373 Tutorial.Metalib.CoqFSetDecide <> P:1 var
+R8348:8350 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8357:8357 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8352:8355 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8351:8351 Tutorial.Metalib.CoqFSetDecide <> P:1 var
+R8356:8356 Tutorial.Metalib.CoqFSetDecide <> R:3 var
+R8312:8314 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8335:8335 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8315:8315 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8322:8327 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8334:8334 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8317:8320 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8321:8321 Tutorial.Metalib.CoqFSetDecide <> P:1 var
+R8316:8316 Tutorial.Metalib.CoqFSetDecide <> R:3 var
+R8329:8332 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8333:8333 Tutorial.Metalib.CoqFSetDecide <> R:3 var
+R8328:8328 Tutorial.Metalib.CoqFSetDecide <> Q:2 var
+R8295:8298 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8299:8299 Tutorial.Metalib.CoqFSetDecide <> R:3 var
+R8292:8293 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8294:8294 Tutorial.Metalib.CoqFSetDecide <> P:1 var
+R8268:8272 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8279:8279 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8265:8266 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8267:8267 Tutorial.Metalib.CoqFSetDecide <> R:3 var
+R8274:8277 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8273:8273 Tutorial.Metalib.CoqFSetDecide <> P:1 var
+R8278:8278 Tutorial.Metalib.CoqFSetDecide <> Q:2 var
+R8239:8242 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8238:8238 Tutorial.Metalib.CoqFSetDecide <> R:3 var
+R8243:8245 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8252:8252 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8247:8250 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8246:8246 Tutorial.Metalib.CoqFSetDecide <> P:1 var
+R8251:8251 Tutorial.Metalib.CoqFSetDecide <> Q:2 var
+R8221:8224 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8211:8213 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8220:8220 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8215:8218 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8214:8214 Tutorial.Metalib.CoqFSetDecide <> P:1 var
+R8219:8219 Tutorial.Metalib.CoqFSetDecide <> Q:2 var
+R8225:8225 Tutorial.Metalib.CoqFSetDecide <> R:3 var
+R8184:8184 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8191:8195 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R8186:8189 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8185:8185 Tutorial.Metalib.CoqFSetDecide <> P:1 var
+R8190:8190 Tutorial.Metalib.CoqFSetDecide <> Q:2 var
+R8196:8197 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8198:8198 Tutorial.Metalib.CoqFSetDecide <> R:3 var
+R8165:8168 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8169:8170 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8171:8171 Tutorial.Metalib.CoqFSetDecide <> R:3 var
+R8155:8157 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8164:8164 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8159:8162 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8158:8158 Tutorial.Metalib.CoqFSetDecide <> P:1 var
+R8163:8163 Tutorial.Metalib.CoqFSetDecide <> Q:2 var
+R8138:8139 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8140:8141 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8142:8142 Tutorial.Metalib.CoqFSetDecide <> P:1 var
+R8119:8120 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8121:8125 Coq.Init.Logic <> False ind
+R8101:8102 Coq.Init.Logic <> ::type_scope:'~'_x not
+R8103:8106 Coq.Init.Logic <> True ind
+R8079:8087 Coq.Logic.Decidable <> decidable def
+R8089:8089 Tutorial.Metalib.CoqFSetDecide <> Q:2 var
+R8058:8066 Coq.Logic.Decidable <> decidable def
+R8068:8068 Tutorial.Metalib.CoqFSetDecide <> P:1 var
+R9051:9053 Coq.Init.Logic <> not def
+R9056:9058 Coq.Init.Logic <> iff def
+R9126:9129 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9130:9134 Coq.Init.Logic <> False ind
+R9122:9125 Coq.Init.Logic <> True ind
+R9126:9129 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9130:9134 Coq.Init.Logic <> False ind
+R9122:9125 Coq.Init.Logic <> True ind
+R9188:9191 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9192:9196 Coq.Init.Logic <> False ind
+R9183:9187 Coq.Init.Logic <> False ind
+R9188:9191 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9192:9196 Coq.Init.Logic <> False ind
+R9183:9187 Coq.Init.Logic <> False ind
+R9246:9246 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9258:9262 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9263:9267 Coq.Init.Logic <> False ind
+R9249:9252 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9253:9257 Coq.Init.Logic <> False ind
+R9246:9246 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9258:9262 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9263:9267 Coq.Init.Logic <> False ind
+R9249:9252 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9253:9257 Coq.Init.Logic <> False ind
+R9326:9326 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9338:9343 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9355:9355 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9346:9349 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9350:9354 Coq.Init.Logic <> False ind
+R9329:9332 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9333:9337 Coq.Init.Logic <> False ind
+R9326:9326 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9338:9343 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9355:9355 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9346:9349 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9350:9354 Coq.Init.Logic <> False ind
+R9329:9332 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9333:9337 Coq.Init.Logic <> False ind
+R9429:9429 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9441:9445 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9432:9435 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9436:9440 Coq.Init.Logic <> False ind
+R9429:9429 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9441:9445 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9432:9435 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9436:9440 Coq.Init.Logic <> False ind
+R9498:9502 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9514:9514 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9505:9508 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9509:9513 Coq.Init.Logic <> False ind
+R9498:9502 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9514:9514 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9505:9508 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9509:9513 Coq.Init.Logic <> False ind
+R9563:9563 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9575:9579 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9566:9569 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9570:9574 Coq.Init.Logic <> False ind
+R9563:9563 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9575:9579 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9566:9569 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9570:9574 Coq.Init.Logic <> False ind
+R9640:9640 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9652:9657 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9669:9669 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9643:9646 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9647:9651 Coq.Init.Logic <> False ind
+R9660:9663 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9664:9668 Coq.Init.Logic <> False ind
+R9640:9640 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9652:9657 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9669:9669 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9643:9646 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9647:9651 Coq.Init.Logic <> False ind
+R9660:9663 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9664:9668 Coq.Init.Logic <> False ind
+R9737:9740 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9743:9746 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9747:9751 Coq.Init.Logic <> False ind
+R9737:9740 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9743:9746 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9747:9751 Coq.Init.Logic <> False ind
+R9810:9814 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9826:9826 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9817:9820 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9821:9825 Coq.Init.Logic <> False ind
+R9810:9814 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9826:9826 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9817:9820 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9821:9825 Coq.Init.Logic <> False ind
+R9890:9890 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9902:9906 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9893:9896 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9897:9901 Coq.Init.Logic <> False ind
+R9890:9890 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9902:9906 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9893:9896 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9897:9901 Coq.Init.Logic <> False ind
+R9936:9950 Coq.Logic.Decidable <> not_imp_rev_iff thm
+R9844:9854 Coq.Logic.Decidable <> not_imp_iff thm
+R9769:9779 Coq.Logic.Decidable <> not_and_iff thm
+R9697:9706 Coq.Logic.Decidable <> not_or_iff thm
+R9596:9604 Coq.Logic.Decidable <> imp_not_l thm
+R9380:9393 Coq.Logic.Decidable <> contrapositive thm
+R9282:9292 Coq.Logic.Decidable <> not_not_iff thm
+R9210:9222 Coq.Logic.Decidable <> not_false_iff thm
+R9148:9159 Coq.Logic.Decidable <> not_true_iff thm
+R10195:10197 Coq.Init.Logic <> not def
+R10200:10202 Coq.Init.Logic <> iff def
+R10278:10281 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10282:10286 Coq.Init.Logic <> False ind
+R10274:10277 Coq.Init.Logic <> True ind
+R10278:10281 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10282:10286 Coq.Init.Logic <> False ind
+R10274:10277 Coq.Init.Logic <> True ind
+R10350:10353 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10354:10358 Coq.Init.Logic <> False ind
+R10345:10349 Coq.Init.Logic <> False ind
+R10350:10353 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10354:10358 Coq.Init.Logic <> False ind
+R10345:10349 Coq.Init.Logic <> False ind
+R10418:10418 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10430:10434 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10435:10439 Coq.Init.Logic <> False ind
+R10421:10424 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10425:10429 Coq.Init.Logic <> False ind
+R10418:10418 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10430:10434 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10435:10439 Coq.Init.Logic <> False ind
+R10421:10424 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10425:10429 Coq.Init.Logic <> False ind
+R10518:10518 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10530:10535 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10547:10547 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10538:10541 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10542:10546 Coq.Init.Logic <> False ind
+R10521:10524 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10525:10529 Coq.Init.Logic <> False ind
+R10518:10518 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10530:10535 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10547:10547 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10538:10541 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10542:10546 Coq.Init.Logic <> False ind
+R10521:10524 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10525:10529 Coq.Init.Logic <> False ind
+R10631:10631 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R10643:10647 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R10634:10637 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10638:10642 Coq.Init.Logic <> False ind
+R10631:10631 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R10643:10647 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R10634:10637 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10638:10642 Coq.Init.Logic <> False ind
+R10710:10714 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R10726:10726 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R10717:10720 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10721:10725 Coq.Init.Logic <> False ind
+R10710:10714 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R10726:10726 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R10717:10720 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10721:10725 Coq.Init.Logic <> False ind
+R10785:10785 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10797:10801 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10788:10791 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10792:10796 Coq.Init.Logic <> False ind
+R10785:10785 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10797:10801 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10788:10791 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10792:10796 Coq.Init.Logic <> False ind
+R10882:10882 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10894:10899 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10911:10911 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10885:10888 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10889:10893 Coq.Init.Logic <> False ind
+R10902:10905 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10906:10910 Coq.Init.Logic <> False ind
+R10882:10882 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10894:10899 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10911:10911 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10885:10888 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10889:10893 Coq.Init.Logic <> False ind
+R10902:10905 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10906:10910 Coq.Init.Logic <> False ind
+R10989:10992 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10995:10998 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10999:11003 Coq.Init.Logic <> False ind
+R10989:10992 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10995:10998 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10999:11003 Coq.Init.Logic <> False ind
+R11082:11086 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11098:11098 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11089:11092 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11093:11097 Coq.Init.Logic <> False ind
+R11082:11086 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11098:11098 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11089:11092 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11093:11097 Coq.Init.Logic <> False ind
+R11182:11182 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11194:11198 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11185:11188 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11189:11193 Coq.Init.Logic <> False ind
+R11182:11182 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11194:11198 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11185:11188 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11189:11193 Coq.Init.Logic <> False ind
+R11233:11247 Coq.Logic.Decidable <> not_imp_rev_iff thm
+R11131:11141 Coq.Logic.Decidable <> not_imp_iff thm
+R11036:11046 Coq.Logic.Decidable <> not_and_iff thm
+R10944:10953 Coq.Logic.Decidable <> not_or_iff thm
+R10833:10841 Coq.Logic.Decidable <> imp_not_l thm
+R10577:10590 Coq.Logic.Decidable <> contrapositive thm
+R10469:10479 Coq.Logic.Decidable <> not_not_iff thm
+R10377:10389 Coq.Logic.Decidable <> not_false_iff thm
+R10305:10316 Coq.Logic.Decidable <> not_true_iff thm
+prf 11645:11653 WDecide_fun.FSetLogicalFacts test_pull
+binder 11664:11664 <> P:4
+binder 11666:11666 <> Q:5
+binder 11668:11668 <> R:6
+R11695:11704 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11716:11725 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11726:11726 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11733:11743 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11744:11744 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11752:11762 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11763:11763 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11769:11779 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11780:11780 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11798:11808 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11809:11809 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11825:11835 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11836:11836 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11852:11862 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11863:11863 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11879:11889 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11890:11890 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11906:11916 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11917:11917 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11926:11936 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11937:11937 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11962:11972 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11973:11973 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11984:11994 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11995:11995 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12004:12014 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12015:12015 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12024:12034 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12035:12038 Coq.Init.Logic <> True ind
+R12019:12022 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12016:12017 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12018:12018 Tutorial.Metalib.CoqFSetDecide <> R:6 var
+R12023:12023 Tutorial.Metalib.CoqFSetDecide <> P:4 var
+R11997:12000 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11996:11996 Tutorial.Metalib.CoqFSetDecide <> P:4 var
+R12001:12002 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12003:12003 Tutorial.Metalib.CoqFSetDecide <> R:6 var
+R11977:11980 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R11974:11975 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11976:11976 Tutorial.Metalib.CoqFSetDecide <> P:4 var
+R11981:11982 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11983:11983 Tutorial.Metalib.CoqFSetDecide <> R:6 var
+R11948:11951 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11938:11940 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11947:11947 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11942:11945 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11946:11946 Tutorial.Metalib.CoqFSetDecide <> P:4 var
+R11941:11941 Tutorial.Metalib.CoqFSetDecide <> R:6 var
+R11952:11954 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11961:11961 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11956:11959 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11960:11960 Tutorial.Metalib.CoqFSetDecide <> R:6 var
+R11955:11955 Tutorial.Metalib.CoqFSetDecide <> Q:5 var
+R11921:11924 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11925:11925 Tutorial.Metalib.CoqFSetDecide <> R:6 var
+R11918:11919 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11920:11920 Tutorial.Metalib.CoqFSetDecide <> P:4 var
+R11894:11898 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R11905:11905 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R11891:11892 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11893:11893 Tutorial.Metalib.CoqFSetDecide <> R:6 var
+R11900:11903 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11899:11899 Tutorial.Metalib.CoqFSetDecide <> P:4 var
+R11904:11904 Tutorial.Metalib.CoqFSetDecide <> Q:5 var
+R11865:11868 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R11864:11864 Tutorial.Metalib.CoqFSetDecide <> R:6 var
+R11869:11871 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11878:11878 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11873:11876 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11872:11872 Tutorial.Metalib.CoqFSetDecide <> P:4 var
+R11877:11877 Tutorial.Metalib.CoqFSetDecide <> Q:5 var
+R11847:11850 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R11837:11839 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11846:11846 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11841:11844 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11840:11840 Tutorial.Metalib.CoqFSetDecide <> P:4 var
+R11845:11845 Tutorial.Metalib.CoqFSetDecide <> Q:5 var
+R11851:11851 Tutorial.Metalib.CoqFSetDecide <> R:6 var
+R11810:11810 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R11817:11821 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R11812:11815 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11811:11811 Tutorial.Metalib.CoqFSetDecide <> P:4 var
+R11816:11816 Tutorial.Metalib.CoqFSetDecide <> Q:5 var
+R11822:11823 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11824:11824 Tutorial.Metalib.CoqFSetDecide <> R:6 var
+R11791:11794 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11795:11796 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11797:11797 Tutorial.Metalib.CoqFSetDecide <> R:6 var
+R11781:11783 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11790:11790 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11785:11788 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11784:11784 Tutorial.Metalib.CoqFSetDecide <> P:4 var
+R11789:11789 Tutorial.Metalib.CoqFSetDecide <> Q:5 var
+R11764:11765 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11766:11767 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11768:11768 Tutorial.Metalib.CoqFSetDecide <> P:4 var
+R11745:11746 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11747:11751 Coq.Init.Logic <> False ind
+R11727:11728 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11729:11732 Coq.Init.Logic <> True ind
+R11705:11713 Coq.Logic.Decidable <> decidable def
+R11715:11715 Tutorial.Metalib.CoqFSetDecide <> Q:5 var
+R11684:11692 Coq.Logic.Decidable <> decidable def
+R11694:11694 Tutorial.Metalib.CoqFSetDecide <> P:4 var
+R12104:12119 Tutorial.Metalib.CoqFSetDecide WDecide_fun.FSetLogicalFacts <> mod
+mod 12341:12359 <> WDecide_fun.FSetDecideAuxiliary
+ind 14557:14569 WDecide_fun.FSetDecideAuxiliary FSet_elt_Prop
+constr 14595:14601 WDecide_fun.FSetDecideAuxiliary eq_Prop
+constr 14670:14680 WDecide_fun.FSetDecideAuxiliary eq_elt_prop
+constr 14735:14745 WDecide_fun.FSetDecideAuxiliary In_elt_prop
+constr 14798:14810 WDecide_fun.FSetDecideAuxiliary True_elt_prop
+constr 14847:14860 WDecide_fun.FSetDecideAuxiliary False_elt_prop
+constr 14898:14910 WDecide_fun.FSetDecideAuxiliary conj_elt_prop
+constr 15017:15029 WDecide_fun.FSetDecideAuxiliary disj_elt_prop
+constr 15136:15148 WDecide_fun.FSetDecideAuxiliary impl_elt_prop
+constr 15255:15266 WDecide_fun.FSetDecideAuxiliary not_elt_prop
+R14577:14580 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 14613:14613 <> S:9
+R14630:14630 Tutorial.Metalib.CoqFSetDecide <> S:9 var
+binder 14624:14624 <> x:10
+binder 14626:14626 <> y:11
+R14642:14654 Tutorial.Metalib.CoqFSetDecide <> FSet_elt_Prop:7 ind
+R14658:14660 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14657:14657 Tutorial.Metalib.CoqFSetDecide <> x:10 var
+R14661:14661 Tutorial.Metalib.CoqFSetDecide <> y:11 var
+binder 14691:14691 <> x:12
+binder 14693:14693 <> y:13
+R14704:14716 Tutorial.Metalib.CoqFSetDecide <> FSet_elt_Prop:7 ind
+R14719:14722 Tutorial.Metalib.CoqFSetDecide E eq defax
+R14726:14726 Tutorial.Metalib.CoqFSetDecide <> y:13 var
+R14724:14724 Tutorial.Metalib.CoqFSetDecide <> x:12 var
+binder 14756:14756 <> x:14
+binder 14758:14758 <> s:15
+R14769:14781 Tutorial.Metalib.CoqFSetDecide <> FSet_elt_Prop:7 ind
+R14784:14785 Tutorial.Metalib.CoqFSetDecide M In defax
+R14789:14789 Tutorial.Metalib.CoqFSetDecide <> s:15 var
+R14787:14787 Tutorial.Metalib.CoqFSetDecide <> x:14 var
+R14822:14834 Tutorial.Metalib.CoqFSetDecide <> FSet_elt_Prop:7 ind
+R14836:14839 Coq.Init.Logic <> True ind
+R14872:14884 Tutorial.Metalib.CoqFSetDecide <> FSet_elt_Prop:7 ind
+R14886:14890 Coq.Init.Logic <> False ind
+binder 14921:14921 <> P:16
+binder 14923:14923 <> Q:17
+R14949:14960 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14976:14987 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14988:15000 Tutorial.Metalib.CoqFSetDecide <> FSet_elt_Prop:7 ind
+R15004:15007 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15003:15003 Tutorial.Metalib.CoqFSetDecide <> P:16 var
+R15008:15008 Tutorial.Metalib.CoqFSetDecide <> Q:17 var
+R14961:14973 Tutorial.Metalib.CoqFSetDecide <> FSet_elt_Prop:7 ind
+R14975:14975 Tutorial.Metalib.CoqFSetDecide <> Q:17 var
+R14934:14946 Tutorial.Metalib.CoqFSetDecide <> FSet_elt_Prop:7 ind
+R14948:14948 Tutorial.Metalib.CoqFSetDecide <> P:16 var
+binder 15040:15040 <> P:18
+binder 15042:15042 <> Q:19
+R15068:15079 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15095:15106 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15107:15119 Tutorial.Metalib.CoqFSetDecide <> FSet_elt_Prop:7 ind
+R15123:15126 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R15122:15122 Tutorial.Metalib.CoqFSetDecide <> P:18 var
+R15127:15127 Tutorial.Metalib.CoqFSetDecide <> Q:19 var
+R15080:15092 Tutorial.Metalib.CoqFSetDecide <> FSet_elt_Prop:7 ind
+R15094:15094 Tutorial.Metalib.CoqFSetDecide <> Q:19 var
+R15053:15065 Tutorial.Metalib.CoqFSetDecide <> FSet_elt_Prop:7 ind
+R15067:15067 Tutorial.Metalib.CoqFSetDecide <> P:18 var
+binder 15159:15159 <> P:20
+binder 15161:15161 <> Q:21
+R15187:15198 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15214:15225 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15226:15238 Tutorial.Metalib.CoqFSetDecide <> FSet_elt_Prop:7 ind
+R15242:15245 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15246:15246 Tutorial.Metalib.CoqFSetDecide <> Q:21 var
+R15241:15241 Tutorial.Metalib.CoqFSetDecide <> P:20 var
+R15199:15211 Tutorial.Metalib.CoqFSetDecide <> FSet_elt_Prop:7 ind
+R15213:15213 Tutorial.Metalib.CoqFSetDecide <> Q:21 var
+R15172:15184 Tutorial.Metalib.CoqFSetDecide <> FSet_elt_Prop:7 ind
+R15186:15186 Tutorial.Metalib.CoqFSetDecide <> P:20 var
+binder 15277:15277 <> P:22
+R15303:15314 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15315:15327 Tutorial.Metalib.CoqFSetDecide <> FSet_elt_Prop:7 ind
+R15330:15331 Coq.Init.Logic <> ::type_scope:'~'_x not
+R15332:15332 Tutorial.Metalib.CoqFSetDecide <> P:22 var
+R15288:15300 Tutorial.Metalib.CoqFSetDecide <> FSet_elt_Prop:7 ind
+R15302:15302 Tutorial.Metalib.CoqFSetDecide <> P:22 var
+ind 15351:15359 WDecide_fun.FSetDecideAuxiliary FSet_Prop
+constr 15385:15397 WDecide_fun.FSetDecideAuxiliary elt_FSet_Prop
+constr 15464:15478 WDecide_fun.FSetDecideAuxiliary Empty_FSet_Prop
+constr 15526:15541 WDecide_fun.FSetDecideAuxiliary Subset_FSet_Prop
+constr 15598:15612 WDecide_fun.FSetDecideAuxiliary Equal_FSet_Prop
+R15367:15370 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 15408:15408 <> P:25
+R15434:15445 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15446:15454 Tutorial.Metalib.CoqFSetDecide <> FSet_Prop:23 ind
+R15456:15456 Tutorial.Metalib.CoqFSetDecide <> P:25 var
+R15419:15431 Tutorial.Metalib.CoqFSetDecide WDecide_fun.FSetDecideAuxiliary FSet_elt_Prop ind
+R15433:15433 Tutorial.Metalib.CoqFSetDecide <> P:25 var
+binder 15489:15489 <> s:26
+R15500:15508 Tutorial.Metalib.CoqFSetDecide <> FSet_Prop:23 ind
+R15511:15515 Tutorial.Metalib.CoqFSetDecide M Empty def
+R15517:15517 Tutorial.Metalib.CoqFSetDecide <> s:26 var
+binder 15552:15553 <> s1:27
+binder 15555:15556 <> s2:28
+R15567:15575 Tutorial.Metalib.CoqFSetDecide <> FSet_Prop:23 ind
+R15578:15583 Tutorial.Metalib.CoqFSetDecide M Subset def
+R15588:15589 Tutorial.Metalib.CoqFSetDecide <> s2:28 var
+R15585:15586 Tutorial.Metalib.CoqFSetDecide <> s1:27 var
+binder 15623:15624 <> s1:29
+binder 15626:15627 <> s2:30
+R15638:15646 Tutorial.Metalib.CoqFSetDecide <> FSet_Prop:23 ind
+R15649:15653 Tutorial.Metalib.CoqFSetDecide M Equal def
+R15658:15659 Tutorial.Metalib.CoqFSetDecide <> s2:30 var
+R15655:15656 Tutorial.Metalib.CoqFSetDecide <> s1:29 var
+R15834:15846 Tutorial.Metalib.CoqFSetDecide <> FSet_elt_Prop ind
+R15848:15856 Tutorial.Metalib.CoqFSetDecide <> FSet_Prop ind
+R15982:15990 Tutorial.Metalib.CoqFSetDecide WDecide_fun.FSetDecideAuxiliary FSet_Prop ind
+R16444:16454 Tutorial.Metalib.CoqFSetDecide WDecide_fun.F empty_iff thm
+R16456:16470 Tutorial.Metalib.CoqFSetDecide WDecide_fun.F singleton_iff thm
+R16472:16480 Tutorial.Metalib.CoqFSetDecide WDecide_fun.F add_iff thm
+R16482:16493 Tutorial.Metalib.CoqFSetDecide WDecide_fun.F remove_iff thm
+R16501:16511 Tutorial.Metalib.CoqFSetDecide WDecide_fun.F union_iff thm
+R16513:16523 Tutorial.Metalib.CoqFSetDecide WDecide_fun.F inter_iff thm
+R16525:16534 Tutorial.Metalib.CoqFSetDecide WDecide_fun.F diff_iff thm
+prf 16643:16648 WDecide_fun.FSetDecideAuxiliary dec_In
+binder 16659:16659 <> x:31
+binder 16661:16661 <> s:32
+R16670:16678 Coq.Logic.Decidable <> decidable def
+R16681:16682 Tutorial.Metalib.CoqFSetDecide M In defax
+R16686:16686 Tutorial.Metalib.CoqFSetDecide <> s:32 var
+R16684:16684 Tutorial.Metalib.CoqFSetDecide <> x:31 var
+R16732:16740 Tutorial.Metalib.CoqFSetDecide WDecide_fun.F mem_iff thm
+R16754:16756 Tutorial.Metalib.CoqFSetDecide M mem defax
+R16732:16740 Tutorial.Metalib.CoqFSetDecide WDecide_fun.F mem_iff thm
+R16754:16756 Tutorial.Metalib.CoqFSetDecide M mem defax
+prf 16827:16832 WDecide_fun.FSetDecideAuxiliary dec_eq
+R16850:16852 Tutorial.Metalib.CoqFSetDecide E t defax
+binder 16844:16844 <> x:33
+binder 16846:16846 <> y:34
+R16862:16870 Coq.Logic.Decidable <> decidable def
+R16873:16876 Tutorial.Metalib.CoqFSetDecide E eq defax
+R16880:16880 Tutorial.Metalib.CoqFSetDecide <> y:34 var
+R16878:16878 Tutorial.Metalib.CoqFSetDecide <> x:33 var
+R16928:16935 Tutorial.Metalib.CoqFSetDecide E eq_dec defax
+R16928:16935 Tutorial.Metalib.CoqFSetDecide E eq_dec defax
+binder 17939:17939 <> x:35
+binder 17939:17939 <> x:36
+R17991:17993 Tutorial.Metalib.CoqFSetDecide E t defax
+R18157:18159 Tutorial.Metalib.CoqFSetDecide E t defax
+R18101:18103 Tutorial.Metalib.CoqFSetDecide E t defax
+R17729:17731 Tutorial.Metalib.CoqFSetDecide E t defax
+R17895:17897 Tutorial.Metalib.CoqFSetDecide E t defax
+R17839:17841 Tutorial.Metalib.CoqFSetDecide E t defax
+R18508:18515 Coq.Init.Logic <> eq ind
+R18517:18519 Tutorial.Metalib.CoqFSetDecide E t defax
+R18508:18515 Coq.Init.Logic <> eq ind
+R18517:18519 Tutorial.Metalib.CoqFSetDecide E t defax
+R18527:18530 Tutorial.Metalib.CoqFSetDecide E eq defax
+R18431:18438 Coq.Init.Logic <> eq ind
+R18440:18442 Tutorial.Metalib.CoqFSetDecide E t defax
+R18431:18438 Coq.Init.Logic <> eq ind
+R18440:18442 Tutorial.Metalib.CoqFSetDecide E t defax
+R18450:18453 Tutorial.Metalib.CoqFSetDecide E eq defax
+R18743:18746 Tutorial.Metalib.CoqFSetDecide E eq defax
+R18743:18746 Tutorial.Metalib.CoqFSetDecide E eq defax
+R18755:18762 Coq.Init.Logic <> eq ind
+R18764:18766 Tutorial.Metalib.CoqFSetDecide E t defax
+R18666:18669 Tutorial.Metalib.CoqFSetDecide E eq defax
+R18666:18669 Tutorial.Metalib.CoqFSetDecide E eq defax
+R18678:18685 Coq.Init.Logic <> eq ind
+R18687:18689 Tutorial.Metalib.CoqFSetDecide E t defax
+R19035:19038 Tutorial.Metalib.CoqFSetDecide E eq defax
+R19035:19038 Tutorial.Metalib.CoqFSetDecide E eq defax
+R19941:19942 Coq.Init.Logic <> ::type_scope:'~'_x not
+R19943:19946 Tutorial.Metalib.CoqFSetDecide E eq defax
+R19941:19942 Coq.Init.Logic <> ::type_scope:'~'_x not
+R19943:19946 Tutorial.Metalib.CoqFSetDecide E eq defax
+R20049:20050 Coq.Init.Logic <> ::type_scope:'~'_x not
+R20051:20052 Tutorial.Metalib.CoqFSetDecide M In defax
+R20049:20050 Coq.Init.Logic <> ::type_scope:'~'_x not
+R20051:20052 Tutorial.Metalib.CoqFSetDecide M In defax
+R20151:20152 Coq.Init.Logic <> ::type_scope:'~'_x not
+R20153:20156 Tutorial.Metalib.CoqFSetDecide E eq defax
+R20151:20152 Coq.Init.Logic <> ::type_scope:'~'_x not
+R20153:20156 Tutorial.Metalib.CoqFSetDecide E eq defax
+R20254:20255 Coq.Init.Logic <> ::type_scope:'~'_x not
+R20256:20257 Tutorial.Metalib.CoqFSetDecide M In defax
+R20254:20255 Coq.Init.Logic <> ::type_scope:'~'_x not
+R20256:20257 Tutorial.Metalib.CoqFSetDecide M In defax
+R20297:20300 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R20291:20292 Tutorial.Metalib.CoqFSetDecide M In defax
+R20301:20302 Coq.Init.Logic <> ::type_scope:'~'_x not
+R20303:20304 Tutorial.Metalib.CoqFSetDecide M In defax
+R20321:20326 Tutorial.Metalib.CoqFSetDecide WDecide_fun.FSetDecideAuxiliary dec_In thm
+R20198:20201 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R20190:20193 Tutorial.Metalib.CoqFSetDecide E eq defax
+R20202:20203 Coq.Init.Logic <> ::type_scope:'~'_x not
+R20204:20207 Tutorial.Metalib.CoqFSetDecide E eq defax
+R20224:20229 Tutorial.Metalib.CoqFSetDecide WDecide_fun.FSetDecideAuxiliary dec_eq thm
+R20097:20100 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R20091:20092 Tutorial.Metalib.CoqFSetDecide M In defax
+R20101:20102 Coq.Init.Logic <> ::type_scope:'~'_x not
+R20103:20104 Tutorial.Metalib.CoqFSetDecide M In defax
+R20121:20126 Tutorial.Metalib.CoqFSetDecide WDecide_fun.FSetDecideAuxiliary dec_In thm
+R19993:19996 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R19985:19988 Tutorial.Metalib.CoqFSetDecide E eq defax
+R19997:19998 Coq.Init.Logic <> ::type_scope:'~'_x not
+R19999:20002 Tutorial.Metalib.CoqFSetDecide E eq defax
+R20019:20024 Tutorial.Metalib.CoqFSetDecide WDecide_fun.FSetDecideAuxiliary dec_eq thm
+R20522:20523 Coq.Init.Logic <> ::type_scope:'~'_x not
+R20522:20523 Coq.Init.Logic <> ::type_scope:'~'_x not
+R20534:20537 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R20538:20539 Coq.Init.Logic <> ::type_scope:'~'_x not
+R20534:20537 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R20538:20539 Coq.Init.Logic <> ::type_scope:'~'_x not
+R21066:21068 Tutorial.Metalib.CoqFSetDecide E t defax
+binder 21062:21062 <> a:37
+R21066:21068 Tutorial.Metalib.CoqFSetDecide E t defax
+binder 21062:21062 <> a:38
+R21098:21099 Tutorial.Metalib.CoqFSetDecide M In defax
+R21098:21099 Tutorial.Metalib.CoqFSetDecide M In defax
+R21217:21219 Tutorial.Metalib.CoqFSetDecide E t defax
+binder 21213:21213 <> a:39
+R21217:21219 Tutorial.Metalib.CoqFSetDecide E t defax
+binder 21213:21213 <> a:40
+R21247:21248 Tutorial.Metalib.CoqFSetDecide M In defax
+R21247:21248 Tutorial.Metalib.CoqFSetDecide M In defax
+R21361:21363 Tutorial.Metalib.CoqFSetDecide E t defax
+binder 21357:21357 <> a:41
+R21361:21363 Tutorial.Metalib.CoqFSetDecide E t defax
+binder 21357:21357 <> a:42
+R21393:21396 Tutorial.Metalib.CoqFSetDecide E eq defax
+R21393:21396 Tutorial.Metalib.CoqFSetDecide E eq defax
+R21514:21516 Tutorial.Metalib.CoqFSetDecide E t defax
+binder 21510:21510 <> a:43
+R21514:21516 Tutorial.Metalib.CoqFSetDecide E t defax
+binder 21510:21510 <> a:44
+R21544:21547 Tutorial.Metalib.CoqFSetDecide E eq defax
+R21544:21547 Tutorial.Metalib.CoqFSetDecide E eq defax
+R21660:21662 Tutorial.Metalib.CoqFSetDecide E t defax
+binder 21656:21656 <> a:45
+R21660:21662 Tutorial.Metalib.CoqFSetDecide E t defax
+binder 21656:21656 <> a:46
+R21692:21695 Tutorial.Metalib.CoqFSetDecide E eq defax
+R21692:21695 Tutorial.Metalib.CoqFSetDecide E eq defax
+R21813:21815 Tutorial.Metalib.CoqFSetDecide E t defax
+binder 21809:21809 <> a:47
+R21813:21815 Tutorial.Metalib.CoqFSetDecide E t defax
+binder 21809:21809 <> a:48
+R21843:21846 Tutorial.Metalib.CoqFSetDecide E eq defax
+R21843:21846 Tutorial.Metalib.CoqFSetDecide E eq defax
+R22012:22014 Tutorial.Metalib.CoqFSetDecide E t defax
+binder 22008:22008 <> a:49
+R22012:22014 Tutorial.Metalib.CoqFSetDecide E t defax
+binder 22008:22008 <> a:50
+R22567:22570 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22571:22575 Coq.Init.Logic <> False ind
+R22557:22560 Tutorial.Metalib.CoqFSetDecide E eq defax
+R22567:22570 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22571:22575 Coq.Init.Logic <> False ind
+R22557:22560 Tutorial.Metalib.CoqFSetDecide E eq defax
+R23336:23354 Tutorial.Metalib.CoqFSetDecide WDecide_fun.FSetDecideAuxiliary <> mod
+R23655:23657 Coq.Init.Logic <> iff def
+R24201:24205 Tutorial.Metalib.CoqFSetDecide M Empty def
+R24208:24213 Tutorial.Metalib.CoqFSetDecide M Subset def
+R24216:24220 Tutorial.Metalib.CoqFSetDecide M Equal def
+R25779:25781 Coq.Init.Logic <> not def
+R25818:25818 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25827:25831 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25832:25836 Coq.Init.Logic <> False ind
+R25819:25820 Tutorial.Metalib.CoqFSetDecide M In defax
+R25818:25818 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25827:25831 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25832:25836 Coq.Init.Logic <> False ind
+R25819:25820 Tutorial.Metalib.CoqFSetDecide M In defax
+R25841:25841 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25850:25854 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25855:25859 Coq.Init.Logic <> False ind
+R25842:25843 Tutorial.Metalib.CoqFSetDecide M In defax
+R25841:25841 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25850:25854 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25855:25859 Coq.Init.Logic <> False ind
+R25842:25843 Tutorial.Metalib.CoqFSetDecide M In defax
+R25906:25906 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25915:25919 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25920:25924 Coq.Init.Logic <> False ind
+R25907:25908 Tutorial.Metalib.CoqFSetDecide M In defax
+R25906:25906 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25915:25919 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25920:25924 Coq.Init.Logic <> False ind
+R25907:25908 Tutorial.Metalib.CoqFSetDecide M In defax
+R25929:25929 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25940:25944 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25945:25949 Coq.Init.Logic <> False ind
+R25930:25933 Tutorial.Metalib.CoqFSetDecide E eq defax
+R25929:25929 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25940:25944 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25945:25949 Coq.Init.Logic <> False ind
+R25930:25933 Tutorial.Metalib.CoqFSetDecide E eq defax
+R25996:25996 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26005:26009 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26010:26014 Coq.Init.Logic <> False ind
+R25997:25998 Tutorial.Metalib.CoqFSetDecide M In defax
+R25996:25996 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26005:26009 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26010:26014 Coq.Init.Logic <> False ind
+R25997:25998 Tutorial.Metalib.CoqFSetDecide M In defax
+R26019:26019 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26030:26034 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26035:26039 Coq.Init.Logic <> False ind
+R26020:26023 Tutorial.Metalib.CoqFSetDecide E eq defax
+R26019:26019 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26030:26034 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26035:26039 Coq.Init.Logic <> False ind
+R26020:26023 Tutorial.Metalib.CoqFSetDecide E eq defax
+R26088:26091 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26092:26096 Coq.Init.Logic <> False ind
+R26088:26091 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26092:26096 Coq.Init.Logic <> False ind
+R26103:26106 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26107:26111 Coq.Init.Logic <> False ind
+R26103:26106 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26107:26111 Coq.Init.Logic <> False ind
+R26131:26143 Tutorial.Metalib.CoqFSetDecide WDecide_fun FSet_elt_Prop ind
+mod 26328:26346 <> WDecide_fun.FSetDecideTestCases
+prf 26360:26374 WDecide_fun.FSetDecideTestCases test_eq_trans_1
+binder 26385:26385 <> x:51
+binder 26387:26387 <> y:52
+binder 26389:26389 <> z:53
+binder 26391:26391 <> s:54
+R26408:26417 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26430:26439 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26446:26455 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26456:26457 Tutorial.Metalib.CoqFSetDecide M In defax
+R26461:26461 Tutorial.Metalib.CoqFSetDecide <> s:54 var
+R26459:26459 Tutorial.Metalib.CoqFSetDecide <> z:53 var
+R26440:26441 Tutorial.Metalib.CoqFSetDecide M In defax
+R26445:26445 Tutorial.Metalib.CoqFSetDecide <> s:54 var
+R26443:26443 Tutorial.Metalib.CoqFSetDecide <> x:51 var
+R26418:26419 Coq.Init.Logic <> ::type_scope:'~'_x not
+R26420:26421 Coq.Init.Logic <> ::type_scope:'~'_x not
+R26422:26425 Tutorial.Metalib.CoqFSetDecide E eq defax
+R26429:26429 Tutorial.Metalib.CoqFSetDecide <> y:52 var
+R26427:26427 Tutorial.Metalib.CoqFSetDecide <> z:53 var
+R26400:26403 Tutorial.Metalib.CoqFSetDecide E eq defax
+R26407:26407 Tutorial.Metalib.CoqFSetDecide <> y:52 var
+R26405:26405 Tutorial.Metalib.CoqFSetDecide <> x:51 var
+prf 26500:26514 WDecide_fun.FSetDecideTestCases test_eq_trans_2
+binder 26525:26525 <> x:55
+binder 26527:26527 <> y:56
+binder 26529:26529 <> z:57
+binder 26531:26531 <> r:58
+binder 26533:26533 <> s:59
+R26560:26569 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26578:26587 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26606:26615 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26622:26631 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26632:26633 Tutorial.Metalib.CoqFSetDecide M In defax
+R26637:26637 Tutorial.Metalib.CoqFSetDecide <> s:59 var
+R26635:26635 Tutorial.Metalib.CoqFSetDecide <> z:57 var
+R26616:26617 Tutorial.Metalib.CoqFSetDecide M In defax
+R26621:26621 Tutorial.Metalib.CoqFSetDecide <> s:59 var
+R26619:26619 Tutorial.Metalib.CoqFSetDecide <> x:55 var
+R26588:26589 Coq.Init.Logic <> ::type_scope:'~'_x not
+R26590:26591 Coq.Init.Logic <> ::type_scope:'~'_x not
+R26592:26593 Tutorial.Metalib.CoqFSetDecide M In defax
+R26598:26600 Tutorial.Metalib.CoqFSetDecide M add defax
+R26604:26604 Tutorial.Metalib.CoqFSetDecide <> r:58 var
+R26602:26602 Tutorial.Metalib.CoqFSetDecide <> y:56 var
+R26595:26595 Tutorial.Metalib.CoqFSetDecide <> z:57 var
+R26570:26571 Coq.Init.Logic <> ::type_scope:'~'_x not
+R26572:26573 Tutorial.Metalib.CoqFSetDecide M In defax
+R26577:26577 Tutorial.Metalib.CoqFSetDecide <> r:58 var
+R26575:26575 Tutorial.Metalib.CoqFSetDecide <> z:57 var
+R26542:26543 Tutorial.Metalib.CoqFSetDecide M In defax
+R26548:26556 Tutorial.Metalib.CoqFSetDecide M singleton defax
+R26558:26558 Tutorial.Metalib.CoqFSetDecide <> y:56 var
+R26545:26545 Tutorial.Metalib.CoqFSetDecide <> x:55 var
+prf 26676:26694 WDecide_fun.FSetDecideTestCases test_eq_neq_trans_1
+binder 26705:26705 <> w:60
+binder 26707:26707 <> x:61
+binder 26709:26709 <> y:62
+binder 26711:26711 <> z:63
+binder 26713:26713 <> s:64
+R26730:26739 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26752:26761 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26772:26781 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26788:26797 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26798:26799 Tutorial.Metalib.CoqFSetDecide M In defax
+R26804:26809 Tutorial.Metalib.CoqFSetDecide M remove defax
+R26813:26813 Tutorial.Metalib.CoqFSetDecide <> s:64 var
+R26811:26811 Tutorial.Metalib.CoqFSetDecide <> z:63 var
+R26801:26801 Tutorial.Metalib.CoqFSetDecide <> w:60 var
+R26782:26783 Tutorial.Metalib.CoqFSetDecide M In defax
+R26787:26787 Tutorial.Metalib.CoqFSetDecide <> s:64 var
+R26785:26785 Tutorial.Metalib.CoqFSetDecide <> w:60 var
+R26762:26763 Coq.Init.Logic <> ::type_scope:'~'_x not
+R26764:26767 Tutorial.Metalib.CoqFSetDecide E eq defax
+R26771:26771 Tutorial.Metalib.CoqFSetDecide <> z:63 var
+R26769:26769 Tutorial.Metalib.CoqFSetDecide <> y:62 var
+R26740:26741 Coq.Init.Logic <> ::type_scope:'~'_x not
+R26742:26743 Coq.Init.Logic <> ::type_scope:'~'_x not
+R26744:26747 Tutorial.Metalib.CoqFSetDecide E eq defax
+R26751:26751 Tutorial.Metalib.CoqFSetDecide <> y:62 var
+R26749:26749 Tutorial.Metalib.CoqFSetDecide <> x:61 var
+R26722:26725 Tutorial.Metalib.CoqFSetDecide E eq defax
+R26729:26729 Tutorial.Metalib.CoqFSetDecide <> w:60 var
+R26727:26727 Tutorial.Metalib.CoqFSetDecide <> x:61 var
+prf 26853:26871 WDecide_fun.FSetDecideTestCases test_eq_neq_trans_2
+binder 26882:26882 <> w:65
+binder 26884:26884 <> x:66
+binder 26886:26886 <> y:67
+binder 26888:26888 <> z:68
+binder 26890:26891 <> r1:69
+binder 26893:26894 <> r2:70
+binder 26896:26896 <> s:71
+R26923:26932 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26942:26951 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26967:26976 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26984:26993 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27012:27021 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27028:27037 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27038:27039 Tutorial.Metalib.CoqFSetDecide M In defax
+R27044:27049 Tutorial.Metalib.CoqFSetDecide M remove defax
+R27053:27053 Tutorial.Metalib.CoqFSetDecide <> s:71 var
+R27051:27051 Tutorial.Metalib.CoqFSetDecide <> z:68 var
+R27041:27041 Tutorial.Metalib.CoqFSetDecide <> w:65 var
+R27022:27023 Tutorial.Metalib.CoqFSetDecide M In defax
+R27027:27027 Tutorial.Metalib.CoqFSetDecide <> s:71 var
+R27025:27025 Tutorial.Metalib.CoqFSetDecide <> w:65 var
+R26994:26995 Tutorial.Metalib.CoqFSetDecide M In defax
+R27000:27005 Tutorial.Metalib.CoqFSetDecide M remove defax
+R27009:27010 Tutorial.Metalib.CoqFSetDecide <> r2:70 var
+R27007:27007 Tutorial.Metalib.CoqFSetDecide <> z:68 var
+R26997:26997 Tutorial.Metalib.CoqFSetDecide <> y:67 var
+R26977:26978 Tutorial.Metalib.CoqFSetDecide M In defax
+R26982:26983 Tutorial.Metalib.CoqFSetDecide <> r2:70 var
+R26980:26980 Tutorial.Metalib.CoqFSetDecide <> y:67 var
+R26952:26953 Tutorial.Metalib.CoqFSetDecide M In defax
+R26958:26960 Tutorial.Metalib.CoqFSetDecide M add defax
+R26964:26965 Tutorial.Metalib.CoqFSetDecide <> r1:69 var
+R26962:26962 Tutorial.Metalib.CoqFSetDecide <> y:67 var
+R26955:26955 Tutorial.Metalib.CoqFSetDecide <> x:66 var
+R26933:26934 Coq.Init.Logic <> ::type_scope:'~'_x not
+R26935:26936 Tutorial.Metalib.CoqFSetDecide M In defax
+R26940:26941 Tutorial.Metalib.CoqFSetDecide <> r1:69 var
+R26938:26938 Tutorial.Metalib.CoqFSetDecide <> x:66 var
+R26905:26906 Tutorial.Metalib.CoqFSetDecide M In defax
+R26911:26919 Tutorial.Metalib.CoqFSetDecide M singleton defax
+R26921:26921 Tutorial.Metalib.CoqFSetDecide <> w:65 var
+R26908:26908 Tutorial.Metalib.CoqFSetDecide <> x:66 var
+prf 27093:27109 WDecide_fun.FSetDecideTestCases test_In_singleton
+binder 27120:27120 <> x:72
+R27129:27130 Tutorial.Metalib.CoqFSetDecide M In defax
+R27135:27143 Tutorial.Metalib.CoqFSetDecide M singleton defax
+R27145:27145 Tutorial.Metalib.CoqFSetDecide <> x:72 var
+R27132:27132 Tutorial.Metalib.CoqFSetDecide <> x:72 var
+prf 27185:27195 WDecide_fun.FSetDecideTestCases test_add_In
+binder 27206:27206 <> x:73
+binder 27208:27208 <> y:74
+binder 27210:27210 <> s:75
+R27233:27242 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27253:27262 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27263:27264 Tutorial.Metalib.CoqFSetDecide M In defax
+R27268:27268 Tutorial.Metalib.CoqFSetDecide <> s:75 var
+R27266:27266 Tutorial.Metalib.CoqFSetDecide <> x:73 var
+R27243:27244 Coq.Init.Logic <> ::type_scope:'~'_x not
+R27245:27248 Tutorial.Metalib.CoqFSetDecide E eq defax
+R27252:27252 Tutorial.Metalib.CoqFSetDecide <> y:74 var
+R27250:27250 Tutorial.Metalib.CoqFSetDecide <> x:73 var
+R27219:27220 Tutorial.Metalib.CoqFSetDecide M In defax
+R27225:27227 Tutorial.Metalib.CoqFSetDecide M add defax
+R27231:27231 Tutorial.Metalib.CoqFSetDecide <> s:75 var
+R27229:27229 Tutorial.Metalib.CoqFSetDecide <> y:74 var
+R27222:27222 Tutorial.Metalib.CoqFSetDecide <> x:73 var
+prf 27307:27328 WDecide_fun.FSetDecideTestCases test_Subset_add_remove
+binder 27339:27339 <> x:76
+binder 27341:27341 <> s:77
+R27351:27357 Coq.FSets.FSetInterface WSfun :::x_'[<=]'_x not
+R27376:27376 Coq.FSets.FSetInterface WSfun :::x_'[<=]'_x not
+R27350:27350 Tutorial.Metalib.CoqFSetDecide <> s:77 var
+R27358:27360 Tutorial.Metalib.CoqFSetDecide M add defax
+R27365:27370 Tutorial.Metalib.CoqFSetDecide M remove defax
+R27374:27374 Tutorial.Metalib.CoqFSetDecide <> s:77 var
+R27372:27372 Tutorial.Metalib.CoqFSetDecide <> x:76 var
+R27362:27362 Tutorial.Metalib.CoqFSetDecide <> x:76 var
+prf 27415:27433 WDecide_fun.FSetDecideTestCases test_eq_disjunction
+binder 27444:27444 <> w:78
+binder 27446:27446 <> x:79
+binder 27448:27448 <> y:80
+binder 27450:27450 <> z:81
+R27493:27502 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27511:27514 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R27503:27506 Tutorial.Metalib.CoqFSetDecide E eq defax
+R27510:27510 Tutorial.Metalib.CoqFSetDecide <> x:79 var
+R27508:27508 Tutorial.Metalib.CoqFSetDecide <> w:78 var
+R27523:27526 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R27515:27518 Tutorial.Metalib.CoqFSetDecide E eq defax
+R27522:27522 Tutorial.Metalib.CoqFSetDecide <> y:80 var
+R27520:27520 Tutorial.Metalib.CoqFSetDecide <> w:78 var
+R27527:27530 Tutorial.Metalib.CoqFSetDecide E eq defax
+R27534:27534 Tutorial.Metalib.CoqFSetDecide <> z:81 var
+R27532:27532 Tutorial.Metalib.CoqFSetDecide <> w:78 var
+R27459:27460 Tutorial.Metalib.CoqFSetDecide M In defax
+R27465:27467 Tutorial.Metalib.CoqFSetDecide M add defax
+R27472:27474 Tutorial.Metalib.CoqFSetDecide M add defax
+R27479:27487 Tutorial.Metalib.CoqFSetDecide M singleton defax
+R27489:27489 Tutorial.Metalib.CoqFSetDecide <> z:81 var
+R27476:27476 Tutorial.Metalib.CoqFSetDecide <> y:80 var
+R27469:27469 Tutorial.Metalib.CoqFSetDecide <> x:79 var
+R27462:27462 Tutorial.Metalib.CoqFSetDecide <> w:78 var
+prf 27573:27588 WDecide_fun.FSetDecideTestCases test_not_In_disj
+binder 27599:27599 <> x:82
+binder 27601:27601 <> y:83
+binder 27603:27604 <> s1:84
+binder 27606:27607 <> s2:85
+binder 27609:27610 <> s3:86
+binder 27612:27613 <> s4:87
+R27672:27681 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27682:27684 Coq.Init.Logic <> ::type_scope:'~'_x not
+R27715:27715 Coq.Init.Logic <> ::type_scope:'~'_x not
+R27692:27695 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R27685:27686 Tutorial.Metalib.CoqFSetDecide M In defax
+R27690:27691 Tutorial.Metalib.CoqFSetDecide <> s1:84 var
+R27688:27688 Tutorial.Metalib.CoqFSetDecide <> x:82 var
+R27703:27706 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R27696:27697 Tutorial.Metalib.CoqFSetDecide M In defax
+R27701:27702 Tutorial.Metalib.CoqFSetDecide <> s4:87 var
+R27699:27699 Tutorial.Metalib.CoqFSetDecide <> x:82 var
+R27707:27710 Tutorial.Metalib.CoqFSetDecide E eq defax
+R27714:27714 Tutorial.Metalib.CoqFSetDecide <> x:82 var
+R27712:27712 Tutorial.Metalib.CoqFSetDecide <> y:83 var
+R27622:27623 Coq.Init.Logic <> ::type_scope:'~'_x not
+R27624:27625 Tutorial.Metalib.CoqFSetDecide M In defax
+R27630:27634 Tutorial.Metalib.CoqFSetDecide M union defax
+R27640:27644 Tutorial.Metalib.CoqFSetDecide M union defax
+R27650:27654 Tutorial.Metalib.CoqFSetDecide M union defax
+R27660:27662 Tutorial.Metalib.CoqFSetDecide M add defax
+R27666:27667 Tutorial.Metalib.CoqFSetDecide <> s4:87 var
+R27664:27664 Tutorial.Metalib.CoqFSetDecide <> y:83 var
+R27656:27657 Tutorial.Metalib.CoqFSetDecide <> s3:86 var
+R27646:27647 Tutorial.Metalib.CoqFSetDecide <> s2:85 var
+R27636:27637 Tutorial.Metalib.CoqFSetDecide <> s1:84 var
+R27627:27627 Tutorial.Metalib.CoqFSetDecide <> x:82 var
+prf 27754:27769 WDecide_fun.FSetDecideTestCases test_not_In_conj
+binder 27780:27780 <> x:88
+binder 27782:27782 <> y:89
+binder 27784:27785 <> s1:90
+binder 27787:27788 <> s2:91
+binder 27790:27791 <> s3:92
+binder 27793:27794 <> s4:93
+R27853:27862 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27872:27875 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R27863:27864 Coq.Init.Logic <> ::type_scope:'~'_x not
+R27865:27866 Tutorial.Metalib.CoqFSetDecide M In defax
+R27870:27871 Tutorial.Metalib.CoqFSetDecide <> s1:90 var
+R27868:27868 Tutorial.Metalib.CoqFSetDecide <> x:88 var
+R27885:27888 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R27876:27877 Coq.Init.Logic <> ::type_scope:'~'_x not
+R27878:27879 Tutorial.Metalib.CoqFSetDecide M In defax
+R27883:27884 Tutorial.Metalib.CoqFSetDecide <> s4:93 var
+R27881:27881 Tutorial.Metalib.CoqFSetDecide <> x:88 var
+R27889:27890 Coq.Init.Logic <> ::type_scope:'~'_x not
+R27891:27894 Tutorial.Metalib.CoqFSetDecide E eq defax
+R27898:27898 Tutorial.Metalib.CoqFSetDecide <> x:88 var
+R27896:27896 Tutorial.Metalib.CoqFSetDecide <> y:89 var
+R27803:27804 Coq.Init.Logic <> ::type_scope:'~'_x not
+R27805:27806 Tutorial.Metalib.CoqFSetDecide M In defax
+R27811:27815 Tutorial.Metalib.CoqFSetDecide M union defax
+R27821:27825 Tutorial.Metalib.CoqFSetDecide M union defax
+R27831:27835 Tutorial.Metalib.CoqFSetDecide M union defax
+R27841:27843 Tutorial.Metalib.CoqFSetDecide M add defax
+R27847:27848 Tutorial.Metalib.CoqFSetDecide <> s4:93 var
+R27845:27845 Tutorial.Metalib.CoqFSetDecide <> y:89 var
+R27837:27838 Tutorial.Metalib.CoqFSetDecide <> s3:92 var
+R27827:27828 Tutorial.Metalib.CoqFSetDecide <> s2:91 var
+R27817:27818 Tutorial.Metalib.CoqFSetDecide <> s1:90 var
+R27808:27808 Tutorial.Metalib.CoqFSetDecide <> x:88 var
+prf 27937:27949 WDecide_fun.FSetDecideTestCases test_iff_conj
+binder 27960:27960 <> a:94
+binder 27962:27962 <> x:95
+binder 27964:27964 <> s:96
+binder 27966:27967 <> s':97
+R27974:27974 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28005:28014 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28041:28041 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28022:28026 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R28015:28016 Tutorial.Metalib.CoqFSetDecide M In defax
+R28020:28021 Tutorial.Metalib.CoqFSetDecide <> s':97 var
+R28018:28018 Tutorial.Metalib.CoqFSetDecide <> a:94 var
+R28027:28028 Tutorial.Metalib.CoqFSetDecide M In defax
+R28033:28035 Tutorial.Metalib.CoqFSetDecide M add defax
+R28039:28039 Tutorial.Metalib.CoqFSetDecide <> s:96 var
+R28037:28037 Tutorial.Metalib.CoqFSetDecide <> x:95 var
+R28030:28030 Tutorial.Metalib.CoqFSetDecide <> a:94 var
+R27982:27986 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R27975:27976 Tutorial.Metalib.CoqFSetDecide M In defax
+R27980:27981 Tutorial.Metalib.CoqFSetDecide <> s':97 var
+R27978:27978 Tutorial.Metalib.CoqFSetDecide <> a:94 var
+R27995:27998 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R27987:27990 Tutorial.Metalib.CoqFSetDecide E eq defax
+R27994:27994 Tutorial.Metalib.CoqFSetDecide <> a:94 var
+R27992:27992 Tutorial.Metalib.CoqFSetDecide <> x:95 var
+R27999:28000 Tutorial.Metalib.CoqFSetDecide M In defax
+R28004:28004 Tutorial.Metalib.CoqFSetDecide <> s:96 var
+R28002:28002 Tutorial.Metalib.CoqFSetDecide <> a:94 var
+prf 28080:28093 WDecide_fun.FSetDecideTestCases test_set_ops_1
+binder 28104:28104 <> x:98
+binder 28106:28106 <> q:99
+binder 28108:28108 <> r:100
+binder 28110:28110 <> s:101
+R28139:28148 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28166:28175 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28211:28220 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28221:28222 Coq.Init.Logic <> ::type_scope:'~'_x not
+R28223:28224 Tutorial.Metalib.CoqFSetDecide M In defax
+R28228:28228 Tutorial.Metalib.CoqFSetDecide <> s:101 var
+R28226:28226 Tutorial.Metalib.CoqFSetDecide <> x:98 var
+R28176:28180 Tutorial.Metalib.CoqFSetDecide M Empty def
+R28183:28187 Tutorial.Metalib.CoqFSetDecide M inter defax
+R28201:28204 Tutorial.Metalib.CoqFSetDecide M diff defax
+R28208:28208 Tutorial.Metalib.CoqFSetDecide <> r:100 var
+R28206:28206 Tutorial.Metalib.CoqFSetDecide <> s:101 var
+R28190:28193 Tutorial.Metalib.CoqFSetDecide M diff defax
+R28197:28197 Tutorial.Metalib.CoqFSetDecide <> q:99 var
+R28195:28195 Tutorial.Metalib.CoqFSetDecide <> s:101 var
+R28149:28153 Tutorial.Metalib.CoqFSetDecide M Empty def
+R28156:28160 Tutorial.Metalib.CoqFSetDecide M union defax
+R28164:28164 Tutorial.Metalib.CoqFSetDecide <> r:100 var
+R28162:28162 Tutorial.Metalib.CoqFSetDecide <> q:99 var
+R28119:28119 Coq.FSets.FSetInterface WSfun :::x_'[<=]'_x not
+R28131:28137 Coq.FSets.FSetInterface WSfun :::x_'[<=]'_x not
+R28120:28128 Tutorial.Metalib.CoqFSetDecide M singleton defax
+R28130:28130 Tutorial.Metalib.CoqFSetDecide <> x:98 var
+R28138:28138 Tutorial.Metalib.CoqFSetDecide <> s:101 var
+prf 28267:28279 WDecide_fun.FSetDecideTestCases eq_chain_test
+binder 28290:28291 <> x1:102
+binder 28293:28294 <> x2:103
+binder 28296:28297 <> x3:104
+binder 28299:28300 <> x4:105
+binder 28302:28303 <> s1:106
+binder 28305:28306 <> s2:107
+binder 28308:28309 <> s3:108
+binder 28311:28312 <> s4:109
+R28329:28338 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28356:28365 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28374:28383 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28406:28415 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28426:28435 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28453:28462 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28471:28480 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28481:28486 Tutorial.Metalib.CoqFSetDecide M Subset def
+R28500:28501 Tutorial.Metalib.CoqFSetDecide <> s4:109 var
+R28489:28491 Tutorial.Metalib.CoqFSetDecide M add defax
+R28496:28497 Tutorial.Metalib.CoqFSetDecide <> s4:109 var
+R28493:28494 Tutorial.Metalib.CoqFSetDecide <> x4:105 var
+R28463:28464 Tutorial.Metalib.CoqFSetDecide M In defax
+R28469:28470 Tutorial.Metalib.CoqFSetDecide <> s4:109 var
+R28466:28467 Tutorial.Metalib.CoqFSetDecide <> x1:102 var
+R28436:28437 Tutorial.Metalib.CoqFSetDecide M In defax
+R28443:28445 Tutorial.Metalib.CoqFSetDecide M add defax
+R28450:28451 Tutorial.Metalib.CoqFSetDecide <> s3:108 var
+R28447:28448 Tutorial.Metalib.CoqFSetDecide <> x3:104 var
+R28439:28440 Tutorial.Metalib.CoqFSetDecide <> x4:105 var
+R28416:28417 Coq.Init.Logic <> ::type_scope:'~'_x not
+R28418:28419 Tutorial.Metalib.CoqFSetDecide M In defax
+R28424:28425 Tutorial.Metalib.CoqFSetDecide <> s3:108 var
+R28421:28422 Tutorial.Metalib.CoqFSetDecide <> x4:105 var
+R28384:28385 Coq.Init.Logic <> ::type_scope:'~'_x not
+R28386:28387 Tutorial.Metalib.CoqFSetDecide M In defax
+R28393:28398 Tutorial.Metalib.CoqFSetDecide M remove defax
+R28403:28404 Tutorial.Metalib.CoqFSetDecide <> s2:107 var
+R28400:28401 Tutorial.Metalib.CoqFSetDecide <> x2:103 var
+R28389:28390 Tutorial.Metalib.CoqFSetDecide <> x3:104 var
+R28366:28367 Tutorial.Metalib.CoqFSetDecide M In defax
+R28372:28373 Tutorial.Metalib.CoqFSetDecide <> s2:107 var
+R28369:28370 Tutorial.Metalib.CoqFSetDecide <> x3:104 var
+R28339:28340 Tutorial.Metalib.CoqFSetDecide M In defax
+R28346:28348 Tutorial.Metalib.CoqFSetDecide M add defax
+R28353:28354 Tutorial.Metalib.CoqFSetDecide <> s1:106 var
+R28350:28351 Tutorial.Metalib.CoqFSetDecide <> x1:102 var
+R28342:28343 Tutorial.Metalib.CoqFSetDecide <> x2:103 var
+R28321:28325 Tutorial.Metalib.CoqFSetDecide M Empty def
+R28327:28328 Tutorial.Metalib.CoqFSetDecide <> s1:106 var
+prf 28540:28555 WDecide_fun.FSetDecideTestCases test_too_complex
+binder 28566:28566 <> x:110
+binder 28568:28568 <> y:111
+binder 28570:28570 <> z:112
+binder 28572:28572 <> r:113
+binder 28574:28574 <> s:114
+R28591:28600 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28601:28601 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28632:28642 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28649:28658 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28659:28660 Tutorial.Metalib.CoqFSetDecide M In defax
+R28664:28664 Tutorial.Metalib.CoqFSetDecide <> s:114 var
+R28662:28662 Tutorial.Metalib.CoqFSetDecide <> z:112 var
+R28643:28644 Tutorial.Metalib.CoqFSetDecide M In defax
+R28648:28648 Tutorial.Metalib.CoqFSetDecide <> r:113 var
+R28646:28646 Tutorial.Metalib.CoqFSetDecide <> z:112 var
+R28620:28623 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28625:28630 Coq.FSets.FSetInterface WSfun :::x_'[<=]'_x not
+R28624:28624 Tutorial.Metalib.CoqFSetDecide <> r:113 var
+R28631:28631 Tutorial.Metalib.CoqFSetDecide <> s:114 var
+R28602:28603 Tutorial.Metalib.CoqFSetDecide M In defax
+R28608:28616 Tutorial.Metalib.CoqFSetDecide M singleton defax
+R28618:28618 Tutorial.Metalib.CoqFSetDecide <> y:111 var
+R28605:28605 Tutorial.Metalib.CoqFSetDecide <> x:110 var
+R28583:28586 Tutorial.Metalib.CoqFSetDecide E eq defax
+R28590:28590 Tutorial.Metalib.CoqFSetDecide <> y:111 var
+R28588:28588 Tutorial.Metalib.CoqFSetDecide <> x:110 var
+prf 28819:28833 WDecide_fun.FSetDecideTestCases function_test_1
+R28856:28859 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28860:28860 Tutorial.Metalib.CoqFSetDecide M t defax
+R28855:28855 Tutorial.Metalib.CoqFSetDecide M t defax
+binder 28851:28851 <> f:115
+R28885:28888 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28889:28891 Tutorial.Metalib.CoqFSetDecide M elt def
+R28882:28884 Tutorial.Metalib.CoqFSetDecide M elt def
+binder 28878:28878 <> g:116
+R28917:28917 Tutorial.Metalib.CoqFSetDecide M t defax
+binder 28909:28910 <> s1:117
+binder 28912:28913 <> s2:118
+R28943:28945 Tutorial.Metalib.CoqFSetDecide M elt def
+binder 28935:28936 <> x1:119
+binder 28938:28939 <> x2:120
+R28970:28979 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28998:29007 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29016:29025 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29026:29027 Tutorial.Metalib.CoqFSetDecide M In defax
+R29041:29041 Tutorial.Metalib.CoqFSetDecide <> f:115 var
+R29043:29044 Tutorial.Metalib.CoqFSetDecide <> s2:118 var
+R29030:29030 Tutorial.Metalib.CoqFSetDecide <> g:116 var
+R29033:29033 Tutorial.Metalib.CoqFSetDecide <> g:116 var
+R29035:29036 Tutorial.Metalib.CoqFSetDecide <> x2:120 var
+R29008:29009 Tutorial.Metalib.CoqFSetDecide M In defax
+R29014:29015 Tutorial.Metalib.CoqFSetDecide <> s1:117 var
+R29011:29012 Tutorial.Metalib.CoqFSetDecide <> x1:119 var
+R28980:28983 Tutorial.Metalib.CoqFSetDecide E eq defax
+R28989:28989 Tutorial.Metalib.CoqFSetDecide <> g:116 var
+R28992:28992 Tutorial.Metalib.CoqFSetDecide <> g:116 var
+R28994:28995 Tutorial.Metalib.CoqFSetDecide <> x2:120 var
+R28985:28986 Tutorial.Metalib.CoqFSetDecide <> x1:119 var
+R28955:28959 Tutorial.Metalib.CoqFSetDecide M Equal def
+R28965:28965 Tutorial.Metalib.CoqFSetDecide <> f:115 var
+R28967:28968 Tutorial.Metalib.CoqFSetDecide <> s2:118 var
+R28961:28962 Tutorial.Metalib.CoqFSetDecide <> s1:117 var
+prf 29084:29098 WDecide_fun.FSetDecideTestCases function_test_2
+R29121:29124 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29125:29125 Tutorial.Metalib.CoqFSetDecide M t defax
+R29120:29120 Tutorial.Metalib.CoqFSetDecide M t defax
+binder 29116:29116 <> f:121
+R29150:29153 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29154:29156 Tutorial.Metalib.CoqFSetDecide M elt def
+R29147:29149 Tutorial.Metalib.CoqFSetDecide M elt def
+binder 29143:29143 <> g:122
+R29182:29182 Tutorial.Metalib.CoqFSetDecide M t defax
+binder 29174:29175 <> s1:123
+binder 29177:29178 <> s2:124
+R29208:29210 Tutorial.Metalib.CoqFSetDecide M elt def
+binder 29200:29201 <> x1:125
+binder 29203:29204 <> x2:126
+R29235:29244 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29259:29268 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29277:29286 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29302:29311 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29312:29313 Tutorial.Metalib.CoqFSetDecide M In defax
+R29327:29327 Tutorial.Metalib.CoqFSetDecide <> f:121 var
+R29329:29330 Tutorial.Metalib.CoqFSetDecide <> s2:124 var
+R29316:29316 Tutorial.Metalib.CoqFSetDecide <> g:122 var
+R29319:29319 Tutorial.Metalib.CoqFSetDecide <> g:122 var
+R29321:29322 Tutorial.Metalib.CoqFSetDecide <> x2:126 var
+R29291:29293 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29287:29287 Tutorial.Metalib.CoqFSetDecide <> g:122 var
+R29289:29290 Tutorial.Metalib.CoqFSetDecide <> x2:126 var
+R29294:29294 Tutorial.Metalib.CoqFSetDecide <> g:122 var
+R29297:29297 Tutorial.Metalib.CoqFSetDecide <> g:122 var
+R29299:29300 Tutorial.Metalib.CoqFSetDecide <> x2:126 var
+R29269:29270 Tutorial.Metalib.CoqFSetDecide M In defax
+R29275:29276 Tutorial.Metalib.CoqFSetDecide <> s1:123 var
+R29272:29273 Tutorial.Metalib.CoqFSetDecide <> x1:125 var
+R29245:29248 Tutorial.Metalib.CoqFSetDecide E eq defax
+R29254:29254 Tutorial.Metalib.CoqFSetDecide <> g:122 var
+R29256:29257 Tutorial.Metalib.CoqFSetDecide <> x2:126 var
+R29250:29251 Tutorial.Metalib.CoqFSetDecide <> x1:125 var
+R29220:29224 Tutorial.Metalib.CoqFSetDecide M Equal def
+R29230:29230 Tutorial.Metalib.CoqFSetDecide <> f:121 var
+R29232:29233 Tutorial.Metalib.CoqFSetDecide <> s2:124 var
+R29226:29227 Tutorial.Metalib.CoqFSetDecide <> s1:123 var
+prf 29489:29501 WDecide_fun.FSetDecideTestCases test_baydemir
+R29524:29527 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29528:29528 Tutorial.Metalib.CoqFSetDecide M t defax
+R29523:29523 Tutorial.Metalib.CoqFSetDecide M t defax
+binder 29519:29519 <> f:127
+R29550:29550 Tutorial.Metalib.CoqFSetDecide M t defax
+binder 29546:29546 <> s:128
+R29574:29576 Tutorial.Metalib.CoqFSetDecide M elt def
+binder 29568:29568 <> x:129
+binder 29570:29570 <> y:130
+R29604:29613 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29624:29633 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29634:29635 Tutorial.Metalib.CoqFSetDecide M In defax
+R29640:29640 Tutorial.Metalib.CoqFSetDecide <> f:127 var
+R29642:29642 Tutorial.Metalib.CoqFSetDecide <> s:128 var
+R29637:29637 Tutorial.Metalib.CoqFSetDecide <> x:129 var
+R29614:29615 Coq.Init.Logic <> ::type_scope:'~'_x not
+R29616:29619 Tutorial.Metalib.CoqFSetDecide E eq defax
+R29623:29623 Tutorial.Metalib.CoqFSetDecide <> y:130 var
+R29621:29621 Tutorial.Metalib.CoqFSetDecide <> x:129 var
+R29586:29587 Tutorial.Metalib.CoqFSetDecide M In defax
+R29592:29594 Tutorial.Metalib.CoqFSetDecide M add defax
+R29599:29599 Tutorial.Metalib.CoqFSetDecide <> f:127 var
+R29601:29601 Tutorial.Metalib.CoqFSetDecide <> s:128 var
+R29596:29596 Tutorial.Metalib.CoqFSetDecide <> y:130 var
+R29589:29589 Tutorial.Metalib.CoqFSetDecide <> x:129 var
+prf 29692:29706 WDecide_fun.FSetDecideTestCases test_baydemir_2
+R29728:29730 Tutorial.Metalib.CoqFSetDecide M elt def
+binder 29724:29724 <> x:131
+R29738:29738 Tutorial.Metalib.CoqFSetDecide M t defax
+binder 29734:29734 <> s:132
+R29784:29793 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29794:29795 Coq.Init.Logic <> ::type_scope:'~'_x not
+R29796:29797 Tutorial.Metalib.CoqFSetDecide M In defax
+R29801:29801 Tutorial.Metalib.CoqFSetDecide <> s:132 var
+R29799:29799 Tutorial.Metalib.CoqFSetDecide <> x:131 var
+R29748:29753 Tutorial.Metalib.CoqFSetDecide M Subset def
+R29779:29783 Tutorial.Metalib.CoqFSetDecide M empty defax
+R29756:29760 Tutorial.Metalib.CoqFSetDecide M inter defax
+R29776:29776 Tutorial.Metalib.CoqFSetDecide <> s:132 var
+R29763:29771 Tutorial.Metalib.CoqFSetDecide M singleton defax
+R29773:29773 Tutorial.Metalib.CoqFSetDecide <> x:131 var
+prf 29840:29854 WDecide_fun.FSetDecideTestCases test_baydemir_3
+R29878:29880 Tutorial.Metalib.CoqFSetDecide M elt def
+binder 29872:29872 <> x:133
+binder 29874:29874 <> y:134
+R29888:29888 Tutorial.Metalib.CoqFSetDecide M t defax
+binder 29884:29884 <> s:135
+R29914:29923 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29929:29938 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29939:29943 Coq.Init.Logic <> False ind
+R29925:29927 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29924:29924 Tutorial.Metalib.CoqFSetDecide <> x:133 var
+R29928:29928 Tutorial.Metalib.CoqFSetDecide <> y:134 var
+R29898:29899 Coq.Init.Logic <> ::type_scope:'~'_x not
+R29900:29901 Tutorial.Metalib.CoqFSetDecide M In defax
+R29906:29908 Tutorial.Metalib.CoqFSetDecide M add defax
+R29912:29912 Tutorial.Metalib.CoqFSetDecide <> s:135 var
+R29910:29910 Tutorial.Metalib.CoqFSetDecide <> y:134 var
+R29903:29903 Tutorial.Metalib.CoqFSetDecide <> x:133 var
+prf 29982:29996 WDecide_fun.FSetDecideTestCases test_baydemir_4
+R30018:30020 Tutorial.Metalib.CoqFSetDecide M elt def
+binder 30014:30014 <> x:136
+R30028:30028 Tutorial.Metalib.CoqFSetDecide M t defax
+binder 30024:30024 <> s:137
+R30073:30082 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30083:30084 Coq.Init.Logic <> ::type_scope:'~'_x not
+R30085:30086 Tutorial.Metalib.CoqFSetDecide M In defax
+R30090:30090 Tutorial.Metalib.CoqFSetDecide <> s:137 var
+R30088:30088 Tutorial.Metalib.CoqFSetDecide <> x:136 var
+R30038:30042 Tutorial.Metalib.CoqFSetDecide M Equal def
+R30068:30072 Tutorial.Metalib.CoqFSetDecide M empty defax
+R30045:30049 Tutorial.Metalib.CoqFSetDecide M inter defax
+R30065:30065 Tutorial.Metalib.CoqFSetDecide <> s:137 var
+R30052:30054 Tutorial.Metalib.CoqFSetDecide M add defax
+R30058:30062 Tutorial.Metalib.CoqFSetDecide M empty defax
+R30056:30056 Tutorial.Metalib.CoqFSetDecide <> x:136 var
+prf 30129:30141 WDecide_fun.FSetDecideTestCases test_sweirich
+R30163:30165 Tutorial.Metalib.CoqFSetDecide M elt def
+binder 30159:30159 <> x:138
+R30173:30173 Tutorial.Metalib.CoqFSetDecide M t defax
+binder 30169:30169 <> s:139
+R30191:30194 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30195:30200 Tutorial.Metalib.CoqFSetDecide M Subset def
+R30216:30216 Tutorial.Metalib.CoqFSetDecide <> s:139 var
+R30203:30211 Tutorial.Metalib.CoqFSetDecide M singleton defax
+R30213:30213 Tutorial.Metalib.CoqFSetDecide <> x:138 var
+R30185:30186 Tutorial.Metalib.CoqFSetDecide M In defax
+R30190:30190 Tutorial.Metalib.CoqFSetDecide <> s:139 var
+R30188:30188 Tutorial.Metalib.CoqFSetDecide <> x:138 var
+R30251:30269 Tutorial.Metalib.CoqFSetDecide WDecide_fun.FSetDecideTestCases <> mod
+R30277:30287 Tutorial.Metalib.CoqFSetDecide WDecide_fun <> mod
+R30306:30321 Tutorial.Metalib.CoqFSetInterface <> <> lib
+R30619:30620 Tutorial.Metalib.CoqFSetInterface WS <> mod
+R30627:30637 Tutorial.Metalib.CoqFSetDecide WDecide_fun <> modtype
+R30639:30641 Tutorial.Metalib.CoqFSetDecide M.E <> modtype
+R30643:30643 Tutorial.Metalib.CoqFSetDecide M <> modtype
+mod 30608:30614 <> WDecide
+R30663:30669 Tutorial.Metalib.CoqFSetDecide WDecide <> modtype
+mod 30653:30658 <> Decide

@@ -1,0 +1,516 @@
+DIGEST 79f655bb14790451036d639758c7a384
+FTutorial.Metalib.FSetWeakNotin
+R526:548 Coq.FSets.FSetInterface <> <> lib
+R567:587 Tutorial.Metalib.CoqFSetDecide <> <> lib
+R719:731 Coq.Structures.DecidableType DecidableType <> mod
+R746:764 Coq.FSets.FSetInterface WSfun <> mod
+R766:766 Tutorial.Metalib.FSetWeakNotin E <> modtype
+mod 702:710 <> Notin_fun
+R790:814 Tutorial.Metalib.CoqFSetDecide WDecide_fun <> modtype
+R816:816 Tutorial.Metalib.FSetWeakNotin E <> modtype
+R818:818 Tutorial.Metalib.FSetWeakNotin X <> modtype
+mod 785:785 <> Notin_fun.D
+sec 950:955 Notin_fun Lemmas
+var 969:969 Notin_fun.Lemmas x
+var 971:971 Notin_fun.Lemmas y
+R976:978 Tutorial.Metalib.FSetWeakNotin X elt def
+var 991:991 Notin_fun.Lemmas s
+var 993:994 Notin_fun.Lemmas s'
+R998:1000 Tutorial.Metalib.FSetWeakNotin X t defax
+prf 1010:1022 Notin_fun notin_empty_1
+R1028:1029 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1030:1031 Tutorial.Metalib.FSetWeakNotin X In defax
+R1035:1039 Tutorial.Metalib.FSetWeakNotin X empty defax
+R1033:1033 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+prf 1070:1080 Notin_fun notin_add_1
+R1102:1107 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1108:1109 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1110:1113 Tutorial.Metalib.FSetWeakNotin E eq defax
+R1117:1117 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.y var
+R1115:1115 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R1086:1087 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1088:1089 Tutorial.Metalib.FSetWeakNotin X In defax
+R1094:1096 Tutorial.Metalib.FSetWeakNotin X add defax
+R1100:1100 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s var
+R1098:1098 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R1091:1091 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.y var
+prf 1148:1159 Notin_fun notin_add_1'
+R1181:1186 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1188:1191 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1187:1187 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R1192:1192 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.y var
+R1165:1166 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1167:1168 Tutorial.Metalib.FSetWeakNotin X In defax
+R1173:1175 Tutorial.Metalib.FSetWeakNotin X add defax
+R1179:1179 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s var
+R1177:1177 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R1170:1170 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.y var
+prf 1223:1233 Notin_fun notin_add_2
+R1255:1260 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1261:1262 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1263:1264 Tutorial.Metalib.FSetWeakNotin X In defax
+R1268:1268 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s var
+R1266:1266 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.y var
+R1239:1240 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1241:1242 Tutorial.Metalib.FSetWeakNotin X In defax
+R1247:1249 Tutorial.Metalib.FSetWeakNotin X add defax
+R1253:1253 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s var
+R1251:1251 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R1244:1244 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.y var
+prf 1299:1309 Notin_fun notin_add_3
+R1325:1330 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1339:1344 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1345:1346 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1347:1348 Tutorial.Metalib.FSetWeakNotin X In defax
+R1353:1355 Tutorial.Metalib.FSetWeakNotin X add defax
+R1359:1359 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s var
+R1357:1357 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R1350:1350 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.y var
+R1331:1332 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1333:1334 Tutorial.Metalib.FSetWeakNotin X In defax
+R1338:1338 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s var
+R1336:1336 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.y var
+R1315:1316 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1317:1320 Tutorial.Metalib.FSetWeakNotin E eq defax
+R1324:1324 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.y var
+R1322:1322 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+prf 1391:1407 Notin_fun notin_singleton_1
+R1433:1438 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1439:1440 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1441:1444 Tutorial.Metalib.FSetWeakNotin E eq defax
+R1448:1448 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.y var
+R1446:1446 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R1413:1414 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1415:1416 Tutorial.Metalib.FSetWeakNotin X In defax
+R1421:1429 Tutorial.Metalib.FSetWeakNotin X singleton defax
+R1431:1431 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R1418:1418 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.y var
+prf 1479:1496 Notin_fun notin_singleton_1'
+R1522:1527 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1529:1532 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1528:1528 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R1533:1533 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.y var
+R1502:1503 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1504:1505 Tutorial.Metalib.FSetWeakNotin X In defax
+R1510:1518 Tutorial.Metalib.FSetWeakNotin X singleton defax
+R1520:1520 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R1507:1507 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.y var
+prf 1564:1580 Notin_fun notin_singleton_2
+R1596:1601 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1602:1603 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1604:1605 Tutorial.Metalib.FSetWeakNotin X In defax
+R1610:1618 Tutorial.Metalib.FSetWeakNotin X singleton defax
+R1620:1620 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R1607:1607 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.y var
+R1586:1587 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1588:1591 Tutorial.Metalib.FSetWeakNotin E eq defax
+R1595:1595 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.y var
+R1593:1593 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+prf 1652:1665 Notin_fun notin_remove_1
+R1690:1695 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1704:1707 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1696:1699 Tutorial.Metalib.FSetWeakNotin E eq defax
+R1703:1703 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.y var
+R1701:1701 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R1708:1709 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1710:1711 Tutorial.Metalib.FSetWeakNotin X In defax
+R1715:1715 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s var
+R1713:1713 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.y var
+R1671:1672 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1673:1674 Tutorial.Metalib.FSetWeakNotin X In defax
+R1679:1684 Tutorial.Metalib.FSetWeakNotin X remove defax
+R1688:1688 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s var
+R1686:1686 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R1676:1676 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.y var
+prf 1746:1759 Notin_fun notin_remove_2
+R1773:1778 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1779:1780 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1781:1782 Tutorial.Metalib.FSetWeakNotin X In defax
+R1787:1792 Tutorial.Metalib.FSetWeakNotin X remove defax
+R1796:1796 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s var
+R1794:1794 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R1784:1784 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.y var
+R1765:1766 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1767:1768 Tutorial.Metalib.FSetWeakNotin X In defax
+R1772:1772 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s var
+R1770:1770 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.y var
+prf 1828:1841 Notin_fun notin_remove_3
+R1855:1860 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1861:1862 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1863:1864 Tutorial.Metalib.FSetWeakNotin X In defax
+R1869:1874 Tutorial.Metalib.FSetWeakNotin X remove defax
+R1878:1878 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s var
+R1876:1876 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R1866:1866 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.y var
+R1847:1850 Tutorial.Metalib.FSetWeakNotin E eq defax
+R1854:1854 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.y var
+R1852:1852 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+prf 1910:1924 Notin_fun notin_remove_3'
+R1935:1940 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1941:1942 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1943:1944 Tutorial.Metalib.FSetWeakNotin X In defax
+R1949:1954 Tutorial.Metalib.FSetWeakNotin X remove defax
+R1958:1958 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s var
+R1956:1956 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R1946:1946 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.y var
+R1931:1933 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1930:1930 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R1934:1934 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.y var
+prf 1990:2002 Notin_fun notin_union_1
+R2027:2032 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2033:2034 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2035:2036 Tutorial.Metalib.FSetWeakNotin X In defax
+R2040:2040 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s var
+R2038:2038 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R2008:2009 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2010:2011 Tutorial.Metalib.FSetWeakNotin X In defax
+R2016:2020 Tutorial.Metalib.FSetWeakNotin X union defax
+R2024:2025 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s' var
+R2022:2022 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s var
+R2013:2013 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+prf 2071:2083 Notin_fun notin_union_2
+R2108:2113 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2114:2115 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2116:2117 Tutorial.Metalib.FSetWeakNotin X In defax
+R2121:2122 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s' var
+R2119:2119 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R2089:2090 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2091:2092 Tutorial.Metalib.FSetWeakNotin X In defax
+R2097:2101 Tutorial.Metalib.FSetWeakNotin X union defax
+R2105:2106 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s' var
+R2103:2103 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s var
+R2094:2094 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+prf 2153:2165 Notin_fun notin_union_3
+R2179:2184 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2194:2199 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2200:2201 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2202:2203 Tutorial.Metalib.FSetWeakNotin X In defax
+R2208:2212 Tutorial.Metalib.FSetWeakNotin X union defax
+R2216:2217 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s' var
+R2214:2214 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s var
+R2205:2205 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R2185:2186 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2187:2188 Tutorial.Metalib.FSetWeakNotin X In defax
+R2192:2193 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s' var
+R2190:2190 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R2171:2172 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2173:2174 Tutorial.Metalib.FSetWeakNotin X In defax
+R2178:2178 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s var
+R2176:2176 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+prf 2249:2261 Notin_fun notin_inter_1
+R2286:2291 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2300:2303 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2292:2293 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2294:2295 Tutorial.Metalib.FSetWeakNotin X In defax
+R2299:2299 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s var
+R2297:2297 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R2304:2305 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2306:2307 Tutorial.Metalib.FSetWeakNotin X In defax
+R2311:2312 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s' var
+R2309:2309 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R2267:2268 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2269:2270 Tutorial.Metalib.FSetWeakNotin X In defax
+R2275:2279 Tutorial.Metalib.FSetWeakNotin X inter defax
+R2283:2284 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s' var
+R2281:2281 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s var
+R2272:2272 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+prf 2343:2355 Notin_fun notin_inter_2
+R2369:2374 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2375:2376 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2377:2378 Tutorial.Metalib.FSetWeakNotin X In defax
+R2383:2387 Tutorial.Metalib.FSetWeakNotin X inter defax
+R2391:2392 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s' var
+R2389:2389 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s var
+R2380:2380 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R2361:2362 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2363:2364 Tutorial.Metalib.FSetWeakNotin X In defax
+R2368:2368 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s var
+R2366:2366 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+prf 2424:2436 Notin_fun notin_inter_3
+R2451:2456 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2457:2458 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2459:2460 Tutorial.Metalib.FSetWeakNotin X In defax
+R2465:2469 Tutorial.Metalib.FSetWeakNotin X inter defax
+R2473:2474 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s' var
+R2471:2471 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s var
+R2462:2462 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R2442:2443 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2444:2445 Tutorial.Metalib.FSetWeakNotin X In defax
+R2449:2450 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s' var
+R2447:2447 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+prf 2506:2517 Notin_fun notin_diff_1
+R2541:2546 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2555:2558 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2547:2548 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2549:2550 Tutorial.Metalib.FSetWeakNotin X In defax
+R2554:2554 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s var
+R2552:2552 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R2559:2560 Tutorial.Metalib.FSetWeakNotin X In defax
+R2564:2565 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s' var
+R2562:2562 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R2523:2524 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2525:2526 Tutorial.Metalib.FSetWeakNotin X In defax
+R2531:2534 Tutorial.Metalib.FSetWeakNotin X diff defax
+R2538:2539 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s' var
+R2536:2536 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s var
+R2528:2528 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+prf 2596:2607 Notin_fun notin_diff_2
+R2621:2626 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2627:2628 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2629:2630 Tutorial.Metalib.FSetWeakNotin X In defax
+R2635:2638 Tutorial.Metalib.FSetWeakNotin X diff defax
+R2642:2643 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s' var
+R2640:2640 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s var
+R2632:2632 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R2613:2614 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2615:2616 Tutorial.Metalib.FSetWeakNotin X In defax
+R2620:2620 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s var
+R2618:2618 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+prf 2675:2686 Notin_fun notin_diff_3
+R2699:2704 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2705:2706 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2707:2708 Tutorial.Metalib.FSetWeakNotin X In defax
+R2713:2716 Tutorial.Metalib.FSetWeakNotin X diff defax
+R2720:2721 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s' var
+R2718:2718 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s var
+R2710:2710 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R2692:2693 Tutorial.Metalib.FSetWeakNotin X In defax
+R2697:2698 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.s' var
+R2695:2695 Tutorial.Metalib.FSetWeakNotin <> Notin_fun.Lemmas.x var
+R2751:2756 Tutorial.Metalib.FSetWeakNotin Notin_fun.Lemmas <> sec
+R2871:2883 Tutorial.Metalib.FSetWeakNotin Notin_fun notin_empty_1 thm
+R2886:2896 Tutorial.Metalib.FSetWeakNotin Notin_fun notin_add_3 thm
+R2899:2915 Tutorial.Metalib.FSetWeakNotin Notin_fun notin_singleton_2 thm
+R2918:2931 Tutorial.Metalib.FSetWeakNotin Notin_fun notin_remove_2 thm
+R2936:2949 Tutorial.Metalib.FSetWeakNotin Notin_fun notin_remove_3 thm
+R2952:2966 Tutorial.Metalib.FSetWeakNotin Notin_fun notin_remove_3' thm
+R2969:2981 Tutorial.Metalib.FSetWeakNotin Notin_fun notin_union_3 thm
+R2984:2996 Tutorial.Metalib.FSetWeakNotin Notin_fun notin_inter_2 thm
+R3001:3013 Tutorial.Metalib.FSetWeakNotin Notin_fun notin_inter_3 thm
+R3016:3027 Tutorial.Metalib.FSetWeakNotin Notin_fun notin_diff_2 thm
+R3030:3041 Tutorial.Metalib.FSetWeakNotin Notin_fun notin_diff_3 thm
+R3303:3306 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3307:3311 Coq.Init.Logic <> False ind
+R3295:3296 Tutorial.Metalib.FSetWeakNotin X In defax
+R3303:3306 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3307:3311 Coq.Init.Logic <> False ind
+R3295:3296 Tutorial.Metalib.FSetWeakNotin X In defax
+R3389:3392 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3393:3397 Coq.Init.Logic <> False ind
+R3381:3382 Tutorial.Metalib.FSetWeakNotin X In defax
+R3389:3392 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3393:3397 Coq.Init.Logic <> False ind
+R3381:3382 Tutorial.Metalib.FSetWeakNotin X In defax
+R3458:3459 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3460:3461 Tutorial.Metalib.FSetWeakNotin X In defax
+R3465:3469 Tutorial.Metalib.FSetWeakNotin X empty defax
+R3458:3459 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3460:3461 Tutorial.Metalib.FSetWeakNotin X In defax
+R3465:3469 Tutorial.Metalib.FSetWeakNotin X empty defax
+R3525:3526 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3527:3528 Tutorial.Metalib.FSetWeakNotin X In defax
+R3534:3536 Tutorial.Metalib.FSetWeakNotin X add defax
+R3525:3526 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3527:3528 Tutorial.Metalib.FSetWeakNotin X In defax
+R3534:3536 Tutorial.Metalib.FSetWeakNotin X add defax
+R3801:3802 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3803:3804 Tutorial.Metalib.FSetWeakNotin X In defax
+R3810:3818 Tutorial.Metalib.FSetWeakNotin X singleton defax
+R3801:3802 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3803:3804 Tutorial.Metalib.FSetWeakNotin X In defax
+R3810:3818 Tutorial.Metalib.FSetWeakNotin X singleton defax
+R3996:3997 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3998:3999 Tutorial.Metalib.FSetWeakNotin X In defax
+R4005:4010 Tutorial.Metalib.FSetWeakNotin X remove defax
+R3996:3997 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3998:3999 Tutorial.Metalib.FSetWeakNotin X In defax
+R4005:4010 Tutorial.Metalib.FSetWeakNotin X remove defax
+R4155:4156 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4157:4158 Tutorial.Metalib.FSetWeakNotin X In defax
+R4164:4168 Tutorial.Metalib.FSetWeakNotin X union defax
+R4155:4156 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4157:4158 Tutorial.Metalib.FSetWeakNotin X In defax
+R4164:4168 Tutorial.Metalib.FSetWeakNotin X union defax
+R4341:4342 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4343:4344 Tutorial.Metalib.FSetWeakNotin X In defax
+R4350:4354 Tutorial.Metalib.FSetWeakNotin X inter defax
+R4341:4342 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4343:4344 Tutorial.Metalib.FSetWeakNotin X In defax
+R4350:4354 Tutorial.Metalib.FSetWeakNotin X inter defax
+R4499:4500 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4501:4502 Tutorial.Metalib.FSetWeakNotin X In defax
+R4508:4511 Tutorial.Metalib.FSetWeakNotin X diff defax
+R4499:4500 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4501:4502 Tutorial.Metalib.FSetWeakNotin X In defax
+R4508:4511 Tutorial.Metalib.FSetWeakNotin X diff defax
+R4576:4587 Tutorial.Metalib.FSetWeakNotin Notin_fun notin_diff_1 thm
+R4419:4431 Tutorial.Metalib.FSetWeakNotin Notin_fun notin_inter_1 thm
+R4258:4270 Tutorial.Metalib.FSetWeakNotin Notin_fun notin_union_1 thm
+R4290:4302 Tutorial.Metalib.FSetWeakNotin Notin_fun notin_union_2 thm
+R4074:4087 Tutorial.Metalib.FSetWeakNotin Notin_fun notin_remove_1 thm
+R3904:3920 Tutorial.Metalib.FSetWeakNotin Notin_fun notin_singleton_1 thm
+R3940:3957 Tutorial.Metalib.FSetWeakNotin Notin_fun notin_singleton_1' thm
+R3689:3699 Tutorial.Metalib.FSetWeakNotin Notin_fun notin_add_1 thm
+R3719:3730 Tutorial.Metalib.FSetWeakNotin Notin_fun notin_add_1' thm
+R3751:3761 Tutorial.Metalib.FSetWeakNotin Notin_fun notin_add_2 thm
+R3416:3417 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3418:3419 Tutorial.Metalib.FSetWeakNotin X In defax
+R3335:3336 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3337:3338 Tutorial.Metalib.FSetWeakNotin X In defax
+R4893:4905 Tutorial.Metalib.FSetWeakNotin Notin_fun notin_union_3 thm
+R4930:4940 Tutorial.Metalib.FSetWeakNotin Notin_fun notin_add_3 thm
+R4965:4981 Tutorial.Metalib.FSetWeakNotin Notin_fun notin_singleton_2 thm
+R5006:5018 Tutorial.Metalib.FSetWeakNotin Notin_fun notin_empty_1 thm
+prf 5311:5328 Notin_fun test_solve_notin_1
+binder 5339:5339 <> x:5
+binder 5341:5341 <> E:6
+binder 5343:5343 <> F:7
+binder 5345:5345 <> G:8
+R5368:5373 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5382:5387 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5388:5389 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5390:5391 Tutorial.Metalib.FSetWeakNotin X In defax
+R5396:5400 Tutorial.Metalib.FSetWeakNotin X union defax
+R5404:5404 Tutorial.Metalib.FSetWeakNotin <> G:8 var
+R5402:5402 Tutorial.Metalib.FSetWeakNotin <> E:6 var
+R5393:5393 Tutorial.Metalib.FSetWeakNotin <> x:5 var
+R5374:5375 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5376:5377 Tutorial.Metalib.FSetWeakNotin X In defax
+R5381:5381 Tutorial.Metalib.FSetWeakNotin <> G:8 var
+R5379:5379 Tutorial.Metalib.FSetWeakNotin <> x:5 var
+R5350:5351 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5352:5353 Tutorial.Metalib.FSetWeakNotin X In defax
+R5358:5362 Tutorial.Metalib.FSetWeakNotin X union defax
+R5366:5366 Tutorial.Metalib.FSetWeakNotin <> F:7 var
+R5364:5364 Tutorial.Metalib.FSetWeakNotin <> E:6 var
+R5355:5355 Tutorial.Metalib.FSetWeakNotin <> x:5 var
+prf 5440:5457 Notin_fun test_solve_notin_2
+binder 5468:5468 <> x:9
+binder 5470:5470 <> y:10
+binder 5472:5472 <> E:11
+binder 5474:5474 <> F:12
+binder 5476:5476 <> G:13
+R5521:5526 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5535:5540 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5561:5564 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5541:5542 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5543:5544 Tutorial.Metalib.FSetWeakNotin X In defax
+R5549:5557 Tutorial.Metalib.FSetWeakNotin X singleton defax
+R5559:5559 Tutorial.Metalib.FSetWeakNotin <> y:10 var
+R5546:5546 Tutorial.Metalib.FSetWeakNotin <> x:9 var
+R5565:5566 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5567:5568 Tutorial.Metalib.FSetWeakNotin X In defax
+R5573:5581 Tutorial.Metalib.FSetWeakNotin X singleton defax
+R5583:5583 Tutorial.Metalib.FSetWeakNotin <> x:9 var
+R5570:5570 Tutorial.Metalib.FSetWeakNotin <> y:10 var
+R5527:5528 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5529:5530 Tutorial.Metalib.FSetWeakNotin X In defax
+R5534:5534 Tutorial.Metalib.FSetWeakNotin <> G:13 var
+R5532:5532 Tutorial.Metalib.FSetWeakNotin <> x:9 var
+R5481:5482 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5483:5484 Tutorial.Metalib.FSetWeakNotin X In defax
+R5489:5493 Tutorial.Metalib.FSetWeakNotin X union defax
+R5498:5502 Tutorial.Metalib.FSetWeakNotin X union defax
+R5518:5518 Tutorial.Metalib.FSetWeakNotin <> F:12 var
+R5505:5513 Tutorial.Metalib.FSetWeakNotin X singleton defax
+R5515:5515 Tutorial.Metalib.FSetWeakNotin <> y:10 var
+R5495:5495 Tutorial.Metalib.FSetWeakNotin <> E:11 var
+R5486:5486 Tutorial.Metalib.FSetWeakNotin <> x:9 var
+prf 5639:5656 Notin_fun test_solve_notin_3
+binder 5667:5667 <> x:14
+binder 5669:5669 <> y:15
+R5684:5689 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5710:5713 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5690:5691 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5692:5693 Tutorial.Metalib.FSetWeakNotin X In defax
+R5698:5706 Tutorial.Metalib.FSetWeakNotin X singleton defax
+R5708:5708 Tutorial.Metalib.FSetWeakNotin <> y:15 var
+R5695:5695 Tutorial.Metalib.FSetWeakNotin <> x:14 var
+R5714:5715 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5716:5717 Tutorial.Metalib.FSetWeakNotin X In defax
+R5722:5730 Tutorial.Metalib.FSetWeakNotin X singleton defax
+R5732:5732 Tutorial.Metalib.FSetWeakNotin <> x:14 var
+R5719:5719 Tutorial.Metalib.FSetWeakNotin <> y:15 var
+R5674:5675 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5676:5679 Tutorial.Metalib.FSetWeakNotin E eq defax
+R5683:5683 Tutorial.Metalib.FSetWeakNotin <> y:15 var
+R5681:5681 Tutorial.Metalib.FSetWeakNotin <> x:14 var
+prf 5788:5805 Notin_fun test_solve_notin_4
+binder 5816:5816 <> x:16
+binder 5818:5818 <> y:17
+binder 5820:5820 <> E:18
+binder 5822:5822 <> F:19
+binder 5824:5824 <> G:20
+R5869:5874 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5875:5876 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5877:5878 Tutorial.Metalib.FSetWeakNotin X In defax
+R5882:5882 Tutorial.Metalib.FSetWeakNotin <> G:20 var
+R5880:5880 Tutorial.Metalib.FSetWeakNotin <> y:17 var
+R5829:5830 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5831:5832 Tutorial.Metalib.FSetWeakNotin X In defax
+R5837:5841 Tutorial.Metalib.FSetWeakNotin X union defax
+R5846:5850 Tutorial.Metalib.FSetWeakNotin X union defax
+R5866:5866 Tutorial.Metalib.FSetWeakNotin <> F:19 var
+R5853:5861 Tutorial.Metalib.FSetWeakNotin X singleton defax
+R5863:5863 Tutorial.Metalib.FSetWeakNotin <> x:16 var
+R5843:5843 Tutorial.Metalib.FSetWeakNotin <> E:18 var
+R5834:5834 Tutorial.Metalib.FSetWeakNotin <> x:16 var
+prf 5917:5934 Notin_fun test_solve_notin_5
+binder 5945:5945 <> x:21
+binder 5947:5947 <> y:22
+binder 5949:5949 <> E:23
+binder 5951:5951 <> F:24
+R5996:6001 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6010:6015 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6026:6029 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6016:6017 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6018:6021 Tutorial.Metalib.FSetWeakNotin E eq defax
+R6025:6025 Tutorial.Metalib.FSetWeakNotin <> x:21 var
+R6023:6023 Tutorial.Metalib.FSetWeakNotin <> y:22 var
+R6030:6031 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6032:6035 Tutorial.Metalib.FSetWeakNotin E eq defax
+R6039:6039 Tutorial.Metalib.FSetWeakNotin <> y:22 var
+R6037:6037 Tutorial.Metalib.FSetWeakNotin <> x:21 var
+R6002:6003 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6004:6005 Tutorial.Metalib.FSetWeakNotin X In defax
+R6009:6009 Tutorial.Metalib.FSetWeakNotin <> E:23 var
+R6007:6007 Tutorial.Metalib.FSetWeakNotin <> y:22 var
+R5956:5957 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5958:5959 Tutorial.Metalib.FSetWeakNotin X In defax
+R5964:5968 Tutorial.Metalib.FSetWeakNotin X union defax
+R5973:5977 Tutorial.Metalib.FSetWeakNotin X union defax
+R5993:5993 Tutorial.Metalib.FSetWeakNotin <> F:24 var
+R5980:5988 Tutorial.Metalib.FSetWeakNotin X singleton defax
+R5990:5990 Tutorial.Metalib.FSetWeakNotin <> y:22 var
+R5970:5970 Tutorial.Metalib.FSetWeakNotin <> E:23 var
+R5961:5961 Tutorial.Metalib.FSetWeakNotin <> x:21 var
+prf 6094:6111 Notin_fun test_solve_notin_6
+binder 6122:6122 <> x:25
+binder 6124:6124 <> y:26
+binder 6126:6126 <> E:27
+R6147:6152 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6163:6166 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6153:6154 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6155:6158 Tutorial.Metalib.FSetWeakNotin E eq defax
+R6162:6162 Tutorial.Metalib.FSetWeakNotin <> y:26 var
+R6160:6160 Tutorial.Metalib.FSetWeakNotin <> x:25 var
+R6167:6168 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6169:6170 Tutorial.Metalib.FSetWeakNotin X In defax
+R6174:6174 Tutorial.Metalib.FSetWeakNotin <> E:27 var
+R6172:6172 Tutorial.Metalib.FSetWeakNotin <> x:25 var
+R6131:6132 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6133:6134 Tutorial.Metalib.FSetWeakNotin X In defax
+R6139:6141 Tutorial.Metalib.FSetWeakNotin X add defax
+R6145:6145 Tutorial.Metalib.FSetWeakNotin <> E:27 var
+R6143:6143 Tutorial.Metalib.FSetWeakNotin <> y:26 var
+R6136:6136 Tutorial.Metalib.FSetWeakNotin <> x:25 var
+prf 6229:6246 Notin_fun test_solve_notin_7
+binder 6257:6257 <> x:28
+R6282:6287 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6288:6292 Coq.Init.Logic <> False ind
+R6262:6263 Coq.Init.Logic <> ::type_scope:'~'_x not
+R6264:6265 Tutorial.Metalib.FSetWeakNotin X In defax
+R6270:6278 Tutorial.Metalib.FSetWeakNotin X singleton defax
+R6280:6280 Tutorial.Metalib.FSetWeakNotin <> x:28 var
+R6267:6267 Tutorial.Metalib.FSetWeakNotin <> x:28 var
+R6325:6333 Tutorial.Metalib.FSetWeakNotin Notin_fun <> mod
